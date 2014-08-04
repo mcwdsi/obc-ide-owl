@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;apollo_sv/dev/obc-ide-instances.owl#"
+     xml:base="&obo;apollo_sv/dev/obc-ide-instances.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#">
+    <owl:Ontology rdf:about="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl">
+        <owl:imports rdf:resource="&obo;apollo_sv/dev/apollo_sv.owl"/>
+        <owl:imports rdf:resource="&obo;geo/dev/us-geography.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#located_in -->
+
+    <rdf:Description rdf:about="&ro;located_in">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000137"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
+        </owl:propertyChainAxiom>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000013 -->
+
+    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000013">
+        <rdfs:label xml:lang="en">population of H5N1 subtype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_102793"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_102793"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000017 -->
+
+    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000017">
+        <rdfs:label xml:lang="en">population of Homo sapiens</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000001">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000294"/>
+        <rdfs:label xml:lang="en">agent-based disease transmission model of Lee et al.  PMID: 20483192.  doi: 10.1016/j.vaccine.2010.05.002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000002">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">2009 H1N1 pandemic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000003">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
+        <rdfs:label xml:lang="en">Advisory Committee on Immunization Practices recommended vaccinating-at-risk-individuals-first vaccination control strategy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000004">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
+        <rdfs:label xml:lang="en">vaccinating children-first vaccination control strategy recommended by Medlock and Galvani PMID: 19696313. doi: 10.1126/science.1175570</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000005">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000303"/>
+        <rdfs:label xml:lang="en">global compartmental model of Epstein et al. PMID: 17476323. doi: 10.1371/journal.pone.0000401</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000006">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000231"/>
+        <rdfs:label xml:lang="en">sequential travel restriction control strategy with threshold of 1000 cumulative cases per city</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000007">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000231"/>
+        <rdfs:label xml:lang="en">simultaneous world-wide travel restriction control strategy with threshold of 1000 cumulative cases in one city</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000008">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
+        <rdfs:label xml:lang="en">sequential vaccination control strategy with threshold of 1000 cumulative cases per city</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000009">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
+        <rdfs:label xml:lang="en">simultaneous world-wide vaccination control strategy with threshold of 1000 cumulative cases in one city</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000010">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000002"/>
+        <rdfs:label xml:lang="en">R0 = 1.7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000011">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000002"/>
+        <rdfs:label xml:lang="en">R0 = 1.4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000012">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000002"/>
+        <rdfs:label xml:lang="en">R0 = 2.0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000014 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000014">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000013"/>
+        <rdfs:label xml:lang="en">H5N1 population of entire Earth</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000015 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000015">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of entire Earth</rdfs:label>
+        <ro:located_in rdf:resource="&obo;GEO_000000345"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000016 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000016">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of entire Earth</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000015"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000018 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000018">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <rdfs:label xml:lang="en">human population of 4 MSA greater Washington DC region</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000019"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000019 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000019">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of 4 MSA greater Washington DC region</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000020"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000020 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000020">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of 4 MSA greater Washington DC region</rdfs:label>
+        <ro:located_in rdf:resource="&obo;GEO_000000444"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000021 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000021">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <rdfs:label xml:lang="en">human population of the United States</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000022 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000022">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of the United States</rdfs:label>
+        <ro:located_in rdf:resource="&obo;GEO_000000338"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000023 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000023">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of the United States</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000022"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
