@@ -62,7 +62,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000013 -->
 
     <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000013">
-        <rdfs:label xml:lang="en">population of H5N1 subtype</rdfs:label>
+        <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -79,6 +79,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -86,7 +87,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000017 -->
 
     <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000017">
-        <rdfs:label xml:lang="en">population of Homo sapiens</rdfs:label>
+        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -104,6 +105,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of Homo sapiens</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
     </owl:Class>
     
@@ -232,7 +234,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000014">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000013"/>
-        <rdfs:label xml:lang="en">H5N1 population of entire Earth</rdfs:label>
+        <rdfs:label xml:lang="en">H5N1 worldwide</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000016"/>
     </owl:NamedIndividual>
     
@@ -262,7 +265,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000018">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <rdfs:label xml:lang="en">human population of 4 MSA greater Washington DC region</rdfs:label>
+        <rdfs:label xml:lang="en">humans in the four-MSA greater Washington DC region</rdfs:label>
+        <rdfs:comment xml:lang="en">Some papers reference a five-MSA region that also includes Culpeper, VA.  As of 2013, Culpeper, VA is part of the  Washington-Arlington-Alexandria, DC-VA-MD-WV</rdfs:comment>
+        <obo:IAO_0000118 xml:lang="en">human population of 4 MSA greater Washington DC region</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">the four MSAs are:
+1. Baltimore-Towson, MD
+2. Washington-Arlington-Alexandria, DC-VA-MD-WV
+3. California-Lexington Park, MD
+4. Winchester, VA-WV</rdfs:comment>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000019"/>
     </owl:NamedIndividual>
     
@@ -292,7 +302,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000021">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <rdfs:label xml:lang="en">human population of the United States</rdfs:label>
+        <rdfs:label xml:lang="en">humans in the United States</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">human population of the United States</obo:IAO_0000118>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000023"/>
     </owl:NamedIndividual>
     

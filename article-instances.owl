@@ -38,10 +38,13 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_ARTICLE_0000000001 -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0001617 -->
 
-    <owl:AnnotationProperty rdf:about="&obc;IDE_ARTICLE_0000000001">
+    <owl:AnnotationProperty rdf:about="&obo;OBI_0001617">
         <rdfs:label xml:lang="en">PMID</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A CRID symbol that is sufficient to look up a citation from the PubMed, a literature database of life sciences and biomedical information.</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">A unique publication identifier assigned by the National Library of Medicine to publications in its PubMed database.</obo:IAO_0000600>
+        <obo:IAO_0000118 xml:lang="en">PubMed Identifier</obo:IAO_0000118>
     </owl:AnnotationProperty>
     
 
@@ -50,6 +53,8 @@
 
     <owl:AnnotationProperty rdf:about="&obc;IDE_ARTICLE_0000000002">
         <rdfs:label xml:lang="en">DOI</rdfs:label>
+        <obo:IAO_0000600 xml:lang="en">A unique identifier assigned to a digital resource such as a publication or a dataset, in accordance with ISO standard 26324 as implemented and managed by the International DOI Foundation.</obo:IAO_0000600>
+        <obo:IAO_0000118 xml:lang="en">Digital Object Identifier</obo:IAO_0000118>
     </owl:AnnotationProperty>
     
 
@@ -71,7 +76,7 @@
         <rdf:type rdf:resource="&obo;IAO_0000311"/>
         <rdfs:label xml:lang="en">Lee BY, Brown ST, Korch G, et al.  A computer simulation of vaccine prioritization, allocation, and rationing during the 2009 H1N1 influenza pandemic. PMID:20483192.</rdfs:label>
         <obc:IDE_ARTICLE_0000000002 rdf:datatype="&xsd;string">10.1016/j.vaccine.2010.05.002</obc:IDE_ARTICLE_0000000002>
-        <obc:IDE_ARTICLE_0000000001 rdf:datatype="&xsd;string">20483192</obc:IDE_ARTICLE_0000000001>
+        <obo:OBI_0001617 rdf:datatype="&xsd;string">20483192</obo:OBI_0001617>
         <dc:title xml:lang="en">A computer simulation of vaccine prioritization, allocation, and rationing during the 2009 H1N1 influenza pandemic</dc:title>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000444"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000001"/>
@@ -89,7 +94,7 @@
         <rdf:type rdf:resource="&obo;IAO_0000311"/>
         <rdfs:label xml:lang="en">Epstein JM, Doedecke DM, Feng Y, et al.  Controlling pandemic flu: The value of international air travel restrictions. PMID: 17476323. doi: 10.1371/journal.pone.0000401.</rdfs:label>
         <obc:IDE_ARTICLE_0000000002 rdf:datatype="&xsd;string">10.1371/journal.pone.0000401</obc:IDE_ARTICLE_0000000002>
-        <obc:IDE_ARTICLE_0000000001 rdf:datatype="&xsd;string">17476323</obc:IDE_ARTICLE_0000000001>
+        <obo:OBI_0001617 rdf:datatype="&xsd;string">17476323</obo:OBI_0001617>
         <dc:title xml:lang="en">Controlling pandemic flu: The value of international air travel restrictions</dc:title>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000345"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000005"/>
