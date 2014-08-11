@@ -97,11 +97,8 @@
         <obo:OBI_0001617 rdf:datatype="&xsd;string">17476323</obo:OBI_0001617>
         <dc:title xml:lang="en">Controlling pandemic flu: The value of international air travel restrictions</dc:title>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000345"/>
+        <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000004"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000005"/>
-        <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000006"/>
-        <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000007"/>
-        <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000008"/>
-        <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000009"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000014"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000015"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_ARTICLE_0000000005"/>
