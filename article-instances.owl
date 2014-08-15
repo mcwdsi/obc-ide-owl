@@ -77,6 +77,7 @@
         <rdfs:label xml:lang="en">Lee BY, Brown ST, Korch G, et al.  A computer simulation of vaccine prioritization, allocation, and rationing during the 2009 H1N1 influenza pandemic. PMID:20483192.</rdfs:label>
         <obc:IDE_ARTICLE_0000000002 rdf:datatype="&xsd;string">10.1016/j.vaccine.2010.05.002</obc:IDE_ARTICLE_0000000002>
         <obo:OBI_0001617 rdf:datatype="&xsd;string">20483192</obo:OBI_0001617>
+        <obo:ERO_0000480 rdf:datatype="&xsd;anyURI">http://www.sciencedirect.com/science/article/pii/S0264410X1000664X</obo:ERO_0000480>
         <dc:title xml:lang="en">A computer simulation of vaccine prioritization, allocation, and rationing during the 2009 H1N1 influenza pandemic</dc:title>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000444"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000001"/>
@@ -95,6 +96,7 @@
         <rdfs:label xml:lang="en">Epstein JM, Doedecke DM, Feng Y, et al.  Controlling pandemic flu: The value of international air travel restrictions. PMID: 17476323. doi: 10.1371/journal.pone.0000401.</rdfs:label>
         <obc:IDE_ARTICLE_0000000002 rdf:datatype="&xsd;string">10.1371/journal.pone.0000401</obc:IDE_ARTICLE_0000000002>
         <obo:OBI_0001617 rdf:datatype="&xsd;string">17476323</obo:OBI_0001617>
+        <obo:ERO_0000480 rdf:datatype="&xsd;anyURI">http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0000401</obo:ERO_0000480>
         <dc:title xml:lang="en">Controlling pandemic flu: The value of international air travel restrictions</dc:title>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000345"/>
         <obo:IAO_0000136 rdf:resource="&obc;IDE_0000000004"/>
