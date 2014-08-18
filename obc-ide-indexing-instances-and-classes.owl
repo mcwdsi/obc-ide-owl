@@ -106,6 +106,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000088">
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000100">
@@ -117,6 +125,15 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000311">
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/obo/owl/FBcv#FBcv_0000209 -->
+
+    <rdf:Description rdf:about="http://purl.org/obo/owl/FBcv#FBcv_0000209">
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
     
@@ -291,11 +308,11 @@
                     <rdf:Description rdf:about="&obo;PCO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000026"/>
+                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000027"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000026"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000027"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -306,11 +323,11 @@
                     <rdf:Description rdf:about="&obo;PCO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000027"/>
+                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000026"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000027"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000026"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
