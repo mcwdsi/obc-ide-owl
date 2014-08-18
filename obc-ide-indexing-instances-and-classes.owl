@@ -122,6 +122,102 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000007 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000007">
+        <rdfs:label xml:lang="en">pathogen</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OBI_0100026"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000053"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;APOLLO_SV_00000182"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OBI_0100026"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000053"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;APOLLO_SV_00000182"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obo:IAO_0000111 xml:lang="en">pathogen population</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000008 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000008">
+        <rdfs:label xml:lang="en">Ebola</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186536"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_186536"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000009 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000009">
+        <rdfs:label xml:lang="en">Zaire ebola</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186538"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_186538"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000008"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000013 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000013">
@@ -141,7 +237,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -181,6 +277,71 @@
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obo:IAO_0000118 xml:lang="en">infectious disease epidemiology information type</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000026 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000026">
+        <rdfs:label xml:lang="en">influenza virus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000026"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000026"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000027"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000027"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">population of influenza virus</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000027 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000027">
+        <rdfs:label xml:lang="en">H1N1 subtype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_114727"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_114727"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000111 xml:lang="en">population of H1N1 subtype</obo:IAO_0000111>
     </owl:Class>
     
 
@@ -375,6 +536,48 @@
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">biotic ecosystem of the United States</rdfs:label>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000022"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000028 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
+        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
+        <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000029 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000029">
+        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000030 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000030">
+        <rdf:type rdf:resource="&obc;IDE_0000000027"/>
+        <rdfs:label xml:lang="en">H1N1 worldwide</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000031 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000031">
+        <rdf:type rdf:resource="&obc;IDE_0000000027"/>
+        <rdfs:label xml:lang="en">H1N1 in the four-MSA greater Washington DC region</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000019"/>
     </owl:NamedIndividual>
     
 
