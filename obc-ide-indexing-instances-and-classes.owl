@@ -5,6 +5,7 @@
     <!ENTITY obc "http://www.pitt.edu/obc/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
@@ -20,9 +21,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#">
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obc;ide/indexing-instances-and-classes.owl">
+        <dc:creator xml:lang="en">William R. Hogan</dc:creator>
         <owl:imports rdf:resource="&obo;apollo_sv/dev/apollo_sv.owl"/>
+        <owl:imports rdf:resource="&obo;geo/dev/nation-and-dependency-geography.owl"/>
         <owl:imports rdf:resource="&obo;geo/dev/us-geography.owl"/>
     </owl:Ontology>
     
@@ -51,28 +55,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.obofoundry.org/ro/ro.owl#located_in -->
-
-    <rdf:Description rdf:about="&ro;located_in">
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000137"/>
-            <rdf:Description rdf:about="&ro;located_in"/>
-        </owl:propertyChainAxiom>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -85,6 +67,15 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000136 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000136">
+        <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
     </rdf:Description>
     
 
@@ -102,6 +93,15 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000202">
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000231 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
+        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
     </rdf:Description>
     
 
@@ -374,6 +374,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000136 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000136">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000231 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000231">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000231"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000001 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000001">
@@ -388,26 +404,6 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000002">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
         <rdfs:label xml:lang="en">2009 H1N1 pandemic</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000003 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000003">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000231"/>
-        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000004 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000004">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
-        <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
     </owl:NamedIndividual>
     
 
