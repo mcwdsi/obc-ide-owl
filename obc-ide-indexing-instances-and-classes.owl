@@ -106,6 +106,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000010">
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000088">
@@ -362,21 +370,6 @@
                     <rdf:Description rdf:about="&obo;PCO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000027"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000027"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
                         <owl:someValuesFrom rdf:resource="&obc;IDE_0000000026"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -413,6 +406,83 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
         <obo:IAO_0000111 xml:lang="en">population of H1N1 subtype</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000033 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000033">
+        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_119210"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_119210"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000035 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000035">
+        <rdfs:label xml:lang="en">H7N9 subtype population</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_333278"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_333278"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000037 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000037">
+        <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1335626"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_1335626"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of MERS-coV</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -762,6 +832,33 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000034 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000034">
+        <rdf:type rdf:resource="&obc;IDE_0000000033"/>
+        <rdfs:label xml:lang="en">H3N2 worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000036 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000036">
+        <rdf:type rdf:resource="&obc;IDE_0000000035"/>
+        <rdfs:label xml:lang="en">H7N9 subtype worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000038 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000038">
+        <rdf:type rdf:resource="&obc;IDE_0000000037"/>
+        <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000045 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000045">
@@ -828,5 +925,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
