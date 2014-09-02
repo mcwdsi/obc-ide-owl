@@ -139,6 +139,60 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000003 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000003">
+        <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_12637"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_12637"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000004 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000004">
+        <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000007 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000007">
@@ -359,6 +413,110 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
         <obo:IAO_0000111 xml:lang="en">population of H1N1 subtype</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000041 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000041">
+        <rdfs:label xml:lang="en">Dengue virus 1</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_11053"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_11053"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus 1 population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus 1</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000042 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000042">
+        <rdfs:label xml:lang="en">Dengue virus 2</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_11060"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_11060"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus 2 population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus 2</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000043 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000043">
+        <rdfs:label xml:lang="en">Dengue virus 3</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_11069"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_11069"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus 3 population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus 3</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000044 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000044">
+        <rdfs:label xml:lang="en">Dengue virus 4</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_11070"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_11070"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus 4 population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus 4</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -591,6 +749,60 @@
         <rdf:type rdf:resource="&obc;IDE_0000000027"/>
         <rdfs:label xml:lang="en">H1N1 in the four-MSA greater Washington DC region</rdfs:label>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000019"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000032 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000032">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000045 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000045">
+        <rdf:type rdf:resource="&obc;IDE_0000000041"/>
+        <rdfs:label xml:lang="en">Dengue virus 1 worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000046 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000046">
+        <rdf:type rdf:resource="&obc;IDE_0000000042"/>
+        <rdfs:label xml:lang="en">Dengue virus 2 worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000047 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000047">
+        <rdf:type rdf:resource="&obc;IDE_0000000043"/>
+        <rdfs:label xml:lang="en">Dengue virus 3 worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000048 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000048">
+        <rdf:type rdf:resource="&obc;IDE_0000000044"/>
+        <rdfs:label xml:lang="en">Dengue virus 4 worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000049 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000049">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
