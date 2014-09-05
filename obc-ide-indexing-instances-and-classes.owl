@@ -43,11 +43,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001617 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;OBI_0001617">
+        <rdfs:label xml:lang="en">PMID</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A CRID symbol that is sufficient to look up a citation from the PubMed, a literature database of life sciences and biomedical information.</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">A unique publication identifier assigned by the National Library of Medicine to publications in its PubMed database.</obo:IAO_0000600>
+        <obo:IAO_0000118 xml:lang="en">PubMed ID</obo:IAO_0000118>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000024 -->
 
     <owl:AnnotationProperty rdf:about="&obc;IDE_0000000024">
         <rdfs:label xml:lang="en">obc.ide user interface top-level class</rdfs:label>
         <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000040 -->
+
+    <owl:AnnotationProperty rdf:about="&obc;IDE_0000000040">
+        <rdfs:label xml:lang="en">DOI</rdfs:label>
+        <obo:IAO_0000600 xml:lang="en">A unique identifier assigned to a digital resource such as a publication or a dataset, in accordance with ISO standard 26324 as implemented and managed by the International DOI Foundation.</obo:IAO_0000600>
+        <obo:IAO_0000118 xml:lang="en">digital object identifier</obo:IAO_0000118>
     </owl:AnnotationProperty>
     
 
@@ -60,6 +81,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000007 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000007">
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
+    </rdf:Description>
     
 
 
@@ -102,14 +131,6 @@
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
-
-    <rdf:Description rdf:about="&obo;IAO_0000010">
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
     
 
@@ -631,7 +652,9 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000002">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
-        <rdfs:label xml:lang="en">2009 H1N1 pandemic</rdfs:label>
+        <rdfs:label xml:lang="en">H1N1 subtype, humans, global, 2009-2010</rdfs:label>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000030"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000055"/>
     </owl:NamedIndividual>
     
 
@@ -785,7 +808,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
         <rdf:type rdf:resource="&obc;IDE_0000000008"/>
-        <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
+        <rdfs:label xml:lang="en">Ebolavirus (genus)</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
@@ -900,6 +923,67 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000049">
         <rdf:type rdf:resource="&obc;IDE_0000000003"/>
         <rdfs:label xml:lang="en">Dengue virus worldwide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000050 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000050">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">ebola virus, humans, West Africa, 2014-present</rdfs:label>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000051"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000054"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000051 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000051">
+        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in West Africa</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000053"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000052 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000052">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of West Africa</rdfs:label>
+        <ro:located_in rdf:resource="&obo;GEO_000000729"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000053 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000053">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of West Africa</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000052"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000054 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000054">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in West Africa</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000053"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000055 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000055">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans worldwide</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
