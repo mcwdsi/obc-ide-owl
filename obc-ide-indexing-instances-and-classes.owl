@@ -109,6 +109,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000174 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000174">
+        <rdfs:label xml:lang="en">disease transmission model</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000202 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000202">
@@ -171,7 +179,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000003 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000003">
-        <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
+        <rdfs:label>Dengue virus</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -189,8 +197,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
-        <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -198,26 +204,24 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000004 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000004">
-        <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
+        <rdfs:label>Chikungunya virus</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;PCO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000004"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_37124"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000004"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_37124"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
-        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -271,7 +275,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000008 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000008">
-        <rdfs:label xml:lang="en">Ebola</rdfs:label>
+        <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -642,6 +646,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000174 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000174">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000174"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000231 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000231">
@@ -672,8 +684,8 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000002">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
         <rdfs:label xml:lang="en">H1N1 subtype, humans, global, 2009-2010</rdfs:label>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000030"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000055"/>
     </owl:NamedIndividual>
     
 
@@ -755,6 +767,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000017 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000017">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000018 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000018">
@@ -827,7 +848,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
         <rdf:type rdf:resource="&obc;IDE_0000000008"/>
-        <rdfs:label xml:lang="en">Ebolavirus (genus)</rdfs:label>
+        <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
@@ -993,16 +1014,6 @@
         <rdf:type rdf:resource="&obc;IDE_0000000017"/>
         <rdfs:label xml:lang="en">humans in West Africa</rdfs:label>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000053"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000055 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000055">
-        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
-        <rdfs:label xml:lang="en">humans worldwide</rdfs:label>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
