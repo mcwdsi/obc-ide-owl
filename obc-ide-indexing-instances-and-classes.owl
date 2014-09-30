@@ -95,6 +95,7 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000097 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
+        <rdfs:label xml:lang="en">ecosystem of Earth</rdfs:label>
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     
@@ -130,6 +131,22 @@
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000298 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
+        <rdfs:label xml:lang="en">epidemic</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000303 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
+        <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
     </rdf:Description>
     
 
@@ -179,7 +196,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000003 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000003">
-        <rdfs:label>Dengue virus</rdfs:label>
+        <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -197,6 +214,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -204,7 +223,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000004 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000004">
-        <rdfs:label>Chikungunya virus</rdfs:label>
+        <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -222,6 +241,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -293,6 +314,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
     </owl:Class>
     
 
@@ -342,6 +364,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -431,6 +454,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">population of H1N1 subtype</obo:IAO_0000111>
     </owl:Class>
     
@@ -465,6 +489,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000035 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000035">
+        <rdfs:label xml:lang="en">H7N9 subtype</rdfs:label>
         <rdfs:label xml:lang="en">H7N9 subtype population</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -638,6 +663,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000097 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000097">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <ro:located_in rdf:resource="&obo;GEO_000000345"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000136 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000136">
@@ -662,19 +696,34 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000064 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000294 -->
 
-    <owl:NamedIndividual rdf:about="&obo;IAO_0000064">
-        <rdf:type rdf:resource="&obo;IAO_0000064"/>
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000294">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000294"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000001 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000298 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000001">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000294"/>
-        <rdfs:label xml:lang="en">agent-based disease transmission model of Lee et al.  PMID: 20483192.  doi: 10.1016/j.vaccine.2010.05.002</rdfs:label>
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000298">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000303 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000303">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000303"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000064 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000064">
+        <rdf:type rdf:resource="&obo;IAO_0000064"/>
     </owl:NamedIndividual>
     
 
@@ -685,16 +734,23 @@
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
         <rdfs:label xml:lang="en">H1N1 subtype, humans, global, 2009-2010</rdfs:label>
         <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000030"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000027"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000005 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000003 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000005">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000303"/>
-        <rdfs:label xml:lang="en">global compartmental model of Epstein et al. PMID: 17476323. doi: 10.1371/journal.pone.0000401</rdfs:label>
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000003">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000004 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000004">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
     </owl:NamedIndividual>
     
 
@@ -705,6 +761,15 @@
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000196"/>
         <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000008 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000008">
+        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -736,23 +801,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000014 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000013 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000014">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000013">
         <rdf:type rdf:resource="&obc;IDE_0000000013"/>
-        <rdfs:label xml:lang="en">H5N1 worldwide</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000015 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000015">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
-        <rdfs:label xml:lang="en">ecosystem of entire Earth</rdfs:label>
-        <ro:located_in rdf:resource="&obo;GEO_000000345"/>
     </owl:NamedIndividual>
     
 
@@ -762,7 +815,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000016">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">biotic ecosystem of entire Earth</rdfs:label>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000015"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000097"/>
     </owl:NamedIndividual>
     
 
@@ -844,13 +897,10 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000028 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000027 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
-        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
-        <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000027">
+        <rdf:type rdf:resource="&obc;IDE_0000000027"/>
     </owl:NamedIndividual>
     
 
@@ -866,16 +916,6 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000030 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000030">
-        <rdf:type rdf:resource="&obc;IDE_0000000027"/>
-        <rdfs:label xml:lang="en">H1N1 worldwide</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.pitt.edu/obc/IDE_0000000031 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000031">
@@ -886,29 +926,18 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000032 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000033 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000032">
-        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
-        <rdfs:label xml:lang="en">Chikungunya virus worldwide</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000034 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000034">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000033">
         <rdf:type rdf:resource="&obc;IDE_0000000033"/>
-        <rdfs:label xml:lang="en">H3N2 worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000036 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000035 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000036">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000035">
         <rdf:type rdf:resource="&obc;IDE_0000000035"/>
-        <rdfs:label xml:lang="en">H7N9 subtype worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -922,47 +951,34 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000045 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000041 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000045">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000041">
         <rdf:type rdf:resource="&obc;IDE_0000000041"/>
-        <rdfs:label xml:lang="en">Dengue virus 1 worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000046 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000042 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000046">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000042">
         <rdf:type rdf:resource="&obc;IDE_0000000042"/>
-        <rdfs:label xml:lang="en">Dengue virus 2 worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000047 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000043 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000047">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000043">
         <rdf:type rdf:resource="&obc;IDE_0000000043"/>
-        <rdfs:label xml:lang="en">Dengue virus 3 worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000048 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000044 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000048">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000044">
         <rdf:type rdf:resource="&obc;IDE_0000000044"/>
-        <rdfs:label xml:lang="en">Dengue virus 4 worldwide</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000049 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000049">
-        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
-        <rdfs:label xml:lang="en">Dengue virus worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
