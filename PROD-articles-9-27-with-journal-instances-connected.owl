@@ -2120,13 +2120,15 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_ARTICLE_1020167046">
         <rdf:type rdf:resource="&obo;IAO_0000311"/>
         <rdfs:label>Cooley P, Lee BY, Brown S, et al. Protecting health care workers: a pandemic simulation based on Allegheny County.. PMID:20167046</rdfs:label>
-        <AUTHORS_1>Cooley P, Lee BY, Brown S, et al</AUTHORS_1>
         <dc:date>2010-03-01</dc:date>
+        <obo:OBI_0001617>20167046</obo:OBI_0001617>
+        <AUTHORS_1>Cooley P, Lee BY, Brown S, et al</AUTHORS_1>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/20167046</obo:ERO_0000480>
         <IDE_journalTitle>Influenza Other Respir Viruses</IDE_journalTitle>
         <dc:title>Protecting health care workers: a pandemic simulation based on Allegheny County.</dc:title>
-        <obo:OBI_0001617>20167046</obo:OBI_0001617>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000174"/>
         <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000294"/>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000298"/>
         <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000273"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_ARTICLE_0000000005"/>
     </owl:NamedIndividual>

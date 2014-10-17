@@ -19,7 +19,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology>
+    <owl:Ontology rdf:about="http://www.pitt.edu/obc/ide/article-instances.owl">
         <owl:imports rdf:resource="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl"/>
     </owl:Ontology>
     
@@ -36,57 +36,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000319 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;APOLLO_SV_00000319"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000320 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;APOLLO_SV_00000320"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000321 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;APOLLO_SV_00000321"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000322 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;APOLLO_SV_00000322"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ERO_0000480 -->
 
     <owl:AnnotationProperty rdf:about="&obo;ERO_0000480"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000136"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000600"/>
     
 
 
@@ -98,36 +50,6 @@
         <obo:IAO_0000600 xml:lang="en">A unique publication identifier assigned by the National Library of Medicine to publications in its PubMed database.</obo:IAO_0000600>
         <obo:IAO_0000118 xml:lang="en">PubMed Identifier</obo:IAO_0000118>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/coverage -->
-
-    <owl:AnnotationProperty rdf:about="&dc;coverage"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/date -->
-
-    <owl:AnnotationProperty rdf:about="&dc;date"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <owl:AnnotationProperty rdf:about="&dc;description"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/title -->
-
-    <owl:AnnotationProperty rdf:about="&dc;title"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/type -->
-
-    <owl:AnnotationProperty rdf:about="&dc;type"/>
     
 
 
@@ -215,59 +137,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FBcv_0000787 -->
-
-    <owl:Class rdf:about="&obo;FBcv_0000787"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
-
-    <owl:Class rdf:about="&obo;IAO_0000010"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000064 -->
-
-    <owl:Class rdf:about="&obo;IAO_0000064"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
-
-    <owl:Class rdf:about="&obo;IAO_0000088"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
-
-    <owl:Class rdf:about="&obo;IAO_0000100"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
-
-    <owl:Class rdf:about="&obo;IAO_0000311"/>
-    
-
-
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
-
-    <owl:Class rdf:about="&rdf;type"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Individuals
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -280,10 +149,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000201">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Mathematical biosciences</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0025-5564</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">103146</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Math Biosci</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Math Biosci</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Math Biosci</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Mathematical biosciences</dc:title>
     </owl:NamedIndividual>
     
@@ -293,9 +163,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000202">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of virology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0022-538X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">113724</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Virol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Virol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J. Virol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Journal of virology</dc:title>
     </owl:NamedIndividual>
@@ -306,9 +177,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000203">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The New England journal of medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0028-4793</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">255562</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">N Engl J Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">N Engl J Med</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">N. Engl. J. Med.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">The New England journal of medicine</dc:title>
     </owl:NamedIndividual>
@@ -319,10 +191,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000204">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Theoretical population biology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0040-5809</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">256422</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Theor Popul Biol</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Theor Popul Biol</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Theor Popul Biol</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Theoretical population biology</dc:title>
     </owl:NamedIndividual>
     
@@ -332,9 +205,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000205">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The American journal of tropical medicine and hygiene</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0002-9637</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">370507</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Trop Med Hyg</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Trop Med Hyg</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am. J. Trop. Med. Hyg.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">The American journal of tropical medicine and hygiene</dc:title>
     </owl:NamedIndividual>
@@ -345,9 +219,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000206">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Avian diseases</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0005-2086</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">370617</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Avian Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Avian Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Avian Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Avian diseases</dc:title>
     </owl:NamedIndividual>
@@ -358,9 +233,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000207">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Archives of internal medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0003-9926</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">372440</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Arch Intern Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Arch Intern Med</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Arch. Intern. Med.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Archives of internal medicine</dc:title>
     </owl:NamedIndividual>
@@ -371,10 +247,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000208">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Heredity</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0018-067X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">373007</obo:APOLLO_SV_00000319>
         <dc:title rdf:datatype="&xsd;string">Heredity</dc:title>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Heredity (Edinb)</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Heredity (Edinb)</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Heredity (Edinb)</obo:APOLLO_SV_00000321>
     </owl:NamedIndividual>
     
@@ -384,9 +261,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000209">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of theoretical biology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0022-5193</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">376342</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Theor Biol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Theor Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J. Theor. Biol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Journal of theoretical biology</dc:title>
     </owl:NamedIndividual>
@@ -397,9 +275,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000210">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The Medical journal of Australia</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0025-729X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">400714</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Med J Aust</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Med J Aust</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Med. J. Aust.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">The Medical journal of Australia</dc:title>
     </owl:NamedIndividual>
@@ -410,10 +289,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000211">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Obstetrics and gynecology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0029-7844</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">401101</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Obstet Gynecol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Obstet Gynecol</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Obstet Gynecol</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Obstetrics and gynecology</dc:title>
     </owl:NamedIndividual>
     
@@ -423,9 +303,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000212">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Bulletin of mathematical biology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0092-8240</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">401404</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Bull Math Biol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Bull Math Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Bull. Math. Biol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Bulletin of mathematical biology</dc:title>
     </owl:NamedIndividual>
@@ -436,9 +317,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000213">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Scientific American</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0036-8733</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">404400</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Sci Am</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Sci Am</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Sci. Am.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Scientific American</dc:title>
     </owl:NamedIndividual>
@@ -449,10 +331,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000214">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Science (New York, N.Y.)</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0036-8075</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">404511</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Science</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Science</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Science</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Science (New York, N.Y.)</dc:title>
     </owl:NamedIndividual>
     
@@ -462,11 +345,12 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000215">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Nature</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0028-0836</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">410462</obo:APOLLO_SV_00000319>
         <dc:title rdf:datatype="&xsd;string">Nature</dc:title>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Nature</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Nature</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Nature</obo:APOLLO_SV_00000322>
     </owl:NamedIndividual>
     
 
@@ -475,9 +359,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000216">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The Journal of infectious diseases</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0022-1899</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">413675</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Infect Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Infect Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J. Infect. Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">The Journal of infectious diseases</dc:title>
     </owl:NamedIndividual>
@@ -488,10 +373,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000217">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Public health reports</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0094-6214</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">433021</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Public Health Rep</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Public Health Rep</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Public Health Rep</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Public health reports</dc:title>
     </owl:NamedIndividual>
     
@@ -501,10 +387,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000218">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">American journal of public health</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0090-0036</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">1254074</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Public Health</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am J Public Health</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Public Health</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">American journal of public health</dc:title>
     </owl:NamedIndividual>
     
@@ -514,10 +401,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000219">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">JAMA : the journal of the American Medical Association</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0098-7484</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7501160</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">JAMA</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">JAMA</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">JAMA</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">JAMA : the journal of the American Medical Association</dc:title>
     </owl:NamedIndividual>
     
@@ -527,10 +415,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000220">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of mathematical biology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0303-6812</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7502105</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Math Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J Math Biol</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Math Biol</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Journal of mathematical biology</dc:title>
     </owl:NamedIndividual>
     
@@ -540,9 +429,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000221">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Proceedings of the National Academy of Sciences of the United States of America</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0027-8424</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7505876</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Proc Natl Acad Sci U S A</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Proc Natl Acad Sci U S A</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Proc. Natl. Acad. Sci. U.S.A.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Proceedings of the National Academy of Sciences of the United States of America</dc:title>
     </owl:NamedIndividual>
@@ -553,10 +443,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000222">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of the American Medical Association</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0002-9955</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7507176</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J Am Med Assoc</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Am Med Assoc</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Am Med Assoc</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Journal of the American Medical Association</dc:title>
     </owl:NamedIndividual>
     
@@ -566,10 +457,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000223">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Contributions to nephrology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0302-5144</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7513582</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Contrib Nephrol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Contrib Nephrol</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Contrib Nephrol</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Contributions to nephrology</dc:title>
     </owl:NamedIndividual>
     
@@ -579,9 +471,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000224">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">American journal of epidemiology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0002-9262</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7910653</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Epidemiol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Epidemiol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am. J. Epidemiol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">American journal of epidemiology</dc:title>
     </owl:NamedIndividual>
@@ -592,10 +485,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000225">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">American journal of hygiene</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0096-5294</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7910859</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Hyg</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am J Hyg</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Hyg</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">American journal of hygiene</dc:title>
     </owl:NamedIndividual>
     
@@ -605,9 +499,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000226">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">American journal of kidney diseases : the official journal of the National Kidney Foundation</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0272-6386</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8110075</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Kidney Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Kidney Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am. J. Kidney Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">American journal of kidney diseases : the official journal of the National Kidney Foundation</dc:title>
     </owl:NamedIndividual>
@@ -618,9 +513,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000227">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Statistics in medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0277-6715</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8215016</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Stat Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Stat Med</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Stat Med</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Statistics in medicine</dc:title>
     </owl:NamedIndividual>
@@ -631,11 +527,12 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000228">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Vaccine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0264-410X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8406899</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Vaccine</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Vaccine</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Vaccine</dc:title>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Vaccine</obo:APOLLO_SV_00000322>
     </owl:NamedIndividual>
     
 
@@ -644,9 +541,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000229">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">European journal of epidemiology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0393-2990</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8508062</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Eur J Epidemiol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Eur J Epidemiol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Eur. J. Epidemiol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">European journal of epidemiology</dc:title>
     </owl:NamedIndividual>
@@ -657,9 +555,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000230">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Epidemiology and infection</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0950-2688</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8703737</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Epidemiol Infect</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Epidemiol Infect</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Epidemiol. Infect.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Epidemiology and infection</dc:title>
     </owl:NamedIndividual>
@@ -670,10 +569,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000231">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">American journal of preventive medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0749-3797</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8704773</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am J Prev Med</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Prev Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Prev Med</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">American journal of preventive medicine</dc:title>
     </owl:NamedIndividual>
     
@@ -683,9 +583,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000232">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Infection control and hospital epidemiology : the official journal of the Society of Hospital Epidemiologists of America</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0899-823X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8804099</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Infect Control Hosp Epidemiol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Infect Control Hosp Epidemiol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Infect Control Hosp Epidemiol</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Infection control and hospital epidemiology : the official journal of the Society of Hospital Epidemiologists of America</dc:title>
     </owl:NamedIndividual>
@@ -696,9 +597,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000233">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of evolutionary biology</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1010-061X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8809954</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Evol Biol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Evol Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J. Evol. Biol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Journal of evolutionary biology</dc:title>
     </owl:NamedIndividual>
@@ -709,10 +611,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000234">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Growth factors (Chur, Switzerland)</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0897-7194</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9000468</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Growth Factors</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Growth Factors</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Growth Factors</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Growth factors (Chur, Switzerland)</dc:title>
     </owl:NamedIndividual>
     
@@ -722,10 +625,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000235">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Epidemiology (Cambridge, Mass.)</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1044-3983</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9009644</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Epidemiology</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Epidemiology</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Epidemiology</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Epidemiology (Cambridge, Mass.)</dc:title>
     </owl:NamedIndividual>
     
@@ -735,9 +639,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000236">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Clinical infectious diseases : an official publication of the Infectious Diseases Society of America</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1058-4838</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9203213</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Clin Infect Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Clin Infect Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Clin. Infect. Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Clinical infectious diseases : an official publication of the Infectious Diseases Society of America</dc:title>
     </owl:NamedIndividual>
@@ -748,9 +653,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000237">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Nature genetics</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1061-4036</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9216904</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Nat Genet</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Nat Genet</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Nat. Genet.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Nature genetics</dc:title>
     </owl:NamedIndividual>
@@ -761,9 +667,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000238">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Academic emergency medicine : official journal of the Society for Academic Emergency Medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1069-6563</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9418450</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Acad Emerg Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Acad Emerg Med</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Acad Emerg Med</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Academic emergency medicine : official journal of the Society for Academic Emergency Medicine</dc:title>
     </owl:NamedIndividual>
@@ -774,9 +681,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000239">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">International journal of behavioral medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1070-5503</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9421097</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Int J Behav Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Int J Behav Med</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Int J Behav Med</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">International journal of behavioral medicine</dc:title>
     </owl:NamedIndividual>
@@ -787,10 +695,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000240">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of public health management and practice : JPHMP</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1078-4659</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9505213</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Public Health Manag Pract</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J Public Health Manag Pract</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Public Health Manag Pract</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Journal of public health management and practice : JPHMP</dc:title>
     </owl:NamedIndividual>
     
@@ -800,9 +709,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000241">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Emerging infectious diseases</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1080-6040</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9508155</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Emerg Infect Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Emerg Infect Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Emerging Infect. Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Emerging infectious diseases</dc:title>
     </owl:NamedIndividual>
@@ -813,10 +723,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000242">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Hong Kong medical journal = Xianggang yi xue za zhi / Hong Kong Academy of Medicine</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1024-2708</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9512509</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Hong Kong Med J</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Hong Kong Med J</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Hong Kong Med J</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Hong Kong medical journal = Xianggang yi xue za zhi / Hong Kong Academy of Medicine</dc:title>
     </owl:NamedIndividual>
     
@@ -826,9 +737,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000243">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1198-743X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9516420</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Clin Microbiol Infect</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Clin Microbiol Infect</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Clin. Microbiol. Infect.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases</dc:title>
     </owl:NamedIndividual>
@@ -839,9 +751,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000244">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1201-9712</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9610933</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Int J Infect Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Int J Infect Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Int. J. Infect. Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases</dc:title>
     </owl:NamedIndividual>
@@ -852,10 +765,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000245">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The American journal of managed care</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1088-0224</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9613960</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Am J Manag Care</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am J Manag Care</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Manag Care</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">The American journal of managed care</dc:title>
     </owl:NamedIndividual>
     
@@ -865,9 +779,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000246">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">IEEE transactions on information technology in biomedicine : a publication of the IEEE Engineering in Medicine and Biology Society</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1089-7771</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9712259</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">IEEE Trans Inf Technol Biomed</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">IEEE Trans Inf Technol Biomed</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">IEEE Trans Inf Technol Biomed</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">IEEE transactions on information technology in biomedicine : a publication of the IEEE Engineering in Medicine and Biology Society</dc:title>
     </owl:NamedIndividual>
@@ -878,10 +793,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000247">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Public health reports (Washington, D.C. : 1974)</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0033-3549</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">9716844</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Public Health Rep</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Public Health Rep</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Public Health Rep</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Public health reports (Washington, D.C. : 1974)</dc:title>
     </owl:NamedIndividual>
     
@@ -891,10 +807,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000248">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100883818</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1098-3015</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Value Health</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Value Health</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Value Health</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research</dc:title>
     </owl:NamedIndividual>
     
@@ -904,9 +821,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000249">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Euro surveillance : bulletin EuropÃ©en sur les maladies transmissibles = European communicable disease bulletin</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100887452</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1025-496X</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Euro Surveill</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Euro Surveill</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Euro Surveill.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Euro surveillance : bulletin EuropÃ©en sur les maladies transmissibles = European communicable disease bulletin</dc:title>
     </owl:NamedIndividual>
@@ -917,10 +835,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000250">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Japanese journal of infectious diseases</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100893704</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1344-6304</obo:APOLLO_SV_00000320>
         <dc:title rdf:datatype="&xsd;string">Japanese journal of infectious diseases</dc:title>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Jpn J Infect Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Jpn J Infect Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Jpn. J. Infect. Dis.</obo:APOLLO_SV_00000321>
     </owl:NamedIndividual>
     
@@ -930,10 +849,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000251">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Biostatistics (Oxford, England)</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100897327</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1465-4644</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Biostatistics</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Biostatistics</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Biostatistics</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Biostatistics (Oxford, England)</dc:title>
     </owl:NamedIndividual>
     
@@ -943,9 +863,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000252">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">BMC evolutionary biology</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100966975</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1471-2148</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">BMC Evol Biol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">BMC Evol Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">BMC Evol. Biol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">BMC evolutionary biology</dc:title>
     </owl:NamedIndividual>
@@ -956,9 +877,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000253">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">BMC infectious diseases</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100968551</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1471-2334</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">BMC Infect Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">BMC Infect Dis</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">BMC Infect. Dis.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">BMC infectious diseases</dc:title>
     </owl:NamedIndividual>
@@ -969,10 +891,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000254">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">BMC public health</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100968562</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1471-2458</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">BMC Public Health</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">BMC Public Health</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">BMC Public Health</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">BMC public health</dc:title>
     </owl:NamedIndividual>
     
@@ -982,10 +905,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000255">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Mathematical and computer modelling</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0895-7177</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100971613</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Math Comput Model</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Math Comput Model</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Math Comput Model</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Mathematical and computer modelling</dc:title>
     </owl:NamedIndividual>
     
@@ -995,9 +919,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000256">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Infection, genetics and evolution : journal of molecular epidemiology and evolutionary genetics in infectious diseases</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101084138</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1567-1348</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Infect Genet Evol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Infect Genet Evol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Infect. Genet. Evol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Infection, genetics and evolution : journal of molecular epidemiology and evolutionary genetics in infectious diseases</dc:title>
     </owl:NamedIndividual>
@@ -1008,9 +933,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000257">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">BMC medical informatics and decision making</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101088682</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1472-6947</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">BMC Med Inform Decis Mak</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">BMC Med Inform Decis Mak</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">BMC Med Inform Decis Mak</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">BMC medical informatics and decision making</dc:title>
     </owl:NamedIndividual>
@@ -1021,9 +947,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000258">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Physical review. E, Statistical, nonlinear, and soft matter physics</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101136452</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1539-3755</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Phys Rev E Stat Nonlin Soft Matter Phys</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Phys Rev E Stat Nonlin Soft Matter Phys</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Phys Rev E Stat Nonlin Soft Matter Phys</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Physical review. E, Statistical, nonlinear, and soft matter physics</dc:title>
     </owl:NamedIndividual>
@@ -1034,10 +961,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000259">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">International journal of health geographics</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101152198</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1476-072X</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Int J Health Geogr</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Int J Health Geogr</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Int J Health Geogr</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">International journal of health geographics</dc:title>
     </owl:NamedIndividual>
     
@@ -1047,9 +975,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000260">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">PLoS biology</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101183755</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1544-9173</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS Biol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS Biol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">PLoS biology</dc:title>
     </owl:NamedIndividual>
@@ -1060,10 +989,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000261">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of public health (Oxford, England)</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101188638</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1741-3842</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Public Health (Oxf)</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J Public Health (Oxf)</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Public Health (Oxf)</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Journal of public health (Oxford, England)</dc:title>
     </owl:NamedIndividual>
     
@@ -1073,10 +1003,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000262">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Mathematical biosciences and engineering : MBE</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101197794</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1547-1063</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Math Biosci Eng</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Math Biosci Eng</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Math Biosci Eng</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Mathematical biosciences and engineering : MBE</dc:title>
     </owl:NamedIndividual>
     
@@ -1086,10 +1017,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000263">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of the Royal Society, Interface / the Royal Society</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101217269</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1742-5662</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J R Soc Interface</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J R Soc Interface</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J R Soc Interface</obo:APOLLO_SV_00000322>
         <dc:title rdf:datatype="&xsd;string">Journal of the Royal Society, Interface / the Royal Society</dc:title>
     </owl:NamedIndividual>
     
@@ -1099,9 +1031,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000264">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">PLoS medicine</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101231360</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1549-1277</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS Med</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS Med</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS Med.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">PLoS medicine</dc:title>
     </owl:NamedIndividual>
@@ -1112,9 +1045,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000265">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">PLoS pathogens</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101238921</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1553-7366</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS Pathog</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS Pathog</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS Pathog.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">PLoS pathogens</dc:title>
     </owl:NamedIndividual>
@@ -1125,9 +1059,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000266">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">PLoS computational biology</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101238922</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1553-734X</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS Comput Biol</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS Comput Biol</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS Comput. Biol.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">PLoS computational biology</dc:title>
     </owl:NamedIndividual>
@@ -1138,9 +1073,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000267">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Proceedings. Biological sciences / The Royal Society</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0962-8452</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101245157</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Proc Biol Sci</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Proc Biol Sci</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Proc. Biol. Sci.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Proceedings. Biological sciences / The Royal Society</dc:title>
     </owl:NamedIndividual>
@@ -1151,9 +1087,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000268">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Biology letters</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101247722</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1744-9561</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Biol Lett</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Biol Lett</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Biol. Lett.</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Biology letters</dc:title>
     </owl:NamedIndividual>
@@ -1164,9 +1101,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000269">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Human vaccines</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101265291</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1554-8600</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Hum Vaccin</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Hum Vaccin</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Hum Vaccin</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Human vaccines</dc:title>
     </owl:NamedIndividual>
@@ -1177,10 +1115,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000270">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">PloS one</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101285081</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1932-6203</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS ONE</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS One</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS One</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">PloS one</dc:title>
     </owl:NamedIndividual>
     
@@ -1190,10 +1129,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000271">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">PLoS neglected tropical diseases</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101291488</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1935-2727</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS Negl Trop Dis</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS Negl Trop Dis</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS Negl Trop Dis</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">PLoS neglected tropical diseases</dc:title>
     </owl:NamedIndividual>
     
@@ -1203,10 +1143,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000272">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of biological dynamics</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101299725</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1751-3758</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J Biol Dyn</obo:APOLLO_SV_00000321>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Biol Dyn</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Biol Dyn</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Journal of biological dynamics</dc:title>
     </owl:NamedIndividual>
     
@@ -1216,10 +1157,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000273">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Influenza and other respiratory viruses</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101304007</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1750-2640</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Influenza Other Respir Viruses</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Influenza Other Respir Viruses</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Influenza Other Respir Viruses</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Influenza and other respiratory viruses</dc:title>
     </owl:NamedIndividual>
     
@@ -1229,10 +1171,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000274">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The annals of applied statistics</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101479511</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1932-6157</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Ann Appl Stat</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Ann Appl Stat</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Ann Appl Stat</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">The annals of applied statistics</dc:title>
     </owl:NamedIndividual>
     
@@ -1242,9 +1185,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000275">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Epidemics</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101484711</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1878-0067</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Epidemics</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Epidemics</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Epidemics</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Epidemics</dc:title>
     </owl:NamedIndividual>
@@ -1255,10 +1199,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000276">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Interdisciplinary perspectives on infectious diseases</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101496545</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1687-708X</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Interdiscip Perspect Infect Dis</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Interdiscip Perspect Infect Dis</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Interdiscip Perspect Infect Dis</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Interdisciplinary perspectives on infectious diseases</dc:title>
     </owl:NamedIndividual>
     
@@ -1268,9 +1213,9 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000277">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
-        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string"></obo:APOLLO_SV_00000320>
+        <rdfs:label rdf:datatype="&xsd;string">PLoS currents</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101515638</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">PLoS Curr</obo:APOLLO_SV_00000322>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">PLoS Curr</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">PLoS Curr</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">PLoS currents</dc:title>
     </owl:NamedIndividual>
@@ -1281,10 +1226,10 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000278">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
-        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string"></obo:APOLLO_SV_00000320>
+        <rdfs:label rdf:datatype="&xsd;string">Methods report (RTI Press)</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101524674</obo:APOLLO_SV_00000319>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Methods Rep RTI Press</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Methods Rep RTI Press</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Methods Rep RTI Press</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Methods report (RTI Press)</dc:title>
     </owl:NamedIndividual>
     
@@ -1294,10 +1239,11 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000279">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Journal of the American Statistical Association</rdfs:label>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">01510020R</obo:APOLLO_SV_00000319>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0162-1459</obo:APOLLO_SV_00000320>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">J Am Stat Assoc</obo:APOLLO_SV_00000322>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">J Am Stat Assoc</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">J Am Stat Assoc</obo:APOLLO_SV_00000324>
         <dc:title rdf:datatype="&xsd;string">Journal of the American Statistical Association</dc:title>
     </owl:NamedIndividual>
     
@@ -1307,11 +1253,123 @@
 
     <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000280">
         <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Lancet</rdfs:label>
         <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0140-6736</obo:APOLLO_SV_00000320>
         <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">2985213R</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Lancet</obo:APOLLO_SV_00000324>
         <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Lancet</obo:APOLLO_SV_00000321>
         <dc:title rdf:datatype="&xsd;string">Lancet</dc:title>
-        <obo:APOLLO_SV_00000322 rdf:datatype="&xsd;string">Lancet</obo:APOLLO_SV_00000322>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000281 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000281">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Canadian journal of public health</rdfs:label>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0008-4263</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">0372714</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Can J Public Health</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Can J Public Health</obo:APOLLO_SV_00000321>
+        <dc:title rdf:datatype="&xsd;string">Canadian journal of public health</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000282 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000282">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Thrombosis research</rdfs:label>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0049-3848</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">0326377</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Thromb Res</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Thromb. Res.</obo:APOLLO_SV_00000321>
+        <dc:title rdf:datatype="&xsd;string">Thrombosis research</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000283 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000283">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">The Pediatric infectious disease journal</rdfs:label>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0891-3668</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">8701858</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Pediatr Infect Dis J</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Pediatr. Infect. Dis. J.</obo:APOLLO_SV_00000321>
+        <dc:title rdf:datatype="&xsd;string">The Pediatric infectious disease journal</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000284 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000284">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">African health sciences</rdfs:label>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101149451</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1680-6905</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Afr Health Sci</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Afr Health Sci</obo:APOLLO_SV_00000321>
+        <dc:title rdf:datatype="&xsd;string">African health sciences</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000285 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000285">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">American journal of disaster medicine</rdfs:label>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101291100</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1932-149X</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Am J Disaster Med</obo:APOLLO_SV_00000321>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Am J Disaster Med</obo:APOLLO_SV_00000324>
+        <dc:title rdf:datatype="&xsd;string">American journal of disaster medicine</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000286 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000286">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">Vector borne and zoonotic diseases (Larchmont, N.Y.)</rdfs:label>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">100965525</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">1530-3667</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Vector Borne Zoonotic Dis</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Vector Borne Zoonotic Dis.</obo:APOLLO_SV_00000321>
+        <dc:title rdf:datatype="&xsd;string">Vector borne and zoonotic diseases (Larchmont, N.Y.)</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000287 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000287">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">BioMed research international</rdfs:label>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">101600173</obo:APOLLO_SV_00000319>
+        <dc:title rdf:datatype="&xsd;string">BioMed research international</dc:title>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">Biomed Res Int</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">Biomed Res Int</obo:APOLLO_SV_00000321>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDE_ARTICLE_0000000288 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IDE_ARTICLE_0000000288">
+        <rdf:type rdf:resource="&obo;FBcv_0000787"/>
+        <rdfs:label rdf:datatype="&xsd;string">MMWR. Morbidity and mortality weekly report.</rdfs:label>
+        <obo:APOLLO_SV_00000320 rdf:datatype="&xsd;string">0149-2195</obo:APOLLO_SV_00000320>
+        <obo:APOLLO_SV_00000319 rdf:datatype="&xsd;string">7802429</obo:APOLLO_SV_00000319>
+        <obo:APOLLO_SV_00000324 rdf:datatype="&xsd;string">MMWR Morb Mortal Wkly Rep</obo:APOLLO_SV_00000324>
+        <obo:APOLLO_SV_00000321 rdf:datatype="&xsd;string">MMWR Morb. Mortal. Wkly. Rep.</obo:APOLLO_SV_00000321>
+        <dc:title rdf:datatype="&xsd;string">MMWR. Morbidity and mortality weekly report.</dc:title>
     </owl:NamedIndividual>
     
 
@@ -1325,11 +1383,11 @@
         <obo:OBI_0001617 rdf:datatype="&xsd;string">20483192</obo:OBI_0001617>
         <obo:ERO_0000480 rdf:datatype="&xsd;anyURI">http://www.sciencedirect.com/science/article/pii/S0264410X1000664X</obo:ERO_0000480>
         <dc:title xml:lang="en">A computer simulation of vaccine prioritization, allocation, and rationing during the 2009 H1N1 influenza pandemic</dc:title>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000174"/>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000444"/>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000228"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000001"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000002"/>
-        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000003"/>
-        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000004"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000018"/>
     </owl:NamedIndividual>
     
@@ -1344,11 +1402,13 @@
         <obo:OBI_0001617 rdf:datatype="&xsd;string">17476323</obo:OBI_0001617>
         <obo:ERO_0000480 rdf:datatype="&xsd;anyURI">http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0000401</obo:ERO_0000480>
         <dc:title xml:lang="en">Controlling pandemic flu: The value of international air travel restrictions</dc:title>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000298"/>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000345"/>
-        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000004"/>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000270"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000005"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000015"/>
+        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_ARTICLE_0000000005"/>
     </owl:NamedIndividual>
     
@@ -1469,6 +1529,7 @@
         <AUTHORS_1>Karl S, Halder N, Kelso JK, Ritchie SA, Milne GJ</AUTHORS_1>
         <IDE_journalTitle>BMC Infect Dis.</IDE_journalTitle>
         <dc:title>A spatial simulation model for dengue virus infection in urban areas</dc:title>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000253"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000049"/>
     </owl:NamedIndividual>
     
@@ -1488,6 +1549,7 @@
         <IDE_indexer_email></IDE_indexer_email>
         <dc:date>1987-01-01</dc:date>
         <AUTHORS_1>Hirdes JP, Brown KS, Vigoda DS, et al</AUTHORS_1>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000281"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000002"/>
     </owl:NamedIndividual>
     
@@ -1507,8 +1569,8 @@
         <obo:OBI_0001617>4857332</obo:OBI_0001617>
         <IDE_journalTitle>Thromb Res</IDE_journalTitle>
         <dc:date>1974-03-01</dc:date>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000282"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000002"/>
-        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000004"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_ARTICLE_0000000005"/>
@@ -1527,6 +1589,7 @@
         <dc:date>1980-09-01</dc:date>
         <AUTHORS_1>Heymann DL, Weisfeld JS, Webb PA, et al</AUTHORS_1>
         <obo:OBI_0001617>7441008</obo:OBI_0001617>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000216"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000029"/>
     </owl:NamedIndividual>
     
@@ -1546,6 +1609,7 @@
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/8852904</obo:ERO_0000480>
         <IDE_journalTitle>Pediatr Infect Dis J</IDE_journalTitle>
         <dc:title>Ebola hemorrhagic fever: why were children spared?</dc:title>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000283"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000029"/>
     </owl:NamedIndividual>
@@ -1566,6 +1630,7 @@
         <dc:title>Ecology of Marburg and Ebola viruses: speculations and directions for future research.</dc:title>
         <IDE_indexer_name></IDE_indexer_name>
         <IDE_for_review>Y</IDE_for_review>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000216"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1582,6 +1647,7 @@
         <IDE_journalTitle>JAMA</IDE_journalTitle>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/11988060</obo:ERO_0000480>
         <dc:title>Hemorrhagic fever viruses as biological weapons: medical and public health management.</dc:title>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000219"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1601,6 +1667,7 @@
         <AUTHORS_1>Mupere E, Kaducu OF, Yoti Z</AUTHORS_1>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/12789118</obo:ERO_0000480>
         <IDE_journalTitle>Afr Health Sci</IDE_journalTitle>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000284"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1617,6 +1684,7 @@
         <dc:date>2003-10-01</dc:date>
         <dc:title>Cultural contexts of Ebola in northern Uganda.</dc:title>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/14609458</obo:ERO_0000480>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000241"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1633,6 +1701,7 @@
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/15178190</obo:ERO_0000480>
         <AUTHORS_1>Chowell G, Hengartner NW, Castillo-Chavez C, et al</AUTHORS_1>
         <dc:title>The basic reproductive number of Ebola and the effects of public health measures: the cases of Congo and Uganda.</dc:title>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000209"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_Algorithm_0000000001"/>
     </owl:NamedIndividual>
@@ -1653,6 +1722,7 @@
         <IDE_indexer_name></IDE_indexer_name>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/15663844</obo:ERO_0000480>
         <AUTHORS_1>Wolfe ND, Prosser TA, Carr JK, et al</AUTHORS_1>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000241"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1669,6 +1739,7 @@
         <dc:date>2005-09-08</dc:date>
         <obo:OBI_0001617>16079797</obo:OBI_0001617>
         <IDE_journalTitle>Nature</IDE_journalTitle>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000215"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
     </owl:NamedIndividual>
     
@@ -1688,6 +1759,7 @@
         <IDE_journalTitle>Nature</IDE_journalTitle>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/16319873</obo:ERO_0000480>
         <IDE_for_review>Y</IDE_for_review>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000215"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1704,6 +1776,7 @@
         <AUTHORS_1>Legrand J, Grais RF, Boelle PY, et al</AUTHORS_1>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/16999875</obo:ERO_0000480>
         <IDE_journalTitle>Epidemiol Infect</IDE_journalTitle>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000230"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000029"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_Algorithm_0000000001"/>
     </owl:NamedIndividual>
@@ -1721,6 +1794,7 @@
         <AUTHORS_1>Hall RC, Hall RC</AUTHORS_1>
         <obo:OBI_0001617>18491842</obo:OBI_0001617>
         <dc:date>2007-09-01</dc:date>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000285"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_Algorithm_0000000001"/>
     </owl:NamedIndividual>
@@ -1741,6 +1815,7 @@
         <dc:title>Human Ebola outbreak resulting from direct exposure to fruit bats in Luebo, Democratic Republic of Congo, 2007.</dc:title>
         <IDE_indexer_email></IDE_indexer_email>
         <IDE_for_review>Y</IDE_for_review>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000286"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1757,8 +1832,8 @@
         <dc:date>2009-09-15</dc:date>
         <obo:OBI_0001617>19679750</obo:OBI_0001617>
         <IDE_journalTitle>Am J Epidemiol</IDE_journalTitle>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000224"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000002"/>
-        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000004"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_ARTICLE_0000000005"/>
     </owl:NamedIndividual>
     
@@ -1775,6 +1850,7 @@
         <IDE_journalTitle>Influenza Other Respir Viruses</IDE_journalTitle>
         <dc:title>Protecting health care workers: a pandemic simulation based on Allegheny County.</dc:title>
         <obo:OBI_0001617>20167046</obo:OBI_0001617>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000273"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_ARTICLE_0000000005"/>
     </owl:NamedIndividual>
     
@@ -1785,12 +1861,13 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_ARTICLE_1023998125">
         <rdf:type rdf:resource="&obo;IAO_0000311"/>
         <rdfs:label>Bachinsky AG, Nizolenko LP. A universal model for predicting dynamics of the epidemics caused by special pathogens.. PMID:23998125</rdfs:label>
-        <obo:OBI_0001617>23998125</obo:OBI_0001617>
-        <IDE_journalTitle>Biomed Res Int</IDE_journalTitle>
         <AUTHORS_1>Bachinsky AG, Nizolenko LP</AUTHORS_1>
-        <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/23998125</obo:ERO_0000480>
         <dc:title>A universal model for predicting dynamics of the epidemics caused by special pathogens.</dc:title>
         <dc:date>2013-01-01</dc:date>
+        <obo:OBI_0001617>23998125</obo:OBI_0001617>
+        <IDE_journalTitle>Biomed Res Int</IDE_journalTitle>
+        <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/23998125</obo:ERO_0000480>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000287"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000029"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_Algorithm_0000000001"/>
@@ -1803,15 +1880,17 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_ARTICLE_1024738640">
         <rdf:type rdf:resource="&obo;IAO_0000311"/>
         <rdfs:label>Baize S, Pannetier D, Oestereich L, et al. Emergence of Zaire Ebola Virus Disease in Guinea - Preliminary Report.. PMID:24738640</rdfs:label>
-        <IDE_journalTitle>N Engl J Med</IDE_journalTitle>
-        <obo:OBI_0001617>24738640</obo:OBI_0001617>
-        <AUTHORS_1>Baize S, Pannetier D, Oestereich L, et al</AUTHORS_1>
         <dc:title>Emergence of Zaire Ebola Virus Disease in Guinea - Preliminary Report.</dc:title>
         <dc:date>2014-04-16</dc:date>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/24738640</obo:ERO_0000480>
+        <obo:OBI_0001617>24738640</obo:OBI_0001617>
+        <IDE_journalTitle>N Engl J Med</IDE_journalTitle>
+        <AUTHORS_1>Baize S, Pannetier D, Oestereich L, et al</AUTHORS_1>
         <obo:IAO_0000136 rdf:resource="&obo;GEO_000000345"/>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000203"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000015"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000029"/>
+        <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000050"/>
     </owl:NamedIndividual>
     
 
@@ -1827,6 +1906,7 @@
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/24959946</obo:ERO_0000480>
         <dc:title>Undiagnosed acute viral febrile illnesses, Sierra Leone.</dc:title>
         <IDE_journalTitle>Emerg Infect Dis</IDE_journalTitle>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000241"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -1846,6 +1926,7 @@
         <AUTHORS_1>Dixon MG, Schafer IJ, null null</AUTHORS_1>
         <dc:title>Ebola viral disease outbreak--West Africa, 2014.</dc:title>
         <IDE_indexer_email></IDE_indexer_email>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000288"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000029"/>
     </owl:NamedIndividual>
@@ -1863,6 +1944,7 @@
         <AUTHORS_1>Bausch DG, Schwarz L</AUTHORS_1>
         <obo:ERO_0000480>http://www.ncbi.nlm.nih.gov/pubmed/25079231</obo:ERO_0000480>
         <dc:date>2014-07-01</dc:date>
+        <obo:BFO_0000137 rdf:resource="&obo;IDE_ARTICLE_0000000271"/>
         <obo:IAO_0000136 rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:NamedIndividual>
     
@@ -2049,9 +2131,6 @@
         <rdf:type rdf:resource="&obo;IAO_0000064"/>
         <rdfs:label>Algorithm</rdfs:label>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <rdf:type rdf:resource="&rdf;type"/>
-    </rdf:Description>
 </rdf:RDF>
 
 
