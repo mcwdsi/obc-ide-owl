@@ -516,6 +516,7 @@
 
     <owl:Class rdf:about="&obc;IDE_0000000037">
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
+        <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus worldwide</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -942,11 +943,10 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000038 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000037 -->
 
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000038">
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000037">
         <rdf:type rdf:resource="&obc;IDE_0000000037"/>
-        <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus worldwide</rdfs:label>
     </owl:NamedIndividual>
     
 
