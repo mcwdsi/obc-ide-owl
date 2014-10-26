@@ -101,6 +101,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000100 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000100">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000104 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000104">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000123 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
