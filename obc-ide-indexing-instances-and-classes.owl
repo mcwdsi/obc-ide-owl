@@ -1486,6 +1486,17 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000087 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000087">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Sierra Leone</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Sierra Leone</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000059"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000088 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000088">
@@ -1504,6 +1515,17 @@
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 1976</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000090 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000090">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of West Africa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of West Africa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000052"/>
     </owl:NamedIndividual>
     
 
