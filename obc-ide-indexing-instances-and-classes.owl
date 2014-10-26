@@ -101,6 +101,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000123 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
+        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000136 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000136">
@@ -126,6 +134,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000228 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
+        <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000230 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
+        <obo:IAO_0000111 xml:lang="en">case quarantine control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000231 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
@@ -147,6 +171,14 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000323 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000323">
+        <obo:IAO_0000111 xml:lang="en">liberal sick leave control strategy</obo:IAO_0000111>
     </rdf:Description>
     
 
@@ -643,6 +675,32 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000086 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000086">
+        <rdfs:label xml:lang="en">Sudan ebolavirus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186540"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_186540"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000008"/>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus worldwide</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000323 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000323">
@@ -673,6 +731,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000123 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000123">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000123"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000136 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000136">
@@ -685,6 +751,22 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000174">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000174"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000228 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000228">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000228"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000230 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000230">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000230"/>
     </owl:NamedIndividual>
     
 
@@ -717,6 +799,14 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000303">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000303"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000323 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000323">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000323"/>
     </owl:NamedIndividual>
     
 
@@ -909,7 +999,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000029 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000029">
-        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
@@ -987,6 +1077,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000045">
         <rdf:type rdf:resource="&obc;IDE_0000000007"/>
+        <rdfs:label xml:lang="en">placeholder for pathogen population</rdfs:label>
         <rdfs:comment xml:lang="en">created as temporary placeholder for indexing workflow workaround to get historical RTI catalog in place.</rdfs:comment>
         <obo:IAO_0000111 xml:lang="en">pathogen population placeholder</obo:IAO_0000111>
     </owl:NamedIndividual>
@@ -997,7 +1088,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000050">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
-        <rdfs:label xml:lang="en">ebola virus, humans, West Africa, 2014-present</rdfs:label>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, West Africa, 2014-present</rdfs:label>
         <ro:has_participant rdf:resource="&obc;IDE_0000000051"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000054"/>
     </owl:NamedIndividual>
@@ -1007,7 +1098,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000051 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000051">
-        <rdf:type rdf:resource="&obc;IDE_0000000008"/>
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus in West Africa</rdfs:label>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000053"/>
     </owl:NamedIndividual>
@@ -1040,6 +1131,379 @@
         <rdf:type rdf:resource="&obc;IDE_0000000017"/>
         <rdfs:label xml:lang="en">humans in West Africa</rdfs:label>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000053"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000055 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000055">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Nigeria, 2014-07-25 to 2014-09-05</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, Nigeria, 2014-07-25 to 2014-09-05</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000056"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000073"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000056 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000056">
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in Nigeria</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus popoulation in region of Nigeria</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000057 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000057">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Nigeria</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Nigeria</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000656"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000058 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000058">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Liberia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Liberia</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000596"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000059 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000059">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Sierra Leone</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Sierra Leone</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000710"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000060 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000060">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Uganda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Uganda</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000554"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000061 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000061">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Guinea</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000547"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000062 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000062">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Democratic Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Democratic Republic of Congo</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000678"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000063 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000063">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Republic of Congo</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000666"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000064 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000064">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Gabon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Gabon</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000708"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000065 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000065">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Gabon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Gabon</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000064"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000066 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000066">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Republic of Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000063"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000067 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000067">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Democratic Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Democratic Republic of Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000062"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000068 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000068">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Guinea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000061"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000069 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000069">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Uganda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Uganda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000060"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000070 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000070">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Sierra Leone</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Sierra Leone</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000059"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000071 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000071">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Liberia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Liberia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000058"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000072 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000072">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Nigeria</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Nigeria</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000057"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000073 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000073">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Nigeria</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Nigeria</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000074 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000074">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Liberia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Liberia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000071"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000075 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000075">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Sierra Leone</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Sierra Leone</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000070"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000076 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000076">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Uganda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">humans in region of Uganda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000069"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000077 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000077">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">humans in region of Guinea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000068"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000078 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000078">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Democratic Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">humans in region of Democratic Republic of Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000067"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000079 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000079">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">humans in region of Republic of Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000066"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000080 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000080">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Gabon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Gabon</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000065"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000081 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000081">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Sudan, 1976</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, Sudan, 1976</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000084"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000085"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000082 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000082">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of combined region of Sudan and South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of combined regions of Sudan and South Sudan</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000714"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000083 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000083">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of combined region of Sudan and South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of combined regions of Sudan and South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000082"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000084 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000084">
+        <rdf:type rdf:resource="&obc;IDE_0000000086"/>
+        <rdfs:label xml:lang="en">Sudan ebolavirus in combined region of Sudan and South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus in combined region of Sudan and South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000083"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000085 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000085">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in combined region of Sudan and South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in combined regions of Sudan and South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000083"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000086 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000086">
+        <rdf:type rdf:resource="&obc;IDE_0000000086"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000088 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000088">
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in Democratic Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population in region of Democratic Republic of the Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obo;GEO_000000678"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000089 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000089">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 1976</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
     </owl:NamedIndividual>
     
 
