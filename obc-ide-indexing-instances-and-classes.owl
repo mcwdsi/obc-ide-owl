@@ -87,6 +87,7 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000007 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000007">
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000594"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
     
@@ -130,6 +131,14 @@
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000136">
         <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000171 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000171">
+        <obo:IAO_0000111 xml:lang="en">antiviral treatment</obo:IAO_0000111>
     </rdf:Description>
     
 
@@ -195,6 +204,14 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000323">
         <obo:IAO_0000111 xml:lang="en">liberal sick leave control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000010">
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
     
 
@@ -412,6 +429,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </owl:Class>
@@ -503,7 +521,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
         <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">population of H1N1 subtype</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of H1N1 subtype</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -538,7 +556,6 @@
 
     <owl:Class rdf:about="&obc;IDE_0000000035">
         <rdfs:label xml:lang="en">H7N9 subtype</rdfs:label>
-        <rdfs:label xml:lang="en">H7N9 subtype population</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -555,6 +572,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -564,7 +582,6 @@
 
     <owl:Class rdf:about="&obc;IDE_0000000037">
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
-        <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus worldwide</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -580,8 +597,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000091"/>
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of MERS-coV</obo:IAO_0000118>
     </owl:Class>
     
@@ -717,6 +735,86 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000091 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000091">
+        <rdfs:label xml:lang="en">Betacoronavirus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_694002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_694002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Betacoronavirus population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Betacoronavirus worldwide</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000092 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000092">
+        <rdfs:label xml:lang="en">SARS coronavirus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_227859"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_227859"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000091"/>
+        <obo:IAO_0000111 xml:lang="en">SARS virus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Severe Acute Respiratory Syndrome (SARS) coronavirus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of SARS coronavirus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000095 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000095">
+        <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_114729"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_114729"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000111 xml:lang="en">H2N2 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">H2N2 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of H2N2 subtype</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000323 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000323">
@@ -759,6 +857,14 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000136">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000136"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000171 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000171">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000171"/>
     </owl:NamedIndividual>
     
 
@@ -850,6 +956,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000003">
         <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -858,6 +965,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000004">
         <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1008,6 +1116,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000027">
         <rdf:type rdf:resource="&obc;IDE_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1037,6 +1146,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000033">
         <rdf:type rdf:resource="&obc;IDE_0000000033"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1045,6 +1155,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000035">
         <rdf:type rdf:resource="&obc;IDE_0000000035"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1053,6 +1164,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000037">
         <rdf:type rdf:resource="&obc;IDE_0000000037"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1061,6 +1173,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000041">
         <rdf:type rdf:resource="&obc;IDE_0000000041"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1069,6 +1182,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000042">
         <rdf:type rdf:resource="&obc;IDE_0000000042"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1077,6 +1191,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000043">
         <rdf:type rdf:resource="&obc;IDE_0000000043"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1085,6 +1200,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000044">
         <rdf:type rdf:resource="&obc;IDE_0000000044"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1104,7 +1220,8 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000050">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, West Africa, 2014-present</rdfs:label>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, West Africa, 2014 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of West Africa, 2014 to present</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000051"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000054"/>
     </owl:NamedIndividual>
@@ -1156,7 +1273,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000055">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Nigeria, 2014-07-25 to 2014-09-05</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, Nigeria, 2014-07-25 to 2014-09-05</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Nigeria, 2014-07-25 to 2014-09-05</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000056"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000073"/>
     </owl:NamedIndividual>
@@ -1443,7 +1560,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000081">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
         <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Sudan, 1976</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, Sudan, 1976</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of Sudan, 1976</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000084"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000085"/>
     </owl:NamedIndividual>
@@ -1498,6 +1615,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000086">
         <rdf:type rdf:resource="&obc;IDE_0000000086"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1528,6 +1646,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000089">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 1976</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 1976</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
@@ -1546,6 +1665,149 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000091 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000091">
+        <rdf:type rdf:resource="&obc;IDE_0000000091"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000092 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000092">
+        <rdf:type rdf:resource="&obc;IDE_0000000092"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000095 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000095">
+        <rdf:type rdf:resource="&obc;IDE_0000000095"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000097 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000097">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">H1N1 subtype, humans, gobal, 1918 to 1919</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H1N1 subtype, humans, global, 1918-1919</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000027"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000098 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000098">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">H2N2 subtype, humans, global, 1957 to 1958</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H2N2 subtype, humans, global, 1957-1958</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000099 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000099">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">H3N2 subtype, humans, global, 1968 to 1969</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H3N2 subtype, humans, global, 1968-1969</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000033"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000100 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000100">
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in Sierra Leone</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population in region of Sierra Leone</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000070"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000101 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000101">
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in Liberia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population in region of Liberia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000071"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000102 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000102">
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population in region of Guinea</obo:IAO_0000111>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000103 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000103">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Guinea, 2014 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Guinea, 2014 to present</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000077"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000102"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000104 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000104">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Sierra Leone, 2014 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Sierra Leone, 2014 to present</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000075"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000104"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000105 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000105">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Liberia, 2014 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Liberia, 2014 to present</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000074"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000101"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000106 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000106">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 2014 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 2014 to present</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1558,6 +1820,9 @@
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GEO_000000372">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
