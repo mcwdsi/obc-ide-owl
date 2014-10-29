@@ -151,6 +151,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000181 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000181">
+        <obo:IAO_0000111 xml:lang="en">antiviral control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000202 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000202">
@@ -387,7 +395,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000009 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000009">
-        <rdfs:label xml:lang="en">Zaire ebola</rdfs:label>
+        <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -873,6 +881,14 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000174">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000174"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000181 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000181">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000181"/>
     </owl:NamedIndividual>
     
 
