@@ -178,7 +178,7 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000230 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
-        <obo:IAO_0000111 xml:lang="en">case quarantine control strategy</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
     </rdf:Description>
     
 
@@ -945,6 +945,14 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000323">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000323"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000327 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000327">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000327"/>
     </owl:NamedIndividual>
     
 
