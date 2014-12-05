@@ -63,6 +63,16 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000030 -->
+
+    <owl:AnnotationProperty rdf:about="&obc;IDE_0000000030">
+        <rdfs:label xml:lang="en">reviewed by</rdfs:label>
+        <rdfs:comment xml:lang="en">for the obc project, reviewed by means that someone outside ISG added the item, and then was reviewed by someone in ISG.  This annotation property captures the name of the iSG person that reviewed it.</rdfs:comment>
+        <obo:IAO_0000111 xml:lang="en">reviewed by</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000040 -->
 
     <owl:AnnotationProperty rdf:about="&obc;IDE_0000000040">
