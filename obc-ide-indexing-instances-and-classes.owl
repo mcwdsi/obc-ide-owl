@@ -436,7 +436,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
@@ -527,9 +527,36 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H1N1 subtype</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000028 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000028">
+        <rdfs:label xml:lang="en">Influenza A virus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_11320"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_11320"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">influenza A virus worldwide</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">population of influenza A virus</obo:IAO_0000111>
     </owl:Class>
     
 
@@ -553,7 +580,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </owl:Class>
@@ -579,7 +606,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
     </owl:Class>
@@ -815,7 +842,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H2N2 subtype</obo:IAO_0000118>
@@ -1053,7 +1080,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000016">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
-        <rdfs:label xml:lang="en">biotic ecosystem of entire Earth</rdfs:label>
+        <rdfs:label xml:lang="en">biotic ecosystem of Earth</rdfs:label>
         <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000097"/>
     </owl:NamedIndividual>
     
@@ -1140,6 +1167,15 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000027">
         <rdf:type rdf:resource="&obc;IDE_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000028 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
+        <rdf:type rdf:resource="&obc;IDE_0000000028"/>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
