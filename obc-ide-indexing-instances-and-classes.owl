@@ -234,6 +234,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000308 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000308">
+        <rdfs:label xml:lang="en">vector control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">vector control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000323 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000323">
@@ -1132,6 +1141,14 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000305">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000305"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000308 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000308">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000308"/>
     </owl:NamedIndividual>
     
 
