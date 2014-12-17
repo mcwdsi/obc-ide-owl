@@ -882,11 +882,16 @@
                         <owl:onProperty rdf:resource="&ro;has_participant"/>
                         <owl:someValuesFrom rdf:resource="&obc;IDE_0000000038"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000038"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;APOLLO_SV_00000298"/>
         <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </owl:Class>
     
 
