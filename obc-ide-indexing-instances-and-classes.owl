@@ -423,6 +423,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000008"/>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
     </owl:Class>
     
 
@@ -1124,6 +1125,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000009 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000009">
+        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000010 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000010">
@@ -1260,17 +1270,6 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
         <rdf:type rdf:resource="&obc;IDE_0000000028"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000029 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000029">
-        <rdf:type rdf:resource="&obc;IDE_0000000009"/>
-        <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
