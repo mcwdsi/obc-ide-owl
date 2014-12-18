@@ -218,6 +218,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000304 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
+        <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000305 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
+        <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000308 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000308">
+        <rdfs:label xml:lang="en">vector control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">vector control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000323 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000323">
@@ -691,7 +716,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">Mus musclus</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">population of Mus musculus</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
     </owl:Class>
@@ -721,6 +745,33 @@
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of MERS-coV</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000038 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000038">
+        <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1280"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_1280"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000111>
     </owl:Class>
     
 
@@ -825,6 +876,32 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 4 population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 4</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000048 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000048">
+        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:someValuesFrom rdf:resource="&obc;IDE_0000000038"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:allValuesFrom rdf:resource="&obc;IDE_0000000038"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1049,6 +1126,30 @@
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000303">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000303"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000304 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000304">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000304"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000305 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000305">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000305"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000308 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000308">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000308"/>
     </owl:NamedIndividual>
     
 
@@ -1323,6 +1424,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000036">
         <rdf:type rdf:resource="&obc;IDE_0000000036"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
@@ -1331,6 +1433,15 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000037">
         <rdf:type rdf:resource="&obc;IDE_0000000037"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000038 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000038">
+        <rdf:type rdf:resource="&obc;IDE_0000000038"/>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
@@ -1379,6 +1490,14 @@
         <rdfs:label xml:lang="en">placeholder for pathogen population</rdfs:label>
         <rdfs:comment xml:lang="en">created as temporary placeholder for indexing workflow workaround to get historical RTI catalog in place.</rdfs:comment>
         <obo:IAO_0000111 xml:lang="en">pathogen population placeholder</obo:IAO_0000111>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000048 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000048">
+        <rdf:type rdf:resource="&obc;IDE_0000000048"/>
     </owl:NamedIndividual>
     
 
