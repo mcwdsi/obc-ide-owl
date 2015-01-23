@@ -86,7 +86,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000001000 -->
 
     <owl:AnnotationProperty rdf:about="&obc;IDE_0000001000">
-        <rdfs:label xml:lang="en">obc.ide user interface class hiearchy object property indicator</rdfs:label>
+        <rdfs:label xml:lang="en">obc.ide user interface class hierarchy object property indicator</rdfs:label>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
     </owl:AnnotationProperty>
     
@@ -2129,7 +2129,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GEO_000000372">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
+        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000187"/>
     </rdf:Description>
 </rdf:RDF>
 
