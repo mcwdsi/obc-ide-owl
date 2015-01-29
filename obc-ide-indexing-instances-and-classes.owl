@@ -2129,7 +2129,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GEO_000000372">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000187"/>
+        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
     </rdf:Description>
 </rdf:RDF>
 
