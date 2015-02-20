@@ -334,6 +334,7 @@
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
     </owl:Class>
     
@@ -361,6 +362,7 @@
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </owl:Class>
     
@@ -407,6 +409,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">pathogen population</obo:IAO_0000111>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </owl:Class>
@@ -435,6 +438,7 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -459,6 +463,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000008"/>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
     </owl:Class>
@@ -486,6 +491,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </owl:Class>
@@ -513,6 +519,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000323"/>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">population of Homo sapiens</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Homo sapiens</obo:IAO_0000118>
@@ -554,6 +561,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">population of influenza virus</obo:IAO_0000111>
     </owl:Class>
     
@@ -580,6 +588,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H1N1 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -655,6 +664,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -703,6 +713,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -729,6 +740,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000323"/>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">population of Mus musculus</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
     </owl:Class>
@@ -757,6 +769,7 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000091"/>
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of MERS-coV</obo:IAO_0000118>
     </owl:Class>
     
@@ -784,6 +797,7 @@
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
         <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000111>
     </owl:Class>
     
@@ -810,6 +824,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 1 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 1</obo:IAO_0000118>
     </owl:Class>
     
@@ -836,6 +851,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 2 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 2</obo:IAO_0000118>
     </owl:Class>
     
@@ -862,6 +878,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 3 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 3</obo:IAO_0000118>
     </owl:Class>
     
@@ -888,6 +905,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000003"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 4 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 4</obo:IAO_0000118>
     </owl:Class>
     
@@ -941,6 +959,7 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000008"/>
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -967,6 +986,7 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
         <obo:IAO_0000111 xml:lang="en">Betacoronavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Betacoronavirus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -993,7 +1013,36 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000091"/>
         <obo:IAO_0000111 xml:lang="en">SARS virus worldwide</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Severe Acute Respiratory Syndrome (SARS) coronavirus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of SARS coronavirus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000093 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000093">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_232441"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_232441"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">H5N8 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">H5N8 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H5N8 subtype</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -1020,6 +1069,7 @@
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H2N2 subtype</obo:IAO_0000118>
     </owl:Class>
     
@@ -1978,6 +2028,15 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000092">
         <rdf:type rdf:resource="&obc;IDE_0000000092"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000093 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000093">
+        <rdf:type rdf:resource="&obc;IDE_0000000093"/>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
