@@ -1022,6 +1022,7 @@
     <!-- http://www.pitt.edu/obc/IDE_0000000093 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000093">
+        <rdfs:label xml:lang="en">H5N8 subtype</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1038,11 +1039,40 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
         <obo:IAO_0000111 xml:lang="en">H5N8 subtype population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H5N8 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N8 subtype</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000094 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000094">
+        <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_119220"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_119220"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
+        <obo:IAO_0000111 xml:lang="en">H5N2 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">H5N2 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H5N2 subtype</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -2042,6 +2072,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000094 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000094">
+        <rdf:type rdf:resource="&obc;IDE_0000000094"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000095 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000095">
@@ -2160,10 +2199,22 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000106">
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 2014 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 2014 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 2014-08-11 to 2014-11-15</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 2014-08-11 to 2014-11-15</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000107 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000107">
+        <rdf:type rdf:resource="&obc;IDE_0000000032"/>
+        <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Sudan, 1979-07-31 to 1979-10-06</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of greater Sudan, 1979-07-31 to 1979-10-06</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000084"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000085"/>
     </owl:NamedIndividual>
     
 
