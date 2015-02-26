@@ -1105,6 +1105,64 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000096 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000096">
+        <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_329376"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_329376"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000028"/>
+        <obo:IAO_0000111 xml:lang="en">H5N6 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">H5N6 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000108 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000108">
+        <rdfs:label xml:lang="en">Measles virus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxonomy_11234"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxonomy_11234"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PCO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000007"/>
+        <obo:IAO_0000111 xml:lang="en">Measles virus population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Measles virus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Measles virus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000323 -->
 
     <owl:Class rdf:about="&obc;IDE_0000000323">
@@ -2090,6 +2148,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000096 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000096">
+        <rdf:type rdf:resource="&obc;IDE_0000000096"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000097 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000097">
@@ -2215,6 +2282,15 @@
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of greater Sudan, 1979-07-31 to 1979-10-06</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000084"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000085"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000108 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000108">
+        <rdf:type rdf:resource="&obc;IDE_0000000108"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
     </owl:NamedIndividual>
     
 
