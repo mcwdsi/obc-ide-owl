@@ -302,12 +302,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxonomy_11234 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxonomy_11234"/>
-    
-
-
     <!-- http://purl.org/obo/owl/FBcv#FBcv_0000209 -->
 
     <rdf:Description rdf:about="http://purl.org/obo/owl/FBcv#FBcv_0000209">
@@ -1160,11 +1154,11 @@
                     <rdf:Description rdf:about="&obo;PCO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxonomy_11234"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_11234"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxonomy_11234"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_11234"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
