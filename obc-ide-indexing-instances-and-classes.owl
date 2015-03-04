@@ -15,15 +15,16 @@
 
 <rdf:RDF xmlns="&obo;apollo_sv/dev/obc-ide-instances.owl#"
      xml:base="&obo;apollo_sv/dev/obc-ide-instances.owl"
-     xmlns:obc="http://www.pitt.edu/obc/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obc="http://www.pitt.edu/obc/">
     <owl:Ontology rdf:about="&obc;ide/indexing-instances-and-classes.owl">
+        <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
         <owl:imports rdf:resource="&obo;apollo_sv/dev/apollo_sv.owl"/>
         <owl:imports rdf:resource="&obo;geo/dev/nation-and-dependency-geography.owl"/>
@@ -116,7 +117,7 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
         <rdfs:label xml:lang="en">ecosystem of Earth</rdfs:label>
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000029"/>
     </rdf:Description>
     
 
@@ -124,8 +125,7 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000100 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000100">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000029"/>
     </rdf:Description>
     
 
@@ -133,8 +133,7 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000104 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000104">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000029"/>
     </rdf:Description>
     
 
@@ -300,6 +299,12 @@
     <rdf:Description rdf:about="&obo;IAO_0000311">
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxonomy_11234 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxonomy_11234"/>
     
 
 
@@ -617,6 +622,17 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">influenza A virus worldwide</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">population of influenza A virus</obo:IAO_0000111>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000029 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000000029">
+        <rdfs:label xml:lang="en">ecosystem parts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </owl:Class>
     
 
@@ -2303,20 +2319,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000086">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;GEO_000000372">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
+    <rdf:Description rdf:about="&obo;GEO_000000372">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
     </rdf:Description>
 </rdf:RDF>
 
