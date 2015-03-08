@@ -15,14 +15,14 @@
 
 <rdf:RDF xmlns="&obo;apollo_sv/dev/obc-ide-instances.owl#"
      xml:base="&obo;apollo_sv/dev/obc-ide-instances.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:obc="http://www.pitt.edu/obc/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:obc="http://www.pitt.edu/obc/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obc;ide/indexing-instances-and-classes.owl">
         <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
@@ -114,12 +114,12 @@
 
     <rdf:Description rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
     </rdf:Description>
     
@@ -339,12 +339,6 @@
     <rdf:Description rdf:about="&obo;IAO_0000311">
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxonomy_11234 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxonomy_11234"/>
     
 
 
@@ -1551,6 +1545,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000022">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
         <rdfs:label xml:lang="en">ecosystem of the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of the United States</obo:IAO_0000111>
         <ro:located_in rdf:resource="&obo;GEO_000000338"/>
     </owl:NamedIndividual>
     
@@ -1561,6 +1556,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000023">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">biotic ecosystem of the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of United States</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000022"/>
     </owl:NamedIndividual>
     
@@ -1737,6 +1733,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000052">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
         <rdfs:label xml:lang="en">ecosystem of West Africa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of UN region of West Africa</obo:IAO_0000111>
         <ro:located_in rdf:resource="&obo;GEO_000000729"/>
     </owl:NamedIndividual>
     
@@ -1747,6 +1744,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000053">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">biotic ecosystem of West Africa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of UN region of West Africa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000052"/>
     </owl:NamedIndividual>
     
@@ -2153,7 +2151,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000090">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
         <rdfs:label xml:lang="en">abiotic ecosystem of West Africa</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of West Africa</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of UN region of West Africa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000052"/>
     </owl:NamedIndividual>
     
@@ -2351,6 +2349,161 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000109 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000109">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Allegheny County, PA</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">population of humans in Allegheny County, PA</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000110"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000110 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000110">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Allegheny County, PA</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000111 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000111">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Allegheny County, PA</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000786"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000112 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000112">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Pennsylvania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">population of humans in Pennsylvania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000113"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000113 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000113">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Pennsylvania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Pennsylvania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000115"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000114 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000114">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Pennsylvania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Pennsylvania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000115"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000115 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000115">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Pennsylvania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Pennsylvania</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000462"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000116 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000116">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Allegheny County, PA</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000117 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000117">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Florida</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">population of humans in Florida</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000119"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000118 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000118">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Florida</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">population of Chikungunya virus in Florida</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000119"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000119 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000119">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Florida</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Florida</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000121"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000120 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000120">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Florida</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Florida</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000121"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000121 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000121">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Florida</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Florida</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000380"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000122 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000122">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Florida, 2014-07-13 to 2014-09-20</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Florida, 2014-07-13 to 2014-09-20</obo:IAO_0000111>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000117"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000118"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2359,20 +2512,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000086">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OGMS_0000090">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;GEO_000000372">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000090">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
 </rdf:RDF>
 
