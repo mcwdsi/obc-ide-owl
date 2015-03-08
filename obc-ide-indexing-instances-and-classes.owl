@@ -95,6 +95,46 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
+
+    <rdf:Description rdf:about="&ro;has_participant"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#located_in -->
+
+    <rdf:Description rdf:about="&ro;located_in">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
+        </owl:propertyChainAxiom>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#participates_in -->
+
+    <rdf:Description rdf:about="&ro;participates_in">
+        <owl:inverseOf rdf:resource="&ro;has_participant"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -117,6 +157,7 @@
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
         <rdfs:label xml:lang="en">ecosystem of Earth</rdfs:label>
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obo:IAO_0000111 xml:lang="en">ecosystem</obo:IAO_0000111>
     </rdf:Description>
     
 
@@ -300,6 +341,12 @@
     <rdf:Description rdf:about="&obo;IAO_0000311">
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000025"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxonomy_11234 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxonomy_11234"/>
     
 
 
@@ -1723,7 +1770,7 @@
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000056">
         <rdf:type rdf:resource="&obc;IDE_0000000009"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus in Nigeria</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus popoulation in region of Nigeria</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population in region of Nigeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
     </owl:NamedIndividual>
     
