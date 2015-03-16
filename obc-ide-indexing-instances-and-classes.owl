@@ -15,14 +15,14 @@
 
 <rdf:RDF xmlns="&obo;apollo_sv/dev/obc-ide-instances.owl#"
      xml:base="&obo;apollo_sv/dev/obc-ide-instances.owl"
-     xmlns:obc="http://www.pitt.edu/obc/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obc="http://www.pitt.edu/obc/">
     <owl:Ontology rdf:about="&obc;ide/indexing-instances-and-classes.owl">
         <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
@@ -153,6 +153,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000086 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000086">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000097 -->
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
@@ -166,6 +175,7 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000100">
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000029"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem</obo:IAO_0000111>
     </rdf:Description>
     
 
@@ -215,6 +225,14 @@
 
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000181">
         <obo:IAO_0000111 xml:lang="en">antiviral control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000194 -->
+
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
+        <rdfs:subClassOf rdf:resource="&obo;APOLLO_SV_00000086"/>
     </rdf:Description>
     
 
@@ -665,7 +683,7 @@
     <owl:Class rdf:about="&obc;IDE_0000000029">
         <rdfs:label xml:lang="en">ecosystem parts</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">false</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </owl:Class>
     
@@ -1244,6 +1262,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000100 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000100">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000097"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000104 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000104">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000097"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000123 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000123">
@@ -1395,7 +1431,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000003">
         <rdf:type rdf:resource="&obc;IDE_0000000003"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1404,7 +1440,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000004">
         <rdf:type rdf:resource="&obc;IDE_0000000004"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1423,7 +1459,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000008">
         <rdf:type rdf:resource="&obc;IDE_0000000008"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1432,7 +1468,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000009">
         <rdf:type rdf:resource="&obc;IDE_0000000009"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1468,17 +1504,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000013">
         <rdf:type rdf:resource="&obc;IDE_0000000013"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000016 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000000016">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
-        <rdfs:label xml:lang="en">biotic ecosystem of Earth</rdfs:label>
-        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1487,7 +1513,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000017">
         <rdf:type rdf:resource="&obc;IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1566,7 +1592,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000027">
         <rdf:type rdf:resource="&obc;IDE_0000000027"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1575,7 +1601,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000028">
         <rdf:type rdf:resource="&obc;IDE_0000000028"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1602,7 +1628,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000033">
         <rdf:type rdf:resource="&obc;IDE_0000000033"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1619,7 +1645,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000035">
         <rdf:type rdf:resource="&obc;IDE_0000000035"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1628,7 +1654,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000036">
         <rdf:type rdf:resource="&obc;IDE_0000000036"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1637,7 +1663,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000037">
         <rdf:type rdf:resource="&obc;IDE_0000000037"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1646,7 +1672,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000038">
         <rdf:type rdf:resource="&obc;IDE_0000000038"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1655,7 +1681,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000041">
         <rdf:type rdf:resource="&obc;IDE_0000000041"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1664,7 +1690,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000042">
         <rdf:type rdf:resource="&obc;IDE_0000000042"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1673,7 +1699,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000043">
         <rdf:type rdf:resource="&obc;IDE_0000000043"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1682,7 +1708,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000044">
         <rdf:type rdf:resource="&obc;IDE_0000000044"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2107,7 +2133,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000086">
         <rdf:type rdf:resource="&obc;IDE_0000000086"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2161,7 +2187,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000091">
         <rdf:type rdf:resource="&obc;IDE_0000000091"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2170,7 +2196,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000092">
         <rdf:type rdf:resource="&obc;IDE_0000000092"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2179,7 +2205,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000093">
         <rdf:type rdf:resource="&obc;IDE_0000000093"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2188,7 +2214,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000094">
         <rdf:type rdf:resource="&obc;IDE_0000000094"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2197,7 +2223,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000095">
         <rdf:type rdf:resource="&obc;IDE_0000000095"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2206,7 +2232,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000096">
         <rdf:type rdf:resource="&obc;IDE_0000000096"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2344,7 +2370,7 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000108">
         <rdf:type rdf:resource="&obc;IDE_0000000108"/>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -2512,20 +2538,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000086">
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;GEO_000000372">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
+    <rdf:Description rdf:about="&obo;GEO_000000372">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+        <obc:IDE_0000001000 rdf:resource="&obo;BFO_0000137"/>
     </rdf:Description>
 </rdf:RDF>
 
