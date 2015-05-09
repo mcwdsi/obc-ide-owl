@@ -55,6 +55,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;RO_0000057"/>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000024 -->
 
     <owl:AnnotationProperty rdf:about="&obc;IDE_0000000024">
@@ -2075,8 +2081,8 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000103">
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Guinea, 2014 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Guinea, 2014 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Guinea, 2013-12-02 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Guinea, 2013-12-02 to present</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000077"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000102"/>
     </owl:NamedIndividual>
@@ -2087,8 +2093,8 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000104">
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Sierra Leone, 2014 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Sierra Leone, 2014 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Sierra Leone, 2014-05-24 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Sierra Leone, 2014-05-24 to present</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000075"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000104"/>
     </owl:NamedIndividual>
@@ -2099,8 +2105,8 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000105">
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Liberia, 2014 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Liberia, 2014 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Liberia, 2014-03-24 to 2015-03-27</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Liberia, 2014-03-24 to 2015-03-27</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000074"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000101"/>
     </owl:NamedIndividual>
@@ -2299,8 +2305,8 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000123">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
-        <rdfs:label xml:lang="en">Measles, humans, United States, 2014-12-28 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Measles virus, humans, region of United States, 2014-12-28 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Measles, humans, United States, 2014-12-28 to 2015-04-17</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus, humans, region of United States, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <rdfs:comment xml:lang="en">Refers only to Disneyland-related outbreak originating in California, not to the unrelated outbreaks in Illinois and Nevada ongoing at the same time.</rdfs:comment>
         <ro:has_participant rdf:resource="&obc;IDE_0000000021"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000124"/>
@@ -2367,8 +2373,8 @@
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000129">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
-        <rdfs:label xml:lang="en">Measles, humans, California, 2014-12-28 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Measles virus, human beings, region of California, 2014-12-28 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Measles, humans, California, 2014-12-28 to 2015-04-17</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus, human beings, region of California, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <ro:has_participant rdf:resource="&obc;IDE_0000000127"/>
         <ro:has_participant rdf:resource="&obc;IDE_0000000128"/>
     </owl:NamedIndividual>
@@ -2395,16 +2401,16 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H1N1 subtype</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000048">
+        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000004">
         <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000048">
-        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000003">
         <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
@@ -2510,23 +2516,23 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
-        <rdfs:label xml:lang="en">epidemic</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000033">
         <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
-        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
+        <rdfs:label xml:lang="en">epidemic</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000032">
         <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus epidemic</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
+        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000096">
         <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
@@ -2535,15 +2541,15 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000064">
+        <rdfs:label xml:lang="en">algorithm</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H2N2 subtype</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000064">
-        <rdfs:label xml:lang="en">algorithm</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000094">
         <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
@@ -2605,6 +2611,10 @@
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000008">
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
@@ -2614,15 +2624,11 @@
     <rdf:Description rdf:about="&obo;OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
+        <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
         <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
-        <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
     </rdf:Description>
 </rdf:RDF>
 
