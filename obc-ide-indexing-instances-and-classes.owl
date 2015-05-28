@@ -1144,6 +1144,12 @@
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000304"/>
     </owl:NamedIndividual>
     
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000194 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000194">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000194"/>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000305 -->
@@ -2583,6 +2589,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
         <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
+        <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
