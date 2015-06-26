@@ -100,6 +100,28 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000456 -->
+
+    <owl:ObjectProperty rdf:about="&obo;APOLLO_SV_00000456">
+        <rdfs:label xml:lang="en">has last temporal instant</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002222"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -237,7 +259,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000413">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
         <rdfs:label xml:lang="en">temporal interval of history of 230596244</rdfs:label>
-        <obo:RO_0002230 rdf:resource="&obo;APOLLO_SV_00000420"/>
+        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000413"/>
     </owl:NamedIndividual>
     
 
@@ -258,7 +280,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000415">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
         <rdfs:label xml:lang="en">temporal interval of history of 230596245</rdfs:label>
-        <obo:RO_0002230 rdf:resource="&obo;APOLLO_SV_00000421"/>
+        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000415"/>
     </owl:NamedIndividual>
     
 
@@ -268,7 +290,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000416">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
         <rdfs:label xml:lang="en">temporal interval of history of 230596243</rdfs:label>
-        <obo:RO_0002230 rdf:resource="&obo;APOLLO_SV_00000419"/>
+        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000416"/>
     </owl:NamedIndividual>
     
 
@@ -291,33 +313,6 @@
         <rdfs:label xml:lang="en">12 year value specification</rdfs:label>
         <obo:IAO_0000004 rdf:datatype="&xsd;int">12</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;APOLLO_SV_00000432"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000419 -->
-
-    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000419">
-        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
-        <rdfs:label xml:lang="en">last temporal instant of temporal region of history of 230596245</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000420 -->
-
-    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000420">
-        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
-        <rdfs:label xml:lang="en">last temporal instant of temporal region of history of 230596244</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000421 -->
-
-    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000421">
-        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
-        <rdfs:label xml:lang="en">last temporal instant of temporal region of history of 230596243</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -661,6 +656,15 @@
         <rdfs:label xml:lang="en">-92.086231 degree value specification</rdfs:label>
         <obo:IAO_0000004 rdf:datatype="&owl;rational">-92.086231</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000457 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000457">
+        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+        <rdfs:label xml:lang="en">April 2 2010 00:00.000</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
