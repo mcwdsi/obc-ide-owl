@@ -139,6 +139,62 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36044 -->
+
+    <rdf:Description rdf:about="&obo;CHEBI_36044">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000442 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000442">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000007 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000007">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000024">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000026 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000026">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000055 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000055">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000061 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000061">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000062 -->
 
     <owl:Class rdf:about="&obo;OMRSE_00000062">
@@ -216,7 +272,7 @@
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000433"/>
         <rdfs:label xml:lang="en">age measurement datum at last temporal instance of temporal interval of history of 230596245</rdfs:label>
         <obo:OBI_0001938 rdf:resource="&obo;APOLLO_SV_00000412"/>
-        <obo:IAO_0000413 rdf:resource="&obo;APOLLO_SV_00000415"/>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000415"/>
     </owl:NamedIndividual>
     
 
@@ -226,7 +282,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000410">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000433"/>
         <rdfs:label xml:lang="en">age measurement datum at last temporal instance of temporal interval of history of 230596244</rdfs:label>
-        <obo:IAO_0000413 rdf:resource="&obo;APOLLO_SV_00000413"/>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000413"/>
         <obo:OBI_0001938 rdf:resource="&obo;APOLLO_SV_00000417"/>
     </owl:NamedIndividual>
     
@@ -237,7 +293,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000411">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000433"/>
         <rdfs:label xml:lang="en">age measurement datum at last temporal instance of temporal interval of history of 230596243</rdfs:label>
-        <obo:IAO_0000413 rdf:resource="&obo;APOLLO_SV_00000416"/>
+        <obo:IAO_0000136 rdf:resource="&obo;APOLLO_SV_00000416"/>
         <obo:OBI_0001938 rdf:resource="&obo;APOLLO_SV_00000418"/>
     </owl:NamedIndividual>
     
@@ -248,7 +304,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000412">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">42 year value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;int">42</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">42.0</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;APOLLO_SV_00000432"/>
     </owl:NamedIndividual>
     
@@ -259,7 +315,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000413">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
         <rdfs:label xml:lang="en">temporal interval of history of 230596244</rdfs:label>
-        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000413"/>
+        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000457"/>
     </owl:NamedIndividual>
     
 
@@ -269,7 +325,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000414">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">34.819013 degree value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&owl;rational">34.819013</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">34.81901</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
     </owl:NamedIndividual>
     
@@ -280,7 +336,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000415">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
         <rdfs:label xml:lang="en">temporal interval of history of 230596245</rdfs:label>
-        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000415"/>
+        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000457"/>
     </owl:NamedIndividual>
     
 
@@ -290,7 +346,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000416">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
         <rdfs:label xml:lang="en">temporal interval of history of 230596243</rdfs:label>
-        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000416"/>
+        <obo:APOLLO_SV_00000456 rdf:resource="&obo;APOLLO_SV_00000457"/>
     </owl:NamedIndividual>
     
 
@@ -300,7 +356,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000417">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">47 year value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;int">47</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">47.0</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;APOLLO_SV_00000432"/>
     </owl:NamedIndividual>
     
@@ -311,7 +367,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000418">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">12 year value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;int">12</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">12.0</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;APOLLO_SV_00000432"/>
     </owl:NamedIndividual>
     
@@ -364,7 +420,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000426">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">-92.236225 degree value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&owl;rational">-92.236225</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">-92.23622</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
     </owl:NamedIndividual>
     
@@ -391,6 +447,7 @@
         <obo:RO_0002217 rdf:resource="&obo;APOLLO_SV_00000431"/>
         <obo:RO_0000053 rdf:resource="&obo;APOLLO_SV_00000436"/>
         <obo:GEO_000000328 rdf:resource="&obo;APOLLO_SV_00000438"/>
+        <obo:RO_0000053 rdf:resource="&obo;APOLLO_SV_00000444"/>
         <obo:GEO_000000328 rdf:resource="&obo;omrse/dao/Caucasian_or_White_Origin"/>
     </owl:NamedIndividual>
     
@@ -488,8 +545,9 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000439 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000439">
-        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <rdf:type rdf:resource="&obo;BFO_0000015"/>
         <rdfs:label xml:lang="en">realization of residence function of housing unit 178415459</rdfs:label>
+        <obo:BFO_0000066 rdf:resource="&obo;APOLLO_SV_00000437"/>
     </owl:NamedIndividual>
     
 
@@ -521,7 +579,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000442">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">34.8097392 degree value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&owl;rational">34.8097392</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">34.80974</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
     </owl:NamedIndividual>
     
@@ -532,7 +590,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000443">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">-92.2189783 value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&owl;rational">-92.2189783</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">-92.21898</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
     </owl:NamedIndividual>
     
@@ -550,8 +608,9 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000445 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000445">
-        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <rdf:type rdf:resource="&obo;BFO_0000015"/>
         <rdfs:label xml:lang="en">realization of employee role of person 230596245</rdfs:label>
+        <obo:BFO_0000066 rdf:resource="&obo;APOLLO_SV_00000451"/>
     </owl:NamedIndividual>
     
 
@@ -569,7 +628,7 @@
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000447 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000447">
-        <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <rdf:type rdf:resource="&obo;BFO_0000015"/>
         <rdfs:label xml:lang="en">realization of student role of person 230596243</rdfs:label>
         <obo:BFO_0000066 rdf:resource="&obo;APOLLO_SV_00000448"/>
     </owl:NamedIndividual>
@@ -643,7 +702,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000454">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">34.306091 degree value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&owl;rational">34.306091</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">34.30609</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
     </owl:NamedIndividual>
     
@@ -654,7 +713,7 @@
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000455">
         <rdf:type rdf:resource="&obo;OBI_0001933"/>
         <rdfs:label xml:lang="en">-92.086231 degree value specification</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&owl;rational">-92.086231</obo:IAO_0000004>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">-92.08623</obo:IAO_0000004>
         <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
     </owl:NamedIndividual>
     
