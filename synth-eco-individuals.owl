@@ -397,6 +397,26 @@ last accessed on June 30, 2015</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000420 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000420">
+        <rdf:type rdf:resource="&obo;OMRSE_00000057"/>
+        <rdfs:label xml:lang="en">school organization 00047967</rdfs:label>
+        <obo:OMIABIS_0000009 rdf:resource="&obo;APOLLO_SV_00000448"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000421 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000421">
+        <rdf:type rdf:resource="&obo;OBI_0000245"/>
+        <rdfs:label xml:lang="en">workplace organization 403299811</rdfs:label>
+        <obo:OMIABIS_0000009 rdf:resource="&obo;APOLLO_SV_00000451"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000422 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000422">
@@ -473,6 +493,7 @@ last accessed on June 30, 2015</obo:IAO_0000119>
         <obo:RO_0000053 rdf:resource="&obo;APOLLO_SV_00000436"/>
         <obo:GEO_000000328 rdf:resource="&obo;APOLLO_SV_00000438"/>
         <obo:RO_0000053 rdf:resource="&obo;APOLLO_SV_00000444"/>
+        <obo:RO_0000056 rdf:resource="&obo;APOLLO_SV_00000445"/>
         <obo:GEO_000000328 rdf:resource="&obo;omrse/dao/Caucasian_or_White_Origin"/>
     </owl:NamedIndividual>
     
