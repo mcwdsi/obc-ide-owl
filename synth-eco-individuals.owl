@@ -176,6 +176,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0021005 -->
+
+    <owl:Class rdf:about="&obo;IAO_0021005">
+        <rdfs:label xml:lang="en">declaration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obofoundry.org/obo/iao/d-acts.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A social act that brings about, transfers or revokes a socio-legal generically dependent continuant. Declarations do not depend on words spoken or written, but sometimes are merely actions, for instance the signing of a document.
+</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000112 xml:lang="en">my consenting verbally to buy a used TV set for $ 500, Jane Doe&apos;s signing of the divorce papers, John Robie&apos;s taking of Mrs. Steven&apos;s jewels</obo:IAO_0000112>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000007 -->
 
     <rdf:Description rdf:about="&obo;OMRSE_00000007">
@@ -668,6 +682,7 @@ last accessed on June 30, 2015</obo:IAO_0000119>
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000444">
         <rdf:type rdf:resource="&obo;OMRSE_00000077"/>
         <rdfs:label xml:lang="en">employee role of person 230596245</rdfs:label>
+        <obo:OBI_0000294 rdf:resource="&obo;APOLLO_SV_00000460"/>
     </owl:NamedIndividual>
     
 
@@ -688,6 +703,7 @@ last accessed on June 30, 2015</obo:IAO_0000119>
         <rdf:type rdf:resource="&obo;OMRSE_00000058"/>
         <rdfs:label xml:lang="en">student role of person 230596243</rdfs:label>
         <OBO_REL:realized_by rdf:resource="&obo;APOLLO_SV_00000447"/>
+        <obo:OBI_0000294 rdf:resource="&obo;APOLLO_SV_00000458"/>
     </owl:NamedIndividual>
     
 
@@ -791,6 +807,46 @@ last accessed on June 30, 2015</obo:IAO_0000119>
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000457">
         <rdf:type rdf:resource="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
         <rdfs:label xml:lang="en">April 2 2010 00:00.000</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000458 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000458">
+        <rdf:type rdf:resource="&obo;IAO_0021004"/>
+        <rdfs:label xml:lang="en">socio-legal generic dependent continuant of student 230596243</rdfs:label>
+        <obo:OBI_0000312 rdf:resource="&obo;APOLLO_SV_00000459"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000459 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000459">
+        <rdf:type rdf:resource="&obo;IAO_0021005"/>
+        <rdfs:label xml:lang="en">declaration of socio-legal generic dependent continuant of student 230596243</rdfs:label>
+        <obo:RO_0002218 rdf:resource="&obo;APOLLO_SV_00000420"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000460 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000460">
+        <rdf:type rdf:resource="&obo;IAO_0021004"/>
+        <rdfs:label xml:lang="en">socio-legal generic dependent continuant of employee 230596245</rdfs:label>
+        <obo:OBI_0000312 rdf:resource="&obo;APOLLO_SV_00000459"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000461 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000461">
+        <rdf:type rdf:resource="&obo;IAO_0021005"/>
+        <rdfs:label xml:lang="en">declaration of socio-legal generic dependent continuant of employee 230596245</rdfs:label>
+        <obo:RO_0002218 rdf:resource="&obo;APOLLO_SV_00000421"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
