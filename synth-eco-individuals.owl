@@ -177,6 +177,12 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000155">
+        <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/bfo.owl</obo:IAO_0000412>
+        <obo:BFO_0000179>spans</obo:BFO_0000179>
+        <obo:BFO_0000180>occupiesTemporalRegion</obo:BFO_0000180>
+        <obo:IAO_0000600 xml:lang="en">p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -811,7 +817,7 @@ last accessed on June 30, 2015</obo:IAO_0000119>
     <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000444">
         <rdf:type rdf:resource="&obo;OMRSE_00000077"/>
         <rdfs:label xml:lang="en">employee role of person 230596245</rdfs:label>
-        <obo:OBI_0000294 rdf:resource="&obo;SYNTH_ECO_00000460"/>
+        <obo:RO_0000059 rdf:resource="&obo;SYNTH_ECO_00000460"/>
     </owl:NamedIndividual>
     
 
@@ -832,7 +838,7 @@ last accessed on June 30, 2015</obo:IAO_0000119>
         <rdf:type rdf:resource="&obo;OMRSE_00000058"/>
         <rdfs:label xml:lang="en">student role of person 230596243</rdfs:label>
         <OBO_REL:realized_by rdf:resource="&obo;SYNTH_ECO_00000447"/>
-        <obo:OBI_0000294 rdf:resource="&obo;SYNTH_ECO_00000458"/>
+        <obo:RO_0000059 rdf:resource="&obo;SYNTH_ECO_00000458"/>
     </owl:NamedIndividual>
     
 
@@ -988,14 +994,6 @@ last accessed on June 30, 2015</obo:IAO_0000119>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&obo;BFO_0000155">
-        <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
-        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/bfo.owl</obo:IAO_0000412>
-        <obo:BFO_0000179>spans</obo:BFO_0000179>
-        <obo:BFO_0000180>occupiesTemporalRegion</obo:BFO_0000180>
-        <obo:IAO_0000600 xml:lang="en">p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OMRSE_00000005">
         <obo:IAO_0000111 xml:lang="en">party to a marriage contract punned instance</obo:IAO_0000111>
     </rdf:Description>
