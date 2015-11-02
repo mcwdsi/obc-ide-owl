@@ -26,7 +26,6 @@
         <owl:imports rdf:resource="&obo;omrse.owl"/>
         <owl:imports rdf:resource="&obo;apollo_sv/dev/apollo_sv.owl"/>
         <owl:imports rdf:resource="&obo;omrse/dao.owl"/>
-        <owl:imports rdf:resource="&obo;ro/releases/2015-06-03/ro.owl"/>
     </owl:Ontology>
     
 
@@ -120,6 +119,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002217 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002217"/>
     
 
 
