@@ -1592,6 +1592,16 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000049 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000049">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Brazil</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Brazil</obo:IAO_0000111>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000050 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000050">
@@ -2471,6 +2481,18 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000130 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000000130">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">Zika virus, humans, Brazil, 2015-03-10 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Brazil, 2015-03-10 to present</obo:IAO_0000111>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000016"/>
+        <ro:has_participant rdf:resource="&obc;IDE_0000000049"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2479,16 +2501,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&obc;IDE_0000000048">
-        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000004">
         <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000048">
+        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000003">
         <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
@@ -2565,14 +2587,14 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
+        <rdfs:label xml:lang="en">epidemic</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000033">
         <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
-        <rdfs:label xml:lang="en">epidemic</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000032">
         <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
