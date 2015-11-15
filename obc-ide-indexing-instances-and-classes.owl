@@ -1053,6 +1053,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000001 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000001">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000001"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000097 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000097">
@@ -2501,16 +2509,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="&obc;IDE_0000000048">
+        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000004">
         <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000048">
-        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000003">
         <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
@@ -2520,6 +2528,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
         <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000001">
+        <rdfs:label xml:lang="en">epidemic model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000044">
         <rdfs:label xml:lang="en">Dengue virus 4</rdfs:label>
@@ -2587,14 +2599,14 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
-        <rdfs:label xml:lang="en">epidemic</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000033">
         <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
+        <rdfs:label xml:lang="en">epidemic</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000032">
         <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
