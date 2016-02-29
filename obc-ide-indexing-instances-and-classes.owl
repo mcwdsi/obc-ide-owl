@@ -1362,9 +1362,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000016">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
-        <ro:proper_part_of rdf:resource="http://www.pitt.edu/obc/IDE_0000000047"/>
-        <obo:IAO_0000111 xml:lang="en">Zika virus in Brazil</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">population of Zika virus in Brazil</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000047"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in Brazil</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus in Brazil</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1599,7 +1599,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000046">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <ro:proper_part_of rdf:resource="http://www.pitt.edu/obc/IDE_0000000039"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000039"/>
         <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">abiotic ecosystem of Brazil</rdfs:label>
     </owl:NamedIndividual>
@@ -1610,7 +1610,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000047">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <ro:proper_part_of rdf:resource="http://www.pitt.edu/obc/IDE_0000000039"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000039"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Brazil</rdfs:label>
     </owl:NamedIndividual>
@@ -2518,10 +2518,77 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000130">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
-        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000016"/>
-        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000049"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000016"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000049"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Brazil, 2015-03-10 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Brazil, 2015-03-10 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000131 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000131">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000133"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in Colombia</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus in Colombia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000132">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000000660"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Colombia</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">ecosystem of Colombia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000133 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000133">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000132"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Colombia</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Colombia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000134 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000134">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000132"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Colombia</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Colombia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000135 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000135">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000133"/>
+        <obo:IAO_0000111 xml:lang="en">population of humans in Colombia</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Colombia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000136 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000136">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000131"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000135"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Colombia, 2015-10-16 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, Colombia, 2015-10-16 to present</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2623,8 +2690,8 @@
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000004">
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000008">
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
@@ -2659,8 +2726,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000017">
         <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">population of Homo sapiens</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">population of Homo sapiens</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of Homo sapiens</obo:IAO_0000118>
@@ -2757,29 +2824,29 @@
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000091">
         <obo:IAO_0000111 xml:lang="en">Betacoronavirus worldwide</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Betacoronavirus</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Betacoronavirus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000092">
         <obo:IAO_0000111 xml:lang="en">Severe Acute Respiratory Syndrome (SARS) coronavirus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">SARS coronavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">SARS virus worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of SARS coronavirus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">SARS virus worldwide</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000093">
         <obo:IAO_0000111 xml:lang="en">H5N8 subtype population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">H5N8 subtype</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H5N8 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H5N8 subtype</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">H5N8 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000094">
         <obo:IAO_0000118 xml:lang="en">population of H5N2 subtype</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">H5N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H5N2 subtype population</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
