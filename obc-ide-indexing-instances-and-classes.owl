@@ -1612,7 +1612,7 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000016">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000047"/>
-        <obo:IAO_0000111 xml:lang="en">population of Zika virus in Brazil</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus in Brazil</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2785,7 +2785,7 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000131">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000133"/>
-        <obo:IAO_0000111 xml:lang="en">population of Zika virus in Colombia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Colombia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus in Colombia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2908,6 +2908,73 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000142">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000144 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000144">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000145"/>
+        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000149"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Venezuela, 2015-10-04 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, Venezuela, 2015-10-04 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000145 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000145">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Venezuela</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">population of Zika virus in Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000146 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000146">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000000573"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Venezuela</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">ecosystem of Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000147 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000147">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000146"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Venezuela</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000148 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000148">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000146"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Venezuela</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000149 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000149">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Venezuela</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Venezuela</rdfs:label>
     </owl:NamedIndividual>
     
 
