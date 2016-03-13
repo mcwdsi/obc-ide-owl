@@ -2930,7 +2930,7 @@
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
         <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Venezuela</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">population of Zika virus in Venezuela</rdfs:label>
+        <rdfs:label xml:lang="en">Zika virus in Venezuela</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3088,9 +3088,9 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Infective Polyneuritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome (disorder)</oboInOwl:hasExactSynonym>
