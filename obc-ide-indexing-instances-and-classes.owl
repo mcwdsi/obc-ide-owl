@@ -1456,6 +1456,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000486 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000486">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000486"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000487 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000487">
@@ -3056,6 +3064,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000323">
         <obo:IAO_0000111 xml:lang="en">liberal sick leave control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000486">
+        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000487">
         <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
