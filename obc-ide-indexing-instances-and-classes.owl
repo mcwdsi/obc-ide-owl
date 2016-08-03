@@ -2960,6 +2960,18 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000143 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000143">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000119"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Florida</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Zika virus in Florida</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Zika virus in Florida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000144 -->
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000144">
@@ -3023,6 +3035,18 @@
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of Venezuela</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000150">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000117"/>
+        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000143"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Florida, 2016-07-29 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, Florida, 2016-07-29 to present</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3113,9 +3137,9 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:742.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604804</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608393</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:251200</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microcephalus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:251200</oboInOwl:hasDbXref>
         <obo:IAO_0000111 xml:lang="en">microcephaly disease</obo:IAO_0000111>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204030002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D008831</oboInOwl:hasDbXref>
@@ -3123,8 +3147,8 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:Q02</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1829003</oboInOwl:hasDbXref>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608716</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:156893009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025958</oboInOwl:hasDbXref>
@@ -3144,16 +3168,16 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Infective Polyneuritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute inf. polyneuritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:267707000</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12842</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26790</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:129131007</oboInOwl:hasDbXref>
@@ -3170,14 +3194,14 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193175006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0393799</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller Fisher syndrome</rdfs:label>
-        <rdfs:label xml:lang="en">Miller Fisher syndrome</rdfs:label>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">Miller Fisher syndrome</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller-Fisher variant of Guillain-Barre syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1767005</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:230548007</oboInOwl:hasDbXref>
+        <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12889</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D019846</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Guillain-Barre syndrome that manifests as a descending paralysis. It usually affects the eye muscles first and presents with the triad of ophthalmoplegia, ataxia, and areflexia.</obo:IAO_0000115>
@@ -3187,17 +3211,17 @@
         <obo:IAO_0000111 xml:lang="en">acute disseminated encephalomyelitis</obo:IAO_0000111>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Disseminated Encephalomyelitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis (disorder)</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Disseminated Encephalomyelitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D004673</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:639</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:83942000</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalitis</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">acute disseminated encephalomyelitis</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C34578</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0014059</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0014059</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
         <obc:IDE_0000001000 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000137"/>
@@ -3222,16 +3246,16 @@
         <obc:IDE_0000001000 rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000003">
-        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000004">
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000008">
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
@@ -3266,8 +3290,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000017">
         <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">population of Homo sapiens</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of Homo sapiens</obo:IAO_0000118>
@@ -3371,8 +3395,8 @@
         <obo:IAO_0000111 xml:lang="en">Severe Acute Respiratory Syndrome (SARS) coronavirus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">SARS coronavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of SARS coronavirus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">SARS virus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of SARS coronavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000093">
         <obo:IAO_0000111 xml:lang="en">H5N8 subtype population</obo:IAO_0000111>
@@ -3385,8 +3409,8 @@
         <obo:IAO_0000118 xml:lang="en">population of H5N2 subtype</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">H5N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H5N2 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
@@ -3406,8 +3430,8 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Measles virus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Measles virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">Measles virus worldwide</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Measles virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">Measles virus worldwide</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000142">
         <obo:IAO_0000111 xml:lang="en">Zika virus epidemic</obo:IAO_0000111>
@@ -3417,5 +3441,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
 
