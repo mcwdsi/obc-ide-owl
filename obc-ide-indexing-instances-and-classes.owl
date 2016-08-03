@@ -2976,9 +2976,9 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000143 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000160 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000143">
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000160">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000119"/>
         <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Florida</obo:IAO_0000111>
@@ -3055,16 +3055,66 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000150 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000159 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000150">
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000159">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000117"/>
-        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000143"/>
+        <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000160"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Florida, 2016-07-29 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Florida, 2016-07-29 to present</rdfs:label>
     </owl:NamedIndividual>
     
+<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000143">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">hemorrhagic fever virus in South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">population of hemorrhagic fever virus in South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000151">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000150"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000150">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">ecosystem of South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of South Sudan</obo:IAO_0000111>
+        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000000785"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000152">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of South Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000150"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000153">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">humans in South Sudan</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of human beings in South Sudan</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of humans in South Sudan</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">population of Homo sapiens in region of South Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000154">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
+        <rdfs:label xml:lang="en">hemorrhagic fever virus, humans, South Sudan, 2015-12 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">hemorrhagic fever virus, humans, region of South Sudan, 2015-12 to present</obo:IAO_0000111>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000143"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000153"/>
+</owl:NamedIndividual>
 
 
     <!-- 
