@@ -1536,6 +1536,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0022414 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0022414">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0022414"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044703 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0044703">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0044703"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000010">
@@ -1955,8 +1971,8 @@
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000051"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000054"/>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of West Africa, 2014 to present</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, West Africa, 2014 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of West Africa, 2014 to 2016-06-09</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, West Africa, 2014 to 2016-06-09</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2530,8 +2546,8 @@
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000077"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000102"/>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Guinea, 2013-12-02 to present</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Guinea, 2013-12-02 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Guinea, 2013-12-02 to 2016-06-01</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Guinea, 2013-12-02 to 2016-06-01</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2542,8 +2558,8 @@
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000075"/>
         <ro:has_participant rdf:resource="http://www.pitt.edu/obc/IDE_0000000104"/>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Sierra Leone, 2014-05-24 to present</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Sierra Leone, 2014-05-24 to present</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Sierra Leone, 2014-05-24 to 2016-03-17</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Sierra Leone, 2014-05-24 to 2016-03-17</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2976,14 +2992,13 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000160 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000000143 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000160">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000119"/>
-        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Florida</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Zika virus in Florida</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Zika virus in Florida</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000143">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
+        <obo:IAO_0000111 xml:lang="en">population of hemorrhagic fever virus in South Sudan</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">hemorrhagic fever virus in South Sudan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3055,6 +3070,108 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000150">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000000785"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of South Sudan</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">ecosystem of South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000151 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000151">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000150"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of South Sudan</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000152">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000150"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of South Sudan</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">abiotic ecosystem of South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000153 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000153">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
+        <obo:IAO_0000111 xml:lang="en">population of Homo sapiens in region of South Sudan</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of human beings in South Sudan</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of humans in South Sudan</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000154 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000154">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000143"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000153"/>
+        <obo:IAO_0000111 xml:lang="en">hemorrhagic fever virus, humans, region of South Sudan, 2015-12 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">hemorrhagic fever virus, humans, South Sudan, 2015-12 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000155 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000155">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000157"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Singapore</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus in Singapore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000156 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000156">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000000709"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Singapore</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">ecosystem of Singapore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000157 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000157">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000156"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Singapore</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Singapore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000158 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000158">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000156"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Singapore</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">abiotic ecosystem of SIngapore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pitt.edu/obc/IDE_0000000159 -->
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000159">
@@ -3065,56 +3182,79 @@
         <rdfs:label xml:lang="en">Zika virus, humans, Florida, 2016-07-29 to present</rdfs:label>
     </owl:NamedIndividual>
     
-<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000143">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:label xml:lang="en">hemorrhagic fever virus in South Sudan</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">population of hemorrhagic fever virus in South Sudan</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
-</owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000151">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <rdfs:label xml:lang="en">biotic ecosystem of South Sudan</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of South Sudan</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000150"/>
-</owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000150">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:label xml:lang="en">ecosystem of South Sudan</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of South Sudan</obo:IAO_0000111>
-        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000000785"/>
-</owl:NamedIndividual>
+    <!-- http://www.pitt.edu/obc/IDE_0000000160 -->
 
-<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000152">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <rdfs:label xml:lang="en">abiotic ecosystem of South Sudan</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of South Sudan</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000150"/>
-</owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000160">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000119"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Florida</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Zika virus in Florida</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Zika virus in Florida</rdfs:label>
+    </owl:NamedIndividual>
+    
 
-<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000153">
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000161">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:label xml:lang="en">humans in South Sudan</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">population of human beings in South Sudan</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">population of humans in South Sudan</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">population of Homo sapiens in region of South Sudan</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
-</owl:NamedIndividual>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000157"/>
+        <obo:IAO_0000111 xml:lang="en">population of human beings in region of Singapore</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of human beings in Singapore</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of humans in Singapore</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in Singapore</rdfs:label>
+    </owl:NamedIndividual>
+    
 
-<owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000154">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
-        <rdfs:label xml:lang="en">hemorrhagic fever virus, humans, South Sudan, 2015-12 to present</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">hemorrhagic fever virus, humans, region of South Sudan, 2015-12 to present</obo:IAO_0000111>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000143"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000153"/>
-</owl:NamedIndividual>
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000162 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000162">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000155"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000161"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Singapore, 2016-08-27 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, Singapore, 2016-08-27 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000163 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000163">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000074"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000101"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebola virus, humans, region of Liberia, 2015-06-29 to 2015-09-03</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebola virus, humans, Liberia, 2015-06-29 to 2015-09-03</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000164 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000164">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000074"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000101"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebola virus, humans, region of Liberia, 2015-11-20 to 2016-01-14</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebola virus, humans, Liberia, 2015-11-20 to 2016-01-14</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000165 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000165">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000074"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000101"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebola virus, humans, region of Liberia, 2016-04-01 to 2016-06-09</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebola virus, humans, Liberia, 2016-04-01 to 2016-06-09</rdfs:label>
+    </owl:NamedIndividual>
+    
 
 
     <!-- 
@@ -3234,8 +3374,8 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Infective Polyneuritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
@@ -3300,6 +3440,14 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007617">
         <obo:IAO_0000111 xml:lang="en">mating behavior</obo:IAO_0000111>
         <rdfs:label xml:lang="en">mating behavior</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0022414">
+        <obo:IAO_0000111 xml:lang="en">reproductive process</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">reproductive process</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044703">
+        <obo:IAO_0000111 xml:lang="en">multi-organism reproductive process</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">multi-organism reproductive process</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000010">
         <rdfs:label xml:lang="en">software</rdfs:label>
@@ -3431,8 +3579,8 @@
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 1</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000042">
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 2 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 2</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Dengue virus 2</rdfs:label>
     </rdf:Description>
@@ -3515,5 +3663,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
