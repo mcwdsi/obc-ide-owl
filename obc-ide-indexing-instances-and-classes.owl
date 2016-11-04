@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
+<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl#"
+     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
@@ -1301,6 +1301,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV00000521 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV00000521">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV00000521"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000001 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000001">
@@ -1544,6 +1552,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000268 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01000268">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000268"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000753 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01000753">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000753"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006954 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0006954">
@@ -1620,6 +1644,14 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000034 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
     </owl:NamedIndividual>
     
 
@@ -3305,6 +3337,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000166 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000166">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0007567"/>
+        <rdfs:label xml:lang="en">parturition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3313,6 +3354,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV00000521">
+        <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000001">
         <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
         <rdfs:label xml:lang="en">epidemic model</rdfs:label>
@@ -3489,6 +3533,12 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0014059</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000268">
+        <rdfs:label xml:lang="en">atmospheric water vapor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000753">
+        <rdfs:label xml:lang="en">air temperature</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
         <obc:IDE_0000001000 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000137"/>
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
@@ -3531,6 +3581,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
         <obo:IAO_0000111 xml:lang="en">data set</obo:IAO_0000111>
         <rdfs:label xml:lang="en">data set</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
+        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
