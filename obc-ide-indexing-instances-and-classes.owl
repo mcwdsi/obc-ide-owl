@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl#"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl"
+<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
+     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
@@ -1301,14 +1301,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV00000521 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV00000521">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV00000521"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000001 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000001">
@@ -1516,6 +1508,14 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000515">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000515"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000521 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000521">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000521"/>
     </owl:NamedIndividual>
     
 
@@ -3354,9 +3354,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV00000521">
-        <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000001">
         <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
         <rdfs:label xml:lang="en">epidemic model</rdfs:label>
@@ -3438,6 +3435,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000515">
         <obo:IAO_0000111 xml:lang="en">potentially infectious sexual contacting</obo:IAO_0000111>
         <rdfs:label xml:lang="en">potentially infectious sexual contacting</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000521">
+        <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10907</oboInOwl:id>
