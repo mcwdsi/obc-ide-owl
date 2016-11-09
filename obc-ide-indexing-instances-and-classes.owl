@@ -1352,6 +1352,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000156 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000156">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000156"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000171 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000171">
@@ -1408,10 +1416,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000233 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000233">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000233"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000234 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000234">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000234"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000265 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000265">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000265"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000266 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000266">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000266"/>
     </owl:NamedIndividual>
     
 
@@ -1476,6 +1508,22 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000327">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000327"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000402 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000402">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000402"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000455 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000455">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000455"/>
     </owl:NamedIndividual>
     
 
@@ -1560,6 +1608,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000703 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01000703">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000703"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000753 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ENVO_01000753">
@@ -1580,6 +1636,14 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0007565">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0007565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007567 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0007567">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0007567"/>
     </owl:NamedIndividual>
     
 
@@ -1652,6 +1716,14 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10255 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10255">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
     </owl:NamedIndividual>
     
 
@@ -3337,15 +3409,6 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000166 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000166">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0007567"/>
-        <rdfs:label xml:lang="en">parturition</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3371,6 +3434,10 @@
         <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
         <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000156">
+        <obo:IAO_0000111>infectious population</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">infectious population</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000171">
         <obo:IAO_0000111 xml:lang="en">antiviral treatment</obo:IAO_0000111>
     </rdf:Description>
@@ -3393,9 +3460,21 @@
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000233">
+        <obo:IAO_0000111>infected population</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">infected population</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000234">
+        <rdfs:label xml:lang="en">susceptible population</rdfs:label>
+        <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000265">
         <obo:IAO_0000111 xml:lang="en">infection acquisition from infectious host</obo:IAO_0000111>
         <rdfs:label xml:lang="en">infection acquisition from infectious host</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000266">
+        <obo:IAO_0000111>disease surveillance capability</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">disease surveillance capability</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000298">
         <rdfs:label xml:lang="en">epidemic</rdfs:label>
@@ -3420,6 +3499,14 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000323">
         <obo:IAO_0000111 xml:lang="en">liberal sick leave control strategy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000402">
+        <obo:IAO_0000111>individual human behavior</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">individual human behavior</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000455">
+        <obo:IAO_0000111>prodromal period</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">prodromal period</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000486">
         <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
         <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
@@ -3437,6 +3524,7 @@
         <rdfs:label xml:lang="en">potentially infectious sexual contacting</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000521">
+        <obo:IAO_0000111>infection acquisition from vertical transmission</obo:IAO_0000111>
         <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
@@ -3535,6 +3623,11 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000268">
         <rdfs:label xml:lang="en">atmospheric water vapor</rdfs:label>
+        <obo:IAO_0000111>atmospheric water vapor</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000703">
+        <rdfs:label xml:lang="en">hydrological precipitation process</rdfs:label>
+        <obo:IAO_0000111>hydrological precipitation process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000753">
         <rdfs:label xml:lang="en">air temperature</rdfs:label>
@@ -3550,6 +3643,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007565">
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007567">
+        <obo:IAO_0000111>parturition</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">parturition</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007617">
         <obo:IAO_0000111 xml:lang="en">mating behavior</obo:IAO_0000111>
@@ -3584,6 +3681,11 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
         <rdfs:label xml:lang="en">sexual activity</rdfs:label>
+        <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10255">
+        <obo:IAO_0000111>Variola virus</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Variola virus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
