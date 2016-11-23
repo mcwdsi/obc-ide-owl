@@ -294,6 +294,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000516 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000516">
+        <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_10907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
@@ -451,7 +460,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000>http://www.w3.org/2000/01/rdf-schema#subClassOf</obc:IDE_0000001000>
+        <obc:IDE_0000001000 rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
     </rdf:Description>
     
 
@@ -684,8 +693,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000516"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000323"/>
     </owl:Class>
     
 
@@ -708,8 +717,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000516"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000323"/>
     </owl:Class>
     
 
@@ -913,8 +922,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000516"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000323"/>
     </owl:Class>
     
 
@@ -1263,8 +1272,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000037"/>
     </owl:Class>
     
 
@@ -1284,17 +1293,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000323 -->
-
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <rdfs:label xml:lang="en">host population</rdfs:label>
     </owl:Class>
     
 
@@ -3642,8 +3640,8 @@
         <rdfs:label xml:lang="en">air temperature</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000">
-        <obc:IDE_0000001000>http://www.w3.org/2000/01/rdf-schema#subClassOf</obc:IDE_0000001000>
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
         <obc:IDE_0000001000 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000137"/>
