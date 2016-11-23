@@ -447,6 +447,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
+        <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000>http://www.w3.org/2000/01/rdf-schema#subClassOf</obc:IDE_0000001000>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995">
@@ -3632,6 +3641,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000753">
         <rdfs:label xml:lang="en">air temperature</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000">
+        <obc:IDE_0000001000>http://www.w3.org/2000/01/rdf-schema#subClassOf</obc:IDE_0000001000>
+        <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
         <obc:IDE_0000001000 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000137"/>
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
@@ -3680,8 +3693,8 @@
         <rdfs:label xml:lang="en">data set</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
-        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
         <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10255">
         <obo:IAO_0000111>Variola virus</obo:IAO_0000111>
