@@ -1358,8 +1358,6 @@
 
     <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000166">
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0008150"/>
-        <obo:IAO_0000111>part of disease course</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">part of disease course</rdfs:label>
     </owl:Class>
     
 
@@ -1867,6 +1865,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000006">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000196"/>
+        <obo:IAO_0000111 xml:lang="en">ring vaccination control strategy</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
         <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
     </owl:NamedIndividual>
@@ -1970,7 +1969,7 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000018">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000019"/>
-        <obo:IAO_0000111 xml:lang="en">human populatoin in the four-MSA greater Washington DC region</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">human population in the four-MSA greater Washington DC region</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">human population of 4 MSA greater Washington DC region</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">Some papers reference a five-MSA region that also includes Culpeper, VA.  As of 2013, Culpeper, VA is part of the  Washington-Arlington-Alexandria, DC-VA-MD-WV</rdfs:comment>
         <rdfs:comment xml:lang="en">the four MSAs are:
@@ -2240,6 +2239,7 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000051">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000009"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000053"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zaire Ebolavirus in region of UN Western Africa</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zaire ebolavirus in West Africa</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3238,6 +3238,7 @@
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000139"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of Puerto Rico</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Puerto Rico</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3515,6 +3516,14 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000166 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000166">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000166"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3534,6 +3543,7 @@
         <obo:IAO_0000111 xml:lang="en">abiotic ecosystem</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000118">
+        <obo:IAO_0000111 xml:lang="en">latent period of disease course</obo:IAO_0000111>
         <rdfs:label xml:lang="en">latent period</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000123">
@@ -3541,10 +3551,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000136">
         <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">vaccination control strategy</obo:IAO_0000111>
         <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000140">
         <rdfs:label xml:lang="en">infectious period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000156">
         <obo:IAO_0000111>infectious population</obo:IAO_0000111>
@@ -3555,6 +3567,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000174">
         <rdfs:label xml:lang="en">disease transmission model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">disease transmission model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000181">
         <obo:IAO_0000111 xml:lang="en">antiviral control strategy</obo:IAO_0000111>
@@ -3571,6 +3584,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000233">
         <obo:IAO_0000111>infected population</obo:IAO_0000111>
@@ -3588,11 +3602,15 @@
         <obo:IAO_0000111>disease surveillance capability</obo:IAO_0000111>
         <rdfs:label xml:lang="en">disease surveillance capability</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000294">
+        <obo:IAO_0000111 xml:lang="en">agent-based disease transmission model</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000298">
         <rdfs:label xml:lang="en">epidemic</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">compartment-based disease transmission model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000304">
         <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
@@ -3610,6 +3628,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000317">
         <rdfs:label xml:lang="en">incubation period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000323">
         <obo:IAO_0000111 xml:lang="en">liberal sick leave control strategy</obo:IAO_0000111>
@@ -3619,11 +3638,12 @@
         <rdfs:label xml:lang="en">individual human behavior</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000455">
-        <obo:IAO_0000111>prodromal period</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">prodromal period of disease course</obo:IAO_0000111>
         <rdfs:label xml:lang="en">prodromal period</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000456">
         <rdfs:label xml:lang="en">fulminant period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">fulminant period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000486">
         <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
@@ -3753,6 +3773,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000753">
         <rdfs:label xml:lang="en">air temperature</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">temperature of atmospheric air</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000">
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
@@ -4007,6 +4028,12 @@
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000142">
         <obo:IAO_0000111 xml:lang="en">Zika virus epidemic</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus epidemic</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000166">
+        <rdfs:label xml:lang="en">part of disease course</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">disease course part</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">disease course part</rdfs:label>
+        <obo:IAO_0000111>part of disease course</obo:IAO_0000111>
     </rdf:Description>
 </rdf:RDF>
 
