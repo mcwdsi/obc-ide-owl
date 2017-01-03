@@ -1480,6 +1480,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000196"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000228 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000228">
@@ -1857,17 +1865,6 @@
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000004">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000004"/>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000006 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000006">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000196"/>
-        <obo:IAO_0000111 xml:lang="en">ring vaccination control strategy</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3575,6 +3572,11 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000194">
         <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000196">
+        <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">ring vaccination control strategy</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000228">
         <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
     </rdf:Description>
@@ -3646,8 +3648,8 @@
         <obo:IAO_0000111 xml:lang="en">fulminant period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000486">
-        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
         <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000487">
         <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
@@ -3673,14 +3675,14 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:742.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604804</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608393</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:251200</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microcephalus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:251200</oboInOwl:hasDbXref>
         <obo:IAO_0000111 xml:lang="en">microcephaly disease</obo:IAO_0000111>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204030002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D008831</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C85874</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:Q02</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1829003</oboInOwl:hasDbXref>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
