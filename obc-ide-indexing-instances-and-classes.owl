@@ -1362,6 +1362,29 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000167 -->
+
+    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000167">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3521,6 +3544,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000167 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000167">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000167"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000345"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4036,6 +4068,12 @@
         <obo:IAO_0000111 xml:lang="en">disease course part</obo:IAO_0000111>
         <rdfs:label xml:lang="en">disease course part</rdfs:label>
         <obo:IAO_0000111>part of disease course</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000167">
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Variola virus</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
