@@ -812,9 +812,10 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
-        <obo:IAO_0000111 xml:lang="en">population of influenza virus</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">influenza virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Influenza virus</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Influenza virus</rdfs:label>
     </owl:Class>
     
 
@@ -3884,16 +3885,16 @@
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000008">
+        <obo:IAO_0000118 xml:lang="en">population of Ebolavirus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Ebolavirus worldwide</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000009">
         <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus worldwide</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000013">
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
@@ -3904,9 +3905,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000014">
         <rdfs:label xml:lang="en">Zika virus</rdfs:label>
-        <rdfs:label xml:lang="en">population of Zika virus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">population of Zika virus</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">Zika virus population</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Zika virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Mirela Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Zika virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000015">
         <obo:IAO_0000111 xml:lang="en">Aedes mosquito</obo:IAO_0000111>
@@ -3930,9 +3931,9 @@
         <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000028">
-        <obo:IAO_0000118 xml:lang="en">influenza A virus worldwide</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">population of influenza A virus</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of influenza A virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Influenza A virus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000032">
@@ -3968,13 +3969,12 @@
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus worldwide</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000038">
-        <obo:IAO_0000111 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000041">
         <obo:IAO_0000111 xml:lang="en">Dengue virus 1 population</obo:IAO_0000111>
@@ -4008,11 +4008,11 @@
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000086">
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Sudan ebolavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000091">
-        <obo:IAO_0000111 xml:lang="en">Betacoronavirus worldwide</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Betacoronavirus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Betacoronavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Betacoronavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
