@@ -1386,6 +1386,29 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000168 -->
+
+    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000168">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9544"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9544"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000516"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3554,6 +3577,15 @@
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000168 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000168">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000168"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000345"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3910,15 +3942,15 @@
         <obo:IAO_0000118 xml:lang="en">population of Zika virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000015">
-        <obo:IAO_0000111 xml:lang="en">Aedes mosquito</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">population of Aedes mosquito</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">Aedes mosquito population</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Aedes mosquito</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000017">
         <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">population of Homo sapiens</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Homo sapiens population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of Homo sapiens</obo:IAO_0000118>
@@ -3961,7 +3993,8 @@
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000036">
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">population of Mus musculus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Mus musculus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Mus musculus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Mus musculus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000037">
@@ -4074,6 +4107,12 @@
         <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000168">
+        <rdfs:label xml:lang="en">Macaca mulatta</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Macaca mulatta</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Macaca mulatta population</obo:IAO_0000111>
     </rdf:Description>
 </rdf:RDF>
 
