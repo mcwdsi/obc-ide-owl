@@ -3572,7 +3572,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000167">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000167"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000345"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
