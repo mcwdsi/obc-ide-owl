@@ -304,6 +304,7 @@
     <owl:DatatypeProperty rdf:about="&obo;IDE_0000000169">
         <rdfs:label xml:lang="en">project start date</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">project start date</obo:IAO_0000111>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
     </owl:DatatypeProperty>
     
 
@@ -313,6 +314,7 @@
     <owl:DatatypeProperty rdf:about="&obo;IDE_0000000170">
         <rdfs:label xml:lang="en">project end date</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">project end date</obo:IAO_0000111>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
     </owl:DatatypeProperty>
     
 
@@ -3677,16 +3679,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&obc;IDE_0000000048">
-        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000004">
         <rdfs:label xml:lang="en">Chikungunya virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000048">
+        <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000168">
         <rdfs:label xml:lang="en">Macaca mulatta</rdfs:label>
@@ -4072,10 +4074,6 @@
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
         <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
-        <rdfs:label xml:lang="en">susceptible population</rdfs:label>
-        <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000013">
         <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
@@ -4083,13 +4081,17 @@
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000233">
-        <rdfs:label xml:lang="en">infected population</rdfs:label>
-        <obo:IAO_0000111>infected population</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
+        <rdfs:label xml:lang="en">susceptible population</rdfs:label>
+        <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000156">
         <rdfs:label xml:lang="en">infectious population</rdfs:label>
         <obo:IAO_0000111>infectious population</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000233">
+        <rdfs:label xml:lang="en">infected population</rdfs:label>
+        <obo:IAO_0000111>infected population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
