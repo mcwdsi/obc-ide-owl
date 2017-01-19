@@ -3698,6 +3698,562 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000000171 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000171">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">EUBANK, STEPHEN G</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-03-008</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Los Alamos National Laboratory</obo:IDE_0000000174>
+        <obo:IDE_0000000174 xml:lang="en">Virginia Polytechnic Institute and State University</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Population Mobility Models Of Urban Disease Outbreak</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000172 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000172">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000171"/>
+        <rdfs:label xml:lang="en">U01GM70694</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000174 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000174">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-05-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">WAGENER, DIANE K</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-03-008</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">RTI International</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Pilot Projects For Models If Infectious Diseases Agent Study</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000175 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000175">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000174"/>
+        <rdfs:label xml:lang="en">U01GM70698</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000176 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000176">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">HALLORAN, M ELIZABETH</obo:IDE_0000000171>
+        <obo:IDE_0000000171 xml:lang="en">LONGINI, IRA M</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-03-008</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Emory University</obo:IDE_0000000174>
+        <obo:IDE_0000000174 xml:lang="en">Fred Hutchinson Cancer Research Center</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Containing Bioterroist And Emerging Infectious Diseases</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000177 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">SMITH, GARY</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-05-011</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of Pennsylvania</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Hierarchical Models For The Spatio-Temporal Dynamics In…</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000178 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000178">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-14T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">LIPSITCH, MARC</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-05-011</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Harvard T.H. Chan School of Public Health</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Methodological Approaches To Planning And Analysis Of N…</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000179 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000179">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">BUSH, ROBIN M.</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-05-011</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of California, Irvine</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Computational Models Of Pathogen Evolution And Vaccinat…</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000180 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">HUANG, SUSAN S.</obo:IDE_0000000171>
+        <obo:IDE_0000000171 xml:lang="en">PLATT, RICHARD</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-05-011</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Harvard Pilgrim Health Care</obo:IDE_0000000174>
+        <obo:IDE_0000000174 xml:lang="en">University of California, Irvine</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Modeling Health System Infectious Disease Data</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000181 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">COOLEY, PHILIP C</obo:IDE_0000000171>
+        <obo:IDE_0000000171 xml:lang="en">WAGENER, DIANE K</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-09-002</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">RTI International</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Modeling Of Infectious Disease Agent Study Information Technology</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000182 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">GALVANI, ALISON P</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-09-001</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Yale University</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Impacts Of Individual And Social Behavior On Influenza Dynamics And Control</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000183 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">PORCO, TRAVIS CHRISTIAN</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-11-002</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of California, San Francisco</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Modeling Contact Investigation And Rapid Response</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000184 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-08T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">LAUDERDALE, DIANE SPERLING</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-09-001</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of Chicago</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Modeling MRSA In The Community</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000185 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-07-24T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">BURKE, DONALD S.</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-09-003</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of Pittsburgh</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Computational Models Of Infectious Disease Threats</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000186 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">LIPSITCH, MARC</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-09-003</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Harvard T.H. Chan School of Public Health</obo:IDE_0000000174>
+        <dc:title xml:lang="en">MIDAS Center For Communicable Disease Dynamics</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000187 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000187">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">DEL VALLE, SARA</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-11-002</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Los Alamos National Security, Los Alamos National Laboratory</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Quantifying Model Uncertainty For Forecasting The Spread Of Infectious Diseases</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000188 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000188">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-15T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">MORES, CHRISTOPHER</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-11-002</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Louisiana State University, Southern University and A&amp;M College</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Predicting Vector-Borne Virus Transmission Dynamics And Emergence Potential</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000189 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000189">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-05T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">WAGNER, MICHAEL MATTHEW</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-008</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of Pittsburgh</obo:IDE_0000000174>
+        <dc:title xml:lang="en">MIDAS Informatics Services Group (Isg)</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000190">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">EISENBERG, JOSEPH N. S.</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-007</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of Michigan - Ann Arbor</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Modeling The Effects Of The Environment On Enteric Pathogen Dynamics</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000191 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000191">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">FERGUSON, NEIL MORRIS</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-007</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Imperial College London</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Models For Synthesising Molecular, Clinical And Epidemiological Data, And Transla</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000192 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000192">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-12T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">DRAKE, JOHN M</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-007</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of Georgia</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Forecasting Tipping Points In Emerging And Re-Emerging Infectious Diseases</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000193 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000193">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-01T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">SHAMAN, JEFFREY L</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-007</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Columbia University</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Development And Dissemination Of Operational Real-Time Respiratory Virus Forecast</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000194">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-05T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-31T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">POND, SERGEI L KOSAKOVSKY</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-007</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">University of California, San Diego</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Modeling Epidemic Infectious Diseases Using Sequence Analysis</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000195 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001636"/>
+        <obo:IDE_0000000169 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-12T00:00:00</obo:IDE_0000000169>
+        <obo:IDE_0000000170 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-30T00:00:00</obo:IDE_0000000170>
+        <obo:IDE_0000000171 xml:lang="en">HALLORAN, M ELIZABETH</obo:IDE_0000000171>
+        <obo:IDE_0000000172 xml:lang="en">RFA-GM-14-009</obo:IDE_0000000172>
+        <obo:IDE_0000000173 xml:lang="en">National Institute for General Medical Sciences</obo:IDE_0000000173>
+        <obo:IDE_0000000174 xml:lang="en">Fred Hutchinson Cancer Research Center</obo:IDE_0000000174>
+        <dc:title xml:lang="en">Dynamics And Evolution Of Influenza Strain Variation</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000196 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000176"/>
+        <rdfs:label xml:lang="en">U01GM70749</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000197 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000177"/>
+        <rdfs:label xml:lang="en">U01GM76426</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000198 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000178"/>
+        <rdfs:label xml:lang="en">U01GM76497</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000199 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000179"/>
+        <rdfs:label xml:lang="en">U01GM76499</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000180"/>
+        <rdfs:label xml:lang="en">U01GM76672</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000181"/>
+        <rdfs:label xml:lang="en">U24GM87704</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000202 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000182"/>
+        <rdfs:label xml:lang="en">U01GM87719</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000203 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000183"/>
+        <rdfs:label xml:lang="en">U01GM87728</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000184"/>
+        <rdfs:label xml:lang="en">U01GM87729</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000170"/>
+        <rdfs:label xml:lang="en">U54GM88491</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000206 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000186"/>
+        <rdfs:label xml:lang="en">U54GM88558</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000207 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000187"/>
+        <rdfs:label xml:lang="en">U01GM97658</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000208 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000208">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000188"/>
+        <rdfs:label xml:lang="en">U01GM97661</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000209 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000209">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000189"/>
+        <rdfs:label xml:lang="en">U24GM110707</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000210 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000210">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000190"/>
+        <rdfs:label xml:lang="en">U01GM110712</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000211">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000191"/>
+        <rdfs:label xml:lang="en">U01GM110721</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000212 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000212">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000192"/>
+        <rdfs:label xml:lang="en">U01GM110744</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000213 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000213">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000193"/>
+        <rdfs:label xml:lang="en">U01GM110748</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000214 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000214">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000194"/>
+        <rdfs:label xml:lang="en">U01GM110749</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000000215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000215">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001629"/>
+        <obo:IAO_0000219 rdf:resource="http://www.pitt.edu/obc/IDE_0000000195"/>
+        <rdfs:label xml:lang="en">U54GM111274</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3845,8 +4401,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microencephaly</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10907</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microencephaly</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">microcephaly</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:742.1</oboInOwl:hasDbXref>
@@ -3862,17 +4418,17 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:Q02</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1829003</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608716</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:156893009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204031003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025958</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204031003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612703</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12842">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:139393</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:139393</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis NOS (disorder)</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193173004</oboInOwl:hasDbXref>
@@ -3883,9 +4439,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Infective Polyneuritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome (disorder)</oboInOwl:hasExactSynonym>
@@ -3909,14 +4465,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193175006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0393799</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller Fisher syndrome</rdfs:label>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">Miller Fisher syndrome</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller-Fisher variant of Guillain-Barre syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1767005</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:230548007</oboInOwl:hasDbXref>
         <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:230548007</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12889</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D019846</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Guillain-Barre syndrome that manifests as a descending paralysis. It usually affects the eye muscles first and presents with the triad of ophthalmoplegia, ataxia, and areflexia.</obo:IAO_0000115>
@@ -3924,11 +4480,11 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_639">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalomyelitis characterized by inflammation located_in brain and located_in spinal cord that damages myelin. It usually occurs after viral infection, but also following vaccination, bacterial or parasitic infection.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">acute disseminated encephalomyelitis</obo:IAO_0000111>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis (disorder)</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Disseminated Encephalomyelitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D004673</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:639</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:83942000</oboInOwl:hasDbXref>
@@ -4017,8 +4573,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000003">
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
     </rdf:Description>
@@ -4037,8 +4593,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000009">
         <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000013">
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
@@ -4117,9 +4673,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000038">
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000041">
         <obo:IAO_0000111 xml:lang="en">Dengue virus 1 population</obo:IAO_0000111>
@@ -4180,8 +4736,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000118 xml:lang="en">population of H5N2 subtype</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">H5N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H5N2 subtype population</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
