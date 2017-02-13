@@ -1813,6 +1813,30 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000532 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000532">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000532"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000533 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000533">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000533"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000534 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000534">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000534"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_10907 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
@@ -1905,6 +1929,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0022414">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0022414"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0035176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GO_0035176">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0035176"/>
     </owl:NamedIndividual>
     
 
@@ -4400,6 +4432,15 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000111>infection acquisition from vertical transmission</obo:IAO_0000111>
         <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000532">
+        <rdfs:label xml:lang="en">human travel</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000533">
+        <rdfs:label xml:lang="en">human air travel</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000534">
+        <rdfs:label xml:lang="en">human mobility data item</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10907</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microencephaly</oboInOwl:hasExactSynonym>
@@ -4537,6 +4578,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0022414">
         <obo:IAO_0000111 xml:lang="en">reproductive process</obo:IAO_0000111>
         <rdfs:label xml:lang="en">reproductive process</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035176">
+        <rdfs:label xml:lang="en">social behavior</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0039651">
         <obo:IAO_0000111 xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</obo:IAO_0000111>
