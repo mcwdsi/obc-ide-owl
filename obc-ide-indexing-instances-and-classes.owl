@@ -2801,10 +2801,26 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10255 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10255">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2">
+        <rdf:type rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
     </owl:NamedIndividual>
     
 
@@ -5734,6 +5750,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2">
+        <obo:IAO_0000111 xml:lang="en">Bacteria</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000003">
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
