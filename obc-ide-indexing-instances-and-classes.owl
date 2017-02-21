@@ -649,7 +649,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -673,7 +673,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -744,7 +744,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -814,7 +814,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -897,7 +897,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
         <obo:IAO_0000111 xml:lang="en">Influenza virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Influenza virus</obo:IAO_0000118>
@@ -1114,7 +1114,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1275,7 +1275,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1416,7 +1416,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1466,7 +1466,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1512,7 +1512,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1535,7 +1535,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1604,7 +1604,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1627,7 +1627,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1696,7 +1696,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1719,7 +1719,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1765,7 +1765,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1788,7 +1788,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1811,7 +1811,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1834,7 +1834,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1857,7 +1857,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1880,7 +1880,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1903,7 +1903,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -1926,7 +1926,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1949,7 +1949,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1972,7 +1972,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -1995,7 +1995,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -2018,7 +2018,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -2041,7 +2041,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -2064,7 +2064,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -2110,7 +2110,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -2156,7 +2156,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -2225,7 +2225,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -2248,7 +2248,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -2271,7 +2271,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -2294,7 +2294,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -2317,7 +2317,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
 
@@ -2340,7 +2340,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
 
@@ -5649,22 +5649,22 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604804</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608393</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microcephalus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604321</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:251200</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604321</oboInOwl:hasDbXref>
         <obo:IAO_0000111 xml:lang="en">microcephaly disease</obo:IAO_0000111>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204030002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D008831</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C85874</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C85874</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:Q02</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1829003</oboInOwl:hasDbXref>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608716</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:156893009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025958</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204031003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612703</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204031003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025958</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12842">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
@@ -5680,15 +5680,15 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute inf. polyneuritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:267707000</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12842</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26790</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:129131007</oboInOwl:hasDbXref>
@@ -5711,8 +5711,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller-Fisher variant of Guillain-Barre syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1767005</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:230548007</oboInOwl:hasDbXref>
+        <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12889</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D019846</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Guillain-Barre syndrome that manifests as a descending paralysis. It usually affects the eye muscles first and presents with the triad of ophthalmoplegia, ataxia, and areflexia.</obo:IAO_0000115>
@@ -5720,11 +5720,11 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_639">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalomyelitis characterized by inflammation located_in brain and located_in spinal cord that damages myelin. It usually occurs after viral infection, but also following vaccination, bacterial or parasitic infection.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">acute disseminated encephalomyelitis</obo:IAO_0000111>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Disseminated Encephalomyelitis</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D004673</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:639</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:83942000</oboInOwl:hasDbXref>
@@ -5839,8 +5839,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000009">
         <rdfs:label xml:lang="en">Zaire ebolavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000013">
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
@@ -5919,9 +5919,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000038">
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000041">
         <obo:IAO_0000111 xml:lang="en">Dengue virus 1 population</obo:IAO_0000111>
@@ -6003,8 +6003,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Measles virus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Measles virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">Measles virus worldwide</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Measles virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">Measles virus worldwide</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000142">
         <obo:IAO_0000111 xml:lang="en">Zika virus epidemic</obo:IAO_0000111>
@@ -6059,8 +6059,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">Vibrio cholerae</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000220">
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Rabies virus</obo:IAO_0000118>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Rabies virus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Rabies virus</rdfs:label>
     </rdf:Description>
@@ -6077,8 +6077,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000118 xml:lang="en">population of Influenza B virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000224">
-        <obo:IAO_0000118 xml:lang="en">population of Hepatitis C virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Hepatitis C virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Hepatitis C virus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Hepatitis C virus population</obo:IAO_0000111>
     </rdf:Description>
@@ -6101,8 +6101,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">Enterovirus A</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000228">
-        <obo:IAO_0000118 xml:lang="en">population of Hepatitis D virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Hepatitis D virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Hepatitis D virus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Hepatitis D virus population</obo:IAO_0000111>
     </rdf:Description>
@@ -6119,8 +6119,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">HIV-2</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000232">
-        <rdfs:label xml:lang="en">Hepatitis A virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Hepatitis A virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Hepatitis A virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis A virus</obo:IAO_0000118>
     </rdf:Description>
@@ -6203,9 +6203,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000118 xml:lang="en">population of Morbillivirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000250">
+        <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Schistosoma haematobium</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000111>
     </rdf:Description>
@@ -6218,8 +6218,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000252">
         <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Rift Valley fever virus</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Rift Valley fever virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000254">
         <obo:IAO_0000118 xml:lang="en">population of Haemophilus influenzae</obo:IAO_0000118>
