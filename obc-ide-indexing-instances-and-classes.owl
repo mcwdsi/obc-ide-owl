@@ -648,7 +648,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
@@ -672,7 +671,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
@@ -813,7 +811,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000226"/>
     </owl:Class>
     
@@ -1113,7 +1110,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000218"/>
     </owl:Class>
     
@@ -1321,7 +1317,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:Class>
     
@@ -1345,7 +1340,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:Class>
     
@@ -1392,7 +1386,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
     </owl:Class>
     
