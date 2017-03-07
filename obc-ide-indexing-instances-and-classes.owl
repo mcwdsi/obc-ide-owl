@@ -271,12 +271,12 @@
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2696,7 +2696,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000552 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000552">
-        <rdfs:label xml:lang="en">metapopulation disease transmission model</rdfs:label>
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000552"/>
     </owl:NamedIndividual>
     
 
@@ -5564,17 +5564,17 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Escherichia coli</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000086">
-        <rdfs:label xml:lang="en">Sudan ebolavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000240">
         <rdfs:label xml:lang="en">Monkeypox virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Monkeypox virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Monkeypox virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000086">
+        <rdfs:label xml:lang="en">Sudan ebolavirus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;ENVO_01000268">
         <rdfs:label xml:lang="en">atmospheric water vapor</rdfs:label>
@@ -5584,15 +5584,15 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">hydrological precipitation process</rdfs:label>
         <obo:IAO_0000111>hydrological precipitation process</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000317">
-        <rdfs:label xml:lang="en">incubation period</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000239">
         <rdfs:label xml:lang="en">Neisseria gonorrhoeae</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Neisseria gonorrhoeae population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Neisseria gonorrhoeae</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000317">
+        <rdfs:label xml:lang="en">incubation period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000237">
         <rdfs:label xml:lang="en">Clostridium difficile</rdfs:label>
@@ -5647,13 +5647,13 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="&obo;IAO_0000064">
         <rdfs:label xml:lang="en">algorithm</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0022414">
-        <rdfs:label xml:lang="en">reproductive process</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">reproductive process</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0044703">
         <rdfs:label xml:lang="en">multi-organism reproductive process</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">multi-organism reproductive process</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0022414">
+        <rdfs:label xml:lang="en">reproductive process</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">reproductive process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000171">
         <obo:IAO_0000111 xml:lang="en">antiviral treatment</obo:IAO_0000111>
@@ -5718,25 +5718,25 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Influenza B virus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000266">
+        <rdfs:label xml:lang="en">disease surveillance capability</rdfs:label>
+        <obo:IAO_0000111>disease surveillance capability</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000221">
         <rdfs:label xml:lang="en">Plasmodium falciparum</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Plasmodium falciparum</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000266">
-        <rdfs:label xml:lang="en">disease surveillance capability</rdfs:label>
-        <obo:IAO_0000111>disease surveillance capability</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000265">
-        <rdfs:label xml:lang="en">infection acquisition from infectious host</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">infection acquisition from infectious host</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000220">
         <rdfs:label xml:lang="en">Rabies virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Rabies virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Rabies virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000265">
+        <rdfs:label xml:lang="en">infection acquisition from infectious host</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">infection acquisition from infectious host</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2">
         <obo:IAO_0000111 xml:lang="en">Bacteria</obo:IAO_0000111>
@@ -5826,6 +5826,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Acinetobacter baumannii</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000552">
+        <rdfs:label xml:lang="en">metapopulation disease transmission model</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000156">
         <rdfs:label xml:lang="en">infectious population</rdfs:label>
         <obo:IAO_0000111>infectious population</obo:IAO_0000111>
@@ -5884,15 +5887,15 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Macaca mulatta</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000487">
-        <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000167">
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000487">
+        <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000166">
         <rdfs:label xml:lang="en">disease course part</rdfs:label>
@@ -6129,17 +6132,17 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000015">
-        <rdfs:label xml:lang="en">Aedes mosquito</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000257">
         <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000015">
+        <rdfs:label xml:lang="en">Aedes mosquito</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000014">
         <rdfs:label xml:lang="en">Zika virus</rdfs:label>
@@ -6173,26 +6176,26 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">susceptible population</rdfs:label>
         <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000233">
-        <rdfs:label xml:lang="en">infected population</rdfs:label>
-        <obo:IAO_0000111>infected population</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000254">
         <rdfs:label xml:lang="en">Haemophilus influenzae</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Haemophilus influenzae</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000252">
-        <rdfs:label xml:lang="en">Rift Valley fever virus</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Rift Valley fever virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000233">
+        <rdfs:label xml:lang="en">infected population</rdfs:label>
+        <obo:IAO_0000111>infected population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000252">
+        <rdfs:label xml:lang="en">Rift Valley fever virus</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Rift Valley fever virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000251">
         <rdfs:label xml:lang="en">Trypanosoma cruzi</rdfs:label>
@@ -6262,14 +6265,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000090">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000008">
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Ebolavirus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OGMS_0000090">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
         <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
