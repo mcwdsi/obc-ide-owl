@@ -271,12 +271,12 @@
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2613,6 +2613,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000405 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000405">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000405"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000455 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000455">
@@ -2669,6 +2677,30 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000526 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000526">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000526"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000528 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000528">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000528"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000531 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000531">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000531"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000532 -->
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000532">
@@ -2697,6 +2729,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
 
     <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000546">
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000546"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000547 -->
+
+    <owl:NamedIndividual rdf:about="&obo;APOLLO_SV_00000547">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000547"/>
     </owl:NamedIndividual>
     
 
@@ -2881,6 +2921,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000010">
         <rdf:type rdf:resource="&obo;IAO_0000010"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000027">
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
     </owl:NamedIndividual>
     
 
@@ -5679,10 +5727,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis A virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000100">
-        <rdfs:label xml:lang="en">data set</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">data set</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
         <rdfs:label xml:lang="en">epidemic</rdfs:label>
     </rdf:Description>
@@ -5915,11 +5959,11 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">air temperature</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">temperature of atmospheric air</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
-        <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000546">
         <rdfs:label xml:lang="en">self-initiated travel avoidance behavior</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
+        <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
@@ -5941,6 +5985,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
         <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000547">
+        <rdfs:label xml:lang="en">social interaction data item</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000048">
         <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
@@ -6029,6 +6076,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
         <obo:IAO_0000111 xml:lang="en">ecosystem of Earth</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000037">
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population</obo:IAO_0000111>
@@ -6041,6 +6091,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Mus musculus</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000531">
+        <rdfs:label xml:lang="en">epidemic threshold</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000035">
         <rdfs:label xml:lang="en">H7N9 subtype</rdfs:label>
@@ -6071,6 +6124,15 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000521">
         <rdfs:label xml:lang="en">infection acquisition from vertical transmission</rdfs:label>
         <obo:IAO_0000111>infection acquisition from vertical transmission</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000528">
+        <rdfs:label xml:lang="en">synthetic ecosystem data set</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000526">
+        <rdfs:label xml:lang="en">scale-free network model</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000405">
+        <rdfs:label xml:lang="en">potentially infectious contacting</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000028">
         <rdfs:label xml:lang="en">Influenza A virus</rdfs:label>
