@@ -262,14 +262,6 @@
     
 
 
-    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
-
-    <owl:ObjectProperty rdf:about="&ro;has_participant">
-        <owl:inverseOf rdf:resource="&ro;participates_in"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.obofoundry.org/ro/ro.owl#located_in -->
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
@@ -993,7 +985,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;APOLLO_SV_00000298"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:onProperty rdf:resource="&roRO_0000057"/>
                         <owl:someValuesFrom rdf:resource="&obc;IDE_0000000008"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1035,7 +1027,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;APOLLO_SV_00000298"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:onProperty rdf:resource="&roRO_0000057"/>
                         <owl:someValuesFrom rdf:resource="&obc;IDE_0000000026"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1238,11 +1230,11 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;APOLLO_SV_00000298"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:onProperty rdf:resource="&roRO_0000057"/>
                         <owl:someValuesFrom rdf:resource="&obc;IDE_0000000038"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:onProperty rdf:resource="&roRO_0000057"/>
                         <owl:allValuesFrom rdf:resource="&obc;IDE_0000000038"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1445,7 +1437,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;APOLLO_SV_00000298"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:onProperty rdf:resource="&roRO_0000057"/>
                         <owl:someValuesFrom rdf:resource="&obc;IDE_0000000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -3724,8 +3716,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <owl:NamedIndividual rdf:about="&obc;IDE_0000000002">
         <rdf:type rdf:resource="&obc;IDE_0000000034"/>
         <rdfs:label xml:lang="en">H1N1 subtype, humans, global, 2009-2010</rdfs:label>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000027"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000017"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000027"/>
     </owl:NamedIndividual>
     
 
@@ -4113,8 +4105,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, West Africa, 2014 to 2016-06-09</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of West Africa, 2014 to 2016-06-09</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000051"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000054"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000051"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000054"/>
     </owl:NamedIndividual>
     
 
@@ -4169,8 +4161,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Nigeria, 2014-07-25 to 2014-09-05</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Nigeria, 2014-07-25 to 2014-09-05</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000056"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000073"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000056"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000073"/>
     </owl:NamedIndividual>
     
 
@@ -4456,8 +4448,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Sudan, 1976</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of Sudan, 1976</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000084"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000085"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000084"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000085"/>
     </owl:NamedIndividual>
     
 
@@ -4543,8 +4535,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 1976</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 1976</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000078"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000088"/>
     </owl:NamedIndividual>
     
 
@@ -4620,8 +4612,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000034"/>
         <rdfs:label xml:lang="en">H1N1 subtype, humans, gobal, 1918 to 1919</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H1N1 subtype, humans, global, 1918-1919</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000027"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000017"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000027"/>
     </owl:NamedIndividual>
     
 
@@ -4632,8 +4624,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000034"/>
         <rdfs:label xml:lang="en">H2N2 subtype, humans, global, 1957 to 1958</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype, humans, global, 1957-1958</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000095"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000017"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000095"/>
     </owl:NamedIndividual>
     
 
@@ -4644,8 +4636,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000034"/>
         <rdfs:label xml:lang="en">H3N2 subtype, humans, global, 1968 to 1969</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype, humans, global, 1968-1969</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000017"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000033"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000017"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000033"/>
     </owl:NamedIndividual>
     
 
@@ -4689,8 +4681,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Guinea, 2013-12-02 to 2016-06-01</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Guinea, 2013-12-02 to 2016-06-01</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000077"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000102"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000077"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000102"/>
     </owl:NamedIndividual>
     
 
@@ -4701,8 +4693,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Sierra Leone, 2014-05-24 to 2016-03-17</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Sierra Leone, 2014-05-24 to 2016-03-17</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000075"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000104"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000075"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000104"/>
     </owl:NamedIndividual>
     
 
@@ -4713,8 +4705,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Liberia, 2014-03-24 to 2015-03-27</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Liberia, 2014-03-24 to 2015-03-27</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000074"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000101"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000074"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000101"/>
     </owl:NamedIndividual>
     
 
@@ -4725,8 +4717,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 2014-08-11 to 2014-11-15</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 2014-08-11 to 2014-11-15</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000078"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000088"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000078"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000088"/>
     </owl:NamedIndividual>
     
 
@@ -4737,8 +4729,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Sudan, 1979-07-31 to 1979-10-06</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of greater Sudan, 1979-07-31 to 1979-10-06</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000084"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000085"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000084"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000085"/>
     </owl:NamedIndividual>
     
 
@@ -4904,8 +4896,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000269"/>
         <rdfs:label xml:lang="en">Chikungunya virus, humans, Florida, 2014-07-13 to 2014-09-20</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Florida, 2014-07-13 to 2014-09-20</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000117"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000118"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000117"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000118"/>
     </owl:NamedIndividual>
     
 
@@ -4917,8 +4909,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Measles, humans, United States, 2014-12-28 to 2015-04-17</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Measles virus, humans, region of United States, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <rdfs:comment xml:lang="en">Refers only to Disneyland-related outbreak originating in California, not to the unrelated outbreaks in Illinois and Nevada ongoing at the same time.</rdfs:comment>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000021"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000124"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000021"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000124"/>
     </owl:NamedIndividual>
     
 
@@ -4985,8 +4977,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000298"/>
         <rdfs:label xml:lang="en">Measles, humans, California, 2014-12-28 to 2015-04-17</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Measles virus, human beings, region of California, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000127"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000128"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000127"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000128"/>
     </owl:NamedIndividual>
     
 
@@ -4997,8 +4989,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000142"/>
         <rdfs:label xml:lang="en">Zika virus, humans, Brazil, 2015-03-10 to present</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Brazil, 2015-03-10 to present</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000016"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000049"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000016"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000049"/>
     </owl:NamedIndividual>
     
 
@@ -5065,8 +5057,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000142"/>
         <rdfs:label xml:lang="en">Zika virus, humans, Colombia, 2015-10-16 to present</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Colombia, 2015-10-16 to present</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000131"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000135"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000131"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000135"/>
     </owl:NamedIndividual>
     
 
@@ -5077,8 +5069,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000142"/>
         <rdfs:label xml:lang="en">Zika virus, humans, Puerto Rico, 2015-11-23 to present</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Puerto Rico, 2015-11-23 to present</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000140"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000141"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000140"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000141"/>
     </owl:NamedIndividual>
     
 
@@ -5153,8 +5145,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000142"/>
         <rdfs:label xml:lang="en">Zika virus, humans, Venezuela, 2015-10-04 to present</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Venezuela, 2015-10-04 to present</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000145"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000149"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000145"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000149"/>
     </owl:NamedIndividual>
     
 
@@ -5322,8 +5314,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000142"/>
         <rdfs:label xml:lang="en">Zika virus, humans, Florida, 2016-07-29 to present</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Florida, 2016-07-29 to present</obo:IAO_0000111>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000117"/>
-        <ro:has_participant rdf:resource="&obc;IDE_0000000160"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000117"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000000160"/>
     </owl:NamedIndividual>
     
 
