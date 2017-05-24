@@ -5597,6 +5597,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000137">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:BFO_0000132 rdf:resource="http://www.pitt.edu/obc/IDE_0000001127"/>
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000140"/>
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000141"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Puerto Rico, 2015-11-23 to present</obo:IAO_0000111>
@@ -5842,6 +5843,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000159">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:BFO_0000132 rdf:resource="http://www.pitt.edu/obc/IDE_0000001127"/>
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000117"/>
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000160"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Florida, 2016-07-29 to present</obo:IAO_0000111>
@@ -16333,6 +16335,89 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001151"/>
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of Uganda, 2012-11-13 to 2012-11-17</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Uganda, 2012-11-13 to 2012-11-17</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001121">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_00000001125"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001122"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Texas, 2014-10-10 to 2014-10-14</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Texas, 2014-10-10 to 2014-10-14</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001122">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000009"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001070"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population in region of Texas</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus in Texas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001123">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000851"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001155"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Mali, 2014-11-11 to 2014-11-28</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Mali, 2014-11-11 to 2014-11-28</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001124">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000837"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001159"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of El Salvador, 2015-11-15 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, El Salvador, 2015-11-15 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001125 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001125">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001171"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001172"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Virgin Islands of the United States, 2016-01-01 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, Virgin Islands of the United States, 2016-01-01 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001126 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001126">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000944"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001163"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Mexico, 2015-11-15 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, Mexico, 2015-11-15 to present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001127 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001127">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000021"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001166"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of the United States of America, 2015-01-01 to present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus, humans, United States of America, 2015-01-01 to present</rdfs:label>
     </owl:NamedIndividual>
     
 
