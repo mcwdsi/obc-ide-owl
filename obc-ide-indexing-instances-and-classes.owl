@@ -16112,8 +16112,227 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <!-- http://www.pitt.edu/obc/IDE_0000001102 -->
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001102">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001101"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001150"/>
         <obo:IAO_0000111 xml:lang="en">Reston ebolavirus, Macaca fascicularis, region of Virginia, 1989</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Reston ebolavirus, Macaca fascicularis, Viriginia, 1989</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001103">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000080"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001153"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Gabon, 1994-11-13 to 1995-02-10</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Gabon, 1994-11-13 to 1995-02-10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001104">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000078"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000088"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of the Democratic Republic of the Congo, 1995-01-06 to 1995-07-16</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of the Congo, 1995-01-06 to 1995-07-16</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001105">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000080"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001153"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Gabon, 1996-07-13 to 01-18-1997</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Gabon, 1996-07-13 to 01-18-1997</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001106">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000080"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001153"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Gabon, 1996-01-31 to 1996-03-04</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Gabon, 1996-01-31 to 1996-03-04</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001107">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000076"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001151"/>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of Uganda, 2000-08-31 to 2001-01-09</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Uganda, 2000-08-31 to 2001-01-09</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001108">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000079"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000080"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001153"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001154"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, regions of Gabon and Republic of Congo, 2001-10-21 to 03-06-2002</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Gabon and Republic of Congo, 2001-10-21 to 03-06-2002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001109">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000079"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001154"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Republic of Congo, 2002-12-25 to 2003-05-06</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Republic of Congo, 2002-12-25 to 2003-05-06</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001110">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000079"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001154"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Republic of Congo, 2003-11-17 to 2003-12-03</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Republic of Congo, 2003-11-17 to 2003-12-03</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001111">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001112"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001113"/>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of South Sudan, 2004-04-15 to 2004-06-26</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Sudan ebolavirus, humans, South Sudan, 2004-04-15 to 2004-06-26</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001112">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000086"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population in region of South Sudan</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Sudan ebolavirus in South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001113">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000151"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of South Sudan</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in South Sudan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001114">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000079"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001154"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Republic of Congo, 2005-04-18 to 2005-05-18</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Republic of Congo, 2005-04-18 to 2005-05-18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001115">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000076"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001148"/>
+        <obo:IAO_0000111 xml:lang="en">Bundibugyo ebolavirus, humans, region of Uganda, 2007-08-20 to 2007-12-26</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Bundibugyo ebolavirus, humans, Uganda, 2007-08-20 to 2007-12-26</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001116">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000078"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000088"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of the Democratic Republic of Congo, 2007-06-12 to 2007-09-29</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 2007-06-12 to 2007-09-29</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001117 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001117">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000078"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000088"/>
+        <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Democratic Republic of Congo, 2008-12-25 to 2009-01-01</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Democratic Republic of Congo, 2008-12-25 to 2009-01-01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001118">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000076"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001151"/>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of Uganda, 2012-07-26 to 2012-08-03</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Uganda, 2012-07-26 to 2012-08-03</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001119">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000078"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001149"/>
+        <obo:IAO_0000111 xml:lang="en">Bundibugyo ebolavirus, humans, region of Democratic Republic of Congo, 2012-06-08 to 2012-10-11</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Bundibugyo ebolavirus, humans, Democratic Republic of Congo, 2012-06-08 to 2012-10-11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001120">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000032"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000076"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001151"/>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus, humans, region of Uganda, 2012-11-13 to 2012-11-17</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Sudan ebolavirus, humans, Uganda, 2012-11-13 to 2012-11-17</rdfs:label>
     </owl:NamedIndividual>
     
 
