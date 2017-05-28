@@ -19409,6 +19409,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000001436 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001436">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000233"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000023"/>
+        <obo:IAO_0000111 xml:lang="en">Bordatella pertussis population in the region of the United States</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Bordatella pertussis in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -20224,8 +20235,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000254">
         <obo:IAO_0000118 xml:lang="en">population of Haemophilus influenzae</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Haemophilus influenzae</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000255">
         <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
