@@ -19439,6 +19439,127 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Anopheles mosquito population in the region of the United States</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Anopheles mosquito in the United States</rdfs:label>
     </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001439 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001439">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Sint Maarten</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Sint Maarten</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001196"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001440 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001440">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Martinique</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Martinique</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001441 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001441">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in British Virgin Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of British Virgin Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001180"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001442 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001442">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Bermuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Bermuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001178"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001443 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001443">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Aruba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Aruba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001175"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001444 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001444">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Guadeloupe</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Guadeloupe</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001445 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001445">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in French Guiana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of French Guiana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001446 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001446">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Turks and Caicos Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Turks and Caicos Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001198"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001447 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001447">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Anguilla</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Anguilla</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001173"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001448 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001448">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Montserrat</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Montserrat</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001190"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001449 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001449">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Cayman Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Cayman Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
+    </owl:NamedIndividual>
     
 
 
