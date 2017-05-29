@@ -1,4 +1,21 @@
 <?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY obc "http://www.pitt.edu/obc/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY ncbitaxon "http://purl.obolibrary.org/obo/ncbitaxon#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+    <!ENTITY apollo_sv "http://purl.obolibrary.org/obo/apollo_sv.owl/" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+]>
+
 <rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
      xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
