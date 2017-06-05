@@ -19625,6 +19625,3032 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000001454 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001454">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Saint-Barthélemy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Saint-Barthélemy</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000739"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001455 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001455">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Saint-Barthélemy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Saint-Barthélemy</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001454"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001456 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001456">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Saint-Barthélemy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Saint-Barthélemy</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001455"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001457 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001457">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Jersey</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Jersey</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000754"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001458 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001458">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Jersey</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Jersey</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001457"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001459 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001459">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Jersey</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Jersey</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001458"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001460 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001460">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of China, Macao Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of China, Macao Special Administrative Region</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000768"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001461 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001461">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of China, Macao Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of China, Macao Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001460"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001462 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001462">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in China, Macao Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of China, Macao Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001461"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001463 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001463">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Saba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of island of Saba</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000041667"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001464 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001464">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Saba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of island of Saba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001463"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001465 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001465">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Saba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in island of Saba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001464"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001466 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001466">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Saint Pierre and Miquelon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Saint Pierre and Miquelon</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000741"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001467 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001467">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Saint Pierre and Miquelon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Saint Pierre and Miquelon</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001466"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001468 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001468">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Saint Pierre and Miquelon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Saint Pierre and Miquelon</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001467"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001469 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001469">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Gibraltar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Gibraltar</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000764"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001470 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001470">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Gibraltar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Gibraltar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001469"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001471 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001471">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Gibraltar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Gibraltar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001470"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001472 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001472">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Faeroe Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Faeroe Islands</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000747"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001473 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001473">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Faeroe Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Faeroe Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001472"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001474 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001474">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Faeroe Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Faeroe Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001473"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001475 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001475">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Tristan da Cunha</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Tristan da Cunha</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000776"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001476 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001476">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Tristan da Cunha</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Tristan da Cunha</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001475"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001477 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001477">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Tristan da Cunha</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Tristan da Cunha</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001476"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001478 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001478">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Mayotte</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000733"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001479 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001479">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Mayotte</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001478"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001480 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001480">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Mayotte</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001481 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001481">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Tokelau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Tokelau</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000744"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001482 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001482">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Tokelau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Tokelau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001481"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001483 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001483">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Tokelau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Tokelau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001482"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001484 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001484">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Niue</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Niue</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000759"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001485 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001485">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Niue</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Niue</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001484"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001486 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001486">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Niue</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Niue</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001485"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001487 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001487">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Norfolk Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Norfolk Island</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000756"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001488 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001488">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Norfolk Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Norfolk Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001487"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001489 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001489">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Norfolk Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Norfolk Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001488"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001490 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001490">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Wallis and Futuna Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Wallis and Futuna Islands</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000769"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001491 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001491">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Wallis and Futuna Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Wallis and Futuna Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001490"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001492 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001492">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Wallis and Futuna Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Wallis and Futuna Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001491"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001493 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001493">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Réunion</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000736"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001494 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001494">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Réunion</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001493"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001495 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001495">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Réunion</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001496 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001496">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Saint Helena</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Saint Helena</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000737"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001497 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001497">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Saint Helena</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Saint Helena</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001496"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001498 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001498">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Saint Helena</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Saint Helena</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001497"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001499 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001499">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Isle of Man</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Isle of Man</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000738"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001500 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001500">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Isle of Man</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Isle of Man</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001499"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001501 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001501">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Isle of Man</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Isle of Man</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001500"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001502 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001502">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Saint-Martin (French part)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Saint-Martin (French part)</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000742"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001503 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001503">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Saint-Martin (French part)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Saint-Martin (French part)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001502"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001504 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001504">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Saint-Martin (French part)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Saint-Martin (French part)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001503"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001505 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001505">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Svalbard and Jan Mayen Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Svalbard and Jan Mayen Islands</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000767"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001506 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001506">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Svalbard and Jan Mayen Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Svalbard and Jan Mayen Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001505"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001507 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001507">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Svalbard and Jan Mayen Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Svalbard and Jan Mayen Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001506"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001508 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001508">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Åland Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Åland Islands</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000750"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001509 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001509">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Åland Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Åland Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001508"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001510 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001510">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Åland Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Åland Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001509"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001511 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001511">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Curaçao</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000732"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001512 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001512">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001511"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001513 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001513">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001514 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001514">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Guernsey</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Guernsey</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000734"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001515 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001515">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Guernsey</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Guernsey</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001514"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001516 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001516">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Guernsey</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Guernsey</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001515"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001517 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001517">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Tristan da Cunha Island Group</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Tristan da Cunha Island Group</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000775"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001518 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001518">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Tristan da Cunha Island Group</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Tristan da Cunha Island Group</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001517"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001519 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001519">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Tristan da Cunha Island Group</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Tristan da Cunha Island Group</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001518"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001520 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001520">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of China, Hong Kong Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000770"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001521 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001521">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of China, Hong Kong Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001520"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001522 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001522">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in China, Hong Kong Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001521"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001523 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001523">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Ascension Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Ascension Island</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000774"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001524 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001524">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Ascension Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Ascension Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001523"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001525 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001525">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Ascension Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Ascension Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001524"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001526 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001526">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Pitcairn</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Pitcairn</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000730"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001527 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001527">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Pitcairn</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Pitcairn</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001526"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001528 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001528">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Pitcairn</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Pitcairn</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001527"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001529 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001529">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Saba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in island of Saba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001464"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001530 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001530">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Saba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in island of Saba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001530"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001531 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001531">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Guam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of island of Guam</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000493"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001532 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001532">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Falkland Islands (Malvinas)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Falkland Islands (Malvinas)</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000755"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001533 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001533">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Falkland Islands (Malvinas)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Falkland Islands (Malvinas)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001532"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001534 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001534">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Falkland Islands (Malvinas)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Falkland Islands (Malvinas)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001533"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001535 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001535">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Greenland</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Greenland</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000762"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001536 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001536">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Greenland</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Greenland</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001535"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001537 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001537">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Greenland</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Greenland</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001536"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001538 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001538">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Cook Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Cook Islands</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000771"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001539 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001539">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Cook Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Cook Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001538"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001540 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001540">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Cook Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Cook Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001539"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001541 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001541">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of New Caledonia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of New Caledonia</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000748"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001542 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001542">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of New Caledonia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of New Caledonia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001541"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001543 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001543">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in New Caledonia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of New Caledonia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001542"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001544 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001544">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Occupied Palestinian Territory</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Occupied Palestinian Territory</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000760"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001545 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001545">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Occupied Palestinian Territory</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Occupied Palestinian Territory</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001544"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001546 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001546">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Occupied Palestinian Territory</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Occupied Palestinian Territory</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001545"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001547 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001547">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Saint Helena Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Saint Helena Island</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000773"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001548 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001548">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Saint Helena Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Saint Helena Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001547"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001549 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001549">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Saint Helena Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Saint Helena Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001548"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001550 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001550">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of French Polynesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of French Polynesia</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000752"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001551 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001551">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of French Polynesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of French Polynesia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001550"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001552 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001552">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in French Polynesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of French Polynesia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001551"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001553 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001553">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Guam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of island of Guam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001531"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001554 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001554">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Guam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in island of Guam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001553"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001555 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001555">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Bonaire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of island of Bonaire</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000041669"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001556 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001556">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Bonaire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of island of Bonaire</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001555"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001557 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001557">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Bonaire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in island of Bonaire</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001556"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001558 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001558">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Sint Eustatius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of island of Sint Eustatius</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000041671"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001559 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001559">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Sint Eustatius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of island of Sint Eustatius</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001558"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001560 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001560">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Sint Eustatius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in island of Sint Eustatius</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001561 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001561">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of American Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of American Samoa</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000485"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001562 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001562">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of American Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of American Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001561"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001563 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001563">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in American Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of American Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001564 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001564">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Northern Mariana Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Northern Mariana Island</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000495"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001565 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001565">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Northern Mariana Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Northern Mariana Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001564"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001566 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001566">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Northern Mariana Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Northern Mariana Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001567 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001567">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Cayman Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Cayman Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001568 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001568">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Virgin Islands of the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Virgin Islands of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001170"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001569 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001569">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Saint-Barthélemy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Saint-Barthélemy</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001455"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001570 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001570">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Jamaica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Jamaica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000766"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001571 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001571">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Costa Rica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Costa Rica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000774"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001572 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001572">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Cuba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Cuba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000789"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001573 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001573">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Dominican Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Dominican Republic</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000701"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001574 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001574">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in British Virgin Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of British Virgin Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001180"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001575 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001575">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Sint Maarten</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Sint Maarten</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001576 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001576">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Guyana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Guyana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000691"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001577 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001577">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Panama</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Panama</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000655"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001578 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001578">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Ecuador</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Ecuador</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000717"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001579 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001579">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Saint Vincent and the Grenadines</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000615"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001580 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001580">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Mayotte</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001581 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001581">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Aruba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Aruba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001175"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001582 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001582">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Saint Martin</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Saint Martin</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001194"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001583 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001583">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Tanzania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Tanzania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000394"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001584 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001584">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Belize</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Belize</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000670"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001585 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001585">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001586 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001586">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Paraguay</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Paraguay</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000775"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001587 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001587">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Bahamas</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Bahamas</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000783"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001588 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001588">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in El Salvador</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of El Salvador</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000652"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001589 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001589">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Guatemala</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Guatemala</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000757"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001590 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001590">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Puerto Rico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Puerto Rico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000139"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001591 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001591">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Colombia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Colombia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000133"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001592 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001592">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Nicaragua</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Nicaragua</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000621"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001593 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001593">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Venezuela</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Venezuela</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000147"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001594 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001594">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Brazil</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Brazil</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001595 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001595">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Cambodia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Cambodia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000737"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001596 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001596">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in French Guiana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of French Guiana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001597 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001597">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Antigua and Barbuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Antigua and Barbuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000704"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001598 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001598">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Mexico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Mexico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000759"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001599 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001599">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Grenada</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Grenada</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000636"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001600 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001600">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Montserrat</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Montserrat</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001190"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001601 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001601">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Canada</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Canada</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000355"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001602 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001602">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001603 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001603">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Guadeloupe</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Guadeloupe</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001604 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001604">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Argentina</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Argentina</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000617"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001605 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001605">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Peru</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Peru</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000669"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001606 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001606">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Suriname</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Suriname</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000707"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001607 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001607">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Honduras</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Honduras</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000682"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001608 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001608">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Turks and Caicos Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Turks and Caicos Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001609 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001609">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Haiti</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Haiti</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001610 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001610">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Martinique</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Martinique</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001611 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001611">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Barbados</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Barbados</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000767"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001612 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001612">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Réunion</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001613 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001613">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Bermuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Bermuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001178"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001614 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001614">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Bolivia (Plurinational State of)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000622"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001615 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001615">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Saint Lucia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Saint Lucia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000702"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001616 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001616">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Trinidad and Tobago</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Trinidad and Tobago</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000676"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001617 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001617">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Chile</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Chile</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000687"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001618 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001618">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Anguilla</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Anguilla</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001173"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001619 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001619">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Saint Kitts and Nevis</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Saint Kitts and Nevis</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000645"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001620 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001620">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Italy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Italy</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000641"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001621 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001621">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Dominica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Dominica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000700"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001622 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001622">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Guam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in island of Guam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001553"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001623 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001623">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Guam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in island of Guam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001553"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001624 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001624">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Bonaire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in island of Bonaire</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001556"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001625 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001625">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Sint Eustatius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in island of Sint Eustatius</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001626 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001626">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in American Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in region of American Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001627 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001627">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Northern Mariana Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in region of Northern Mariana Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001628 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001628">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Bonaire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in island of Bonaire</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001556"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001629 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001629">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Sint Eustatius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in island of Sint Eustatius</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001630 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001630">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in American Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in region of American Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001631 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001631">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Northern Mariana Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in region of Northern Mariana Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001632 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001632">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in region of Mayotte</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001633 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001633">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in region of Réunion</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001634 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001634">
+        <rdf:type rdf:resource="&obc;IDE_0000001227"/>
+        <rdfs:label xml:lang="en">Aedes aegypti in Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001635 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001635">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001636 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001636">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in region of Réunion</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001637 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001637">
+        <rdf:type rdf:resource="&obc;IDE_0000001228"/>
+        <rdfs:label xml:lang="en">Aedes albopictus in Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in region of Mayotte</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001638 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001638">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Cayman Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Cayman Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001639 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001639">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Tokelau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Tokelau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001482"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001640 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001640">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Costa Rica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Costa Rica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000774"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001641 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001641">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Sint Maarten</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Sint Maarten</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001196"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001642 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001642">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001643 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001643">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Indonesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Indonesia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000752"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001644 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001644">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001645 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001645">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Saint Martin</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Saint Martin</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001194"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001646 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001646">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Antigua and Barbuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Antigua and Barbuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000704"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001647 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001647">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Honduras</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Honduras</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000682"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001648 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001648">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Taiwan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Taiwan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001649 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001649">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Papua New Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Papua New Guinea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000786"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001650 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001650">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Sri Lanka</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Sri Lanka</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000694"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001651 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001651">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Marshall Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Marshall Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000688"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001652 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001652">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Tonga</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Tonga</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000754"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001653 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001653">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Brazil</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Brazil</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001654 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001654">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Saudi Arabia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Saudi Arabia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000696"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001655 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001655">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Saint-Barthélemy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Saint-Barthélemy</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001455"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001656 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001656">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Dominican Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Dominican Republic</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000701"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001657 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001657">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in India</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of India</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000642"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001658 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001658">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Afghanistan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Afghanistan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000648"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001659 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001659">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Canada</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Canada</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000355"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001660 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001660">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Guatemala</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Guatemala</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000757"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001661 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001661">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001662 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001662">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Chile</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Chile</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000687"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001663 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001663">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Puerto Rico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Puerto Rico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000139"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001664 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001664">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Grenada</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Grenada</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000636"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001665 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001665">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Timor-Leste</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Timor-Leste</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000735"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001666 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001666">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Lao People's Democratic Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Lao People's Democratic Republic</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000683"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001667 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001667">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in British Virgin Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of British Virgin Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001180"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001668 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001668">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Belize</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Belize</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000670"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001669 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001669">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Bangladesh</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Bangladesh</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000709"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001670 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001670">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Palau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Palau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000706"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001671 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001671">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Malaysia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Malaysia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000745"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001672 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001672">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Argentina</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Argentina</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000617"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001673 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001673">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Bahamas</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Bahamas</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000783"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001674 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001674">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Martinique</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Martinique</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001675 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001675">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in French Guiana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of French Guiana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001676 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001676">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001677 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001677">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in El Salvador</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of El Salvador</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000652"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001678 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001678">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Aruba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Aruba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001175"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001679 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001679">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Republic of Korea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Republic of Korea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000792"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001680 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001680">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Pitcairn</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Pitcairn</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001527"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001681 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001681">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000629"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001682 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001682">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Nauru</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Nauru</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000616"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001683 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001683">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Barbados</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Barbados</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000767"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001684 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001684">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Saint Lucia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Saint Lucia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000702"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001685 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001685">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Maldives</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Maldives</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000760"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001686 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001686">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in China, Macao Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of China, Macao Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001461"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001687 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001687">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Panama</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Panama</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000655"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001688 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001688">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Dominica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Dominica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000700"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001689 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001689">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Fiji</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Fiji</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000637"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001690 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001690">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Haiti</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Haiti</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000721"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001691 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001691">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Saint Vincent and the Grenadines</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000615"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001692 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001692">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Mexico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Mexico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000759"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001693 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001693">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Turks and Caicos Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Turks and Caicos Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001198"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001694 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001694">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Japan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Japan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000728"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001695 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001695">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Cuba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Cuba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000789"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001696 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001696">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Ecuador</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Ecuador</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000717"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001697 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001697">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Suriname</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Suriname</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000707"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001698 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001698">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Kiribati</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Kiribati</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000771"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001699 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001699">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Mongolia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Mongolia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000681"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001700 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001700">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Niue</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Niue</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001485"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001701 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001701">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Bermuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Bermuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001178"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001702 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001702">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Trinidad and Tobago</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Trinidad and Tobago</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000676"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001703 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001703">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Myanmar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Myanmar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000756"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001704 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001704">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Tuvalu</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Tuvalu</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000743"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001705 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001705">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Philippines</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Philippines</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000748"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001706 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001706">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Saint Kitts and Nevis</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Saint Kitts and Nevis</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000645"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001707 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001707">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Cambodia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Cambodia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000737"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001708 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001708">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Anguilla</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Anguilla</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001173"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001709 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001709">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Guyana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Guyana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000691"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001710 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001710">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Colombia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Colombia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000133"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001711 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001711">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in New Caledonia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of New Caledonia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001542"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001712 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001712">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Nepal</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Nepal</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000679"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001713 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001713">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Venezuela</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Venezuela</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000147"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001714 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001714">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in New Zealand</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of New Zealand</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000762"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001715 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001715">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in China, Hong Kong Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001521"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001716 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001716">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Cook Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Cook Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001539"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001717 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001717">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Paraguay</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Paraguay</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000775"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001718 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001718">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Solomon Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Solomon Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000711"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001719 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001719">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001720 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001720">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Peru</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Peru</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000669"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001721 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001721">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Montserrat</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Montserrat</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001190"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001722 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001722">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Nicaragua</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Nicaragua</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000621"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001723 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001723">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Jamaica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Jamaica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000766"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001724 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001724">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Guadeloupe</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Guadeloupe</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001725 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001725">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Italy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Italy</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000641"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001726 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001726">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Virgin Islands of the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Virgin Islands of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001170"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001727 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001727">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Bolivia (Plurinational State of)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000622"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001728 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001728">
+        <rdf:type rdf:resource="&obc;IDE_0000000003"/>
+        <rdfs:label xml:lang="en">Dengue virus in Uruguay</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Uruguay</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000778"/>
+    </owl:NamedIndividual>
+
+
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -19713,15 +22739,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">hydrological precipitation process</rdfs:label>
         <obo:IAO_0000111>hydrological precipitation process</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000317">
+        <rdfs:label xml:lang="en">incubation period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000239">
         <rdfs:label xml:lang="en">Neisseria gonorrhoeae</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Neisseria gonorrhoeae population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Neisseria gonorrhoeae</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000317">
-        <rdfs:label xml:lang="en">incubation period</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000238">
         <rdfs:label xml:lang="en">Eastern equine encephalitis virus</rdfs:label>
@@ -19973,12 +22999,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000553">
         <rdfs:label xml:lang="en">two-strain Suscetible-Infectious-Resistant model</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000552">
-        <rdfs:label xml:lang="en">metapopulation disease transmission model</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000156">
         <rdfs:label xml:lang="en">infectious population</rdfs:label>
         <obo:IAO_0000111>infectious population</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000552">
+        <rdfs:label xml:lang="en">metapopulation disease transmission model</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000551">
         <rdfs:label xml:lang="en">Susceptible-Exposed-Infectious-Recovered model</rdfs:label>
@@ -19990,6 +23016,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0007567">
+        <rdfs:label xml:lang="en">parturition</rdfs:label>
+        <obo:IAO_0000111>parturition</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0039651">
         <rdfs:label xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</obo:IAO_0000111>
@@ -19999,10 +23029,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Mycobacterium tuberculosis</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0007567">
-        <rdfs:label xml:lang="en">parturition</rdfs:label>
-        <obo:IAO_0000111>parturition</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000292">
         <rdfs:label xml:lang="en">H7N2 subtype</rdfs:label>
@@ -20079,14 +23105,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
+        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000166">
         <rdfs:label xml:lang="en">disease course part</rdfs:label>
         <rdfs:label xml:lang="en">part of disease course</rdfs:label>
         <obo:IAO_0000111>part of disease course</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">disease course part</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
-        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000486">
         <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
@@ -20173,31 +23199,31 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of Mus musculus</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000531">
-        <rdfs:label xml:lang="en">epidemic threshold</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000035">
         <rdfs:label xml:lang="en">H7N9 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000531">
+        <rdfs:label xml:lang="en">epidemic threshold</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000034">
         <rdfs:label xml:lang="en">Influenza epidemic</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000033">
-        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000275">
         <rdfs:label xml:lang="en">Suid herpesvirus 1</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000033">
+        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000274">
         <rdfs:label xml:lang="en">Koutango virus</rdfs:label>
@@ -20464,15 +23490,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
-        <rdfs:label xml:lang="en">susceptible population</rdfs:label>
-        <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000255">
         <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
+        <rdfs:label xml:lang="en">susceptible population</rdfs:label>
+        <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000254">
         <rdfs:label xml:lang="en">Haemophilus influenzae</rdfs:label>
@@ -20507,19 +23533,19 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Trypanosoma cruzi population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Trypanosoma cruzi</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000250">
-        <rdfs:label xml:lang="en">Schistosoma haematobium</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000096">
         <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H5N6 subtype population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H5N6 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000250">
+        <rdfs:label xml:lang="en">Schistosoma haematobium</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
@@ -20578,14 +23604,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;OGMS_0000090">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
+        <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000249">
         <rdfs:label xml:lang="en">Morbillivirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Morbillivirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Morbillivirus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
-        <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
     </rdf:Description>
 </rdf:RDF>
 
