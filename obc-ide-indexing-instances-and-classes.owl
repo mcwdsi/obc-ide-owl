@@ -24030,6 +24030,288 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000001790 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001790">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000867"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001339"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001340"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001607"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Honduras, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Honduras, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001791 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001791">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001323"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001324"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001448"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001600"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Monserrat, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Monserrat, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001792 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001792">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000141"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001233"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001234"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001590"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Puerto Rico, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Puerto Rico, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001793 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001793">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001353"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001354"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001439"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001575"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Saint Martin, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Saint Martin, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001794 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001794">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000861"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001351"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001352"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001616"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Trinidad and Tobago, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Trinidad and Tobago, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001795 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001795">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001172"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001277"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001278"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001568"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Virgin Islands (US), 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Virgin Islands (US), 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001796 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001796">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000855"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001333"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001334"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001584"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Belize, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Belize, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001797 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001797">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001325"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001326"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001441"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001574"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of British Virgin Islands, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, British Virgin Islands, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001798 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001798">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000135"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001397"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001398"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001591"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Colombia, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Colombia, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001799 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001799">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000885"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001237"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001238"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001621"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Dominica, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Dominica, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001800 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001800">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001399"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001400"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001445"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001596"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of French Guiana, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, French Guiana, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001801 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001801">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000876"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001335"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001336"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001576"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Guyana, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Guyana, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001802 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001802">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001247"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001248"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001440"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001610"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Martinique, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Martinique, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001803 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001803">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000840"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001235"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001236"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001577"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Panama, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Panama, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001804 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001804">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000830"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001289"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001290"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001619"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Saint Kitts and Nevis, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Saint Kitts and Nevis, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001805 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001805">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001504"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001806"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001807"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001809"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Saint Martin (French part), 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Saint Martin (French part), 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001806 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001806">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000004"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001503"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Saint-Martin (French part)</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus in Saint-Martin (French part)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001807 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001807">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000001227"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001503"/>
+        <obo:IAO_0000111 xml:lang="en">Aedes aegypti mosquito population in region of Saint-Martin (French part)</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Aedes aegypti in Saint-Martin (French part)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001808 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001808">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001503"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Saint-Martin (French part)</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Saint-Martin (French part)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001809 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001809">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000001228"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001503"/>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus mosquito population in region of Saint-Martin (French part)</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Aedes albopictus in Saint-Martin (French part)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001810 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001810">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000269"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000021"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001177"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001415"/>
+        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001602"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of the United States, 2014 - present</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, United States, 2014 - present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
