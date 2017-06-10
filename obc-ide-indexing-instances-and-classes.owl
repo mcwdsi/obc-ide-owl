@@ -17902,6 +17902,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001193">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <ro:located_in rdf:resource="http://purl.obolibrary.org/obo/GEO_000041672"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of entire island of Saint Martin</obo:IAO_0000111>
         <rdfs:label xml:lang="en">ecosystem of island Saint Martin</rdfs:label>
     </owl:NamedIndividual>
@@ -26174,8 +26175,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000254">
         <obo:IAO_0000118 xml:lang="en">population of Haemophilus influenzae</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Haemophilus influenzae</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.pitt.edu/obc/IDE_0000000255">
         <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
