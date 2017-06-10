@@ -259,12 +259,12 @@
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -15802,15 +15802,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000001000 -->
-
-    <owl:NamedIndividual rdf:about="&obc;IDE_0000001000">
-        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
-        <ro:located_in rdf:resource="&obo;GEO_000000382"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.pitt.edu/obc/IDE_0000001001 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000001001">
@@ -16411,7 +16402,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">biotic ecosystem of Idaho</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Idaho</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001000"/>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001878"/>
     </owl:NamedIndividual>
     
 
@@ -24616,6 +24607,469 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000001837 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001837">
+        <rdf:type rdf:resource="&obc;IDE_0000001761"/>
+        <rdfs:label xml:lang="en">Mycobacterium lepromatosis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001838 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001838">
+        <rdf:type rdf:resource="&obc;IDE_0000001765"/>
+        <rdfs:label xml:lang="en">Borrelia in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Borrelia population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001839 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001839">
+        <rdf:type rdf:resource="&obc;IDE_0000001740"/>
+        <rdfs:label xml:lang="en">Brucella melitensis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Brucella melitensis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001840 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001840">
+        <rdf:type rdf:resource="&obc;IDE_0000001734"/>
+        <rdfs:label xml:lang="en">Shigella in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001841 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001841">
+        <rdf:type rdf:resource="&obc;IDE_0000001748"/>
+        <rdfs:label xml:lang="en">Corynebacterium diphtheriae in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Corynebacterium diphtheriae population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001842 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001842">
+        <rdf:type rdf:resource="&obc;IDE_0000001750"/>
+        <rdfs:label xml:lang="en">Anaplasma phagocytophilum in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Anaplasma phagocytophilum population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001843 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001843">
+        <rdf:type rdf:resource="&obc;IDE_0000001745"/>
+        <rdfs:label xml:lang="en">Coccidioides posadasii in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Coccidioides posadasii population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001844 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001844">
+        <rdf:type rdf:resource="&obc;IDE_0000001760"/>
+        <rdfs:label xml:lang="en">Mycobacterium leprae in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001845 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001845">
+        <rdf:type rdf:resource="&obc;IDE_0000001766"/>
+        <rdfs:label xml:lang="en">Mumps virus in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mumps virus population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001846 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001846">
+        <rdf:type rdf:resource="&obc;IDE_0000001735"/>
+        <rdfs:label xml:lang="en">Shigella sonnei in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella sonnei population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001847 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001847">
+        <rdf:type rdf:resource="&obc;IDE_0000001744"/>
+        <rdfs:label xml:lang="en">Coccidioides immitis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Coccidioides immitis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001848 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001848">
+        <rdf:type rdf:resource="&obc;IDE_0000001739"/>
+        <rdfs:label xml:lang="en">Brucella canis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Brucella canis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001849 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001849">
+        <rdf:type rdf:resource="&obc;IDE_0000001764"/>
+        <rdfs:label xml:lang="en">Listeria grayi in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Listeria grayi population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001850 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001850">
+        <rdf:type rdf:resource="&obc;IDE_0000001733"/>
+        <rdfs:label xml:lang="en">Entamoeba in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Entamoeba population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001851 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001851">
+        <rdf:type rdf:resource="&obc;IDE_0000001767"/>
+        <rdfs:label xml:lang="en">Rickettsia typhi in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rickettsia typhi population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001852 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001852">
+        <rdf:type rdf:resource="&obc;IDE_0000001746"/>
+        <rdfs:label xml:lang="en">Cryptosporidium parvum in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Cryptosporidium parvum population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001853 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001853">
+        <rdf:type rdf:resource="&obc;IDE_0000001752"/>
+        <rdfs:label xml:lang="en">Trichinella britovi in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Trichinella britovi population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001854 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001854">
+        <rdf:type rdf:resource="&obc;IDE_0000001763"/>
+        <rdfs:label xml:lang="en">Listeria ivanovii in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Listeria ivanovii population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001855 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001855">
+        <rdf:type rdf:resource="&obc;IDE_0000001771"/>
+        <rdfs:label xml:lang="en">Treponema pallidum subsp. pallidum in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Treponema pallidum subsp. pallidum population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001856 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001856">
+        <rdf:type rdf:resource="&obc;IDE_0000001768"/>
+        <rdfs:label xml:lang="en">Chlamydia psittaci in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chlamydia psittaci population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001857 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001857">
+        <rdf:type rdf:resource="&obc;IDE_0000001769"/>
+        <rdfs:label xml:lang="en">Rickettsia rickettsii in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rickettsia rickettsii population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001858 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001858">
+        <rdf:type rdf:resource="&obc;IDE_0000001773"/>
+        <rdfs:label xml:lang="en">Francisella tularensis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Francisella tularensis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001859 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001859">
+        <rdf:type rdf:resource="&obc;IDE_0000001741"/>
+        <rdfs:label xml:lang="en">Brucella suis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Brucella suis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001860 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001860">
+        <rdf:type rdf:resource="&obc;IDE_0000001770"/>
+        <rdfs:label xml:lang="en">Rubella virus in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rubella virus population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001861 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001861">
+        <rdf:type rdf:resource="&obc;IDE_0000001749"/>
+        <rdfs:label xml:lang="en">Giardia intestinalis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Giardia intestinalis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001862 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001862">
+        <rdf:type rdf:resource="&obc;IDE_0000001737"/>
+        <rdfs:label xml:lang="en">Shigella dysenteriae in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella dysenteriae population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001863 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001863">
+        <rdf:type rdf:resource="&obc;IDE_0000001762"/>
+        <rdfs:label xml:lang="en">Listeria monocytogenes in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Listeria monocytogenes population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001864 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001864">
+        <rdf:type rdf:resource="&obc;IDE_0000001755"/>
+        <rdfs:label xml:lang="en">Trichinella nativa in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Trichinella nativa population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001865 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001865">
+        <rdf:type rdf:resource="&obc;IDE_0000001774"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 3 in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001866 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001866">
+        <rdf:type rdf:resource="&obc;IDE_0000001747"/>
+        <rdfs:label xml:lang="en">Cryptosporidium hominis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Cryptosporidium hominis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001867 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001867">
+        <rdf:type rdf:resource="&obc;IDE_0000001732"/>
+        <rdfs:label xml:lang="en">Hepatitis B virus in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Hepatitis B virus population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001868 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001868">
+        <rdf:type rdf:resource="&obc;IDE_0000001756"/>
+        <rdfs:label xml:lang="en">Trichinella murrelli in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Trichinella murrelli population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001869 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001869">
+        <rdf:type rdf:resource="&obc;IDE_0000001738"/>
+        <rdfs:label xml:lang="en">Brucella abortus in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Brucella abortus population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001870 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001870">
+        <rdf:type rdf:resource="&obc;IDE_0000001736"/>
+        <rdfs:label xml:lang="en">Shigella flexneri in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella flexneri population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001871 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001871">
+        <rdf:type rdf:resource="&obc;IDE_0000001759"/>
+        <rdfs:label xml:lang="en">Legionella in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Legionella population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001872 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001872">
+        <rdf:type rdf:resource="&obc;IDE_0000001758"/>
+        <rdfs:label xml:lang="en">Streptococcus sp. &apos;group A&apos; in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Streptococcus sp. &apos;group A&apos; population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001873 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001873">
+        <rdf:type rdf:resource="&obc;IDE_0000001757"/>
+        <rdfs:label xml:lang="en">Escherichia coli O157 in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Escherichia coli O157 population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001874 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001874">
+        <rdf:type rdf:resource="&obc;IDE_0000001751"/>
+        <rdfs:label xml:lang="en">Ehrlichia chaffeensis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Ehrlichia chaffeensis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001875 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001875">
+        <rdf:type rdf:resource="&obc;IDE_0000001754"/>
+        <rdfs:label xml:lang="en">Trichinella nelsoni in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Trichinella nelsoni population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001876 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001876">
+        <rdf:type rdf:resource="&obc;IDE_0000001753"/>
+        <rdfs:label xml:lang="en">Trichinella spiralis in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Trichinella spiralis population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001877 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001877">
+        <rdf:type rdf:resource="&obc;IDE_0000001772"/>
+        <rdfs:label xml:lang="en">Clostridium tetani in the United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Clostridium tetani population in region of the United States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001878 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001878">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Idaho</rdfs:label>
+        <rdfs:label xml:lang="en">obc.ide user interface class hierarchy object property indicator</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Idaho</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000382"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -24887,11 +25341,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000001000">
-        <rdfs:label xml:lang="en">ecosystem of Idaho</rdfs:label>
-        <rdfs:label xml:lang="en">obc.ide user interface class hierarchy object property indicator</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Idaho</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;ENVO_02500000">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
