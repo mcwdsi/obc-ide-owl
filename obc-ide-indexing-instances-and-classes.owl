@@ -17879,7 +17879,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001366"/>
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001579"/>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Saint Vincent and the Grenadines, 2014 - present</obo:IAO_0000111>
-        <rdfs:comment>Chikungunya virus, humans, Saint Vincent and the Grenadines, 2014 - present</rdfs:comment>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Saint Vincent and the Grenadines, 2014 - present</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -25088,7 +25088,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001304"/>
         <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000001611"/>
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Barbados, 2014 - present</obo:IAO_0000111>
-        <rdfs:comment xml:lang="en">Chikungunya virus, humans, Barbados, 2014 - present</rdfs:comment>
+        <rdfs:label xml:lang="en">Chikungunya virus, humans, Barbados, 2014 - present</rdfs:label>
     </owl:NamedIndividual>
     
 
