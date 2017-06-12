@@ -18227,8 +18227,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdf:type rdf:resource="&obc;IDE_0000000032"/>
         <rdfs:label xml:lang="en">Zaire ebolavirus, humans, Texas, 2014-10-10 to 2014-10-14</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus, humans, region of Texas, 2014-10-10 to 2014-10-14</obo:IAO_0000111>
-        <obo:RO_0000057 rdf:resource="&obc;IDE_0000001122"/>
         <obo:RO_0000057 rdf:resource="&obc;IDE_0000001125"/>
+        <obo:RO_0000057 rdf:resource="&obc;IDE_0000001221"/>
     </owl:NamedIndividual>
     
 
@@ -25614,13 +25614,13 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;IAO_0000064">
         <rdfs:label xml:lang="en">algorithm</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0044703">
-        <rdfs:label xml:lang="en">multi-organism reproductive process</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">multi-organism reproductive process</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0022414">
         <rdfs:label xml:lang="en">reproductive process</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">reproductive process</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0044703">
+        <rdfs:label xml:lang="en">multi-organism reproductive process</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">multi-organism reproductive process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000171">
         <obo:IAO_0000111 xml:lang="en">antiviral treatment</obo:IAO_0000111>
@@ -25808,12 +25808,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000551">
         <rdfs:label xml:lang="en">Susceptible-Exposed-Infectious-Recovered model</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000550">
-        <rdfs:label xml:lang="en">contact tracing</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0007565">
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000550">
+        <rdfs:label xml:lang="en">contact tracing</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0007567">
         <rdfs:label xml:lang="en">parturition</rdfs:label>
@@ -25856,12 +25856,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
         <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
-        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">compartment-based disease transmission model</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
+        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000308">
         <rdfs:label xml:lang="en">vector control strategy</rdfs:label>
