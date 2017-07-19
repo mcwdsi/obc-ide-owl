@@ -1,0 +1,8 @@
+select ?x ?y ?z
+from <http://www.pitt.edu/obc/ide/classes-and-indexing-instances>
+#from <http://www.pitt.edu/obc/ide/article-instances>
+where {
+  ?x rdf:type <http://purl.obolibrary.org/obo/OBI_0001636> .
+  ?x dc:title ?y . 
+  ?x <http://purl.obolibrary.org/obo/IDE_0000000169> ?z
+     }​
