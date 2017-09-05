@@ -4867,85 +4867,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </owl:NamedIndividual>
     
 
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001909 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001909"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001910 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001910"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001911 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001911"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001912 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001912"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001913 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001913"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001914 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001914"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001915 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001915"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001917 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001917"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001919 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001919"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001921 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001921"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001923 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001923"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001925 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001925"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDE_0000001927 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDE_0000001927"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NBO_0000034 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
@@ -24938,7 +24859,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001908">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001909"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001909"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of HRSA region 1</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in HRSA region 1</rdfs:label>
     </owl:NamedIndividual>
@@ -24949,7 +24870,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001909">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001910"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001910"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 1</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 1</rdfs:label>
     </owl:NamedIndividual>
@@ -24982,7 +24903,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001912">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001911"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001911"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 2</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 2</rdfs:label>
     </owl:NamedIndividual>
@@ -25004,7 +24925,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001914">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001913"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001913"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 3</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 3</rdfs:label>
     </owl:NamedIndividual>
@@ -25026,7 +24947,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001916">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001915"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001915"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 4</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 4</rdfs:label>
     </owl:NamedIndividual>
@@ -25048,7 +24969,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001918">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001917"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001917"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 5</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 5</rdfs:label>
     </owl:NamedIndividual>
@@ -25070,7 +24991,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001920">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001919"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001919"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 6</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 6</rdfs:label>
     </owl:NamedIndividual>
@@ -25092,7 +25013,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001922">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001921"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001921"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 7</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 7</rdfs:label>
     </owl:NamedIndividual>
@@ -25114,7 +25035,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001924">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001923"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001923"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 8</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 8</rdfs:label>
     </owl:NamedIndividual>
@@ -25136,7 +25057,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001926">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001925"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001925"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 9</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 9</rdfs:label>
     </owl:NamedIndividual>
@@ -25158,7 +25079,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001928">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001927"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001927"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of HRSA region 10</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of HRSA region 10</rdfs:label>
     </owl:NamedIndividual>
@@ -25169,7 +25090,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001929">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001912"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001912"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of HRSA region 2</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in HRSA region 2</rdfs:label>
     </owl:NamedIndividual>
@@ -25180,7 +25101,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
 
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000001930">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/IDE_0000001914"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001914"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of HRSA region 3</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in HRSA region 3</rdfs:label>
     </owl:NamedIndividual>
