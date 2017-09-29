@@ -25520,7 +25520,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes aegypti population in region of Hawaiʻi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001058"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001968 -->
@@ -25531,7 +25531,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Spain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000697"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001969 -->
@@ -25542,7 +25542,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Angola</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000663"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001970 -->
@@ -25553,7 +25553,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Senegal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000632"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001971 -->
@@ -25564,18 +25564,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Hawaiʻi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001058"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001972 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000001972">
         <rdf:type rdf:resource="&obc;IDE_0000001228"/>
-        <rdfs:label xml:lang="en">Aedes albopictus in Côte d'Ivoire</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Côte d'Ivoire</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Aedes albopictus in Côte d&apos;Ivoire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000650"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001973 -->
@@ -25586,7 +25586,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Burkina Faso</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000768"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001974 -->
@@ -25597,7 +25597,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Portugal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000668"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001975 -->
@@ -25608,7 +25608,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Seychelles</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000753"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001976 -->
@@ -25619,7 +25619,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Eritrea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000628"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001977 -->
@@ -25630,7 +25630,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Germany</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000692"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001978 -->
@@ -25641,7 +25641,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Comoros</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000732"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001979 -->
@@ -25652,7 +25652,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Pakistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000627"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001980 -->
@@ -25663,10 +25663,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Aedes albopictus population in region of Mozambique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000777"/>
     </owl:NamedIndividual>
+    
 
 
-
-        <!-- http://www.pitt.edu/obc/IDE_0000001981 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000001981 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000001981">
         <rdf:type rdf:resource="&obc;IDE_0000000003"/>
@@ -25674,18 +25674,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Pakistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000627"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001982 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000001982">
         <rdf:type rdf:resource="&obc;IDE_0000000003"/>
-        <rdfs:label xml:lang="en">Dengue virus in Côte d'Ivoire</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Côte d'Ivoire</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Dengue virus in Côte d&apos;Ivoire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000650"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001983 -->
@@ -25696,7 +25696,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Djibouti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000744"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001984 -->
@@ -25707,7 +25707,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Micronesia (Federated States of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000686"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001985 -->
@@ -25718,7 +25718,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Seychelles</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000753"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001986 -->
@@ -25729,7 +25729,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Angola</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000663"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001987 -->
@@ -25740,7 +25740,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Mozambique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000777"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001988 -->
@@ -25751,7 +25751,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Hawaiʻi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001058"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001989 -->
@@ -25762,7 +25762,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Spain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000697"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001990 -->
@@ -25773,7 +25773,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Comoros</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000732"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001991 -->
@@ -25784,7 +25784,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Portugal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000668"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001992 -->
@@ -25795,7 +25795,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Eritrea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000628"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001993 -->
@@ -25806,7 +25806,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Burkina Faso</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000768"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001994 -->
@@ -25817,7 +25817,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Germany</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000692"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001995 -->
@@ -25828,10 +25828,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Senegal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000632"/>
     </owl:NamedIndividual>
+    
 
 
-
-        <!-- http://www.pitt.edu/obc/IDE_0000001996 -->
+    <!-- http://www.pitt.edu/obc/IDE_0000001996 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000001996">
         <rdf:type rdf:resource="&obc;IDE_0000000026"/>
@@ -25839,7 +25839,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Mauritius</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000723"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001997 -->
@@ -25850,7 +25850,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Micronesia (Federated States of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000686"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001998 -->
@@ -25861,7 +25861,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Colombia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000133"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000001999 -->
@@ -25872,7 +25872,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Central African Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000794"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002000 -->
@@ -25883,7 +25883,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Hungary</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000657"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002001 -->
@@ -25894,7 +25894,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Republic of Congo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000066"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002002 -->
@@ -25905,7 +25905,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Austria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000635"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002003 -->
@@ -25916,7 +25916,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Gambia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000734"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002004 -->
@@ -25927,7 +25927,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Bahrain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002005 -->
@@ -25938,7 +25938,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Cook Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001539"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002006 -->
@@ -25949,7 +25949,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Belarus</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000675"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002007 -->
@@ -25960,7 +25960,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Sweden</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000741"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002008 -->
@@ -25971,7 +25971,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Albania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000773"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002009 -->
@@ -25982,7 +25982,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Israel</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000750"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002010 -->
@@ -25993,7 +25993,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Malta</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000671"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002011 -->
@@ -26004,7 +26004,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Denmark</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000279"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002012 -->
@@ -26015,7 +26015,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Uruguay</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000778"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002013 -->
@@ -26026,7 +26026,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Zambia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000674"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002014 -->
@@ -26037,7 +26037,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Republic of Korea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000792"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002015 -->
@@ -26048,7 +26048,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Dominica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000700"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002016 -->
@@ -26059,7 +26059,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Bulgaria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000747"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002017 -->
@@ -26070,7 +26070,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Chile</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000687"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002018 -->
@@ -26081,7 +26081,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of American Samoa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001562"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002019 -->
@@ -26092,7 +26092,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Czech Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000772"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002020 -->
@@ -26103,7 +26103,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Nepal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000679"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002021 -->
@@ -26114,7 +26114,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Suriname</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000707"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002022 -->
@@ -26125,7 +26125,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Burkina Faso</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000768"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002023 -->
@@ -26136,7 +26136,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Argentina</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000617"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002024 -->
@@ -26147,7 +26147,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Sri Lanka</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000694"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002025 -->
@@ -26158,7 +26158,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Trinidad and Tobago</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000676"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002026 -->
@@ -26169,7 +26169,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Germany</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000692"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002027 -->
@@ -26180,7 +26180,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Taiwan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002028 -->
@@ -26191,7 +26191,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of South Africa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000740"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002029 -->
@@ -26202,7 +26202,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Haiti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000721"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002030 -->
@@ -26213,7 +26213,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Tajikistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000638"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002031 -->
@@ -26224,7 +26224,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Thailand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000656"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002032 -->
@@ -26235,18 +26235,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Costa Rica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000774"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002033 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000002033">
         <rdf:type rdf:resource="&obc;IDE_0000000026"/>
-        <rdfs:label xml:lang="en">Influenza virus in Lao People's Democratic Republic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Lao People's Democratic Republic</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza virus in Lao People&apos;s Democratic Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Lao People&apos;s Democratic Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000683"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002034 -->
@@ -26257,7 +26257,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Ghana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000787"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002035 -->
@@ -26268,7 +26268,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Myanmar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000756"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002036 -->
@@ -26279,7 +26279,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Rwanda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000742"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002037 -->
@@ -26290,7 +26290,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Finland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000784"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002038 -->
@@ -26301,7 +26301,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Latvia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000722"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002039 -->
@@ -26312,7 +26312,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of New Zealand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000762"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002040 -->
@@ -26323,7 +26323,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Comoros</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000732"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002041 -->
@@ -26334,7 +26334,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Jordan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000749"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002042 -->
@@ -26345,7 +26345,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Tuvalu</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000743"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002043 -->
@@ -26356,7 +26356,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Brazil</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002044 -->
@@ -26367,7 +26367,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Serbia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000793"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002045 -->
@@ -26378,7 +26378,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Morocco</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000654"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002046 -->
@@ -26389,7 +26389,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of El Salvador</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000652"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002047 -->
@@ -26400,7 +26400,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Russian Federation</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000720"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002048 -->
@@ -26411,7 +26411,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Republic of Kosovo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000614"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002049 -->
@@ -26422,7 +26422,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Papua New Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000786"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002050 -->
@@ -26433,7 +26433,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Nigeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002051 -->
@@ -26444,7 +26444,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Georgia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000649"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002052 -->
@@ -26455,7 +26455,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Paraguay</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000775"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002053 -->
@@ -26466,7 +26466,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Palau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000706"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002054 -->
@@ -26477,7 +26477,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Bangladesh</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000709"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002055 -->
@@ -26488,7 +26488,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Japan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000728"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002056 -->
@@ -26499,7 +26499,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Mayotte</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002057 -->
@@ -26510,7 +26510,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Mali</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000666"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002058 -->
@@ -26521,7 +26521,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Dominican Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000701"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002059 -->
@@ -26532,7 +26532,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Martinique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002060 -->
@@ -26543,7 +26543,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Solomon Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000711"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002061 -->
@@ -26554,7 +26554,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Tunisia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000620"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002062 -->
@@ -26565,7 +26565,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Afghanistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000648"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002063 -->
@@ -26576,7 +26576,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Djibouti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000744"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002064 -->
@@ -26587,7 +26587,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Bosnia and Herzegovina</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000680"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002065 -->
@@ -26598,7 +26598,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Puerto Rico</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000139"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002066 -->
@@ -26609,7 +26609,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Kuwait</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000667"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002067 -->
@@ -26620,7 +26620,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Guadeloupe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002068 -->
@@ -26631,7 +26631,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Senegal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000632"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002069 -->
@@ -26642,7 +26642,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Slovakia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000712"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002070 -->
@@ -26653,7 +26653,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Ukraine</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000672"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002071 -->
@@ -26664,7 +26664,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of India</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000642"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002072 -->
@@ -26675,7 +26675,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Kyrgyzstan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000781"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002073 -->
@@ -26686,7 +26686,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Kazakhstan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000673"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002074 -->
@@ -26697,7 +26697,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Mexico</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000759"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002075 -->
@@ -26708,7 +26708,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Greece</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000677"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002076 -->
@@ -26719,7 +26719,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Uganda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000069"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002077 -->
@@ -26730,7 +26730,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Croatia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000693"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002078 -->
@@ -26741,7 +26741,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Guinea-Bissau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000644"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002079 -->
@@ -26752,7 +26752,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Qatar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000788"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002080 -->
@@ -26763,7 +26763,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Lithuania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000662"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002081 -->
@@ -26774,7 +26774,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Fiji</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000637"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002082 -->
@@ -26785,7 +26785,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Lebanon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000785"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002083 -->
@@ -26796,7 +26796,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Cayman Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002084 -->
@@ -26807,7 +26807,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of French Guiana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002085 -->
@@ -26818,7 +26818,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Honduras</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000682"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002086 -->
@@ -26829,7 +26829,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Iceland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000698"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002087 -->
@@ -26840,7 +26840,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Romania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000612"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002088 -->
@@ -26851,7 +26851,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Samoa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000629"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002089 -->
@@ -26862,7 +26862,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Malaysia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000745"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002090 -->
@@ -26873,7 +26873,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Cameroon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000724"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002091 -->
@@ -26884,7 +26884,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Italy</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000641"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002092 -->
@@ -26895,7 +26895,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Indonesia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000752"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002093 -->
@@ -26906,7 +26906,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Turkey</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000715"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002094 -->
@@ -26917,7 +26917,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Azerbaijan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000716"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002095 -->
@@ -26928,7 +26928,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Maldives</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000760"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002096 -->
@@ -26939,7 +26939,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Estonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000736"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002097 -->
@@ -26950,7 +26950,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Panama</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000655"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002098 -->
@@ -26961,7 +26961,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Singapore</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002099 -->
@@ -26972,7 +26972,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Togo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000639"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002100 -->
@@ -26983,7 +26983,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Mozambique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000777"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002101 -->
@@ -26994,7 +26994,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Armenia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000705"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002102 -->
@@ -27005,7 +27005,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Australia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002103 -->
@@ -27016,7 +27016,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Guam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001553"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002104 -->
@@ -27027,7 +27027,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Norway</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000661"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002105 -->
@@ -27038,7 +27038,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Belize</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000670"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002106 -->
@@ -27049,7 +27049,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Jamaica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000766"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002107 -->
@@ -27060,7 +27060,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Mongolia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000681"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002108 -->
@@ -27071,7 +27071,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Algeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000703"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002109 -->
@@ -27082,7 +27082,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000622"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002110 -->
@@ -27093,7 +27093,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000615"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002111 -->
@@ -27104,7 +27104,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Switzerland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000623"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002112 -->
@@ -27115,7 +27115,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Ecuador</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000717"/>
     </owl:NamedIndividual>
+    
 
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002113 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002113">
+        <rdf:type rdf:resource="&obc;IDE_0000000028"/>
+        <rdfs:label xml:lang="en">Influenza A virus in Taiwan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus population in region of Taiwan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002114 -->
@@ -27126,7 +27137,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Spain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000697"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002115 -->
@@ -27137,7 +27148,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Ethiopia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000731"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002116 -->
@@ -27148,7 +27159,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Uzbekistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000751"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002117 -->
@@ -27159,7 +27170,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Pakistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000627"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002118 -->
@@ -27170,7 +27181,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Oman</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000658"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002119 -->
@@ -27181,7 +27192,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of France</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000719"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002120 -->
@@ -27192,7 +27203,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Cambodia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000737"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002121 -->
@@ -27203,7 +27214,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of China</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000730"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002122 -->
@@ -27214,7 +27225,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Kenya</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000710"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002123 -->
@@ -27225,7 +27236,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Barbados</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000767"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002124 -->
@@ -27236,7 +27247,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Egypt</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000769"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002125 -->
@@ -27247,7 +27258,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Belgium</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000764"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002126 -->
@@ -27258,7 +27269,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Guatemala</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000757"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002127 -->
@@ -27269,7 +27280,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Portugal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000668"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002128 -->
@@ -27280,7 +27291,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Madagascar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000664"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002129 -->
@@ -27291,7 +27302,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Luxembourg</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000791"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002130 -->
@@ -27302,7 +27313,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Slovenia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000733"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002131 -->
@@ -27313,18 +27324,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Philippines</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000748"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002132 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000002132">
         <rdf:type rdf:resource="&obc;IDE_0000000026"/>
-        <rdfs:label xml:lang="en">Influenza virus in Côte d'Ivoire</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Côte d'Ivoire</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza virus in Côte d&apos;Ivoire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000650"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002133 -->
@@ -27335,7 +27346,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of New Caledonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001542"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002134 -->
@@ -27346,7 +27357,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Nicaragua</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000621"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002135 -->
@@ -27357,7 +27368,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Japan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000728"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002136 -->
@@ -27368,7 +27379,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Viet Nam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000776"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002137 -->
@@ -27379,7 +27390,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Martinique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002138 -->
@@ -27390,7 +27401,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of French Polynesia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001551"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002139 -->
@@ -27401,7 +27412,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Guadeloupe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002140 -->
@@ -27412,7 +27423,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Saint-Barthélemy</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001455"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002141 -->
@@ -27423,7 +27434,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Thailand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000656"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002142 -->
@@ -27434,7 +27445,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of China</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000730"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002143 -->
@@ -27445,7 +27456,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Taiwan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002144 -->
@@ -27456,7 +27467,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Tonga</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000754"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002145 -->
@@ -27467,7 +27478,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Cuba</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000789"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002146 -->
@@ -27478,7 +27489,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of Fiji</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000637"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000002147 -->
@@ -27488,6 +27499,171 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Zika virus in American Samoa</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of American Samoa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002148 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002148">
+        <rdf:type rdf:resource="&obc;IDE_0000000028"/>
+        <rdfs:label xml:lang="en">Infleunza A virus in China, Hong Kong Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus population in region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001521"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002149 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002149">
+        <rdf:type rdf:resource="&obc;IDE_0000000028"/>
+        <rdfs:label xml:lang="en">Influenza A virus in China</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus population in region of China</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000730"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002150 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002150">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Viet Nam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Viet Nam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000776"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002151 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002151">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002152 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002152">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Netherlands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Netherlands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000665"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002153 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002153">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in United Kingdom of Great Britain and Northern Ireland</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of United Kingdom of Great Britain and Northern Ireland</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000790"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002154 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002154">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Venezuela</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Venezuela</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000147"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002155 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002155">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Saudi Arabia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Saudi Arabia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000696"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002156 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002156">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Montenegro</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Montenegro</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000763"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002157 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002157">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza in China, Hong Kong Special Administrative Region</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001521"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002158 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002158">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in the former Yugoslav Republic of Macedonia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of the former Yugoslav Republic of Macedonia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000613"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002159 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002159">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Northern Mariana Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Northern Mariana Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002160 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002160">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in French Polynesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of French Polynesia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002161 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002161">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Tanzania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Tanzania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000394"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002162 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002162">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Republic of Moldova</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Republic of Moldova</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000699"/>
     </owl:NamedIndividual>
     
 
@@ -27524,17 +27700,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000245">
-        <rdfs:label xml:lang="en">Vibrio cholerae O1</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Vibrio cholerae O1 population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Vibrio cholerae O1</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000003">
         <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000245">
+        <rdfs:label xml:lang="en">Vibrio cholerae O1</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Vibrio cholerae O1 population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Vibrio cholerae O1</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000244">
         <rdfs:label xml:lang="en">Respiratory Syncytial Virus</rdfs:label>
@@ -27602,24 +27778,24 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Clostridium difficile</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000174">
-        <rdfs:label xml:lang="en">disease transmission model</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">disease transmission model</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000236">
         <rdfs:label xml:lang="en">Bacillus anthracis</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Bacillus anthracis population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Bacillus anthracis</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000294">
-        <obo:IAO_0000111 xml:lang="en">agent-based disease transmission model</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000174">
+        <rdfs:label xml:lang="en">disease transmission model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">disease transmission model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000235">
         <rdfs:label xml:lang="en">Foot-and-mouth disease virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Foot-and-mouth disease virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Foot-and-mouth disease virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000294">
+        <obo:IAO_0000111 xml:lang="en">agent-based disease transmission model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000234">
         <rdfs:label xml:lang="en">Candida auris</rdfs:label>
@@ -27665,18 +27841,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000323">
         <obo:IAO_0000111 xml:lang="en">liberal sick leave control strategy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000229">
+        <rdfs:label xml:lang="en">HIV-1</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of HIV-1</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000108">
         <rdfs:label xml:lang="en">Measles virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Measles virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">Measles virus worldwide</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Measles virus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000229">
-        <rdfs:label xml:lang="en">HIV-1</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">HIV-1 population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of HIV-1</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000228">
         <rdfs:label xml:lang="en">Hepatitis D virus</rdfs:label>
@@ -27702,15 +27878,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chlamydia trachomatis</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000140">
+        <rdfs:label xml:lang="en">infectious period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000224">
         <rdfs:label xml:lang="en">Hepatitis C virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Hepatitis C virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis C virus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000140">
-        <rdfs:label xml:lang="en">infectious period</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000223">
         <rdfs:label xml:lang="en">Influenza B virus</rdfs:label>
@@ -27764,12 +27940,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000534">
+        <rdfs:label xml:lang="en">human mobility data item</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;ENVO_02500000">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000534">
-        <rdfs:label xml:lang="en">human mobility data item</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000533">
         <rdfs:label xml:lang="en">human air travel</rdfs:label>
@@ -27852,6 +28028,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0007567">
+        <rdfs:label xml:lang="en">parturition</rdfs:label>
+        <obo:IAO_0000111>parturition</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000173">
         <rdfs:label xml:lang="en">Mycobacterium tuberculosis</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
@@ -27861,10 +28041,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;GO_0039651">
         <rdfs:label xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0007567">
-        <rdfs:label xml:lang="en">parturition</rdfs:label>
-        <obo:IAO_0000111>parturition</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000292">
         <rdfs:label xml:lang="en">H7N2 subtype</rdfs:label>
@@ -27893,12 +28069,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
         <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
-        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">compartment-based disease transmission model</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
+        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000308">
         <rdfs:label xml:lang="en">vector control strategy</rdfs:label>
@@ -27907,12 +28083,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000549">
         <rdfs:label xml:lang="en">Susceptible-Infected-Resistant model</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000548">
-        <rdfs:label xml:lang="en">Susceptible-Infected-Susceptible model</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000548">
+        <rdfs:label xml:lang="en">Susceptible-Infected-Susceptible model</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
         <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
@@ -27931,28 +28107,28 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Macaca mulatta</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000487">
+        <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000167">
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000487">
-        <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000486">
+        <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
+        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000166">
         <rdfs:label xml:lang="en">disease course part</rdfs:label>
         <rdfs:label xml:lang="en">part of disease course</rdfs:label>
         <obo:IAO_0000111>part of disease course</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">disease course part</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
-        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000486">
-        <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000044">
         <rdfs:label xml:lang="en">Dengue virus 4</rdfs:label>
@@ -28035,31 +28211,31 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of Mus musculus</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000531">
-        <rdfs:label xml:lang="en">epidemic threshold</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000035">
         <rdfs:label xml:lang="en">H7N9 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000531">
+        <rdfs:label xml:lang="en">epidemic threshold</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000034">
         <rdfs:label xml:lang="en">Influenza epidemic</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000033">
-        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000275">
         <rdfs:label xml:lang="en">Suid herpesvirus 1</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000033">
+        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000274">
         <rdfs:label xml:lang="en">Koutango virus</rdfs:label>
@@ -28113,16 +28289,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of influenza A virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000269">
-        <rdfs:label xml:lang="en">Chikungunya virus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Chikungunya virus epidemic</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000027">
         <rdfs:label xml:lang="en">H1N1 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H1N1 population worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H1N1 subtype</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000269">
+        <rdfs:label xml:lang="en">Chikungunya virus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000026">
         <rdfs:label xml:lang="en">Influenza virus</rdfs:label>
@@ -28154,14 +28330,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Anatidae</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000100">
-        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000264">
         <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Sus scrofa population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Sus scrofa</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000100">
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000142">
         <rdfs:label xml:lang="en">Zika virus epidemic</rdfs:label>
@@ -28255,16 +28431,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">prodromal period</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">prodromal period of disease course</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000259">
-        <rdfs:label xml:lang="en">Yellow Fever virus</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Yellow Fever virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Yellow Fever virus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;NBO_0000034">
-        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
-        <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000017">
         <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Homo sapiens population</obo:IAO_0000111>
@@ -28276,6 +28442,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
         <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000259">
+        <rdfs:label xml:lang="en">Yellow Fever virus</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Yellow Fever virus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Yellow Fever virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;NBO_0000034">
+        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
+        <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000258">
         <rdfs:label xml:lang="en">Neisseria meningitidis</rdfs:label>
@@ -28292,26 +28468,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000257">
-        <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000015">
         <rdfs:label xml:lang="en">Aedes mosquito</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Aedes mosquito population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000256">
-        <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
+    <rdf:Description rdf:about="&obc;IDE_0000000257">
+        <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
-        <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000014">
         <rdfs:label xml:lang="en">Zika virus</rdfs:label>
@@ -28319,11 +28486,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zika virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000255">
-        <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
+        <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000256">
+        <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000013">
         <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
@@ -28332,19 +28502,25 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000255">
+        <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
         <rdfs:label xml:lang="en">susceptible population</rdfs:label>
         <obo:IAO_0000111>susceptible population</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000233">
-        <rdfs:label xml:lang="en">infected population</rdfs:label>
-        <obo:IAO_0000111>infected population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000254">
         <rdfs:label xml:lang="en">Haemophilus influenzae</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Haemophilus influenzae</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000233">
+        <rdfs:label xml:lang="en">infected population</rdfs:label>
+        <obo:IAO_0000111>infected population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000001729">
         <rdfs:label xml:lang="en">Enterovirus C</rdfs:label>
@@ -28358,16 +28534,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hantavirus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
+        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000252">
         <rdfs:label xml:lang="en">Rift Valley fever virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Rift Valley fever virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
-        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000251">
         <rdfs:label xml:lang="en">Trypanosoma cruzi</rdfs:label>
@@ -28375,19 +28551,19 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Trypanosoma cruzi population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Trypanosoma cruzi</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000096">
-        <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H5N6 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000111 xml:lang="en">H5N6 subtype worldwide</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000250">
         <rdfs:label xml:lang="en">Schistosoma haematobium</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000096">
+        <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H5N6 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">H5N6 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
@@ -28437,14 +28613,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OGMS_0000090">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000008">
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Ebolavirus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000090">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000249">
         <rdfs:label xml:lang="en">Morbillivirus</rdfs:label>
