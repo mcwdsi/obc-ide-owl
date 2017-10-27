@@ -260,12 +260,12 @@
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -4261,6 +4261,60 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Human herpesvirus 3</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002174 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000002174">
+        <rdfs:label xml:lang="en">Culex mosquito</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002351"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_7174"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002351"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_7174"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;APOLLO_SV_00000516"/>
+        <obo:IAO_0000111 xml:lang="en">Culex mosquito population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Culex mosquito</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002175 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000002175">
+        <rdfs:label xml:lang="en">Culex quinquefasciatus</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002351"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_7176"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002351"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_7176"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000002174"/>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Culex quinquefasciatus</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -27668,6 +27722,2085 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000002163 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002163">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Easter Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Easter Island</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000041734"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002164 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002164">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Easter Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Easter Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002163"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002165 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002165">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Zanzibar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Zanzibar</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000041684"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002166 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002166">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Zanzibar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Zanzibar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002165"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002167 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002167">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Cocos (Keeling) Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Cocos (Keeling) Islands</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000041732"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002168 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002168">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Cocos (Keeling) Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Cocos (Keeling) Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002167"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002169 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002169">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Wake Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Wake Island</obo:IAO_0000111>
+        <ro:located_in rdf:resource="&obo;GEO_000000531"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002170 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002170">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Wake Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Wake Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002169"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002171 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002171">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Easter Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Easter Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002164"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002172 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002172">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Zanzibar Archipelago</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Zanzibar Archipelago</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obo;GEO_000041684"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002173 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002173">
+        <rdf:type rdf:resource="&obc;IDE_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Cocos (Keeling) Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Cocos (Keeling) Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obo;GEO_000041732"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002176 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002176">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Equatorial Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Equatorial Guinea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000689"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002177 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002177">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cameroon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cameroon</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000724"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002178 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002178">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Papua New Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Papua New Guinea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000786"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002179 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002179">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Paraguay</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Paraguay</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000775"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002180 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002180">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Virginia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Virginia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001069"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002181 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002181">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Zimbabwe</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Zimbabwe</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000755"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002182 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002182">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000629"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002183 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002183">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in California</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of California</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000125"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002184 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002184">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Helena</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Helena</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001497"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002185 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002185">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cuba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cuba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000789"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002186 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002186">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Bermuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bermuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001178"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002187 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002187">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cabo Verde</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cabo Verde</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000660"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002188 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002188">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Togo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Togo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000639"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002189 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002189">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Guinea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guinea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000068"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002190 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002190">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Curaçao</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Curaçao</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002191 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002191">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Nicaragua</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nicaragua</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000621"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002192 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002192">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Missouri</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Missouri</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001060"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002193 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002193">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Utah</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Utah</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001059"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002194 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002194">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Eritrea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Eritrea</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000628"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002195 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002195">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Alabama</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Alabama</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001081"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002196 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002196">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Florida</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Florida</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000119"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002197 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002197">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mauritania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mauritania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000727"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002198 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002198">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in British Virgin Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of British Virgin Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001180"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002199 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002199">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Afghanistan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Afghanistan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000648"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002200 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002200">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Myanmar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Myanmar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000756"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002201 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002201">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Kiribati</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kiribati</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000771"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002202 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002202">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in United States</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Unites States</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002203 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002203">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002204 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002204">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Argentina</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Argentina</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000617"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002205 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002205">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Northern Mariana Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Northern Mariana Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001565"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002206 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002206">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Kansas</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kansas</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001040"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002207 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002207">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Saba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001464"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002208 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002208">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Seychelles</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Seychelles</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000753"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002209 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002209">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Nebraska</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nebraska</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001064"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002210 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002210">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in South Carolina</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of South Carolina</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001079"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002211 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002211">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Martinique</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Martinique</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002212 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002212">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Iowa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Iowa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001041"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002213 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002213">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Bolivia (Plurinational State of)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000622"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002214 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002214">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Wallis and Futuna Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Wallis and Futuna Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001491"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002215 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002215">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mississippi</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mississippi</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001082"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002216 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002216">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Illinois</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Illinois</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001063"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002217 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002217">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Japan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Japan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000728"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002218 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002218">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Bahamas</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bahamas</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000783"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002219 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002219">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Palau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Palau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000706"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002220 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002220">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Kitts and Nevis</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Kitts and Nevis</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000645"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002221 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002221">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in West Virginia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of West Virginia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001048"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002222 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002222">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Oklahoma</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Oklahoma</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001052"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002223 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002223">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Uruguay</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Uruguay</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000778"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002224 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002224">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Viet Nam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Viet Nam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000776"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002225 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002225">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Solomon Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Solomon Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000711"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002226 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002226">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Grenada</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Grenada</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000636"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002227 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002227">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Niue</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Niue</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001485"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002228 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002228">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Gabon</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Gabon</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000065"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002229 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002229">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Nevada</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nevada</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001051"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002230 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002230">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in North Carolina</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of North Carolina</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001071"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002231 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002231">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Ecuador</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ecuador</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000717"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002232 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002232">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Pitcairn</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Pitcairn</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001527"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002233 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002233">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mayotte</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mayotte</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002234 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002234">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Barbados</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Barbados</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000767"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002235 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002235">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in French Polynesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of French Polynesia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001551"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002236 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002236">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Puerto Rico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Puerto Rico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000139"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002237 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002237">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Ghana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ghana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000787"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002238 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002238">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Guyana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guyana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000691"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002239 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002239">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002240 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002240">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Greece</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Greece</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000677"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002241 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002241">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Suriname</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Suriname</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000707"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002242 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002242">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Tuvalu</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tuvalu</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000743"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002243 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002243">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Aruba</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Aruba</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001175"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002244 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002244">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Dominica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Dominica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000700"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002245 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002245">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Anguilla</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Anguilla</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001173"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002246 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002246">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Louisiana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Louisiana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001075"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002247 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002247">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Nigeria</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nigeria</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002248 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002248">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Brazil</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Brazil</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002249 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002249">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Lao People&apos;s Democratic Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Lao People&apos;s Democratic Republic</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000683"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002250 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002250">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Sao Tome and Principe</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sao Tome and Principe</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000779"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002251 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002251">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Lucia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Lucia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000702"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002252 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002252">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002253 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002253">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cocos (Keeling) Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cocos (Keeling) Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002168"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002254 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002254">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Haiti</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Haiti</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002255 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002255">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in New Zealand</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of New Zealand</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000762"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002256 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002256">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Réunion</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Réunion</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002257 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002257">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Somalia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Somalia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000646"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002258 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002258">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Belize</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Belize</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000670"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002259 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002259">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Kuwait</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kuwait</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000667"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002260 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002260">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in American Samoa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of American Samoa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002261 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002261">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Djibouti</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Djibouti</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000744"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002262 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002262">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Iraq</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Iraq</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000725"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002263 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002263">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Sudan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sudan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000761"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002264 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002264">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mexico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mexico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000759"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002265 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002265">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Nepal</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nepal</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000679"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002266 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002266">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cayman Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cayman Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002267 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002267">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Rwanda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Rwanda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000742"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002268 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002268">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Indonesia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Indonesia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000752"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002269 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002269">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Liberia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Liberia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000071"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002270 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002270">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Vanuatu</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Vanuatu</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000684"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002271 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002271">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Burkina Faso</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Burkina Faso</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000768"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002272 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002272">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cambodia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cambodia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000737"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002273 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002273">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Uganda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Uganda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000069"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002274 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002274">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Malawi</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Malawi</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000738"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002275 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002275">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Peru</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Peru</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000669"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002276 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002276">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Comoros</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Comoros</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000732"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002277 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002277">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Guam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001553"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002278 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002278">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in French Guiana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of French Guiana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002279 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002279">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Jamaica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Jamaica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000766"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002280 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002280">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Thailand</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Thailand</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000656"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002281 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002281">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Chile</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Chile</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000687"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002282 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002282">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Malaysia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Malaysia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000745"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002283 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002283">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Vincent and the Grenadines</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000615"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002284 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002284">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mozambique</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mozambique</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000777"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002285 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002285">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Guinea-Bissau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guinea-Bissau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000644"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002286 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002286">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002287 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002287">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Guadeloupe</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guadeloupe</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002288 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002288">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in New Mexico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of New Mexico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001053"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002289 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002289">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Costa Rica</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Costa Rica</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000774"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002290 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002290">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in South Africa</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of South Africa</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000740"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002291 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002291">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Taiwan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Taiwan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002292 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002292">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Colombia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Colombia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000133"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002293 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002293">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Zambia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Zambia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000674"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002294 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002294">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mauritius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mauritius</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000723"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002295 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002295">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Nauru</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nauru</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000616"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002296 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002296">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Easter Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Easter Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002164"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002297 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002297">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in El Salvador</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of El Salvador</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000652"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002298 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002298">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Botswana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Botswana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000611"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002299 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002299">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Panama</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Panama</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000655"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002300 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002300">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Dominican Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Dominican Republic</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000701"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002301 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002301">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in China</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of China</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000730"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002302 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002302">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Burundi</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Burundi</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000659"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002303 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002303">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Sint Maarten</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sint Maarten</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002304 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002304">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Guatemala</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guatemala</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000757"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002305 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002305">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Indiana</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Indiana</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001068"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002306 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002306">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Oman</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Oman</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000658"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002307 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002307">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Namibia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Namibia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000690"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002308 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002308">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Angola</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Angola</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000663"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002309 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002309">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Senegal</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Senegal</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000632"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002310 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002310">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in United Arab Emirates</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of United Arab Emirates</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000708"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002311 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002311">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Tonga</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tonga</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000754"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002312 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002312">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Norfolk Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Norfolk Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001488"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002313 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002313">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Madagascar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Madagascar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000664"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002314 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002314">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Marshall Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Marshall Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000688"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002315 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002315">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in India</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of India</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000642"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002316 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002316">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Iran (Islamic Republic of)</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Iran (Islamic Republic of)</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000625"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002317 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002317">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Fiji</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Fiji</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000637"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002318 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002318">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Pakistan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Pakistan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000627"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002319 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002319">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Yemen</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Yemen</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000713"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002320 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002320">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Bangladesh</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bangladesh</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000709"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002321 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002321">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Benin</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Benin</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000624"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002322 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002322">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Tanzania</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tanzania</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000394"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002323 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002323">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Ohio</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ohio</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001072"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002324 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002324">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Venezuela</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Venezuela</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000147"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002325 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002325">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Ethiopia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ethiopia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000731"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002326 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002326">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Antigua and Barbuda</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Antigua and Barbuda</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000704"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002327 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002327">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Philippines</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Philippines</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000748"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002328 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002328">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Kenya</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kenya</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000710"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002329 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002329">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Arizona</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Arizona</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002330 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002330">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Kentucky</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kentucky</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001038"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002331 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002331">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Trinidad and Tobago</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Trinidad and Tobago</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000676"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002332 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002332">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Honduras</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Honduras</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000682"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002333 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002333">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Maryland</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Maryland</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001088"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002334 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002334">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Maldives</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Maldives</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000760"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002335 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002335">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Central African Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Central African Republic</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000794"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002336 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002336">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Tennessee</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tennessee</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001057"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002337 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002337">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Sint Eustatius</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sint Eustatius</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002338 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002338">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Sierra Leone</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sierra Leone</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000070"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002339 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002339">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Bonaire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bonaire</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001556"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002340 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002340">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Mali</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mali</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000666"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002341 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002341">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Montserrat</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Montserrat</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001190"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002342 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002342">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Arkansas</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Arkansas</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001074"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002343 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002343">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Zanzibar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Zanzibar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002166"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002344 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002344">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in New Caledonia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of New Caledonia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001542"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002345 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002345">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Saudi Arabia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saudi Arabia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000696"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002346 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002346">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Georgia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Georgia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000649"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002347 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002347">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Timor-Leste</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Timor-Leste</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000735"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002348 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002348">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Cook Islands</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cook Islands</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001539"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002349 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002349">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Qatar</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Qatar</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000788"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002350 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002350">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Wake Island</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Wake Island</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000002170"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002351 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002351">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Tokelau</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tokelau</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001482"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002352 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002352">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Côte d&apos;Ivoire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000650"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000002353 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000002353">
+        <rdf:type rdf:resource="&obc;IDE_0000002175"/>
+        <rdfs:label xml:lang="en">Culex quinquefasciatus in Hawai&apos;i</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Hawai&apos;i</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001058"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -27700,17 +29833,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chikungunya virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000003">
-        <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000245">
         <rdfs:label xml:lang="en">Vibrio cholerae O1</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Vibrio cholerae O1 population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Vibrio cholerae O1</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000003">
+        <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000244">
         <rdfs:label xml:lang="en">Respiratory Syncytial Virus</rdfs:label>
@@ -27778,15 +29911,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Clostridium difficile</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000174">
+        <rdfs:label xml:lang="en">disease transmission model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">disease transmission model</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000236">
         <rdfs:label xml:lang="en">Bacillus anthracis</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Bacillus anthracis population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Bacillus anthracis</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000174">
-        <rdfs:label xml:lang="en">disease transmission model</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">disease transmission model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000235">
         <rdfs:label xml:lang="en">Foot-and-mouth disease virus</rdfs:label>
@@ -27815,25 +29948,25 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis A virus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
+        <rdfs:label xml:lang="en">epidemic</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000231">
         <rdfs:label xml:lang="en">HIV-2</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">HIV-2 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of HIV-2</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
-        <rdfs:label xml:lang="en">epidemic</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000064">
         <rdfs:label xml:lang="en">algorithm</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0044703">
-        <rdfs:label xml:lang="en">multi-organism reproductive process</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">multi-organism reproductive process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0022414">
         <rdfs:label xml:lang="en">reproductive process</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">reproductive process</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0044703">
+        <rdfs:label xml:lang="en">multi-organism reproductive process</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">multi-organism reproductive process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000171">
         <obo:IAO_0000111 xml:lang="en">antiviral treatment</obo:IAO_0000111>
@@ -27878,15 +30011,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chlamydia trachomatis</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000140">
-        <rdfs:label xml:lang="en">infectious period</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000224">
         <rdfs:label xml:lang="en">Hepatitis C virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Hepatitis C virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis C virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000140">
+        <rdfs:label xml:lang="en">infectious period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000223">
         <rdfs:label xml:lang="en">Influenza B virus</rdfs:label>
@@ -27900,15 +30033,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Fungi</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000266">
+        <rdfs:label xml:lang="en">disease surveillance capability</rdfs:label>
+        <obo:IAO_0000111>disease surveillance capability</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000221">
         <rdfs:label xml:lang="en">Plasmodium falciparum</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Plasmodium falciparum</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000266">
-        <rdfs:label xml:lang="en">disease surveillance capability</rdfs:label>
-        <obo:IAO_0000111>disease surveillance capability</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000220">
         <rdfs:label xml:lang="en">Rabies virus</rdfs:label>
@@ -28021,22 +30154,22 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000551">
         <rdfs:label xml:lang="en">Susceptible-Exposed-Infectious-Recovered model</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000550">
-        <rdfs:label xml:lang="en">contact tracing</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0007565">
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0007567">
-        <rdfs:label xml:lang="en">parturition</rdfs:label>
-        <obo:IAO_0000111>parturition</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000550">
+        <rdfs:label xml:lang="en">contact tracing</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000173">
         <rdfs:label xml:lang="en">Mycobacterium tuberculosis</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Mycobacterium tuberculosis</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0007567">
+        <rdfs:label xml:lang="en">parturition</rdfs:label>
+        <obo:IAO_0000111>parturition</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0039651">
         <rdfs:label xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</rdfs:label>
@@ -28069,12 +30202,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
         <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
+        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">compartment-based disease transmission model</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
-        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000308">
         <rdfs:label xml:lang="en">vector control strategy</rdfs:label>
@@ -28090,11 +30223,11 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000548">
         <rdfs:label xml:lang="en">Susceptible-Infected-Susceptible model</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
-        <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000547">
         <rdfs:label xml:lang="en">social interaction data item</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
+        <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000048">
         <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
@@ -28107,28 +30240,28 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Macaca mulatta</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000487">
-        <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000167">
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000486">
-        <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
-        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000487">
+        <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel recommendation infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000166">
         <rdfs:label xml:lang="en">disease course part</rdfs:label>
         <rdfs:label xml:lang="en">part of disease course</rdfs:label>
         <obo:IAO_0000111>part of disease course</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">disease course part</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
+        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000486">
+        <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000044">
         <rdfs:label xml:lang="en">Dengue virus 4</rdfs:label>
@@ -28192,11 +30325,11 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
-        <obo:IAO_0000111 xml:lang="en">ecosystem of Earth</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000027">
         <rdfs:label xml:lang="en">data item</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
+        <obo:IAO_0000111 xml:lang="en">ecosystem of Earth</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000037">
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
@@ -28225,28 +30358,28 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000275">
-        <rdfs:label xml:lang="en">Suid herpesvirus 1</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000033">
         <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000274">
-        <rdfs:label xml:lang="en">Koutango virus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Koutango virus population</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obc;IDE_0000000275">
+        <rdfs:label xml:lang="en">Suid herpesvirus 1</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Koutango virus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000032">
         <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus epidemic</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000274">
+        <rdfs:label xml:lang="en">Koutango virus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Koutango virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Koutango virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000273">
         <rdfs:label xml:lang="en">Capra hircus</rdfs:label>
@@ -28431,6 +30564,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">prodromal period</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">prodromal period of disease course</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;NBO_0000034">
+        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
+        <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000017">
         <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Homo sapiens population</obo:IAO_0000111>
@@ -28440,18 +30577,23 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
-        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000259">
         <rdfs:label xml:lang="en">Yellow Fever virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Yellow Fever virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Yellow Fever virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;NBO_0000034">
-        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
-        <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
+        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;ENVO_00010483">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000196">
+        <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">ring vaccination control strategy</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000258">
         <rdfs:label xml:lang="en">Neisseria meningitidis</rdfs:label>
@@ -28459,14 +30601,11 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Neisseria meningitidis population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Neisseria meningitidis</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000196">
-        <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">ring vaccination control strategy</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;ENVO_00010483">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    <rdf:Description rdf:about="&obc;IDE_0000000257">
+        <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000015">
         <rdfs:label xml:lang="en">Aedes mosquito</rdfs:label>
@@ -28474,11 +30613,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000257">
-        <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
+    <rdf:Description rdf:about="&obc;IDE_0000000256">
+        <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
+        <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000014">
         <rdfs:label xml:lang="en">Zika virus</rdfs:label>
@@ -28486,14 +30628,11 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zika virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
-        <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000256">
-        <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
+    <rdf:Description rdf:about="&obc;IDE_0000000255">
+        <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000013">
         <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
@@ -28501,12 +30640,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000255">
-        <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
         <rdfs:label xml:lang="en">susceptible population</rdfs:label>
@@ -28522,17 +30655,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">infected population</rdfs:label>
         <obo:IAO_0000111>infected population</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000001729">
-        <rdfs:label xml:lang="en">Enterovirus C</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Enterovirus C population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Enterivirus C</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000253">
         <rdfs:label xml:lang="en">Hantavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Hantavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hantavirus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000001729">
+        <rdfs:label xml:lang="en">Enterovirus C</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Enterovirus C population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Enterivirus C</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
@@ -28565,16 +30698,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0006954">
+        <rdfs:label xml:lang="en">inflammatory response</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">inflammatory response</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000095">
         <rdfs:label xml:lang="en">H2N2 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H2N2 subtype</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0006954">
-        <rdfs:label xml:lang="en">inflammatory response</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">inflammatory response</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000094">
         <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
@@ -28613,23 +30746,23 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000090">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000008">
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Ebolavirus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OGMS_0000090">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
+        <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000249">
         <rdfs:label xml:lang="en">Morbillivirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Morbillivirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Morbillivirus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000228">
-        <obo:IAO_0000111 xml:lang="en">border control strategy</obo:IAO_0000111>
     </rdf:Description>
 </rdf:RDF>
 
