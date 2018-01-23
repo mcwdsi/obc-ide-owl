@@ -28177,7 +28177,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002176">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000689"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Equatorial Guinea</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Equatorial Guinea</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Equatorial Guinea</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28188,7 +28188,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002177">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000724"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cameroon</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cameroon</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cameroon</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28199,7 +28199,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002178">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000786"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Papua New Guinea</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Papua New Guinea</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Papua New Guinea</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28210,7 +28210,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002179">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000775"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Paraguay</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Paraguay</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Paraguay</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28221,7 +28221,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002180">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001069"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Virginia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Virginia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Virginia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28232,7 +28232,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002181">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000755"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Zimbabwe</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Zimbabwe</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Zimbabwe</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28243,7 +28243,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002182">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000629"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Samoa</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Samoa</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Samoa</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28254,7 +28254,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002183">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000125"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of California</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of California</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in California</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28265,7 +28265,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002184">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001497"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Helena</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Saint Helena</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Helena</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28276,7 +28276,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002185">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000789"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cuba</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cuba</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cuba</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28287,7 +28287,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002186">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001178"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bermuda</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Bermuda</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Bermuda</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28298,7 +28298,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002187">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000660"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cabo Verde</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cabo Verde</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cabo Verde</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28309,7 +28309,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002188">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000639"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Togo</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Togo</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Togo</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28320,7 +28320,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002189">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000068"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guinea</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Guinea</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Guinea</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28331,7 +28331,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002190">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001512"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Curaçao</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Curaçao</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Curaçao</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28342,7 +28342,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002191">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000621"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nicaragua</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Nicaragua</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Nicaragua</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28353,7 +28353,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002192">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001060"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Missouri</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Missouri</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Missouri</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28364,7 +28364,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002193">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001059"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Utah</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Utah</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Utah</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28375,7 +28375,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002194">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000628"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Eritrea</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Eritrea</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Eritrea</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28386,7 +28386,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002195">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001081"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Alabama</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Alabama</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Alabama</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28397,7 +28397,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002196">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000119"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Florida</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Florida</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Florida</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28408,7 +28408,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002197">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000727"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mauritania</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mauritania</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mauritania</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28419,7 +28419,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002198">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001180"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of British Virgin Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of British Virgin Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in British Virgin Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28430,7 +28430,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002199">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000648"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Afghanistan</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Afghanistan</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Afghanistan</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28441,7 +28441,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002200">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000756"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Myanmar</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Myanmar</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Myanmar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28452,7 +28452,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002201">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000771"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kiribati</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Kiribati</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Kiribati</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28463,7 +28463,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002202">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000023"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Unites States</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Unites States</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in United States</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28474,7 +28474,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002203">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000640"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Australia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Australia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Australia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28485,7 +28485,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002204">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000617"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Argentina</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Argentina</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Argentina</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28496,7 +28496,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002205">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001565"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Northern Mariana Island</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Northern Mariana Island</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Northern Mariana Island</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28507,7 +28507,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002206">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001040"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kansas</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Kansas</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Kansas</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28518,7 +28518,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002207">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001464"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saba</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Saba</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Saba</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28529,7 +28529,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002208">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000753"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Seychelles</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Seychelles</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Seychelles</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28540,7 +28540,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002209">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001064"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nebraska</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Nebraska</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Nebraska</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28551,7 +28551,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002210">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001079"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of South Carolina</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of South Carolina</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in South Carolina</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28562,7 +28562,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002211">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001188"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Martinique</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Martinique</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Martinique</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28573,7 +28573,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002212">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001041"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Iowa</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Iowa</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Iowa</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28584,7 +28584,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002213">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000622"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Bolivia (Plurinational State of)</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28595,7 +28595,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002214">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001491"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Wallis and Futuna Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Wallis and Futuna Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Wallis and Futuna Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28606,7 +28606,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002215">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001082"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mississippi</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mississippi</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mississippi</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28617,7 +28617,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002216">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001063"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Illinois</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Illinois</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Illinois</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28628,7 +28628,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002217">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000728"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Japan</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Japan</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Japan</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28639,7 +28639,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002218">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000783"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bahamas</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Bahamas</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Bahamas</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28650,7 +28650,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002219">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000706"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Palau</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Palau</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Palau</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28661,7 +28661,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002220">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000645"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Kitts and Nevis</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Saint Kitts and Nevis</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Kitts and Nevis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28672,7 +28672,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002221">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001048"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of West Virginia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of West Virginia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in West Virginia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28683,7 +28683,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002222">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001052"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Oklahoma</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Oklahoma</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Oklahoma</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28694,7 +28694,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002223">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000778"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Uruguay</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Uruguay</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Uruguay</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28705,7 +28705,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002224">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000776"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Viet Nam</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Viet Nam</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Viet Nam</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28716,7 +28716,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002225">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000711"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Solomon Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Solomon Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Solomon Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28727,7 +28727,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002226">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000636"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Grenada</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Grenada</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Grenada</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28738,7 +28738,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002227">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001485"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Niue</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Niue</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Niue</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28749,7 +28749,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002228">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000065"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Gabon</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Gabon</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Gabon</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28760,7 +28760,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002229">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001051"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nevada</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Nevada</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Nevada</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28771,7 +28771,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002230">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001071"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of North Carolina</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of North Carolina</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in North Carolina</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28782,7 +28782,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002231">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000717"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ecuador</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Ecuador</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Ecuador</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28793,7 +28793,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002232">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001527"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Pitcairn</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Pitcairn</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Pitcairn</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28804,7 +28804,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002233">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001479"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mayotte</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mayotte</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mayotte</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28815,7 +28815,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002234">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000767"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Barbados</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Barbados</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Barbados</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28826,7 +28826,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002235">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001551"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of French Polynesia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of French Polynesia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in French Polynesia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28837,7 +28837,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002236">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000139"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Puerto Rico</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Puerto Rico</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Puerto Rico</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28848,7 +28848,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002237">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000787"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ghana</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Ghana</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Ghana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28859,7 +28859,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002238">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000691"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guyana</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Guyana</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Guyana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28870,7 +28870,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002239">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000653"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bahrain</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Bahrain</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Bahrain</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28881,7 +28881,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002240">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000677"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Greece</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Greece</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Greece</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28892,7 +28892,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002241">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000707"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Suriname</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Suriname</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Suriname</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28903,7 +28903,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002242">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000743"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tuvalu</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Tuvalu</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Tuvalu</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28914,7 +28914,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002243">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001175"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Aruba</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Aruba</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Aruba</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28925,7 +28925,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002244">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000700"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Dominica</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Dominica</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Dominica</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28936,7 +28936,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002245">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001173"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Anguilla</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Anguilla</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Anguilla</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28947,7 +28947,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002246">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001075"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Louisiana</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Louisiana</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Louisiana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28958,7 +28958,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002247">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000072"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nigeria</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Nigeria</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Nigeria</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28969,7 +28969,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002248">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000047"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Brazil</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Brazil</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28980,7 +28980,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002249">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000683"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Lao People&apos;s Democratic Republic</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Lao People&apos;s Democratic Republic</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Lao People&apos;s Democratic Republic</rdfs:label>
     </owl:NamedIndividual>
     
@@ -28991,7 +28991,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002250">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000779"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sao Tome and Principe</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Sao Tome and Principe</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Sao Tome and Principe</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29002,7 +29002,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002251">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000702"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Lucia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Saint Lucia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Lucia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29013,7 +29013,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002252">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000758"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Brunei Darussalam</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Brunei Darussalam</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29024,7 +29024,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002253">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000002168"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cocos (Keeling) Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cocos (Keeling) Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cocos (Keeling) Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29035,7 +29035,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002254">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000721"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Haiti</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Haiti</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Haiti</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29046,7 +29046,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002255">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000762"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of New Zealand</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of New Zealand</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in New Zealand</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29057,7 +29057,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002256">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001494"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Réunion</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Réunion</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Réunion</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29068,7 +29068,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002257">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000646"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Somalia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Somalia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Somalia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29079,7 +29079,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002258">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000670"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Belize</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Belize</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Belize</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29090,7 +29090,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002259">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000667"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kuwait</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Kuwait</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Kuwait</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29101,7 +29101,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002260">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001562"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of American Samoa</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of American Samoa</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in American Samoa</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29112,7 +29112,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002261">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000744"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Djibouti</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Djibouti</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Djibouti</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29123,7 +29123,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002262">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000725"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Iraq</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Iraq</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Iraq</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29134,7 +29134,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002263">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000761"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sudan</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Sudan</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Sudan</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29145,7 +29145,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002264">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000759"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mexico</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mexico</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mexico</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29156,7 +29156,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002265">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000679"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nepal</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Nepal</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Nepal</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29167,7 +29167,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002266">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001182"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cayman Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cayman Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cayman Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29178,7 +29178,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002267">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000742"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Rwanda</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Rwanda</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Rwanda</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29189,7 +29189,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002268">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000752"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Indonesia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Indonesia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Indonesia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29200,7 +29200,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002269">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000071"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Liberia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Liberia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Liberia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29211,7 +29211,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002270">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000684"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Vanuatu</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Vanuatu</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Vanuatu</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29222,7 +29222,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002271">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000768"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Burkina Faso</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Burkina Faso</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Burkina Faso</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29233,7 +29233,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002272">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000737"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cambodia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cambodia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cambodia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29244,7 +29244,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002273">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000069"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Uganda</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Uganda</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Uganda</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29255,7 +29255,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002274">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000738"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Malawi</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Malawi</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Malawi</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29266,7 +29266,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002275">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000669"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Peru</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Peru</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Peru</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29277,7 +29277,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002276">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000732"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Comoros</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Comoros</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Comoros</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29288,7 +29288,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002277">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001553"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guam</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Guam</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Guam</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29299,7 +29299,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002278">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001184"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of French Guiana</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of French Guiana</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in French Guiana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29310,7 +29310,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002279">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000766"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Jamaica</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Jamaica</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Jamaica</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29321,7 +29321,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002280">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000656"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Thailand</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Thailand</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Thailand</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29332,7 +29332,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002281">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000687"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Chile</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Chile</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Chile</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29343,7 +29343,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002282">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000745"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Malaysia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Malaysia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Malaysia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29354,7 +29354,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002283">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000615"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Saint Vincent and the Grenadines</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29365,7 +29365,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002284">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000777"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mozambique</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mozambique</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mozambique</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29376,7 +29376,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002285">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000644"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guinea-Bissau</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Guinea-Bissau</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Guinea-Bissau</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29387,7 +29387,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002286">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000157"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Singapore</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Singapore</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Singapore</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29398,7 +29398,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002287">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001186"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guadeloupe</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Guadeloupe</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Guadeloupe</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29409,7 +29409,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002288">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001053"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of New Mexico</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of New Mexico</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in New Mexico</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29420,7 +29420,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002289">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000774"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Costa Rica</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Costa Rica</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Costa Rica</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29431,7 +29431,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002290">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000740"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of South Africa</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of South Africa</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in South Africa</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29442,7 +29442,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002291">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000631"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Taiwan</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Taiwan</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Taiwan</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29453,7 +29453,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002292">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000133"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Colombia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Colombia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Colombia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29464,7 +29464,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002293">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000674"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Zambia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Zambia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Zambia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29475,7 +29475,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002294">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000723"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mauritius</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mauritius</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mauritius</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29486,7 +29486,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002295">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000616"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Nauru</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Nauru</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Nauru</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29497,7 +29497,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002296">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000002164"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Easter Island</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Easter Island</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Easter Island</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29508,7 +29508,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002297">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000652"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of El Salvador</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of El Salvador</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in El Salvador</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29519,7 +29519,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002298">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000611"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Botswana</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Botswana</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Botswana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29530,7 +29530,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002299">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000655"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Panama</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Panama</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Panama</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29541,7 +29541,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002300">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000701"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Dominican Republic</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Dominican Republic</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Dominican Republic</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29552,7 +29552,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002301">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000730"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of China</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of China</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in China</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29563,7 +29563,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002302">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000659"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Burundi</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Burundi</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Burundi</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29574,7 +29574,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002303">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001196"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sint Maarten</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Sint Maarten</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Sint Maarten</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29585,7 +29585,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002304">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000757"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Guatemala</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Guatemala</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Guatemala</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29596,7 +29596,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002305">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001068"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Indiana</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Indiana</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Indiana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29607,7 +29607,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002306">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000658"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Oman</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Oman</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Oman</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29618,7 +29618,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002307">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000690"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Namibia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Namibia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Namibia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29629,7 +29629,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002308">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000663"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Angola</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Angola</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Angola</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29640,7 +29640,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002309">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000632"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Senegal</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Senegal</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Senegal</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29651,7 +29651,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002310">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000708"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of United Arab Emirates</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of United Arab Emirates</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in United Arab Emirates</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29662,7 +29662,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002311">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000754"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tonga</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Tonga</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Tonga</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29673,7 +29673,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002312">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001488"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Norfolk Island</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Norfolk Island</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Norfolk Island</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29684,7 +29684,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002313">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000664"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Madagascar</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Madagascar</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Madagascar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29695,7 +29695,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002314">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000688"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Marshall Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Marshall Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Marshall Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29706,7 +29706,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002315">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000642"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of India</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of India</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in India</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29717,7 +29717,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002316">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000625"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Iran (Islamic Republic of)</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Iran (Islamic Republic of)</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Iran (Islamic Republic of)</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29728,7 +29728,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002317">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000637"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Fiji</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Fiji</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Fiji</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29739,7 +29739,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002318">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000627"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Pakistan</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Pakistan</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Pakistan</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29750,7 +29750,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002319">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000713"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Yemen</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Yemen</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Yemen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29761,7 +29761,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002320">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000709"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bangladesh</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Bangladesh</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Bangladesh</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29772,7 +29772,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002321">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000624"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Benin</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Benin</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Benin</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29783,7 +29783,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002322">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tanzania</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Tanzania</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Tanzania</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29794,7 +29794,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002323">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001072"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ohio</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Ohio</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Ohio</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29805,7 +29805,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002324">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Venezuela</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Venezuela</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Venezuela</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29816,7 +29816,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002325">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000731"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Ethiopia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Ethiopia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Ethiopia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29827,7 +29827,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002326">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000704"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Antigua and Barbuda</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Antigua and Barbuda</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Antigua and Barbuda</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29838,7 +29838,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002327">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000748"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Philippines</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Philippines</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Philippines</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29849,7 +29849,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002328">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000710"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kenya</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Kenya</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Kenya</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29860,7 +29860,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002329">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001047"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Arizona</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Arizona</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Arizona</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29871,7 +29871,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002330">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001038"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Kentucky</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Kentucky</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Kentucky</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29882,7 +29882,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002331">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000676"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Trinidad and Tobago</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Trinidad and Tobago</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Trinidad and Tobago</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29893,7 +29893,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002332">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000682"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Honduras</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Honduras</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Honduras</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29904,7 +29904,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002333">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001088"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Maryland</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Maryland</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Maryland</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29915,7 +29915,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002334">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000760"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Maldives</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Maldives</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Maldives</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29926,7 +29926,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002335">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000794"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Central African Republic</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Central African Republic</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Central African Republic</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29937,7 +29937,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002336">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001057"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tennessee</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Tennessee</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Tennessee</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29948,7 +29948,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002337">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001559"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sint Eustatius</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Sint Eustatius</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Sint Eustatius</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29959,7 +29959,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002338">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000070"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Sierra Leone</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Sierra Leone</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Sierra Leone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29970,7 +29970,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002339">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001556"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Bonaire</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Bonaire</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Bonaire</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29981,7 +29981,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002340">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000666"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Mali</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Mali</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Mali</rdfs:label>
     </owl:NamedIndividual>
     
@@ -29992,7 +29992,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002341">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001190"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Montserrat</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Montserrat</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Montserrat</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30003,7 +30003,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002342">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001074"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Arkansas</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Arkansas</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Arkansas</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30014,7 +30014,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002343">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000002166"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Zanzibar</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Zanzibar</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Zanzibar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30025,7 +30025,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002344">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001542"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of New Caledonia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of New Caledonia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in New Caledonia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30036,7 +30036,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002345">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000696"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Saudi Arabia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Saudi Arabia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Saudi Arabia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30047,7 +30047,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002346">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000649"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Georgia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Georgia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Georgia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30058,7 +30058,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002347">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000735"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Timor-Leste</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Timor-Leste</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Timor-Leste</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30069,7 +30069,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002348">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001539"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Cook Islands</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Cook Islands</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Cook Islands</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30080,7 +30080,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002349">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000788"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Qatar</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Qatar</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Qatar</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30091,7 +30091,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002350">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000002170"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Wake Island</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Wake Island</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Wake Island</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30102,7 +30102,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002351">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001482"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Tokelau</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Tokelau</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Tokelau</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30113,7 +30113,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002352">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000650"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Côte d&apos;Ivoire</rdfs:label>
     </owl:NamedIndividual>
     
@@ -30124,7 +30124,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000002353">
         <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000002175"/>
         <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000001058"/>
-        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus population in region of Hawai&apos;i</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Hawai&apos;i</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Culex quinquefasciatus in Hawai&apos;i</rdfs:label>
     </owl:NamedIndividual>
     
