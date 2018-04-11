@@ -49468,7 +49468,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Culex quinquefasciatus mosquito population in region of Georgia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000649"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004100 -->
@@ -49479,7 +49479,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Netherlands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000665"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004101 -->
@@ -49490,7 +49490,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Tunisia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000620"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004102 -->
@@ -49501,7 +49501,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Serbia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000793"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004103 -->
@@ -49512,7 +49512,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Malaysia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000745"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004104 -->
@@ -49523,7 +49523,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Tokelau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001482"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004105 -->
@@ -49534,7 +49534,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of French Polynesia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001551"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004106 -->
@@ -49545,7 +49545,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Turks and Caicos Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001198"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004107 -->
@@ -49556,7 +49556,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Peru</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000669"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004108 -->
@@ -49567,7 +49567,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Eritrea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000628"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004109 -->
@@ -49578,7 +49578,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Gibraltar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001470"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004110 -->
@@ -49589,7 +49589,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of New Zealand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000762"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004111 -->
@@ -49600,7 +49600,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Somaliland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000746"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004112 -->
@@ -49611,7 +49611,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Iran (Islamic Republic of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000625"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004113 -->
@@ -49622,7 +49622,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Andorra</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000619"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004114 -->
@@ -49633,7 +49633,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Niger</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000695"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004115 -->
@@ -49644,7 +49644,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of France</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000719"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004116 -->
@@ -49655,7 +49655,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Burundi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000659"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004117 -->
@@ -49666,7 +49666,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Samoa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000629"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004118 -->
@@ -49677,7 +49677,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Angola</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000663"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004119 -->
@@ -49688,7 +49688,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Botswana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000611"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004120 -->
@@ -49699,7 +49699,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of China, Macao Special Administrative Region</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001461"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004121 -->
@@ -49710,7 +49710,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Comoros</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000732"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004122 -->
@@ -49721,7 +49721,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cuba</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000789"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004123 -->
@@ -49732,7 +49732,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of United Kingdom of Great Britain and Northern Ireland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000790"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004124 -->
@@ -49743,7 +49743,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Portugal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000668"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004125 -->
@@ -49754,7 +49754,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Republic of South Ossetia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000770"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004126 -->
@@ -49765,7 +49765,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Central African Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000794"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004127 -->
@@ -49776,7 +49776,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Algeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000703"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004128 -->
@@ -49787,7 +49787,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Pakistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000627"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004129 -->
@@ -49798,7 +49798,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Singapore</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004130 -->
@@ -49809,7 +49809,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Dominica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000700"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004131 -->
@@ -49820,7 +49820,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Latvia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000722"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004132 -->
@@ -49831,7 +49831,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Liechtenstein</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000618"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004133 -->
@@ -49842,7 +49842,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bulgaria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000747"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004134 -->
@@ -49853,18 +49853,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Brazil</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004135 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004135">
         <rdf:type rdf:resource="&obc;IDE_0000000229"/>
-        <rdfs:label xml:lang="en">HIV-1 in Côte d'Ivoire</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Côte d'Ivoire</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">HIV-1 in Côte d&apos;Ivoire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000650"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004136 -->
@@ -49875,7 +49875,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Fiji</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000637"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004137 -->
@@ -49886,7 +49886,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Czech Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000772"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004138 -->
@@ -49897,7 +49897,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Afghanistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000648"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004139 -->
@@ -49908,7 +49908,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint Pierre and Miquelon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001467"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004140 -->
@@ -49919,7 +49919,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Dominican Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000701"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004141 -->
@@ -49930,7 +49930,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Maldives</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000760"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004142 -->
@@ -49941,7 +49941,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Kazakhstan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000673"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004143 -->
@@ -49952,7 +49952,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Philippines</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000748"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004144 -->
@@ -49963,7 +49963,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint Kitts and Nevis</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000645"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004145 -->
@@ -49974,7 +49974,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Guatemala</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000757"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004146 -->
@@ -49985,7 +49985,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Romania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000612"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004147 -->
@@ -49996,7 +49996,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bermuda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001178"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004148 -->
@@ -50007,7 +50007,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saudi Arabia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000696"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004149 -->
@@ -50018,7 +50018,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Montserrat</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001190"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004150 -->
@@ -50029,7 +50029,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Senegal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000632"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004151 -->
@@ -50040,7 +50040,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Solomon Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000711"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004152 -->
@@ -50051,7 +50051,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Belarus</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000675"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004153 -->
@@ -50062,7 +50062,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Réunion</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004154 -->
@@ -50073,7 +50073,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Azerbaijan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000716"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004155 -->
@@ -50084,18 +50084,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of El Salvador</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000652"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004156 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004156">
         <rdf:type rdf:resource="&obc;IDE_0000000229"/>
-        <rdfs:label xml:lang="en">HIV-1 in Lao People's Democratic Republic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Lao People's Democratic Republic</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">HIV-1 in Lao People&apos;s Democratic Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Lao People&apos;s Democratic Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000683"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004157 -->
@@ -50106,7 +50106,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bangladesh</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000709"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004158 -->
@@ -50117,7 +50117,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Republic of Moldova</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000699"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004159 -->
@@ -50128,7 +50128,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Zambia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000674"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004160 -->
@@ -50139,7 +50139,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Transnistria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000626"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004161 -->
@@ -50150,7 +50150,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Iceland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000698"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004162 -->
@@ -50161,7 +50161,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Venezuela</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000147"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004163 -->
@@ -50172,7 +50172,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of United Arab Emirates</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000708"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004164 -->
@@ -50183,7 +50183,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Poland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000630"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004165 -->
@@ -50194,7 +50194,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of San Marino</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000739"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004166 -->
@@ -50205,7 +50205,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Syrian Arab Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000633"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004167 -->
@@ -50216,7 +50216,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Tonga</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000754"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004168 -->
@@ -50227,7 +50227,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001521"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004169 -->
@@ -50238,7 +50238,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Marshall Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000688"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004170 -->
@@ -50249,7 +50249,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Belize</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000670"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004171 -->
@@ -50260,7 +50260,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Jordan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000749"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004172 -->
@@ -50271,7 +50271,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cabo Verde</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000660"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004173 -->
@@ -50282,7 +50282,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Malta</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000671"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004174 -->
@@ -50293,7 +50293,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Tuvalu</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000743"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004175 -->
@@ -50304,7 +50304,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Tanzania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000394"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004176 -->
@@ -50315,7 +50315,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Panama</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000655"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004177 -->
@@ -50326,7 +50326,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Thailand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000656"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004178 -->
@@ -50337,7 +50337,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000615"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004179 -->
@@ -50348,7 +50348,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Rwanda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000742"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004180 -->
@@ -50359,7 +50359,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Slovakia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000712"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004181 -->
@@ -50370,7 +50370,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Norway</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000661"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004182 -->
@@ -50381,7 +50381,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Jamaica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000766"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004183 -->
@@ -50392,7 +50392,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mayotte</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004184 -->
@@ -50403,7 +50403,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mauritius</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000723"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004185 -->
@@ -50414,7 +50414,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bahamas</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000783"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004186 -->
@@ -50425,7 +50425,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Uganda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000069"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004187 -->
@@ -50436,7 +50436,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Palau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000706"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004188 -->
@@ -50447,7 +50447,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Grenada</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000636"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004189 -->
@@ -50458,7 +50458,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of State of Palestine</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000643"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004190 -->
@@ -50469,7 +50469,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Turkey</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000715"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004191 -->
@@ -50480,7 +50480,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Libyan Arab Jamahiriya</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000714"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004192 -->
@@ -50491,7 +50491,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Anguilla</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001173"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004193 -->
@@ -50502,7 +50502,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Taiwan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004194 -->
@@ -50513,7 +50513,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Oman</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000658"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004195 -->
@@ -50524,7 +50524,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Guinea-Bissau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000644"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004196 -->
@@ -50535,7 +50535,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of India</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000642"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004197 -->
@@ -50546,7 +50546,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Lebanon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000785"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004198 -->
@@ -50557,7 +50557,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Sao Tome and Principe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000779"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004199 -->
@@ -50568,7 +50568,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Pitcairn</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001527"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004200 -->
@@ -50579,7 +50579,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Sudan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000761"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004201 -->
@@ -50590,7 +50590,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Sint Maarten</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001196"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004202 -->
@@ -50601,7 +50601,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of South Africa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000740"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004203 -->
@@ -50612,7 +50612,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cyprus</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000718"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004204 -->
@@ -50623,7 +50623,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Namibia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000690"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004205 -->
@@ -50634,7 +50634,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cayman Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004206 -->
@@ -50645,7 +50645,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Hungary</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000657"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004207 -->
@@ -50656,7 +50656,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of New Caledonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001542"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004208 -->
@@ -50667,7 +50667,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Barbados</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000767"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004209 -->
@@ -50678,7 +50678,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Australia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004210 -->
@@ -50689,7 +50689,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Croatia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000693"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004211 -->
@@ -50700,7 +50700,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Israel</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000750"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004212 -->
@@ -50711,7 +50711,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mauritania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000727"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004213 -->
@@ -50722,7 +50722,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mozambique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000777"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004214 -->
@@ -50733,7 +50733,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Armenia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000705"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004215 -->
@@ -50744,7 +50744,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Zimbabwe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000755"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004216 -->
@@ -50755,7 +50755,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Benin</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000624"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004217 -->
@@ -50766,7 +50766,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Japan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000728"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004218 -->
@@ -50777,7 +50777,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Colombia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000133"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004219 -->
@@ -50788,7 +50788,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Viet Nam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000776"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004220 -->
@@ -50799,7 +50799,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Indonesia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000752"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004221 -->
@@ -50810,7 +50810,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Martinique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004222 -->
@@ -50821,7 +50821,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Gambia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000734"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004223 -->
@@ -50832,7 +50832,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Turkmenistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000729"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004224 -->
@@ -50843,7 +50843,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Curaçao</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004225 -->
@@ -50854,7 +50854,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Kiribati</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000771"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004226 -->
@@ -50865,7 +50865,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Belgium</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000764"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004227 -->
@@ -50876,18 +50876,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Nagorno-Karabakh Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000726"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004228 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004228">
         <rdf:type rdf:resource="&obc;IDE_0000000229"/>
-        <rdfs:label xml:lang="en">HIV-1 in Democratic People's Republic of Korea</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Democratic People's Republic of Korea</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">HIV-1 in Democratic People&apos;s Republic of Korea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Democratic People&apos;s Republic of Korea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000610"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004229 -->
@@ -50898,7 +50898,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Nicaragua</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000621"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004230 -->
@@ -50909,7 +50909,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Djibouti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000744"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004231 -->
@@ -50920,7 +50920,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Costa Rica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000774"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004232 -->
@@ -50931,7 +50931,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Myanmar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000756"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004233 -->
@@ -50942,7 +50942,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Canada</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000355"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004234 -->
@@ -50953,7 +50953,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000068"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004235 -->
@@ -50964,7 +50964,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Austria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000635"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004236 -->
@@ -50975,7 +50975,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Spain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000697"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004237 -->
@@ -50986,7 +50986,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bahrain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004238 -->
@@ -50997,7 +50997,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint Lucia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000702"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004239 -->
@@ -51008,7 +51008,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Ecuador</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000717"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004240 -->
@@ -51019,7 +51019,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint Helena</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001497"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004241 -->
@@ -51030,7 +51030,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Somalia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000646"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004242 -->
@@ -51041,7 +51041,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Guernsey</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001515"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004243 -->
@@ -51052,7 +51052,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bosnia and Herzegovina</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000680"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004244 -->
@@ -51063,7 +51063,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Isle of Man</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001500"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004245 -->
@@ -51074,7 +51074,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Equatorial Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000689"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004246 -->
@@ -51085,7 +51085,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Lesotho</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000765"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004247 -->
@@ -51096,7 +51096,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Qatar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000788"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004248 -->
@@ -51107,7 +51107,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Lithuania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000662"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004249 -->
@@ -51118,7 +51118,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Republic of Korea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000792"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004250 -->
@@ -51129,7 +51129,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Norfolk Island</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001488"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004251 -->
@@ -51140,7 +51140,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of China</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000730"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004252 -->
@@ -51151,7 +51151,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Estonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000736"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004253 -->
@@ -51162,7 +51162,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Haiti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000721"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004254 -->
@@ -51173,7 +51173,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Republic of Kosovo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000614"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004255 -->
@@ -51184,7 +51184,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Ireland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000780"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004256 -->
@@ -51195,7 +51195,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Argentina</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000617"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004257 -->
@@ -51206,7 +51206,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Nauru</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000616"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004258 -->
@@ -51217,7 +51217,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Trinidad and Tobago</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000676"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004259 -->
@@ -51228,7 +51228,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Burkina Faso</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000768"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004260 -->
@@ -51239,7 +51239,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Sri Lanka</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000694"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004261 -->
@@ -51250,7 +51250,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Vanuatu</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000684"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004262 -->
@@ -51261,7 +51261,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Kenya</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000710"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004263 -->
@@ -51272,7 +51272,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint-Barthélemy</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001455"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004264 -->
@@ -51283,7 +51283,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cook Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001539"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004265 -->
@@ -51294,7 +51294,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Guadeloupe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004266 -->
@@ -51305,7 +51305,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Niue</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001485"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004267 -->
@@ -51316,7 +51316,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Seychelles</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000753"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004268 -->
@@ -51327,7 +51327,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Chile</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000687"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004269 -->
@@ -51338,7 +51338,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Denmark</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000279"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004270 -->
@@ -51349,7 +51349,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Kuwait</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000667"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004271 -->
@@ -51360,7 +51360,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Kyrgyzstan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000781"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004272 -->
@@ -51371,7 +51371,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Swaziland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000782"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004273 -->
@@ -51382,7 +51382,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Antigua and Barbuda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000704"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004274 -->
@@ -51393,7 +51393,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Puerto Rico</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000139"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004275 -->
@@ -51404,7 +51404,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Brunei Darussalam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004276 -->
@@ -51415,7 +51415,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of South Sudan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000151"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004277 -->
@@ -51426,7 +51426,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Virgin Islands of the United States</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001170"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004278 -->
@@ -51437,7 +51437,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Malawi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000738"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004279 -->
@@ -51448,7 +51448,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Paraguay</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000775"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004280 -->
@@ -51459,7 +51459,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Germany</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000692"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004281 -->
@@ -51470,7 +51470,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mexico</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000759"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004282 -->
@@ -51481,7 +51481,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Republic of Abkhazia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000651"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004283 -->
@@ -51492,7 +51492,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000622"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004284 -->
@@ -51503,7 +51503,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of French Guiana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004285 -->
@@ -51514,7 +51514,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Liberia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000071"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004286 -->
@@ -51525,7 +51525,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mali</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000666"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004287 -->
@@ -51536,7 +51536,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Mongolia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000681"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004288 -->
@@ -51547,7 +51547,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Italy</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000641"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004289 -->
@@ -51558,7 +51558,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Ukraine</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000672"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004290 -->
@@ -51569,7 +51569,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Uzbekistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000751"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004291 -->
@@ -51580,7 +51580,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Ethiopia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000731"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004292 -->
@@ -51591,7 +51591,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Chad</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000634"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004293 -->
@@ -51602,7 +51602,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cambodia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000737"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004294 -->
@@ -51613,7 +51613,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Guyana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000691"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004295 -->
@@ -51624,7 +51624,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of The former Yugoslav Republic of Macedonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000613"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004296 -->
@@ -51635,7 +51635,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Aruba</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001175"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004297 -->
@@ -51646,7 +51646,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Bhutan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004298 -->
@@ -51657,7 +51657,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Gabon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000065"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004299 -->
@@ -51668,7 +51668,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Morocco</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000654"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004300 -->
@@ -51679,7 +51679,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Slovenia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000733"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004301 -->
@@ -51690,7 +51690,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Ghana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000787"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004302 -->
@@ -51701,7 +51701,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Egypt</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000769"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004303 -->
@@ -51712,7 +51712,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Nigeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004304 -->
@@ -51723,7 +51723,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Finland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000784"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004305 -->
@@ -51734,7 +51734,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Greenland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001536"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004306 -->
@@ -51745,7 +51745,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Suriname</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000707"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004307 -->
@@ -51756,7 +51756,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Madagascar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000664"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004308 -->
@@ -51767,7 +51767,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Nepal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000679"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004309 -->
@@ -51778,7 +51778,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Sweden</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000741"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004310 -->
@@ -51789,7 +51789,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of British Virgin Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001180"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004311 -->
@@ -51800,7 +51800,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Honduras</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000682"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004312 -->
@@ -51811,7 +51811,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Uruguay</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000778"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004313 -->
@@ -51822,7 +51822,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Micronesia (Federated States of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000686"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004314 -->
@@ -51833,7 +51833,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Tajikistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000638"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004315 -->
@@ -51844,7 +51844,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Timor-Leste</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000735"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004316 -->
@@ -51855,7 +51855,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Greece</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000677"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004317 -->
@@ -51866,7 +51866,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Iraq</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000725"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004318 -->
@@ -51877,7 +51877,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Togo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000639"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004319 -->
@@ -51888,7 +51888,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Albania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000773"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004320 -->
@@ -51899,7 +51899,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Luxembourg</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000791"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004321 -->
@@ -51910,7 +51910,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Papua New Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000786"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004322 -->
@@ -51921,7 +51921,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Yemen</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000713"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004323 -->
@@ -51932,7 +51932,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Russian Federation</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000720"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004324 -->
@@ -51943,7 +51943,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Switzerland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000623"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004325 -->
@@ -51954,7 +51954,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Cameroon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000724"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004326 -->
@@ -51965,7 +51965,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Saint-Martin (French part)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001503"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004327 -->
@@ -51976,7 +51976,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Monaco</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000678"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004328 -->
@@ -51987,7 +51987,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Sierra Leone</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000070"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004329 -->
@@ -51998,7 +51998,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Myanmar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000756"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004330 -->
@@ -52009,7 +52009,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Lebanon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000785"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004331 -->
@@ -52020,7 +52020,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Sweden</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000741"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004332 -->
@@ -52031,7 +52031,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Curaçao</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001512"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004333 -->
@@ -52042,7 +52042,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Guatemala</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000757"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004334 -->
@@ -52053,7 +52053,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of San Marino</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000739"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004335 -->
@@ -52064,7 +52064,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bermuda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001178"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004336 -->
@@ -52075,7 +52075,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Venezuela</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000147"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004337 -->
@@ -52086,7 +52086,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Grenada</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000636"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004338 -->
@@ -52097,7 +52097,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Jamaica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000766"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004339 -->
@@ -52108,7 +52108,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Czech Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000772"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004340 -->
@@ -52119,7 +52119,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Comoros</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000732"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004341 -->
@@ -52130,7 +52130,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Libyan Arab Jamahiriya</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000714"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004342 -->
@@ -52141,7 +52141,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Turkmenistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000729"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004343 -->
@@ -52152,7 +52152,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Japan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000728"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004344 -->
@@ -52163,7 +52163,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Dominican Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000701"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004345 -->
@@ -52174,7 +52174,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Norfolk Island</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001488"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004346 -->
@@ -52185,7 +52185,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of French Polynesia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001551"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004347 -->
@@ -52196,7 +52196,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint-Barthélemy</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001455"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004348 -->
@@ -52207,7 +52207,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Angola</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000663"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004349 -->
@@ -52218,7 +52218,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bahamas</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000783"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004350 -->
@@ -52229,7 +52229,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Anguilla</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001173"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004351 -->
@@ -52240,7 +52240,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Malaysia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000745"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004352 -->
@@ -52251,7 +52251,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Palau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000706"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004353 -->
@@ -52262,7 +52262,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Greenland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001536"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004354 -->
@@ -52273,7 +52273,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of The former Yugoslav Republic of Macedonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000613"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004355 -->
@@ -52284,7 +52284,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Fiji</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000637"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004356 -->
@@ -52295,7 +52295,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Martinique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001188"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004357 -->
@@ -52306,7 +52306,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Senegal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000632"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004358 -->
@@ -52317,7 +52317,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Nigeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000072"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004359 -->
@@ -52328,7 +52328,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Russian Federation</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000720"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004360 -->
@@ -52339,7 +52339,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Norway</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000661"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004361 -->
@@ -52350,7 +52350,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Philippines</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000748"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004362 -->
@@ -52361,7 +52361,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint Kitts and Nevis</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000645"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004363 -->
@@ -52372,7 +52372,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Turks and Caicos Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001198"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004364 -->
@@ -52383,7 +52383,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint Vincent and the Grenadines</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000615"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004365 -->
@@ -52394,7 +52394,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Tunisia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000620"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004366 -->
@@ -52405,7 +52405,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Morocco</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000654"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004367 -->
@@ -52416,7 +52416,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Pitcairn</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001527"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004368 -->
@@ -52427,7 +52427,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mayotte</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001479"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004369 -->
@@ -52438,7 +52438,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Republic of Kosovo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000614"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004370 -->
@@ -52449,7 +52449,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Ethiopia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000731"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004371 -->
@@ -52460,7 +52460,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of United Kingdom of Great Britain and Northern Ireland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000790"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004372 -->
@@ -52471,7 +52471,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of South Africa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000740"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004373 -->
@@ -52482,7 +52482,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Viet Nam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000776"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004374 -->
@@ -52493,7 +52493,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Republic of Moldova</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000699"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004375 -->
@@ -52504,7 +52504,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Republic of Congo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000066"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004376 -->
@@ -52515,7 +52515,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Spain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000697"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004377 -->
@@ -52526,7 +52526,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cyprus</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000718"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004378 -->
@@ -52537,7 +52537,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bulgaria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000747"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004379 -->
@@ -52548,7 +52548,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Pakistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000627"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004380 -->
@@ -52559,7 +52559,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bosnia and Herzegovina</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000680"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004381 -->
@@ -52570,7 +52570,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Suriname</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000707"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004382 -->
@@ -52581,7 +52581,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Kiribati</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000771"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004383 -->
@@ -52592,7 +52592,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Paraguay</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000775"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004384 -->
@@ -52603,7 +52603,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Uruguay</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000778"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004385 -->
@@ -52614,7 +52614,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Niue</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001485"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004386 -->
@@ -52625,7 +52625,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of China</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000730"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004387 -->
@@ -52636,7 +52636,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cambodia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000737"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004388 -->
@@ -52647,7 +52647,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Luxembourg</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000791"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004389 -->
@@ -52658,7 +52658,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Australia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004390 -->
@@ -52669,7 +52669,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Solomon Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000711"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004391 -->
@@ -52680,7 +52680,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Switzerland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000623"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004392 -->
@@ -52691,7 +52691,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Haiti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000721"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004393 -->
@@ -52702,7 +52702,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Hungary</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000657"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004394 -->
@@ -52713,7 +52713,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bolivia (Plurinational State of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000622"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004395 -->
@@ -52724,7 +52724,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Kuwait</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000667"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004396 -->
@@ -52735,7 +52735,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Chile</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000687"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004397 -->
@@ -52746,7 +52746,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Nauru</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000616"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004398 -->
@@ -52757,7 +52757,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Central African Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000794"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004399 -->
@@ -52768,7 +52768,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Indonesia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000752"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004400 -->
@@ -52779,7 +52779,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Tuvalu</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000743"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004401 -->
@@ -52790,7 +52790,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Chad</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000634"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004402 -->
@@ -52801,7 +52801,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Guadeloupe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001186"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004403 -->
@@ -52812,7 +52812,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Syrian Arab Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000633"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004404 -->
@@ -52823,7 +52823,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Gambia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000734"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004405 -->
@@ -52834,7 +52834,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cook Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001539"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004406 -->
@@ -52845,7 +52845,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Aruba</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001175"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004407 -->
@@ -52856,7 +52856,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Nepal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000679"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004408 -->
@@ -52867,7 +52867,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Botswana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000611"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004409 -->
@@ -52878,7 +52878,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Brazil</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004410 -->
@@ -52889,7 +52889,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Lithuania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000662"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004411 -->
@@ -52900,7 +52900,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Burundi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000659"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004412 -->
@@ -52911,7 +52911,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bhutan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004413 -->
@@ -52922,7 +52922,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Singapore</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004414 -->
@@ -52933,7 +52933,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Ghana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000787"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004415 -->
@@ -52944,7 +52944,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Benin</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000624"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004416 -->
@@ -52955,7 +52955,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of New Zealand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000762"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004417 -->
@@ -52966,7 +52966,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Papua New Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000786"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004418 -->
@@ -52977,7 +52977,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of New Caledonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001542"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004419 -->
@@ -52988,7 +52988,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Rwanda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000742"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004420 -->
@@ -52999,7 +52999,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Afghanistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000648"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004421 -->
@@ -53010,7 +53010,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint Helena</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001497"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004422 -->
@@ -53021,7 +53021,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Albania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000773"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004423 -->
@@ -53032,7 +53032,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Sao Tome and Principe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000779"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004424 -->
@@ -53043,7 +53043,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of State of Palestine</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000643"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004425 -->
@@ -53054,7 +53054,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cameroon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000724"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004426 -->
@@ -53065,7 +53065,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Tanzania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000394"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004427 -->
@@ -53076,7 +53076,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Estonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000736"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004428 -->
@@ -53087,7 +53087,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of French Guiana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001184"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004429 -->
@@ -53098,7 +53098,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Liechtenstein</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000618"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004430 -->
@@ -53109,7 +53109,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of El Salvador</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000652"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004431 -->
@@ -53120,7 +53120,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Netherlands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000665"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004432 -->
@@ -53131,7 +53131,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Portugal</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000668"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004433 -->
@@ -53142,7 +53142,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mauritius</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000723"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004434 -->
@@ -53153,7 +53153,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000068"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004435 -->
@@ -53164,7 +53164,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Sri Lanka</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000694"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004436 -->
@@ -53175,7 +53175,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Namibia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000690"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004437 -->
@@ -53186,7 +53186,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of India</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000642"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004438 -->
@@ -53197,7 +53197,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Djibouti</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000744"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004439 -->
@@ -53208,7 +53208,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Tonga</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000754"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004440 -->
@@ -53219,7 +53219,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Jordan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000749"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004441 -->
@@ -53230,7 +53230,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Niger</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000695"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004442 -->
@@ -53241,7 +53241,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of United Arab Emirates</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000708"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004443 -->
@@ -53252,7 +53252,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Italy</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000641"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004444 -->
@@ -53263,7 +53263,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Samoa</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000629"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004445 -->
@@ -53274,7 +53274,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Germany</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000692"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004446 -->
@@ -53285,7 +53285,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Republic of Abkhazia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000651"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004447 -->
@@ -53296,7 +53296,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Finland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000784"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004448 -->
@@ -53307,7 +53307,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Kenya</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000710"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004449 -->
@@ -53318,7 +53318,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Liberia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000071"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004450 -->
@@ -53329,7 +53329,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Malta</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000671"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004451 -->
@@ -53340,7 +53340,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Dominica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000700"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004452 -->
@@ -53351,7 +53351,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Panama</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000655"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004453 -->
@@ -53362,7 +53362,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Monaco</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000678"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004454 -->
@@ -53373,7 +53373,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Slovakia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000712"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004455 -->
@@ -53384,7 +53384,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Tajikistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000638"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004456 -->
@@ -53395,7 +53395,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Ireland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000780"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004457 -->
@@ -53406,7 +53406,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Republic of Korea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000792"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004458 -->
@@ -53417,7 +53417,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Belarus</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000675"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004459 -->
@@ -53428,7 +53428,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Montserrat</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001190"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004460 -->
@@ -53439,7 +53439,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Peru</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000669"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004461 -->
@@ -53450,7 +53450,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Honduras</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000682"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004462 -->
@@ -53461,7 +53461,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Maldives</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000760"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004463 -->
@@ -53472,7 +53472,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mozambique</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000777"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004464 -->
@@ -53483,7 +53483,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Slovenia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000733"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004465 -->
@@ -53494,7 +53494,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Sudan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000761"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004466 -->
@@ -53505,7 +53505,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Togo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000639"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004467 -->
@@ -53516,7 +53516,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Turkey</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000715"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004468 -->
@@ -53527,7 +53527,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Swaziland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000782"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004469 -->
@@ -53538,7 +53538,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Romania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000612"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004470 -->
@@ -53549,7 +53549,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Madagascar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000664"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004471 -->
@@ -53560,7 +53560,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Israel</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000750"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004472 -->
@@ -53571,7 +53571,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Canada</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000355"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004473 -->
@@ -53582,7 +53582,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Uzbekistan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000751"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004474 -->
@@ -53593,7 +53593,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saudi Arabia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000696"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004475 -->
@@ -53604,7 +53604,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Latvia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000722"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004476 -->
@@ -53615,7 +53615,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint Pierre and Miquelon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001467"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004477 -->
@@ -53626,7 +53626,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Uganda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000069"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004478 -->
@@ -53637,7 +53637,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Kyrgyzstan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000781"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004479 -->
@@ -53648,7 +53648,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of China, Hong Kong Special Administrative Region</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001521"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004480 -->
@@ -53659,7 +53659,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of France</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000719"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004481 -->
@@ -53670,7 +53670,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Ukraine</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000672"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004482 -->
@@ -53681,7 +53681,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Eritrea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000628"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004483 -->
@@ -53692,7 +53692,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Iraq</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000725"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004484 -->
@@ -53703,7 +53703,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Iran (Islamic Republic of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000625"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004485 -->
@@ -53714,7 +53714,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Equatorial Guinea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000689"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004486 -->
@@ -53725,7 +53725,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of China, Macao Special Administrative Region</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001461"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004487 -->
@@ -53736,7 +53736,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Egypt</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000769"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004488 -->
@@ -53747,7 +53747,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mali</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000666"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004489 -->
@@ -53758,7 +53758,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mexico</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000759"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004490 -->
@@ -53769,7 +53769,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Denmark</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000279"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004491 -->
@@ -53780,7 +53780,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Burkina Faso</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000768"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004492 -->
@@ -53791,7 +53791,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Réunion</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001494"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004493 -->
@@ -53802,7 +53802,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Sint Maarten</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001196"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004494 -->
@@ -53813,7 +53813,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Zambia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000674"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004495 -->
@@ -53824,7 +53824,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mongolia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000681"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004496 -->
@@ -53835,7 +53835,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bahrain</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004497 -->
@@ -53846,7 +53846,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Transnistria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000626"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004498 -->
@@ -53857,7 +53857,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Croatia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000693"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004499 -->
@@ -53868,7 +53868,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Malawi</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000738"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004500 -->
@@ -53879,7 +53879,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Qatar</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000788"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004501 -->
@@ -53890,7 +53890,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Mauritania</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000727"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004502 -->
@@ -53901,7 +53901,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Algeria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000703"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004503 -->
@@ -53912,7 +53912,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Armenia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000705"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004504 -->
@@ -53923,7 +53923,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Thailand</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000656"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004505 -->
@@ -53934,7 +53934,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Poland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000630"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004506 -->
@@ -53945,7 +53945,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Antigua and Barbuda</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000704"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004507 -->
@@ -53956,7 +53956,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Nicaragua</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000621"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004508 -->
@@ -53967,7 +53967,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Nagorno-Karabakh Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000726"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004509 -->
@@ -53978,7 +53978,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Tokelau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001482"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004510 -->
@@ -53989,7 +53989,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Sierra Leone</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000070"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004511 -->
@@ -54000,7 +54000,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Gabon</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000065"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004512 -->
@@ -54011,7 +54011,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Bangladesh</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000709"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004513 -->
@@ -54022,7 +54022,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Iceland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000698"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004514 -->
@@ -54033,7 +54033,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Trinidad and Tobago</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000676"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004515 -->
@@ -54044,7 +54044,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of South Sudan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000151"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004516 -->
@@ -54055,7 +54055,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Belgium</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000764"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004517 -->
@@ -54066,7 +54066,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cabo Verde</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000660"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004518 -->
@@ -54077,7 +54077,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Seychelles</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000753"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004519 -->
@@ -54088,7 +54088,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Lesotho</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000765"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004520 -->
@@ -54099,7 +54099,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Zimbabwe</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000755"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004521 -->
@@ -54110,7 +54110,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Micronesia (Federated States of)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000686"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004522 -->
@@ -54121,7 +54121,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint Lucia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000702"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004523 -->
@@ -54132,7 +54132,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Kazakhstan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000673"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004524 -->
@@ -54143,7 +54143,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Andorra</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000619"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004525 -->
@@ -54154,7 +54154,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Brunei Darussalam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004526 -->
@@ -54165,18 +54165,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Republic of South Ossetia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000770"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004527 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004527">
         <rdf:type rdf:resource="&obc;IDE_0000000173"/>
-        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Democratic People's Republic of Korea</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Democratic People's Republic of Korea</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Democratic People&apos;s Republic of Korea</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Democratic People&apos;s Republic of Korea</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000610"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004528 -->
@@ -54187,7 +54187,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Austria</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000635"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004529 -->
@@ -54198,7 +54198,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cuba</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000789"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004530 -->
@@ -54209,7 +54209,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Somaliland</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000746"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004531 -->
@@ -54220,7 +54220,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Somalia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000646"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004532 -->
@@ -54231,7 +54231,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Guyana</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000691"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004533 -->
@@ -54242,7 +54242,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Argentina</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000617"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004534 -->
@@ -54253,7 +54253,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Costa Rica</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000774"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004535 -->
@@ -54264,7 +54264,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Azerbaijan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000716"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004536 -->
@@ -54275,7 +54275,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Timor-Leste</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000735"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004537 -->
@@ -54286,7 +54286,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Oman</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000658"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004538 -->
@@ -54297,7 +54297,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Yemen</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000713"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004539 -->
@@ -54308,7 +54308,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Marshall Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000688"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004540 -->
@@ -54319,7 +54319,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Vanuatu</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000684"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004541 -->
@@ -54330,7 +54330,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Cayman Islands</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001182"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004542 -->
@@ -54341,7 +54341,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Ecuador</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000717"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004543 -->
@@ -54352,7 +54352,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Serbia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000793"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004544 -->
@@ -54363,7 +54363,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Greece</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000677"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004545 -->
@@ -54374,7 +54374,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Barbados</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000767"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004546 -->
@@ -54385,7 +54385,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Belize</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000670"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004547 -->
@@ -54396,7 +54396,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Saint-Martin (French part)</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000001503"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004548 -->
@@ -54407,7 +54407,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Democratic Republic of Congo</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000067"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004549 -->
@@ -54418,29 +54418,29 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Colombia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000133"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004550 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004550">
         <rdf:type rdf:resource="&obc;IDE_0000000173"/>
-        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Côte d'Ivoire</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Côte d'Ivoire</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Côte d&apos;Ivoire</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Côte d&apos;Ivoire</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000650"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004551 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004551">
         <rdf:type rdf:resource="&obc;IDE_0000000173"/>
-        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Lao People's Democratic Republic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Lao People's Democratic Republic</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Lao People&apos;s Democratic Republic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Lao People&apos;s Democratic Republic</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000683"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004552 -->
@@ -54451,7 +54451,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Taiwan</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000631"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000004553 -->
@@ -54461,6 +54461,72 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Guinea-Bissau</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Guinea-Bissau</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000644"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000004554 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000004554">
+        <rdf:type rdf:resource="&obc;IDE_0000000229"/>
+        <rdfs:label xml:lang="en">HIV-1 in Georgia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Georgia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000649"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000004555 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000004555">
+        <rdf:type rdf:resource="&obc;IDE_0000000229"/>
+        <rdfs:label xml:lang="en">HIV-1 in Montenegro</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Montenegro</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000763"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000004556 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000004556">
+        <rdf:type rdf:resource="&obc;IDE_0000000229"/>
+        <rdfs:label xml:lang="en">HIV-1 in Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Republic of Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000066"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000004557 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000004557">
+        <rdf:type rdf:resource="&obc;IDE_0000000229"/>
+        <rdfs:label xml:lang="en">HIV-1 in Democratic Republic of Congo</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population in region of Democratic Republic of Congo</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000067"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000004558 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000004558">
+        <rdf:type rdf:resource="&obc;IDE_0000000173"/>
+        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Montenegro</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Montenegro</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000763"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000004559 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000004559">
+        <rdf:type rdf:resource="&obc;IDE_0000000173"/>
+        <rdfs:label xml:lang="en">Mycobacterium tuberculosis in Georgia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium tuberculosis population in region of Georgia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000649"/>
     </owl:NamedIndividual>
     
 
@@ -54533,17 +54599,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Escherichia coli</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000086">
-        <rdfs:label xml:lang="en">Sudan ebolavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000240">
         <rdfs:label xml:lang="en">Monkeypox virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Monkeypox virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Monkeypox virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000086">
+        <rdfs:label xml:lang="en">Sudan ebolavirus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;ENVO_01000268">
         <rdfs:label xml:lang="en">atmospheric water vapor</rdfs:label>
@@ -54612,14 +54678,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis A virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
-        <rdfs:label xml:lang="en">epidemic</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000231">
         <rdfs:label xml:lang="en">HIV-2</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">HIV-2 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of HIV-2</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000298">
+        <rdfs:label xml:lang="en">epidemic</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000064">
         <rdfs:label xml:lang="en">algorithm</rdfs:label>
@@ -54675,15 +54741,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Chlamydia trachomatis</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000140">
-        <rdfs:label xml:lang="en">infectious period</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000224">
         <rdfs:label xml:lang="en">Hepatitis C virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Hepatitis C virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis C virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000140">
+        <rdfs:label xml:lang="en">infectious period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">infectious period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000223">
         <rdfs:label xml:lang="en">Influenza B virus</rdfs:label>
@@ -54747,13 +54813,13 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000533">
         <rdfs:label xml:lang="en">human air travel</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000532">
-        <rdfs:label xml:lang="en">human travel</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000136">
         <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">vaccination control strategy</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000532">
+        <rdfs:label xml:lang="en">human travel</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000219">
         <rdfs:label xml:lang="en">Vibrio cholerae</rdfs:label>
@@ -54808,26 +54874,22 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000553">
         <rdfs:label xml:lang="en">two-strain Suscetible-Infectious-Resistant model</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000552">
-        <rdfs:label xml:lang="en">metapopulation disease transmission model</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000156">
         <rdfs:label xml:lang="en">infectious population</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">infectious population</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000552">
+        <rdfs:label xml:lang="en">metapopulation disease transmission model</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000551">
         <rdfs:label xml:lang="en">Susceptible-Exposed-Infectious-Recovered model</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0007565">
-        <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000550">
         <rdfs:label xml:lang="en">contact tracing</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;GO_0039651">
-        <rdfs:label xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obo;GO_0007565">
+        <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">female pregnancy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000173">
         <rdfs:label xml:lang="en">Mycobacterium tuberculosis</rdfs:label>
@@ -54838,6 +54900,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;GO_0007567">
         <rdfs:label xml:lang="en">parturition</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">parturition</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;GO_0039651">
+        <rdfs:label xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000292">
         <rdfs:label xml:lang="en">H7N2 subtype</rdfs:label>
@@ -54880,18 +54946,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000549">
         <rdfs:label xml:lang="en">Susceptible-Infected-Resistant model</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000548">
+        <rdfs:label xml:lang="en">Susceptible-Infected-Susceptible model</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000306">
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000548">
-        <rdfs:label xml:lang="en">Susceptible-Infected-Susceptible model</rdfs:label>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000547">
+        <rdfs:label xml:lang="en">social interaction data item</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000305">
         <obo:IAO_0000111 xml:lang="en">anti-bacterial drug control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000547">
-        <rdfs:label xml:lang="en">social interaction data item</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000048">
         <rdfs:label xml:lang="en">Staphylococcus aureus epidemic</rdfs:label>
@@ -54927,15 +54993,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000001">
-        <rdfs:label xml:lang="en">epidemic model</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000044">
         <rdfs:label xml:lang="en">Dengue virus 4</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 4 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 4</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000001">
+        <rdfs:label xml:lang="en">epidemic model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000043">
         <rdfs:label xml:lang="en">Dengue virus 3</rdfs:label>
@@ -54989,11 +55055,11 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000027">
-        <rdfs:label xml:lang="en">data item</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000097">
         <obo:IAO_0000111 xml:lang="en">ecosystem of Earth</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000037">
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
@@ -55034,16 +55100,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000032">
-        <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Ebolavirus epidemic</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000274">
         <rdfs:label xml:lang="en">Koutango virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Koutango virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Koutango virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000032">
+        <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Ebolavirus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000273">
         <rdfs:label xml:lang="en">Capra hircus</rdfs:label>
@@ -55097,17 +55163,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus epidemic</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000026">
-        <rdfs:label xml:lang="en">Influenza virus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Influenza virus population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Influenza virus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000268">
         <rdfs:label xml:lang="en">Herpesviridae</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Herpesviridae population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Herpesviridae</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000026">
+        <rdfs:label xml:lang="en">Influenza virus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Influenza virus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000267">
         <rdfs:label xml:lang="en">Canis lupus familiaris</rdfs:label>
@@ -55237,18 +55303,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
-        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;NBO_0000034">
-        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">sexual activity</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000259">
         <rdfs:label xml:lang="en">Yellow Fever virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Yellow Fever virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Yellow Fever virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;NBO_0000034">
+        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">sexual activity</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
+        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000258">
         <rdfs:label xml:lang="en">Neisseria meningitidis</rdfs:label>
@@ -55265,23 +55331,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
         <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000257">
-        <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000015">
         <rdfs:label xml:lang="en">Aedes mosquito</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Aedes mosquito population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000256">
-        <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
+    <rdf:Description rdf:about="&obc;IDE_0000000257">
+        <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000014">
         <rdfs:label xml:lang="en">Zika virus</rdfs:label>
@@ -55289,15 +55349,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zika virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zika virus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000256">
+        <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
         <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000013">
-        <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000255">
         <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
@@ -55309,6 +55368,13 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">susceptible population</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">susceptible population</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000013">
+        <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000254">
         <rdfs:label xml:lang="en">Haemophilus influenzae</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population</obo:IAO_0000111>
@@ -55319,22 +55385,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">infected population</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">infected population</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000253">
-        <rdfs:label xml:lang="en">Hantavirus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Hantavirus population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Hantavirus</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000001729">
         <rdfs:label xml:lang="en">Enterovirus C</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Enterovirus C population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Enterivirus C</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
-        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+    <rdf:Description rdf:about="&obc;IDE_0000000253">
+        <rdfs:label xml:lang="en">Hantavirus</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Hantavirus population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Hantavirus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000252">
         <rdfs:label xml:lang="en">Rift Valley fever virus</rdfs:label>
@@ -55342,18 +55403,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Rift Valley fever virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000231">
+        <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000251">
         <rdfs:label xml:lang="en">Trypanosoma cruzi</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Trypanosoma cruzi population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Trypanosoma cruzi</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000250">
-        <rdfs:label xml:lang="en">Schistosoma haematobium</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000096">
         <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
@@ -55361,6 +55420,13 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">H5N6 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000250">
+        <rdfs:label xml:lang="en">Schistosoma haematobium</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Schistosoma haematobium population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">population of Schistosoma haematobium</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;GO_0006954">
         <rdfs:label xml:lang="en">inflammatory response</rdfs:label>
