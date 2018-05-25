@@ -3899,7 +3899,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <!-- http://www.pitt.edu/obc/IDE_0000001760 -->
 
     <owl:Class rdf:about="&obc;IDE_0000001760">
-        <rdfs:label xml:lang="en">Mycobacterium leprae</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -3912,9 +3911,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000218"/>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Mycobacterium leprae</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -3922,7 +3918,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <!-- http://www.pitt.edu/obc/IDE_0000001761 -->
 
     <owl:Class rdf:about="&obc;IDE_0000001761">
-        <rdfs:label xml:lang="en">Mycobacterium lepromatosis</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -3935,9 +3930,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obc;IDE_0000000218"/>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Mycobacterium lepromatosis</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -24251,6 +24243,24 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:label xml:lang="en">Enterovirus C</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Enterovirus C population in region of the United States</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001760 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001760">
+        <rdf:type rdf:resource="&obc;IDE_0000001760"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000001761 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000001761">
+        <rdf:type rdf:resource="&obc;IDE_0000001761"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -63540,6 +63550,160 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000005358 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005358">
+        <rdf:type rdf:resource="&obc;IDE_0000001760"/>
+        <rdfs:label xml:lang="en">Mycobacterium leprae in Brazil</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population in region of Brazil</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005360 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005360">
+        <rdf:type rdf:resource="&obc;IDE_0000001761"/>
+        <rdfs:label xml:lang="en">Mycobacterium lepromatosis in Brazil</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population in region of Brazil</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005361 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005361">
+        <rdf:type rdf:resource="&obc;IDE_0000000026"/>
+        <rdfs:label xml:lang="en">Influenza virus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005362 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005362">
+        <rdf:type rdf:resource="&obc;IDE_0000000092"/>
+        <rdfs:label xml:lang="en">SARS coronavirus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">SARS coronavirus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005363 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005363">
+        <rdf:type rdf:resource="&obc;IDE_0000001774"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 3 in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005364 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005364">
+        <rdf:type rdf:resource="&obc;IDE_0000000220"/>
+        <rdfs:label xml:lang="en">Rabies virus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rabies virus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005365 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005365">
+        <rdf:type rdf:resource="&obc;IDE_0000000108"/>
+        <rdfs:label xml:lang="en">Measles virus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005366 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005366">
+        <rdf:type rdf:resource="&obc;IDE_0000001770"/>
+        <rdfs:label xml:lang="en">Rubella virus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rubella virus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005367 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005367">
+        <rdf:type rdf:resource="&obc;IDE_0000001749"/>
+        <rdfs:label xml:lang="en">Giardia intestinalis in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Giardia intestinalis population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005368 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005368">
+        <rdf:type rdf:resource="&obc;IDE_0000000257"/>
+        <rdfs:label xml:lang="en">Rotavirus in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rotavirus population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005369 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005369">
+        <rdf:type rdf:resource="&obc;IDE_0000001736"/>
+        <rdfs:label xml:lang="en">Shigella flexneri population in region of Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella flexneri population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005370 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005370">
+        <rdf:type rdf:resource="&obc;IDE_0000001735"/>
+        <rdfs:label xml:lang="en">Shigella sonnei in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella sonnei population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005371 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005371">
+        <rdf:type rdf:resource="&obc;IDE_0000001747"/>
+        <rdfs:label xml:lang="en">Cryptosporidium hominis in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Cryptosporidium hominis population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005372 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005372">
+        <rdf:type rdf:resource="&obc;IDE_0000001746"/>
+        <rdfs:label xml:lang="en">Cryptosporidium parvum in Bhutan</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Cryptosporidium parvum population in region of Bhutan</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000685"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -63614,15 +63778,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Monkeypox virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Monkeypox virus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000317">
+        <rdfs:label xml:lang="en">incubation period</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000239">
         <rdfs:label xml:lang="en">Neisseria gonorrhoeae</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Neisseria gonorrhoeae population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Neisseria gonorrhoeae</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000317">
-        <rdfs:label xml:lang="en">incubation period</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">incubation period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000238">
         <rdfs:label xml:lang="en">Eastern equine encephalitis virus</rdfs:label>
@@ -63879,12 +64043,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000304">
         <obo:IAO_0000111 xml:lang="en">anti-infective individual treatment control strategy</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
+        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000303">
         <rdfs:label xml:lang="en">compartmental disease transmission model</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">compartment-based disease transmission model</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000545">
-        <obo:IAO_0000111 xml:lang="en">disease surveillance</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000308">
         <rdfs:label xml:lang="en">vector control strategy</rdfs:label>
@@ -63943,11 +64107,11 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000528">
         <rdfs:label xml:lang="en">synthetic ecosystem data set</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000526">
-        <rdfs:label xml:lang="en">scale-free network model</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000405">
         <rdfs:label xml:lang="en">potentially infectious contacting</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000526">
+        <rdfs:label xml:lang="en">scale-free network model</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;DOID_12842">
         <rdfs:label rdf:datatype="&xsd;string">Guillain-Barre syndrome</rdfs:label>
@@ -63990,14 +64154,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">Variola virus</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;ENVO_00010483">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000196">
         <rdfs:label xml:lang="en">ring vaccination control strategy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">ring vaccination control strategy</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">ring vaccination control strategy universal</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;ENVO_00010483">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
-        <obc:IDE_0000001000 rdf:resource="&rdfs;subClassOf"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000194">
         <obo:IAO_0000111 xml:lang="en">individual treatment control strategy</obo:IAO_0000111>
@@ -64066,16 +64230,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;ENVO_01000268">
-        <rdfs:label xml:lang="en">atmospheric water vapor</rdfs:label>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">atmospheric water vapor</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000005300">
         <rdfs:label xml:lang="en">Junin virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Junin virus</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">Junin virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Junin virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;ENVO_01000268">
+        <rdfs:label xml:lang="en">atmospheric water vapor</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">atmospheric water vapor</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000005302">
         <rdfs:label xml:lang="en">Lujo virus</rdfs:label>
@@ -64101,15 +64265,15 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Guanarito virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;ENVO_01000703">
-        <rdfs:label xml:lang="en">hydrological precipitation process</rdfs:label>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">hydrological precipitation process</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000005306">
         <rdfs:label xml:lang="en">Sabiá virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Sabiá virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Sabiá virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;ENVO_01000703">
+        <rdfs:label xml:lang="en">hydrological precipitation process</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">hydrological precipitation process</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000005305">
         <rdfs:label xml:lang="en">Marburg virus</rdfs:label>
@@ -64168,6 +64332,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000001760">
+        <rdfs:label xml:lang="en">Mycobacterium leprae</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Mycobacterium leprae</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000001761">
+        <rdfs:label xml:lang="en">Mycobacterium lepromatosis</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Mycobacterium lepromatosis</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000136">
         <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
@@ -64264,28 +64440,28 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
-        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000166">
         <rdfs:label xml:lang="en">disease course part</rdfs:label>
         <rdfs:label xml:lang="en">part of disease course</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">part of disease course</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">disease course part</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000123">
+        <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000486">
         <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000001">
+        <rdfs:label xml:lang="en">epidemic model</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000044">
         <rdfs:label xml:lang="en">Dengue virus 4</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Dengue virus 4 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Dengue virus 4</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000001">
-        <rdfs:label xml:lang="en">epidemic model</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">epidemic model</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000043">
         <rdfs:label xml:lang="en">Dengue virus 3</rdfs:label>
@@ -64313,14 +64489,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">latent period</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">latent period of disease course</obo:IAO_0000111>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000038">
         <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Staphylococcus aureus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000027">
-        <rdfs:label xml:lang="en">data item</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000037">
         <rdfs:label xml:lang="en">Middle East respiratory syndrome coronavirus</rdfs:label>
@@ -64346,28 +64522,28 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000033">
-        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000275">
         <rdfs:label xml:lang="en">Suid herpesvirus 1</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000032">
-        <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Ebolavirus epidemic</obo:IAO_0000111>
+    <rdf:Description rdf:about="&obc;IDE_0000000033">
+        <rdfs:label xml:lang="en">H3N2 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H3N2 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of H3N2 subtype</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000274">
         <rdfs:label xml:lang="en">Koutango virus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Koutango virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Koutango virus</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000032">
+        <rdfs:label xml:lang="en">Ebolavirus epidemic</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Ebolavirus epidemic</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000273">
         <rdfs:label xml:lang="en">Capra hircus</rdfs:label>
@@ -64503,6 +64679,9 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of human beings</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
+        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000259">
         <rdfs:label xml:lang="en">Yellow Fever virus</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
@@ -64512,9 +64691,6 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;NBO_0000034">
         <rdfs:label xml:lang="en">sexual activity</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">sexual activity</obo:IAO_0000111>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;APOLLO_SV_00000230">
-        <obo:IAO_0000111 xml:lang="en">case isolation control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000258">
         <rdfs:label xml:lang="en">Neisseria meningitidis</rdfs:label>
@@ -64546,18 +64722,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000000255">
+        <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000013">
         <rdfs:label xml:lang="en">H5N1 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H5N1 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 of entire Earth</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of H5N1 subtype</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obc;IDE_0000000255">
-        <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000234">
         <rdfs:label xml:lang="en">susceptible population</rdfs:label>
@@ -64612,14 +64788,14 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Zaire ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zaire ebolavirus</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000090">
+        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
+    </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000008">
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Ebolavirus</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OGMS_0000090">
-        <obc:IDE_0000000024 rdf:datatype="&xsd;boolean">true</obc:IDE_0000000024>
     </rdf:Description>
     <rdf:Description rdf:about="&obc;IDE_0000000249">
         <rdfs:label xml:lang="en">Morbillivirus</rdfs:label>
