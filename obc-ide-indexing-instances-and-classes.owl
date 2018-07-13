@@ -64669,6 +64669,248 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
+    <!-- http://www.pitt.edu/obc/IDE_0000005439 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005439">
+        <rdf:type rdf:resource="&obc;IDE_0000000239"/>
+        <rdfs:label xml:lang="en">Neisseria gonorrhoeae in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Neisseria gonorrhoeae population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005440 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005440">
+        <rdf:type rdf:resource="&obc;IDE_0000005329"/>
+        <rdfs:label xml:lang="en">Human poliovirus 1 in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human poliovirus 1 population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005441 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005441">
+        <rdf:type rdf:resource="&obc;IDE_0000005331"/>
+        <rdfs:label xml:lang="en">Human poliovirus 3 in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human poliovirus 3 population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005442 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005442">
+        <rdf:type rdf:resource="&obc;IDE_0000000219"/>
+        <rdfs:label xml:lang="en">Vibrio cholerae in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Vibrio cholerae population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005443 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005443">
+        <rdf:type rdf:resource="&obc;IDE_0000000225"/>
+        <rdfs:label xml:lang="en">Chlamydia trachomatis in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chlamydia trachomatis population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005444 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005444">
+        <rdf:type rdf:resource="&obc;IDE_0000005294"/>
+        <rdfs:label xml:lang="en">Haemophilus ducreyi in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Haemophilus ducreyi population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005445 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005445">
+        <rdf:type rdf:resource="&obc;IDE_0000001771"/>
+        <rdfs:label xml:lang="en">Treponema pallidum in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Treponema pallidum population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005446 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005446">
+        <rdf:type rdf:resource="&obc;IDE_0000000108"/>
+        <rdfs:label xml:lang="en">Measles virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005447 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005447">
+        <rdf:type rdf:resource="&obc;IDE_0000001766"/>
+        <rdfs:label xml:lang="en">Mumps virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mumps virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005448 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005448">
+        <rdf:type rdf:resource="&obc;IDE_0000001770"/>
+        <rdfs:label xml:lang="en">Rubella virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rubella virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005449 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005449">
+        <rdf:type rdf:resource="&obc;IDE_0000001748"/>
+        <rdfs:label xml:lang="en">Corynebacterium diphtheriae in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Corynebacterium diphtheriae population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005450 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005450">
+        <rdf:type rdf:resource="&obc;IDE_0000000233"/>
+        <rdfs:label xml:lang="en">Bordetella pertussis in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Bordetella pertussis population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005451 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005451">
+        <rdf:type rdf:resource="&obc;IDE_0000001772"/>
+        <rdfs:label xml:lang="en">Clostridium tetani in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Clostridium tetani population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005452 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005452">
+        <rdf:type rdf:resource="&obc;IDE_0000001774"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 3 in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005453 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005453">
+        <rdf:type rdf:resource="&obc;IDE_0000001760"/>
+        <rdfs:label xml:lang="en">Mycobacterium leprae in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005454 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005454">
+        <rdf:type rdf:resource="&obc;IDE_0000001761"/>
+        <rdfs:label xml:lang="en">Mycobacterium lepromatosis in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005455 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005455">
+        <rdf:type rdf:resource="&obc;IDE_0000000092"/>
+        <rdfs:label xml:lang="en">SARS coronavirus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Severe Acute Respiratory Syndrome (SARS) coronavirus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005456 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005456">
+        <rdf:type rdf:resource="&obc;IDE_0000001758"/>
+        <rdfs:label xml:lang="en">Streptococcus sp. &apos;group A&apos; in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Streptococcus sp. &apos;group A&apos; population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005457 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005457">
+        <rdf:type rdf:resource="&obc;IDE_0000000221"/>
+        <rdfs:label xml:lang="en">Plasmodium falciparum in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005458 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005458">
+        <rdf:type rdf:resource="&obc;IDE_0000000406"/>
+        <rdfs:label xml:lang="en">Plasmodium vivax in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium vivax population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005459 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005459">
+        <rdf:type rdf:resource="&obc;IDE_0000000405"/>
+        <rdfs:label xml:lang="en">Plasmodium ovale in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium ovale population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005460 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005460">
+        <rdf:type rdf:resource="&obc;IDE_0000000404"/>
+        <rdfs:label xml:lang="en">Plasmodium malariae in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
