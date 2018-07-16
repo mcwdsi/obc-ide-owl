@@ -5320,33 +5320,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000005433 -->
-
-    <owl:Class rdf:about="&obc;IDE_0000005433">
-        <rdfs:label xml:lang="en">Salmonella enterica subsp. enterica</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_59201"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_59201"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obc;IDE_0000001431"/>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">Salmonella enterica subsp. enterica population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Salmonella enterica subsp. enterica</obo:IAO_0000118>
-    </owl:Class>
-    
-
-
     <!-- http://www.pitt.edu/obc/IDE_0000005436 -->
 
     <owl:Class rdf:about="&obc;IDE_0000005436">
@@ -5361,6 +5334,52 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
                         <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_35305"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000226"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005468 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000005468">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10298"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_10298"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obc;IDE_0000000226"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005469 -->
+
+    <owl:Class rdf:about="&obc;IDE_0000005469">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PCO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10310"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000075"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_10310"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -56196,7 +56215,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <owl:NamedIndividual rdf:about="&obc;IDE_0000004616">
         <rdf:type rdf:resource="&obc;IDE_0000001774"/>
         <rdfs:label xml:lang="en">Human herpesvirus 3 in The former Yugoslav Republic of Macedonia</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 in The former Yugoslav Republic of Macedonia</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of The former Yugoslav Republic of Macedonia</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000613"/>
     </owl:NamedIndividual>
     
@@ -64630,9 +64649,9 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <!-- http://www.pitt.edu/obc/IDE_0000005434 -->
 
     <owl:NamedIndividual rdf:about="&obc;IDE_0000005434">
-        <rdf:type rdf:resource="&obc;IDE_0000005433"/>
-        <rdfs:label xml:lang="en">Salmonella enterica subsp. enterica in Brunei Darussalam</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Salmonella enterica subsp. enterica population in region of Brunei Darussalam</obo:IAO_0000111>
+        <rdf:type rdf:resource="&obc;IDE_0000000256"/>
+        <rdfs:label xml:lang="en">Salmonella paratyphi A in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population in region of Brunei Darussalam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
     </owl:NamedIndividual>
     
@@ -64907,6 +64926,508 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Plasmodium malariae in Brunei Darussalam</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Brunei Darussalam</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005461 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005461">
+        <rdf:type rdf:resource="&obc;IDE_0000005297"/>
+        <rdfs:label xml:lang="en">Leptospira in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Leptospira population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005462 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005462">
+        <rdf:type rdf:resource="&obc;IDE_0000000259"/>
+        <rdfs:label xml:lang="en">Yellow fever virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Yellow fever virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005463 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005463">
+        <rdf:type rdf:resource="&obc;IDE_0000000247"/>
+        <rdfs:label xml:lang="en">West Nile virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">West Nile virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005464 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005464">
+        <rdf:type rdf:resource="&obc;IDE_0000000236"/>
+        <rdfs:label xml:lang="en">Bacillus anthracis in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Bacillus anthracis population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005465 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005465">
+        <rdf:type rdf:resource="&obc;IDE_0000000220"/>
+        <rdfs:label xml:lang="en">Rabies virus in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rabies virus population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005466 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005466">
+        <rdf:type rdf:resource="&obc;IDE_0000005298"/>
+        <rdfs:label xml:lang="en">Yersinia pestis in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Yersinia pestis population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005467 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005467">
+        <rdf:type rdf:resource="&obc;IDE_0000001759"/>
+        <rdfs:label xml:lang="en">Legionella in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Legionella population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005468 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005468">
+        <rdf:type rdf:resource="&obc;IDE_0000005468"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005469 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005469">
+        <rdf:type rdf:resource="&obc;IDE_0000005469"/>
+        <obo:BFO_0000137 rdf:resource="&obo;APOLLO_SV_00000104"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005471 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005471">
+        <rdf:type rdf:resource="&obc;IDE_0000005468"/>
+        <rdfs:label xml:lang="en">Human alphaherpesvirus 1 in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human alphaherpesvirus 1 population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005473 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005473">
+        <rdf:type rdf:resource="&obc;IDE_0000005469"/>
+        <rdfs:label xml:lang="en">Human alphaherpesvirus 2 in Brunei Darussalam</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human alphaherpesvirus 2 population in region of Brunei Darussalam</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000758"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005474 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005474">
+        <rdf:type rdf:resource="&obc;IDE_0000001737"/>
+        <rdfs:label xml:lang="en">Shigella dysenteriae in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella dysenteriae population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005475 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005475">
+        <rdf:type rdf:resource="&obc;IDE_0000001736"/>
+        <rdfs:label xml:lang="en">Shigella flexneri in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella flexneri population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005476 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005476">
+        <rdf:type rdf:resource="&obc;IDE_0000001735"/>
+        <rdfs:label xml:lang="en">Shigella sonnei in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella sonnei population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005477 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005477">
+        <rdf:type rdf:resource="&obc;IDE_0000005294"/>
+        <rdfs:label xml:lang="en">Haemophilus ducreyi in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Haemophilus ducreyi population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005478 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005478">
+        <rdf:type rdf:resource="&obc;IDE_0000000225"/>
+        <rdfs:label xml:lang="en">Chlamydia trachomatis in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chlamydia trachomatis population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005479 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005479">
+        <rdf:type rdf:resource="&obc;IDE_0000001774"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 3 in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005480 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005480">
+        <rdf:type rdf:resource="&obc;IDE_0000001770"/>
+        <rdfs:label xml:lang="en">Rubella virus in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rubella virus population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005481 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005481">
+        <rdf:type rdf:resource="&obc;IDE_0000000239"/>
+        <rdfs:label xml:lang="en">Neisseria gonorrhoeae in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Neisseria gonorrhoeae population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005482 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005482">
+        <rdf:type rdf:resource="&obc;IDE_0000005297"/>
+        <rdfs:label xml:lang="en">Leptospira in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Leptospira population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005483 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005483">
+        <rdf:type rdf:resource="&obc;IDE_0000001760"/>
+        <rdfs:label xml:lang="en">Mycobacterium leprae in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005484 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005484">
+        <rdf:type rdf:resource="&obc;IDE_0000001761"/>
+        <rdfs:label xml:lang="en">Mycobacterium lepromatosis in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005485 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005485">
+        <rdf:type rdf:resource="&obc;IDE_0000000221"/>
+        <rdfs:label xml:lang="en">Plasmodium falciparum in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005486 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005486">
+        <rdf:type rdf:resource="&obc;IDE_0000000406"/>
+        <rdfs:label xml:lang="en">Plasmodium vivax in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium vivax population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005487 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005487">
+        <rdf:type rdf:resource="&obc;IDE_0000000405"/>
+        <rdfs:label xml:lang="en">Plasmodium ovale in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium ovale population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005488 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005488">
+        <rdf:type rdf:resource="&obc;IDE_0000000404"/>
+        <rdfs:label xml:lang="en">Plasmodium malariae in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005489 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005489">
+        <rdf:type rdf:resource="&obc;IDE_0000000108"/>
+        <rdfs:label xml:lang="en">Measles virus in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005490 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005490">
+        <rdf:type rdf:resource="&obc;IDE_0000001772"/>
+        <rdfs:label xml:lang="en">Clostridium tetani in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Clostridium tetani population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005491 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005491">
+        <rdf:type rdf:resource="&obc;IDE_0000000233"/>
+        <rdfs:label xml:lang="en">Bordetella pertussis in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Bordetella pertussis population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005492 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005492">
+        <rdf:type rdf:resource="&obc;IDE_0000000254"/>
+        <rdfs:label xml:lang="en">Haemophilus influenzae in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005493 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005493">
+        <rdf:type rdf:resource="&obc;IDE_0000001766"/>
+        <rdfs:label xml:lang="en">Mumps virus in Bahrain</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mumps virus population in region of Bahrain</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000653"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005494 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005494">
+        <rdf:type rdf:resource="&obc;IDE_0000005379"/>
+        <rdfs:label xml:lang="en">Coxsackievirus A16 in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Coxsackievirus A16 population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005495 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005495">
+        <rdf:type rdf:resource="&obc;IDE_0000005380"/>
+        <rdfs:label xml:lang="en">Enterovirus A71 in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Enterovirus A71 population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005496 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005496">
+        <rdf:type rdf:resource="&obc;IDE_0000000256"/>
+        <rdfs:label xml:lang="en">Salmonella paratyphi A in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005497 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005497">
+        <rdf:type rdf:resource="&obc;IDE_0000004625"/>
+        <rdfs:label xml:lang="en">Salmonella enterica in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Salmonella enterica population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005498 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005498">
+        <rdf:type rdf:resource="&obc;IDE_0000000255"/>
+        <rdfs:label xml:lang="en">Salmonella typhi in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005499 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005499">
+        <rdf:type rdf:resource="&obc;IDE_0000005297"/>
+        <rdfs:label xml:lang="en">Leptospira in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Leptospira population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005500 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005500">
+        <rdf:type rdf:resource="&obc;IDE_0000000221"/>
+        <rdfs:label xml:lang="en">Plasmodium falciparum in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005501 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005501">
+        <rdf:type rdf:resource="&obc;IDE_0000000406"/>
+        <rdfs:label xml:lang="en">Plasmodium vivax in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium vivax population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005502 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005502">
+        <rdf:type rdf:resource="&obc;IDE_0000000405"/>
+        <rdfs:label xml:lang="en">Plasmodium ovale in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium ovale population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005503 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005503">
+        <rdf:type rdf:resource="&obc;IDE_0000000404"/>
+        <rdfs:label xml:lang="en">Plasmodium malariae in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005504 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005504">
+        <rdf:type rdf:resource="&obc;IDE_0000000108"/>
+        <rdfs:label xml:lang="en">Measles virus in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005505 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005505">
+        <rdf:type rdf:resource="&obc;IDE_0000001766"/>
+        <rdfs:label xml:lang="en">Mumps virus in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mumps virus population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005506 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005506">
+        <rdf:type rdf:resource="&obc;IDE_0000000233"/>
+        <rdfs:label xml:lang="en">Bordetella pertussis in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Bordetella pertussis population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005507 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005507">
+        <rdf:type rdf:resource="&obc;IDE_0000000037"/>
+        <rdfs:label xml:lang="en">Middle East Respiratory Syndrome coronavirus in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Middle East Respiratory Syndrome coronavirus population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005508 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005508">
+        <rdf:type rdf:resource="&obc;IDE_0000001774"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 3 in Singapore</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of Singapore</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
     </owl:NamedIndividual>
     
 
@@ -65776,6 +66297,18 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="&obo;GO_0007617">
         <rdfs:label xml:lang="en">mating behavior</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">mating behavior</obo:IAO_0000111>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000005468">
+        <rdfs:label xml:lang="en">Human alphaherpesvirus 1</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human alphaherpesvirus 1 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Human alphaherpesvirus 1</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obc;IDE_0000005469">
+        <rdfs:label xml:lang="en">Human alphaherpesvirus 2</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human alphaherpesvirus 2 population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Human alphaherpesvirus 2</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;APOLLO_SV_00000118">
         <rdfs:label xml:lang="en">latent period</rdfs:label>
