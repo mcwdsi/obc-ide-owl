@@ -272,12 +272,12 @@
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -65428,6 +65428,446 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Human herpesvirus 3 in Singapore</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of Singapore</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005509 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005509">
+        <rdf:type rdf:resource="&obc;IDE_0000000228"/>
+        <rdfs:label xml:lang="en">Hepatitis D virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Hepatitis D virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005510 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005510">
+        <rdf:type rdf:resource="&obc;IDE_0000005295"/>
+        <rdfs:label xml:lang="en">Clostridium botulinum in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Clostridium botulinum population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005511 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005511">
+        <rdf:type rdf:resource="&obc;IDE_0000001742"/>
+        <rdfs:label xml:lang="en">Campylobacter in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Campylobacter population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005512 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005512">
+        <rdf:type rdf:resource="&obc;IDE_0000001747"/>
+        <rdfs:label xml:lang="en">Cryptosporidium hominis in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Cryptosporidium hominis population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005513 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005513">
+        <rdf:type rdf:resource="&obc;IDE_0000001746"/>
+        <rdfs:label xml:lang="en">Cryptosporidium parvum in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Cryptosporidium parvum population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005514 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005514">
+        <rdf:type rdf:resource="&obc;IDE_0000004560"/>
+        <rdfs:label xml:lang="en">Hepatitis E virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Hepatitis E virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005515 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005515">
+        <rdf:type rdf:resource="&obc;IDE_0000001762"/>
+        <rdfs:label xml:lang="en">Listeria monocytogenes in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Listeria monocytogenes population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005516 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005516">
+        <rdf:type rdf:resource="&obc;IDE_0000000256"/>
+        <rdfs:label xml:lang="en">Salmonella paratyphi A in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005517 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005517">
+        <rdf:type rdf:resource="&obc;IDE_0000000241"/>
+        <rdfs:label xml:lang="en">Eschericia coli in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Eschericia coli population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005518 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005518">
+        <rdf:type rdf:resource="&obc;IDE_0000001737"/>
+        <rdfs:label xml:lang="en">Shigella dysenteriae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella dysenteriae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005519 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005519">
+        <rdf:type rdf:resource="&obc;IDE_0000001736"/>
+        <rdfs:label xml:lang="en">Shigella flexneri in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella flexneri population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005520 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005520">
+        <rdf:type rdf:resource="&obc;IDE_0000001735"/>
+        <rdfs:label xml:lang="en">Shigella sonnei in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Shigella sonnei population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005521 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005521">
+        <rdf:type rdf:resource="&obc;IDE_0000000255"/>
+        <rdfs:label xml:lang="en">Salmonella typhi in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005522 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005522">
+        <rdf:type rdf:resource="&obc;IDE_0000001759"/>
+        <rdfs:label xml:lang="en">Legionella in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Legionella population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005523 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005523">
+        <rdf:type rdf:resource="&obc;IDE_0000001760"/>
+        <rdfs:label xml:lang="en">Mycobacterium leprae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium leprae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005524 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005524">
+        <rdf:type rdf:resource="&obc;IDE_0000001761"/>
+        <rdfs:label xml:lang="en">Mycobacterium lepromatosis in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mycobacterium lepromatosis population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005525 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005525">
+        <rdf:type rdf:resource="&obc;IDE_0000000219"/>
+        <rdfs:label xml:lang="en">Vibrio cholerae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Vibrio cholerae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005526 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005526">
+        <rdf:type rdf:resource="&obc;IDE_0000000220"/>
+        <rdfs:label xml:lang="en">Rabies virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rabies virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005527 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005527">
+        <rdf:type rdf:resource="&obc;IDE_0000005298"/>
+        <rdfs:label xml:lang="en">Yersinia pestis in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Yersinia pestis population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005528 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005528">
+        <rdf:type rdf:resource="&obc;IDE_0000000259"/>
+        <rdfs:label xml:lang="en">Yellow fever virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Yellow fever virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005529 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005529">
+        <rdf:type rdf:resource="&obc;IDE_0000000239"/>
+        <rdfs:label xml:lang="en">Neisseria gonorrhoeae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Neisseria gonorrhoeae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005530 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005530">
+        <rdf:type rdf:resource="&obc;IDE_0000000225"/>
+        <rdfs:label xml:lang="en">Chlamydia trachomatis in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chlamydia trachomatis population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005531 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005531">
+        <rdf:type rdf:resource="&obc;IDE_0000001748"/>
+        <rdfs:label xml:lang="en">Corynebacterium diphtheriae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Corynebacterium diphtheriae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005532 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005532">
+        <rdf:type rdf:resource="&obc;IDE_0000000254"/>
+        <rdfs:label xml:lang="en">Haemophilus influenzae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Haemophilus influenzae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005533 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005533">
+        <rdf:type rdf:resource="&obc;IDE_0000000108"/>
+        <rdfs:label xml:lang="en">Measles virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Measles virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005534 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005534">
+        <rdf:type rdf:resource="&obc;IDE_0000001766"/>
+        <rdfs:label xml:lang="en">Mumps virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Mumps virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005535 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005535">
+        <rdf:type rdf:resource="&obc;IDE_0000000233"/>
+        <rdfs:label xml:lang="en">Bordetella pertussis in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Bordetella pertussis population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005536 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005536">
+        <rdf:type rdf:resource="&obc;IDE_0000001770"/>
+        <rdfs:label xml:lang="en">Rubella virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Rubella virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005537 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005537">
+        <rdf:type rdf:resource="&obc;IDE_0000001774"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 3 in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Human herpesvirus 3 population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005538 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005538">
+        <rdf:type rdf:resource="&obc;IDE_0000001772"/>
+        <rdfs:label xml:lang="en">Clostridium tetani in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Clostridium tetani population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005539 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005539">
+        <rdf:type rdf:resource="&obc;IDE_0000000004"/>
+        <rdfs:label xml:lang="en">Chikungunya virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005540 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005540">
+        <rdf:type rdf:resource="&obc;IDE_0000005383"/>
+        <rdfs:label xml:lang="en">Japanese encephalitis virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Japanese encephalitis virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005541 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005541">
+        <rdf:type rdf:resource="&obc;IDE_0000000221"/>
+        <rdfs:label xml:lang="en">Plasmodium falciparum in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005542 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005542">
+        <rdf:type rdf:resource="&obc;IDE_0000000406"/>
+        <rdfs:label xml:lang="en">Plasmodium vivax in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium vivax population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005543 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005543">
+        <rdf:type rdf:resource="&obc;IDE_0000000405"/>
+        <rdfs:label xml:lang="en">Plasmodium ovale in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium ovale population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005544 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005544">
+        <rdf:type rdf:resource="&obc;IDE_0000000404"/>
+        <rdfs:label xml:lang="en">Plasmodium malariae in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005545 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005545">
+        <rdf:type rdf:resource="&obc;IDE_0000000247"/>
+        <rdfs:label xml:lang="en">West Nile virus in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">West Nile virus population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005546 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005546">
+        <rdf:type rdf:resource="&obc;IDE_0000005297"/>
+        <rdfs:label xml:lang="en">Leptospira in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Leptospira population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005547 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005547">
+        <rdf:type rdf:resource="&obc;IDE_0000005299"/>
+        <rdfs:label xml:lang="en">Coxiella burnetii in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Coxiella burnetii population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005548 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005548">
+        <rdf:type rdf:resource="&obc;IDE_0000001768"/>
+        <rdfs:label xml:lang="en">Chlamydia psittaci in Australia</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">Chlamydia psittaci population in region of Australia</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000640"/>
     </owl:NamedIndividual>
     
 
