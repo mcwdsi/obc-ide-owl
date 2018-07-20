@@ -272,12 +272,12 @@
 
     <owl:ObjectProperty rdf:about="&ro;located_in">
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000177"/>
             <rdf:Description rdf:about="&ro;located_in"/>
+            <rdf:Description rdf:about="&obo;BFO_0000177"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&ro;located_in"/>
             <rdf:Description rdf:about="&obo;BFO_0000177"/>
+            <rdf:Description rdf:about="&ro;located_in"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -65890,6 +65890,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">Salmonella paratyphi A in the United States</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population in the region of the United States</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pitt.edu/obc/IDE_0000005551 -->
+
+    <owl:NamedIndividual rdf:about="&obc;IDE_0000005551">
+        <rdf:type rdf:resource="&obo;APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem in Mexico</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem in region of Mexico</obo:IAO_0000111>
+        <obo:BFO_0000137 rdf:resource="&obc;IDE_0000000574"/>
     </owl:NamedIndividual>
     
 
