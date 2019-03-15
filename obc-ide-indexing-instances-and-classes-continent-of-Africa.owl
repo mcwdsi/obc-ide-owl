@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl/"
+<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Africa.owl/"
+     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Africa.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
@@ -110,7 +110,54 @@
         <rdfs:label xml:lang="en">Zaire ebolavirus in West Africa</rdfs:label>
     </owl:NamedIndividual>
     
+    <!-- http://www.pitt.edu/obc/IDE_0000000399 -->
 
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000399">
+        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Ifakara</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of humans in Ifakara</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in Ifakara</rdfs:label>
+    </owl:NamedIndividual>
+
+        <!-- http://www.pitt.edu/obc/GEO_000035424 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/GEO_000035424">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/GEO_000035343"/>
+        <obo:GEO_000035330 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">157408</obo:GEO_000035330>
+        <obo:GEO_000035332 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">503</obo:GEO_000035332>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kilombero</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kilombero</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kilombero District</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kilombero District Council</obo:IAO_0000118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kilombero</rdfs:label>
+    </owl:NamedIndividual>
+
+        <!-- http://www.pitt.edu/obc/GEO_000035343 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/GEO_000035343">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000589"/>
+        <obo:GEO_000035330 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153214</obo:GEO_000035330>
+        <obo:GEO_000035331 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</obo:GEO_000035331>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morogoro Region</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mkoa wa Morogoro</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morogoro</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morogoro Region</obo:IAO_0000118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morogoro Region</rdfs:label>
+    </owl:NamedIndividual>
+
+        <!-- http://www.pitt.edu/obc/GEO_000036770 -->
+
+    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/GEO_000036770">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
+        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/GEO_000035424"/>
+        <obo:GEO_000035330 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11005528</obo:GEO_000035330>
+        <obo:GEO_000035333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">503083</obo:GEO_000035333>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ifakara</obo:IAO_0000111>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ifakara</rdfs:label>
+    </owl:NamedIndividual>
 
     <!-- http://www.pitt.edu/obc/IDE_0000000052 -->
 
