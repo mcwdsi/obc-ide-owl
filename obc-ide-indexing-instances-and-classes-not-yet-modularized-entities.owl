@@ -7182,61 +7182,7 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000393 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000393">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000589"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Tanzania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Tanzania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000394 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000394">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000393"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Tanzania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Tanzania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000395 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000395">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000398"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000396 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000396">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of humans in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">humans in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000397 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000397">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000221"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium falciparum in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium falciparum in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
+ 
     
 
 
@@ -7252,49 +7198,17 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000400 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000400">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000398"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium population in region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium in Ifakara</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium in Ifakara</rdfs:label>
-    </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000401 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000401">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://www.pitt.edu/obc/GEO_000036770"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Ifakara</rdfs:label>
-    </owl:NamedIndividual>
-    
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000402 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000402">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000401"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Ifakara</rdfs:label>
-    </owl:NamedIndividual>
-    
+ 
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000403 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000403">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000221"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium falciparum population in region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium falciparum in Ifakara</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium falciparum in Ifakara</rdfs:label>
-    </owl:NamedIndividual>
+
     
 
 
@@ -7334,100 +7248,22 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000410 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000410">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000404"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium malariae in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium malariae in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
+ 
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000411 -->
+ 
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000411">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000405"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium ovale population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium ovale in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium ovale in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
+
+ 
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000412 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000412">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000406"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium vivax population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium vivax in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium vivax in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
-    
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000413 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000413">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000404"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium malariae population in region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium malariae in Ifakara</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium malariae in Ifakara</rdfs:label>
-    </owl:NamedIndividual>
-    
+ 
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000414 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000414">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000405"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium ovale population in region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium ovale in Ifakara</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium ovale in Ifakara</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000415 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000415">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000406"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
-        <obo:IAO_0000111 xml:lang="en">Plasmodium vivax population in region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Plasmodium vivax in Ifakara</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Plasmodium vivax in Ifakara</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000417 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000417">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000416"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000394"/>
-        <obo:IAO_0000111 xml:lang="en">Anopheles mosquito population in region of Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Anopheles mosquitoes in Tanzania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Anopheles mosquito in Tanzania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.pitt.edu/obc/IDE_0000000418 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000418">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000416"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000402"/>
-        <obo:IAO_0000111 xml:lang="en">Anopheles mosquito population in region of Ifakara, Kilombero District, Morogoro Region, Tanzania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Anopheles mosquito in Ifakara</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Anopheles mosquito in Ifakara</rdfs:label>
-    </owl:NamedIndividual>
-    
 
 
     <!-- http://www.pitt.edu/obc/IDE_0000000419 -->
