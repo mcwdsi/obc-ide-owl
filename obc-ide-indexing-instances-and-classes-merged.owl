@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-merged.owl#"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-merged.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ide/indexing-instances-and-classes-merged.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ide/indexing-instances-and-classes-merged.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
@@ -16,7 +16,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-merged.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ide/indexing-instances-and-classes-merged.owl">
         <dc:date>2019-03-15</dc:date>
         <dc:title xml:lang="en">OBC.ide indexing instances and classes merged</dc:title>
     </owl:Ontology>
