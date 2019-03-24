@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-South-America.owl/"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-South-America.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl/"
+     xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obc="http://www.pitt.edu/obc/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
@@ -17,7 +16,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/us-geography.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
@@ -27,76 +26,136 @@
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
         <dc:date>2019-03-15</dc:date>
     </owl:Ontology>
+    
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000039 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000039">
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000016 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000016">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000047"/>
+        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Brazil</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Zika virus in Brazil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000039 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000039">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
         <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000638"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">ecosystem of Brazil</rdfs:label>
     </owl:NamedIndividual>
     
-        <!-- http://www.pitt.edu/obc/IDE_0000000046 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000046">
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000046 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000046">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000039"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000039"/>
         <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">abiotic ecosystem of Brazil</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000047 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000047 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000047">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000047">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000039"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000039"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Brazil</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000049 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000049">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000047"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000049 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000049">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000047"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of Brazil</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in Brazil</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000130 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000130">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000016"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000049"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000130 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000130">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000016"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000049"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Brazil, 2015-03-10 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Brazil, 2015-03-10 to present</rdfs:label>
     </owl:NamedIndividual>
+    
 
-       <!-- http://www.pitt.edu/obc/IDE_0000000131 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000131">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000133"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000131 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000131">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000133"/>
         <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Colombia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus in Colombia</rdfs:label>
     </owl:NamedIndividual>
     
-    <!-- http://www.pitt.edu/obc/IDE_0000000016 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000016">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000047"/>
-        <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Brazil</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Zika virus in Brazil</rdfs:label>
-    </owl:NamedIndividual>
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000132 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000132 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000132">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000132">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
         <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000660"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Colombia</obo:IAO_0000111>
@@ -105,33 +164,33 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000133 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000133 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000133">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000133">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000132"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000132"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Colombia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Colombia</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000134 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000134 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000134">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000134">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000132"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000132"/>
         <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Colombia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">abiotic ecosystem of Colombia</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000135 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000135 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000135">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000133"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000135">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000133"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of Colombia</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of humans in Colombia</obo:IAO_0000118>
         <rdfs:label xml:lang="en">humans in Colombia</rdfs:label>
@@ -139,42 +198,44 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000136 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000136 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000136">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000131"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000135"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000136">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000131"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000135"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Colombia, 2015-10-16 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Colombia, 2015-10-16 to present</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000144 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000144">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000142"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000145"/>
-        <obo:RO_0000057 rdf:resource="http://www.pitt.edu/obc/IDE_0000000149"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000144 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000144">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000145"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000149"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Venezuela, 2015-10-04 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Venezuela, 2015-10-04 to present</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000145 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000145 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000145">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000145">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000147"/>
         <obo:IAO_0000111 xml:lang="en">population of Zika virus in region of Venezuela</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus in Venezuela</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000146 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000146 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000146">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000146">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
         <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000573"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Venezuela</obo:IAO_0000111>
@@ -183,81 +244,506 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000147 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000147 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000147">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000147">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000146"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000146"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Venezuela</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Venezuela</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000148 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000148 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000148">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000148">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000146"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000146"/>
         <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Venezuela</obo:IAO_0000111>
         <rdfs:label xml:lang="en">abiotic ecosystem of Venezuela</rdfs:label>
     </owl:NamedIndividual>
     
-    <!-- http://www.pitt.edu/obc/IDE_0000000278 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000278">
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000149 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000149">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000147"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Venezuela</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Venezuela</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000176">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <rdfs:comment>human population in Domincan Republic</rdfs:comment>
+        <rdfs:label xml:lang="en">humans in  Dominican Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000178"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of the Dominican Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000178 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000178">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of the Domincan Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000179">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Dominican Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000182"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000182"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000182 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000686"/>
+        <rdfs:label xml:lang="en">ecosystem of El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">humans in El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000186"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000186"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000551"/>
+        <rdfs:label xml:lang="en">ecosystem of Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000187 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000187">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000185"/>
+        <rdfs:label xml:lang="en">humans in Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000188 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000188">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000189 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000189">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000190 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000190">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000191"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000191 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000191">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000538"/>
+        <rdfs:label xml:lang="en">ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000192 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000192">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000191"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000193 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000193">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000195"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000194 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000194">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000195"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000614"/>
+        <rdfs:label xml:lang="en">humans in Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000199"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000199"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000649"/>
+        <rdfs:label xml:lang="en">ecosystem of Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000198"/>
+        <rdfs:label xml:lang="en">humans in Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000203"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000203"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000669"/>
+        <rdfs:label xml:lang="en">ecosystem of Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000202"/>
+        <rdfs:label xml:lang="en">humans in Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000208"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000208"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000518"/>
+        <rdfs:label xml:lang="en">humans in Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000208 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000208">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000209 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000209">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000211"/>
+        <rdfs:label xml:lang="en">abiotitc ecosystem of Argentina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000210 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000210">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000211"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Argentina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000211 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000211">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Argentina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000212 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000212">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000210"/>
+        <rdfs:label xml:lang="en">humans in Argentina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000213">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000215"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Ecuador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000214 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000214">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000215"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Ecuador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000215 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000215">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000680"/>
+        <rdfs:label xml:lang="en">ecosystem of Ecuador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000216 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000216">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000214"/>
+        <rdfs:label xml:lang="en">humans in Ecuador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000278 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000278">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
         <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000339"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of South America</obo:IAO_0000111>
         <rdfs:label xml:lang="en">ecosystem of South America</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000298 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000298">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000014"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000281"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000281 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000281">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000278"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of South America</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of South America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000298 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000298">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000281"/>
         <obo:IAO_0000111 xml:lang="en">Zika virus population in region of South America</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Zika virus in South America</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Zika virus in South America</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000300 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000300">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000281"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000300 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000300">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000281"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of South America</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of humans in South America</obo:IAO_0000118>
         <rdfs:label xml:lang="en">humans in South America</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000302 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000302">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000015"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000281"/>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000302 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000302">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000281"/>
         <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of South America</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito in South America</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Aedes mosquito in South America</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.pitt.edu/obc/IDE_0000000281 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000281">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000281"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of South America</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of South America</rdfs:label>
-    </owl:NamedIndividual>
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000104 -->
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000149 -->
-
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000149">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000147"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of Venezuela</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">humans in Venezuela</rdfs:label>
-    </owl:NamedIndividual>
-
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

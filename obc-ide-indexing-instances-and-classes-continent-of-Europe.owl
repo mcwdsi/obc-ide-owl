@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Europe.owl/"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Europe.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Europe.owl/"
+     xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Europe.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obc="http://www.pitt.edu/obc/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
@@ -17,7 +16,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Europe.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Europe.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/nation-and-dependency-geography.owl"/>
@@ -40,123 +39,129 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000013 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000013 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000013"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000027 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000017 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000027"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000028 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000027 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000028"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000033 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000028 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000033"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000035 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000033 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000035"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000093 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000035 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000093"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000094 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000093 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000094"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000095 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000094 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000095"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000096 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000095 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000096"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000235 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000096 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000235"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000260 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000235 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000260"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000235"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000261 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000260 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000261"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000260"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000264 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000261 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000264"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000261"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000266 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000264 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000266"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000264"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000271 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000266 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000271"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000266"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000272 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000271 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000272"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000271"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000273 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000272 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000273"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000272"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000275 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000273 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000275"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000273"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000291 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000275 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000291"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000275"/>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000292 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000291 -->
 
-    <owl:Class rdf:about="http://www.pitt.edu/obc/IDE_0000000292"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
     
 
 
@@ -171,9 +176,47 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000276 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000217 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000276">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000217">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <rdfs:label xml:lang="en">humans in France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000218 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000218">
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000220"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000219 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000219">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000220"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000220 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000220">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000702"/>
+        <rdfs:label xml:lang="en">ecosystem of France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000276 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000276">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
         <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000677"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Denmark</obo:IAO_0000111>
@@ -182,22 +225,22 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000279 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000279 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000279">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000276"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000276"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Denmark</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000282 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000282 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000282">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000028"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000282">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Influenza A virus population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Influenza A virus in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Influenza A virus in Denmark</rdfs:label>
@@ -205,111 +248,111 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000283 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000283 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000283">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000027"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000283">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H1N1 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000284 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000284 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000284">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000095"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000284">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H2N2 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000285 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000285 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000285">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000033"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000285">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H3N2 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000286 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000286 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000286">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000013"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000286">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H5N1 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000287 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000287 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000287">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000094"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000287">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H5N2 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000288 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000288 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000288">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000096"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000288">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H5N6 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000289 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000289 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000289">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000093"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000289">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H5N8 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000290 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000290 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000290">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000035"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000290">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H7N9 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000293 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000293 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000293">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000292"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000293">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H7N2 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000294 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000294 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000294">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000291"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000294">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <rdfs:label xml:lang="en">H7N7 in Denmark</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000295 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000295 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000295">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000275"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000295">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000275"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">Pseudorabies virus in Denmark</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1 in Denmark</obo:IAO_0000118>
@@ -318,11 +361,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000296 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000296 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000296">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000235"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000296">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000235"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Foot-and-mouth disease virus population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Foot-and-mouth disease virus in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Foot-and-mouth disease virus in Denmark</rdfs:label>
@@ -330,11 +373,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000386 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000386 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000386">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000273"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000386">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000273"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Capra hircus population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Capra hircus in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Capra hircus in Denmark</rdfs:label>
@@ -342,11 +385,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000387 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000387 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000387">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000271"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000387">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000271"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Coturnix japonica population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Coturnix japonica in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Coturnix japonica in Denmark</rdfs:label>
@@ -354,11 +397,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000388 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000388 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000388">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000272"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000388">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000272"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Bos taurus population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Bos taurus in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Bos taurus in Denmark</rdfs:label>
@@ -366,11 +409,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000389 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000389 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000389">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000264"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000389">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000264"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Sus scrofa population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Sus scrofa in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Sus scrofa in Denmark</rdfs:label>
@@ -378,11 +421,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000390 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000390 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000390">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000266"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000390">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000266"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Meleagris gallopavo population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Meleagris gallopavo in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Meleagris gallopavo in Denmark</rdfs:label>
@@ -390,11 +433,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000391 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000391 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000391">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000261"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000391">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000261"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Gallus gallus population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Gallus gallus in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Gallus gallus in Denmark</rdfs:label>
@@ -402,11 +445,11 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000392 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000392 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000392">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000260"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000279"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000392">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000260"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000279"/>
         <obo:IAO_0000111 xml:lang="en">Ovis aries population in region of Denmark</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Ovis aries in Denmark</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Ovis aries in Denmark</rdfs:label>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Australia.owl/"
-     xml:base="http://www.pitt.edu/obc/ide/indexing-instances-and-classes-continent-of-Australia.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl/"
+     xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obc="http://www.pitt.edu/obc/"
+     xmlns:obc="http://purl.obolibrary.org/obo/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
@@ -17,7 +17,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.pitt.edu/obc/ide/indexing-instances-and-classes.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/us-geography.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
@@ -28,9 +28,9 @@
         <dc:date>2019-03-15</dc:date>
     </owl:Ontology>
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000317 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000317 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000317">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000317">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
         <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000035328"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Cairns, Queensland, Australia</obo:IAO_0000111>
@@ -39,41 +39,41 @@
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000318 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000318 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000318">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000317"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000317"/>
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Cairns, Queensland, Australia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Cairns</rdfs:label>
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000319 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000319 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000319">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000318"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000319">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of Cairns, Queensland, Australia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in Cairns</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000320 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000320 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000320">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000003"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000318"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000320">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000003"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318"/>
         <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Cairns, Queensland, Australia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Dengue virus in Cairns</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.pitt.edu/obc/IDE_0000000321 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000321 -->
 
-    <owl:NamedIndividual rdf:about="http://www.pitt.edu/obc/IDE_0000000321">
-        <rdf:type rdf:resource="http://www.pitt.edu/obc/IDE_0000000015"/>
-        <obo:BFO_0000137 rdf:resource="http://www.pitt.edu/obc/IDE_0000000318"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000321">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318"/>
         <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of Cairns, Queensland, Australia</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Aedes mosquito in Cairns</rdfs:label>
     </owl:NamedIndividual>
