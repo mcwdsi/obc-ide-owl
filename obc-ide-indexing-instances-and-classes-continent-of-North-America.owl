@@ -7,7 +7,6 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obc="http://purl.obolibrary.org/obo/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
@@ -17,120 +16,291 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-North-America.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/us-geography.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/nation-and-dependency-geography.owl"/>
+        <dc:description xml:lang="en">This file contain individuals and classes for infectious disease epidemiology modeling that are related to geographic regions in North America and its associated geopolitical countries.</dc:description>
         <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:contributor>Amanda Hicks</dc:contributor>
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
         <dc:date>2019-03-15</dc:date>
     </owl:Ontology>
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000354 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000354">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000646"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Canada</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Canada</rdfs:label>
-    </owl:NamedIndividual>
-    
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000031 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000031">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000019"/>
-        <rdfs:label xml:lang="en">H1N1 in the four-MSA greater Washington DC region</rdfs:label>
-    </owl:NamedIndividual>
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000419 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000421"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Yucatan</rdfs:label>
-    </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000420 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000420">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of the United States</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Influenza virus in the United States</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Influenza virus in the United States</rdfs:label>
-    </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000421 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000137 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000421">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000039177"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Yucatan</rdfs:label>
-    </owl:NamedIndividual>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000137"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000422 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000422">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000003"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419"/>
-        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Dengue virus in Yucatan</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Dengue virus in Yucatan</rdfs:label>
-    </owl:NamedIndividual>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000423 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000423">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000235"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000260"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000261"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000264"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000266"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000269"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000271"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000272"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000273"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000275"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000018 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000018">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of humans in Yucatan</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">humans in Yucatan</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000019"/>
+        <obo:IAO_0000111 xml:lang="en">human population in the four-MSA greater Washington DC region</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">human population of 4 MSA greater Washington DC region</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Some papers reference a five-MSA region that also includes Culpeper, VA.  As of 2013, Culpeper, VA is part of the  Washington-Arlington-Alexandria, DC-VA-MD-WV</rdfs:comment>
+        <rdfs:comment xml:lang="en">the four MSAs are:
+1. Baltimore-Towson, MD
+2. Washington-Arlington-Alexandria, DC-VA-MD-WV
+3. California-Lexington Park, MD
+4. Winchester, VA-WV</rdfs:comment>
+        <rdfs:label xml:lang="en">humans in the four-MSA greater Washington DC region</rdfs:label>
     </owl:NamedIndividual>
     
-        <!-- http://purl.obolibrary.org/obo/GEO_000039177 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GEO_000039177">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000614"/>
-        <obo:GEO_000035330 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3514211</obo:GEO_000035330>
-        <obo:GEO_000035331 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31</obo:GEO_000035331>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatán</obo:IAO_0000111>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatan</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatán</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estat de Yucatan</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estat de Yucatán</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iucata</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iucatã</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jukatan</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jukatanio</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YUC</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yucatan</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yucatania</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yucatán</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">you ka tan zhou</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yukatan zhou</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ywkatan</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">یوکاتان</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ユカタン州</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">尤卡坦州</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatan</rdfs:label>
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000019 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000019">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000020"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of 4 MSA greater Washington DC region</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000021 -->
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000020 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000020">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000444"/>
+        <rdfs:label xml:lang="en">ecosystem of 4 MSA greater Washington DC region</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000021 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000021">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
@@ -145,18 +315,124 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000022">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000587"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of the United States</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000587"/>
         <rdfs:label xml:lang="en">ecosystem of the United States</rdfs:label>
     </owl:NamedIndividual>
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000020 -->
+    
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000020">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000444"/>
-        <rdfs:label xml:lang="en">ecosystem of 4 MSA greater Washington DC region</rdfs:label>
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000022"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of United States</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of the United States</rdfs:label>
     </owl:NamedIndividual>
     
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000031 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000031">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000019"/>
+        <rdfs:label xml:lang="en">H1N1 in the four-MSA greater Washington DC region</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000109 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000109">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000110"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Allegheny County, PA</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of humans in Allegheny County, PA</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in Allegheny County, PA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000110 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000110">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000111"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Allegheny County, PA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000111 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000111">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000786"/>
+        <rdfs:label xml:lang="en">ecosystem of Allegheny County, PA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000112 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000112">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000113"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Pennsylvania</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of humans in Pennsylvania</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in Pennsylvania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000113 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000113">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000115"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Pennsylvania</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Pennsylvania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000114 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000114">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000115"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Pennsylvania</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Pennsylvania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000115 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000115">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Pennsylvania</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000462"/>
+        <rdfs:label xml:lang="en">ecosystem of Pennsylvania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000116 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000116">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000111"/>
+        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Allegheny County, PA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000117 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000117">
@@ -206,8 +482,8 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000121">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000380"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Florida</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000380"/>
         <rdfs:label xml:lang="en">ecosystem of Florida</rdfs:label>
     </owl:NamedIndividual>
     
@@ -217,9 +493,9 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000122">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000269"/>
+        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Florida, 2014-07-13 to 2014-09-20</obo:IAO_0000111>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000117"/>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000118"/>
-        <obo:IAO_0000111 xml:lang="en">Chikungunya virus, humans, region of Florida, 2014-07-13 to 2014-09-20</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Chikungunya virus, humans, Florida, 2014-07-13 to 2014-09-20</rdfs:label>
     </owl:NamedIndividual>
     
@@ -229,100 +505,14 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000123">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
+        <obo:IAO_0000111 xml:lang="en">Measles virus, humans, region of United States, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000021"/>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000124"/>
-        <obo:IAO_0000111 xml:lang="en">Measles virus, humans, region of United States, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <rdfs:comment xml:lang="en">Refers only to Disneyland-related outbreak originating in California, not to the unrelated outbreaks in Illinois and Nevada ongoing at the same time.</rdfs:comment>
         <rdfs:label xml:lang="en">Measles, humans, United States, 2014-12-28 to 2015-04-17</rdfs:label>
     </owl:NamedIndividual>
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000109 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000109">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000110"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of Allegheny County, PA</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of humans in Allegheny County, PA</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">humans in Allegheny County, PA</rdfs:label>
-    </owl:NamedIndividual>
     
 
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000110 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000110">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000111"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Allegheny County, PA</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000111 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000111">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000786"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Allegheny County, PA</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000112 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000112">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000113"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of Pennsylvania</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of humans in Pennsylvania</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">humans in Pennsylvania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000113 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000113">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000115"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Pennsylvania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Pennsylvania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000114 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000114">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000115"/>
-        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Pennsylvania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">abiotic ecosystem of Pennsylvania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000115 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000115">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000462"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Pennsylvania</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Pennsylvania</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000116 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000116">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000111"/>
-        <obo:IAO_0000111 xml:lang="en">abiotic ecosystem of region of Allegheny County, PA</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">abiotic ecosystem of Allegheny County, PA</rdfs:label>
-    </owl:NamedIndividual>
-    
 
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000124 -->
 
@@ -333,12 +523,25 @@
         <rdfs:label xml:lang="en">Measles virus in the United States</rdfs:label>
     </owl:NamedIndividual>
     
-       <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000126 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000125 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000125">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000126"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of California</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000126 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000126">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000367"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of California</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000367"/>
         <rdfs:label xml:lang="en">ecosystem of California</rdfs:label>
     </owl:NamedIndividual>
     
@@ -371,18 +574,21 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000129">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000298"/>
+        <obo:IAO_0000111 xml:lang="en">Measles virus, human beings, region of California, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000127"/>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000128"/>
-        <obo:IAO_0000111 xml:lang="en">Measles virus, human beings, region of California, 2014-12-28 to 2015-04-17</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Measles, humans, California, 2014-12-28 to 2015-04-17</rdfs:label>
     </owl:NamedIndividual>
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000137 -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000137 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000137">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Puerto Rico, 2015-11-23 to present</obo:IAO_0000111>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000140"/>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000141"/>
-        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Puerto Rico, 2015-11-23 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Puerto Rico, 2015-11-23 to present</rdfs:label>
     </owl:NamedIndividual>
     
@@ -392,12 +598,14 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000138">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000513"/>
         <obo:IAO_0000111 xml:lang="en">ecosystem of region of Puerto Rico</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000513"/>
         <rdfs:label xml:lang="en">ecosystem of Puerto Rico</rdfs:label>
     </owl:NamedIndividual>
     
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000139 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000139 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000139">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
@@ -417,7 +625,10 @@
         <obo:IAO_0000118 xml:lang="en">population of Zika virus in Puerto Rico</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Zika virus in Puerto Rico</rdfs:label>
     </owl:NamedIndividual>
-       <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000141 -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000141 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000141">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
@@ -425,16 +636,22 @@
         <obo:IAO_0000111 xml:lang="en">human population in region of Puerto Rico</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in Puerto Rico</rdfs:label>
     </owl:NamedIndividual>
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000159 -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000159 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000159">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Florida, 2016-07-29 to present</obo:IAO_0000111>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000117"/>
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000160"/>
-        <obo:IAO_0000111 xml:lang="en">Zika virus, humans, region of Florida, 2016-07-29 to present</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Zika virus, humans, Florida, 2016-07-29 to present</rdfs:label>
     </owl:NamedIndividual>
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000160 -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000160 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000160">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
@@ -444,56 +661,901 @@
         <rdfs:label xml:lang="en">Zika virus in Florida</rdfs:label>
     </owl:NamedIndividual>
     
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000019 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000019">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000020"/>
-        <rdfs:label xml:lang="en">biotic ecosystem of 4 MSA greater Washington DC region</rdfs:label>
-    </owl:NamedIndividual>
 
-        <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000018">
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000176">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000019"/>
-        <obo:IAO_0000111 xml:lang="en">human population in the four-MSA greater Washington DC region</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">human population of 4 MSA greater Washington DC region</obo:IAO_0000118>
-        <rdfs:comment xml:lang="en">Some papers reference a five-MSA region that also includes Culpeper, VA.  As of 2013, Culpeper, VA is part of the  Washington-Arlington-Alexandria, DC-VA-MD-WV</rdfs:comment>
-        <rdfs:comment xml:lang="en">the four MSAs are:
-1. Baltimore-Towson, MD
-2. Washington-Arlington-Alexandria, DC-VA-MD-WV
-3. California-Lexington Park, MD
-4. Winchester, VA-WV</rdfs:comment>
-        <rdfs:label xml:lang="en">humans in the four-MSA greater Washington DC region</rdfs:label>
+        <rdfs:comment>human population in Domincan Republic</rdfs:comment>
+        <rdfs:label xml:lang="en">humans in  Dominican Republic</rdfs:label>
     </owl:NamedIndividual>
+    
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000125 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000177 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000125">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000177">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000126"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of California</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000178"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Dominican Republic</rdfs:label>
     </owl:NamedIndividual>
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000023 -->
+    
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023">
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000178 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000178">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Domincan Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000179">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Dominican Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000182"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000181">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000022"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of United States</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of the United States</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000182"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of El Salvador</rdfs:label>
     </owl:NamedIndividual>
+    
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000424 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000182 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000424">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000686"/>
+        <rdfs:label xml:lang="en">ecosystem of El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">humans in El Salvador</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000186"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000186"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000551"/>
+        <rdfs:label xml:lang="en">ecosystem of Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000187 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000187">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000185"/>
+        <rdfs:label xml:lang="en">humans in Guatemala</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000188 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000188">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000189 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000189">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <rdfs:label xml:lang="en">humans in Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000190 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000190">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000191"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000191 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000191">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000538"/>
+        <rdfs:label xml:lang="en">ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000192 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000192">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000191"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Haiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000193 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000193">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000195"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000194 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000194">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000195"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000614"/>
+        <rdfs:label xml:lang="en">humans in Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000199"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000199"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000649"/>
+        <rdfs:label xml:lang="en">ecosystem of Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000198"/>
+        <rdfs:label xml:lang="en">humans in Nicaragua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000203"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000203"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000669"/>
+        <rdfs:label xml:lang="en">ecosystem of Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000202"/>
+        <rdfs:label xml:lang="en">humans in Panama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000208"/>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000208"/>
+        <rdfs:label xml:lang="en">biotic ecosystem of Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000518"/>
+        <rdfs:label xml:lang="en">humans in Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000208 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000208">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <rdfs:label xml:lang="en">ecosystem of Virgin Islands of the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000277 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000277">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of North America</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000338"/>
+        <rdfs:label xml:lang="en">ecosystem of North America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000280 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of North America</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of North America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000297 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000297">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
+        <obo:IAO_0000111 xml:lang="en">Zika virus population in region of North America</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Zika virus in North America</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Zika virus in North America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000299 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000299">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of North America</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of humans in North America</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in North America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000301 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000301">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419"/>
-        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquitoes in Yucatan</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Aedes mosquito in Yucatan</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
+        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of North America</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito in North America</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Aedes mosquito in North America</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000303 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000303">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus population in region of United States</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Influenza A virus in United States</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Influenza A virus in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000304 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000304">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza B virus population in region of United States</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Influenza B virus in United States</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Influenza B virus in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000305 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000305">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H1N1 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000306 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000306">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H2N2 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000307 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000307">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H3N2 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000308 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000308">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H5N1 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000309 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000309">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H5N2 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000310 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000310">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H5N6 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000311 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000311">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H5N8 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000312 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000312">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H7N2 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000313 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000313">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H7N7 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000314 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000314">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <rdfs:label xml:lang="en">H7N9 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000315 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000315">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000275"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population in region of the United States</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Pseudorabies virus in the United States</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1 in the United States</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Suid herpesvirus 1 in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000316 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000316">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000235"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <obo:IAO_0000111 xml:lang="en">Foot-and-mouth disease virus population in region of the United States</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Foot-and-mouth disease virus in the United States</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Foot-and-mouth disease virus in the United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000322 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000322">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Los Angeles County, California</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000003044"/>
+        <rdfs:label xml:lang="en">ecosystem of Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000323 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000322"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000324 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000324">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000325 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000325">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza virus in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000326 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000326">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza A virus in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000327 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000327">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza B virus population in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza B virus in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000328 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000328">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H1N1 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H1N1 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000329 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000329">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H2N2 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H2N2 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000330 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000330">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H3N2 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H3N2 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000331 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000331">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H5N1 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N1 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000332 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000332">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H5N2 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N2 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000333 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000333">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H5N6 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N6 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000334 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000334">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H5N8 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N8 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000335 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000335">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H7N2 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H7N2 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000336 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000336">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H7N7 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H7N7 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000337 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000337">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
+        <obo:IAO_0000111 xml:lang="en">H7N9 in region of Los Angeles County, California</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H7N9 in Los Angeles County</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000338 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000338">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Seattle, Washington</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000035326"/>
+        <rdfs:label xml:lang="en">ecosystem of Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000339 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000035326"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000340 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000340">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">humans in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">humans in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000341 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000341">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza virus in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000342 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000342">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza A virus in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza A virus in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000343 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000343">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza B virus population in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">Influenza B virus in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000344 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000344">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H1N1 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H1N1 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000345 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000345">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H2N2 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H2N2 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000346 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000346">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H3N2 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H3N2 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000347 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000347">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H5N1 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N1 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000348 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000348">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H5N2 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N2 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000349 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000349">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H5N6 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N6 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000350 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000350">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H5N8 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H5N8 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000351 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000351">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H7N2 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H7N2 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000352 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000352">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H7N7 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H7N7 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000353 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000353">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
+        <obo:IAO_0000111 xml:lang="en">H7N9 in region of Seattle, Washington</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">H7N9 in Seattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000354 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000354">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Canada</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000646"/>
+        <rdfs:label xml:lang="en">ecosystem of Canada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000355 -->
 
@@ -503,8 +1565,10 @@
         <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Canada</obo:IAO_0000111>
         <rdfs:label xml:lang="en">biotic ecosystem of Canada</rdfs:label>
     </owl:NamedIndividual>
+    
 
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000356 -->
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000356 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000356">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
@@ -777,8 +1841,6 @@
     
 
 
-
-
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000379 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000379">
@@ -856,550 +1918,107 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000332 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000419 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000332">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H5N2 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N2 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000333 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000333">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H5N6 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N6 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000334 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000334">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H5N8 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N8 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000335 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000335">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H7N2 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H7N2 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000336 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000336">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H7N7 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H7N7 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000337 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000337">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H7N9 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H7N9 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000338 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000338">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000035326"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000339 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000035326"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Seattle</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000421"/>
+        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">biotic ecosystem of Yucatan</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000340 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000420 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000340">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">humans in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">humans in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000341 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000341">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000420">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza virus in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Influenza virus in Seattle</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
+        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of the United States</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Influenza virus in the United States</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Influenza virus in the United States</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000342 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000421 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000342">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza A virus in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Influenza A virus in Seattle</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000421">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
+        <obo:IAO_0000111 xml:lang="en">ecosystem of region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000039177"/>
+        <rdfs:label xml:lang="en">ecosystem of Yucatan</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000343 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000422 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000343">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza B virus population in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Influenza B virus in Seattle</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000422">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000003"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419"/>
+        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Dengue virus in Yucatan</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Dengue virus in Yucatan</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000344 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000423 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000344">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H1N1 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H1N1 in Seattle</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000423">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419"/>
+        <obo:IAO_0000111 xml:lang="en">human population in region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of humans in Yucatan</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">humans in Yucatan</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000345 -->
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000424 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000345">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H2N2 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H2N2 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000346 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000346">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H3N2 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H3N2 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000347 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000347">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H5N1 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N1 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000348 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000348">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H5N2 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N2 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000349 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000349">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H5N6 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N6 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000350 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000350">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H5N8 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N8 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000351 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000351">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H7N2 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H7N2 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000352 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000352">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H7N7 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H7N7 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000353 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000353">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000339"/>
-        <obo:IAO_0000111 xml:lang="en">H7N9 in region of Seattle, Washington</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H7N9 in Seattle</rdfs:label>
-    </owl:NamedIndividual>
-
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000301 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000301">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000424">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
-        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of North America</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquito in North America</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Aedes mosquito in North America</rdfs:label>
-    </owl:NamedIndividual>
-    
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000303 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000303">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza A virus population in region of United States</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Influenza A virus in United States</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Influenza A virus in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000299 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000299">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of North America</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of humans in North America</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">humans in North America</rdfs:label>
-    </owl:NamedIndividual>
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000297 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000297">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
-        <obo:IAO_0000111 xml:lang="en">Zika virus population in region of North America</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Zika virus in North America</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Zika virus in North America</rdfs:label>
-    </owl:NamedIndividual>
-
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000280 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000280"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of North America</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of North America</rdfs:label>
-    </owl:NamedIndividual>
-
-        <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000277 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000277">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000338"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of North America</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of North America</rdfs:label>
-    </owl:NamedIndividual>
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000304 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000304">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza B virus population in region of United States</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Influenza B virus in United States</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Influenza B virus in the United States</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000419"/>
+        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of the Free and Sovereign State of Yucatan, Mexico</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of Aedes mosquitoes in Yucatan</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Aedes mosquito in Yucatan</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000305 -->
+    <!-- http://purl.obolibrary.org/obo/GEO_000039177 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000305">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H1N1 in the United States</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GEO_000039177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000614"/>
+        <obo:GEO_000035330 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3514211</obo:GEO_000035330>
+        <obo:GEO_000035331 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31</obo:GEO_000035331>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatán</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatan</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatán</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estat de Yucatan</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estat de Yucatán</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iucata</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iucatã</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jukatan</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jukatanio</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YUC</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yucatan</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yucatania</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yucatán</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">you ka tan zhou</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yukatan zhou</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ywkatan</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">یوکاتان</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ユカタン州</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">尤卡坦州</obo:IAO_0000118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estado de Yucatan</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000306 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000306">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H2N2 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000307 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000307">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H3N2 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000308 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000308">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H5N1 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000309 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000309">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000094"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H5N2 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000310 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000310">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000096"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H5N6 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000311 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000311">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H5N8 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000312 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000312">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000292"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H7N2 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000313 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000313">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000291"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H7N7 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000314 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000314">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <rdfs:label xml:lang="en">H7N9 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000315 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000315">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000275"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <obo:IAO_0000111 xml:lang="en">Suid herpesvirus 1 population in region of the United States</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Pseudorabies virus in the United States</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">population of Suid herpesvirus 1 in the United States</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Suid herpesvirus 1 in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000316 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000316">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000235"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000023"/>
-        <obo:IAO_0000111 xml:lang="en">Foot-and-mouth disease virus population in region of the United States</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Foot-and-mouth disease virus in the United States</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Foot-and-mouth disease virus in the United States</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-  
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000322 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000322">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000003044"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000323 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000322"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000324 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000324">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">humans in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000325 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000325">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza virus population in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Influenza virus in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000326 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000326">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000028"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza A virus in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Influenza A virus in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000327 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000327">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">Influenza B virus population in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Influenza B virus in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000328 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000328">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000027"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H1N1 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H1N1 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000329 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000329">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H2N2 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H2N2 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000330 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000330">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000033"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H3N2 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H3N2 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000331 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000331">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000013"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000323"/>
-        <obo:IAO_0000111 xml:lang="en">H5N1 in region of Los Angeles County, California</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">H5N1 in Los Angeles County</rdfs:label>
-    </owl:NamedIndividual>
-    
-
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -3982,8 +3982,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
     <!-- http://purl.org/obo/owl/GO#GO_0008150 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0008150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:IDE_0000000024>
         <obo:IDE_0000001000 rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <rdfs:comment xml:lang="en">Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code &quot;no data&quot; (ND), is used to indicate this.</rdfs:comment>
+        <rdfs:label xml:lang="en">biological process</rdfs:label>
     </owl:Class>
     
 
@@ -5708,10 +5712,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000093">
-        <obo:IAO_0000111 xml:lang="en">H5N8 subtype population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H5N8 subtype</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">H5N8 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H5N8 subtype population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">H5N8 subtype</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">H5N8 subtype worldwide</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
     </rdf:Description>
@@ -5865,8 +5869,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Enterovirus A population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Enterovirus A</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Enterovirus A</obo:IAO_0000118>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000228">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl/"
-     xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-South-America.owl/"
+     xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-South-America.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
@@ -16,15 +16,16 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/us-geography.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-South-America.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/nation-and-dependency-geography.owl"/>
         <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:contributor>Amanda Hicks</dc:contributor>
+        <dc:description xml:lang="en">This file contain individuals and classes for infectious disease epidemiology modeling that are related to geographic regions in South America and its associated geopolitical countries.</dc:description>
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
-        <dc:date>2019-03-15</dc:date>
+        <dc:date>2019-03-27</dc:date>
     </owl:Ontology>
     
 
@@ -273,44 +274,6 @@
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000147"/>
         <obo:IAO_0000111 xml:lang="en">human population in region of Venezuela</obo:IAO_0000111>
         <rdfs:label xml:lang="en">humans in Venezuela</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000176 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000176">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <rdfs:comment>human population in Domincan Republic</rdfs:comment>
-        <rdfs:label xml:lang="en">humans in  Dominican Republic</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000177 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000177">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000178"/>
-        <rdfs:label xml:lang="en">biotic ecosystem of the Dominican Republic</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000178 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000178">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <rdfs:label xml:lang="en">ecosystem of the Domincan Republic</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000179 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000179">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
-        <rdfs:label xml:lang="en">abiotic ecosystem of Dominican Republic</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -606,7 +569,7 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000209">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000100"/>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000211"/>
-        <rdfs:label xml:lang="en">abiotitc ecosystem of Argentina</rdfs:label>
+        <rdfs:label xml:lang="en">abiotic ecosystem of Argentina</rdfs:label>
     </owl:NamedIndividual>
     
 

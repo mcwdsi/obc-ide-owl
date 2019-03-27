@@ -1,86 +1,216 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl/"
-     xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obc="http://purl.obolibrary.org/obo/"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:www="http://www.referent-tracking.com/"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/us-geography.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/nation-and-dependency-geography.owl"/>
-        <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
-        <dc:contributor>Amanda Hicks</dc:contributor>
-        <dc:creator xml:lang="en">William R. Hogan</dc:creator>
-        <dc:date>2019-03-15</dc:date>
-    </owl:Ontology>
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000317 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000317">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000097"/>
-        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/GEO_000035328"/>
-        <obo:IAO_0000111 xml:lang="en">ecosystem of region of Cairns, Queensland, Australia</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">ecosystem of Cairns</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000318 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000317"/>
-        <obo:IAO_0000111 xml:lang="en">biotic ecosystem of region of Cairns, Queensland, Australia</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">biotic ecosystem of Cairns</rdfs:label>
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000319 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000319">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318"/>
-        <obo:IAO_0000111 xml:lang="en">human population in region of Cairns, Queensland, Australia</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">humans in Cairns</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000320 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000320">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000003"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318"/>
-        <obo:IAO_0000111 xml:lang="en">Dengue virus population in region of Cairns, Queensland, Australia</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Dengue virus in Cairns</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000321 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000321">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000015"/>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000318"/>
-        <obo:IAO_0000111 xml:lang="en">Aedes mosquito population in region of Cairns, Queensland, Australia</obo:IAO_0000111>
-        <rdfs:label xml:lang="en">Aedes mosquito in Cairns</rdfs:label>
-    </owl:NamedIndividual>
-  
-    </owl:NamedIndividual>
-    
-
-
-
-</rdf:RDF>
+<?xml version='1.0'?>
+<TriX xmlns='http://www.w3.org/2004/03/trix/trix-1/'>
+	<graph>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#Ontology</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://www.w3.org/2002/07/owl#imports</uri>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://www.w3.org/2002/07/owl#imports</uri>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://www.w3.org/2002/07/owl#imports</uri>
+			<uri>http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://www.w3.org/2002/07/owl#imports</uri>
+			<uri>http://purl.obolibrary.org/obo/geo/dev/nation-and-dependency-geography.owl</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://purl.org/dc/elements/1.1/description</uri>
+			<plainLiteral>This file contain individuals and classes for infectious disease epidemiology modeling that are related to geographic regions in Australia and its associated geopolitical countries.</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://purl.org/dc/elements/1.1/contributor</uri>
+			<plainLiteral xml:lang='en'>Josh Hanna</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://purl.org/dc/elements/1.1/contributor</uri>
+			<plainLiteral>Amanda Hicks</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://purl.org/dc/elements/1.1/creator</uri>
+			<plainLiteral xml:lang='en'>William R. Hogan</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-continent-of-Australia.owl</uri>
+			<uri>http://purl.org/dc/elements/1.1/date</uri>
+			<plainLiteral>2019-03-27</plainLiteral>
+		</triple>
+		<!--  -->
+		<!--  -->
+		<!-- ################################################################# -->
+		<!-- # -->
+		<!-- #    Annotation properties -->
+		<!-- # -->
+		<!-- ################################################################# -->
+		<!--  -->
+		<!--  -->
+		<!-- http://purl.obolibrary.org/obo/RO_0001025 -->
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/RO_0001025</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#AnnotationProperty</uri>
+		</triple>
+		<!--  -->
+		<!--  -->
+		<!--  -->
+		<!-- ################################################################# -->
+		<!-- # -->
+		<!-- #    Individuals -->
+		<!-- # -->
+		<!-- ################################################################# -->
+		<!--  -->
+		<!--  -->
+		<!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000317 -->
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000317</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#NamedIndividual</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000317</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_00000097</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000317</uri>
+			<uri>http://purl.obolibrary.org/obo/IAO_0000111</uri>
+			<plainLiteral xml:lang='en'>ecosystem of region of Cairns, Queensland, Australia</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000317</uri>
+			<uri>http://purl.obolibrary.org/obo/RO_0001025</uri>
+			<uri>http://purl.obolibrary.org/obo/GEO_000035328</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000317</uri>
+			<uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+			<plainLiteral xml:lang='en'>ecosystem of Cairns</plainLiteral>
+		</triple>
+		<!--  -->
+		<!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000318 -->
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#NamedIndividual</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_00000104</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+			<uri>http://purl.obolibrary.org/obo/BFO_0000137</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000317</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+			<uri>http://purl.obolibrary.org/obo/IAO_0000111</uri>
+			<plainLiteral xml:lang='en'>biotic ecosystem of region of Cairns, Queensland, Australia</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+			<uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+			<plainLiteral xml:lang='en'>biotic ecosystem of Cairns</plainLiteral>
+		</triple>
+		<!--  -->
+		<!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000319 -->
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000319</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#NamedIndividual</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000319</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000017</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000319</uri>
+			<uri>http://purl.obolibrary.org/obo/BFO_0000137</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000319</uri>
+			<uri>http://purl.obolibrary.org/obo/IAO_0000111</uri>
+			<plainLiteral xml:lang='en'>human population in region of Cairns, Queensland, Australia</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000319</uri>
+			<uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+			<plainLiteral xml:lang='en'>humans in Cairns</plainLiteral>
+		</triple>
+		<!--  -->
+		<!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000320 -->
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000320</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#NamedIndividual</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000320</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000003</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000320</uri>
+			<uri>http://purl.obolibrary.org/obo/BFO_0000137</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000320</uri>
+			<uri>http://purl.obolibrary.org/obo/IAO_0000111</uri>
+			<plainLiteral xml:lang='en'>Dengue virus population in region of Cairns, Queensland, Australia</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000320</uri>
+			<uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+			<plainLiteral xml:lang='en'>Dengue virus in Cairns</plainLiteral>
+		</triple>
+		<!--  -->
+		<!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000321 -->
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000321</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://www.w3.org/2002/07/owl#NamedIndividual</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000321</uri>
+			<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000015</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000321</uri>
+			<uri>http://purl.obolibrary.org/obo/BFO_0000137</uri>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000318</uri>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000321</uri>
+			<uri>http://purl.obolibrary.org/obo/IAO_0000111</uri>
+			<plainLiteral xml:lang='en'>Aedes mosquito population in region of Cairns, Queensland, Australia</plainLiteral>
+		</triple>
+		<triple>
+			<uri>http://purl.obolibrary.org/obo/APOLLO_SV_0000000321</uri>
+			<uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+			<plainLiteral xml:lang='en'>Aedes mosquito in Cairns</plainLiteral>
+		</triple>
+		<!--  -->
+		<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+	</graph>
+</TriX>
