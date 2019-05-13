@@ -32,6 +32,35 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_0000000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Individuals
     //
     ///////////////////////////////////////////////////////////////////////////////////////

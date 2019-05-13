@@ -544,6 +544,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000086">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_0000000086"/>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
     </owl:NamedIndividual>
     
 
@@ -1067,7 +1068,6 @@
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Sudan ebolavirus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Sudan ebolavirus population</obo:IAO_0000111>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
     </rdf:Description>
 </rdf:RDF>
 
