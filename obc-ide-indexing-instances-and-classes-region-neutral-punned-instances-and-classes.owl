@@ -1,25 +1,26 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl/"
      xml:base="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:www="http://www.referent-tracking.com/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.referent-tracking.com/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
-        <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:contributor>Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Josh Hanna</dc:contributor>
         <dc:creator xml:lang="en">William R. Hogan</dc:creator>
         <dc:date>2019-03-15</dc:date>
     </owl:Ontology>
@@ -1302,11 +1303,11 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000075"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3637,6 +3638,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_210"/>
@@ -3989,12 +3996,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3483338&amp;group_id=177891
         <rdfs:comment xml:lang="en">Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code &quot;no data&quot; (ND), is used to indicate this.</rdfs:comment>
         <rdfs:label xml:lang="en">biological process</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2 -->
-
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
     
 
 
@@ -5520,10 +5521,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2">
-        <rdf:type rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:NamedIndividual>
     
 
@@ -5551,8 +5552,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Chikungunya virus population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000008">
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">Ebolavirus</rdfs:label>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Ebolavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Ebolavirus</obo:IAO_0000118>
@@ -5593,12 +5594,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">human population</obo:IAO_0000118>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000118 xml:lang="en">population of Homo sapiens</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Homo sapiens population</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">population of humans</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000026">
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of Influenza virus</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Influenza virus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Influenza virus</rdfs:label>
@@ -5635,8 +5636,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">influenza epidemic</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000035">
-        <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">H7N9 subtype</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">H7N9 subtype population</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000118 xml:lang="en">population of H7N9 subtype</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
@@ -5645,8 +5646,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000118 xml:lang="en">population of Mus musculus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Mus musculus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Mus musculus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Mus musculus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of house mouse</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000037">
@@ -5724,8 +5725,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">H5N2 subtype</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:IAO_0000111 xml:lang="en">H5N2 subtype worldwide</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of H5N2 subtype</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">H5N2 subtype worldwide</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000095">
         <obo:IAO_0000111 xml:lang="en">H2N2 subtype population</obo:IAO_0000111>
@@ -5739,8 +5740,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000118 xml:lang="en">population of H5N6 subtype</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">H5N6 subtype population</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">H5N6 subtype worldwide</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">H5N6 subtype</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000001">
@@ -5751,8 +5752,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">Measles virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">Measles virus worldwide</obo:IAO_0000118>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:IAO_0000118 xml:lang="en">population of Measles virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Measles virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Measles virus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000142">
@@ -5768,8 +5769,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000167">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Variola virus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Variola virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000168">
@@ -5791,13 +5792,13 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000216">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Acinetobacter baumannii population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Acinetobacter baumannii</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Acinetobacter baumannii</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Acinetobacter baumannii</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000217">
-        <rdfs:label xml:lang="en">Streptococcus pneumoniae</rdfs:label>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">Streptococcus pneumoniae</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Streptococcus pneumoniae population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Streptococcus pneumoniae</obo:IAO_0000118>
@@ -5812,8 +5813,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000219">
         <rdfs:label xml:lang="en">Vibrio cholerae</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of Vibrio cholerae</obo:IAO_0000118>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Vibrio cholerae population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000220">
@@ -5833,8 +5834,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000222">
         <rdfs:label xml:lang="en">Fungus pathogen</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">population of Fungi</obo:IAO_0000118>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:IAO_0000118 xml:lang="en">population of Fungi</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Fungus pathogen population</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000223">
@@ -5845,8 +5846,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000224">
-        <obo:IAO_0000111 xml:lang="en">Hepatitis C virus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Hepatitis C virus population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Hepatitis C virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Hepatitis C virus</rdfs:label>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
@@ -5869,8 +5870,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Enterovirus A population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Enterovirus A</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">population of Enterovirus A</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Enterovirus A</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000228">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
@@ -5881,16 +5882,16 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000229">
         <rdfs:label xml:lang="en">HIV-1</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">HIV-1 population</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:IAO_0000111 xml:lang="en">HIV-1 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">population of HIV-1</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000231">
-        <rdfs:label xml:lang="en">HIV-2</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of HIV-2</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">HIV-2 population</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">HIV-2</rdfs:label>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:IAO_0000111 xml:lang="en">HIV-2 population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000232">
@@ -5930,8 +5931,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000237">
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
-        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000118 xml:lang="en">population of Clostridium difficile</obo:IAO_0000118>
+        <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">Clostridium difficile</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">Clostridium difficile population</obo:IAO_0000111>
     </rdf:Description>
@@ -5952,21 +5953,21 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000240">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Monkeypox virus population</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">population of Monkeypox virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Monkeypox virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Monkeypox virus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000241">
-        <obo:IAO_0000111 xml:lang="en">Escherichia coli population</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <obo:IAO_0000111 xml:lang="en">Escherichia coli population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Escherichia coli</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Escherichia coli</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000242">
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Western equine encephalitis virus</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of Western equine encephalitis virus</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Western equine encephalitis virus</rdfs:label>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Western equine encephalitis virus population</obo:IAO_0000111>
     </rdf:Description>
@@ -6036,8 +6037,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000252">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Rift Valley fever virus</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">population of Rift Valley fever virus</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Rift Valley fever virus population</obo:IAO_0000111>
     </rdf:Description>
@@ -6056,22 +6057,22 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of Haemophilus influenzae</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000255">
-        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">population of Salmonella typhi</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Salmonella typhi population</obo:IAO_0000111>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <rdfs:label xml:lang="en">Salmonella typhi</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000256">
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Salmonella paratyphi A population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Salmonella paratyphi A</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of Salmonella paratyphi A</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000257">
-        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Mirela L Vasconcelos</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Rotavirus population</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Rotavirus</rdfs:label>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000118 xml:lang="en">population of Rotavirus</obo:IAO_0000118>
@@ -6092,8 +6093,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000260">
         <obo:IAO_0000118 xml:lang="en">population of Ovis aries</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Ovis aries</rdfs:label>
         <obo:BFO_0000111 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
+        <rdfs:label xml:lang="en">Ovis aries</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Ovis aries population</obo:IAO_0000111>
     </rdf:Description>
@@ -6112,10 +6113,10 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000118 xml:lang="en">population of Equus caballus</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000264">
+        <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
         <obo:BFO_0000111 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
         <obo:IAO_0000111 xml:lang="en">Sus scrofa population</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
         <obo:IAO_0000118 xml:lang="en">population of Sus scrofa</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000265">
@@ -6154,9 +6155,9 @@ Each node has four multi-core processors and each processor has 16 compute cores
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000271">
         <rdfs:label xml:lang="en">Coturnix japonica</rdfs:label>
         <obo:BFO_0000137 rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000104"/>
-        <obo:IAO_0000118 xml:lang="en">population of Coturnix japonica</obo:IAO_0000118>
-        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Coturnix japonica population</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">population of Coturnix japonica</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_0000000272">
         <obo:IAO_0000111 xml:lang="en">Bos taurus population</obo:IAO_0000111>
@@ -6220,8 +6221,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">school closure control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000136">
-        <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">vaccination control strategy</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">vaccination control strategy universal</obo:IAO_0000118>
         <rdfs:label xml:lang="en">vaccination control strategy</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000140">
@@ -6258,12 +6259,12 @@ Each node has four multi-core processors and each processor has 16 compute cores
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000231">
         <rdfs:label xml:lang="en">travel restriction control strategy</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">travel restriction control strategy</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">travel restriction control strategy universal</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000233">
-        <rdfs:label xml:lang="en">infected population</rdfs:label>
         <obo:IAO_0000111>infected population</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">infected population</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000234">
         <rdfs:label xml:lang="en">susceptible population</rdfs:label>
@@ -6324,8 +6325,8 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <obo:IAO_0000111 xml:lang="en">fulminant period of disease course</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000486">
-        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
         <rdfs:label xml:lang="en">travel-related infectious disease control strategy</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">travel-related infectious disease control strategy</obo:IAO_0000111>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000487">
         <rdfs:label xml:lang="en">travel recommendation control strategy</rdfs:label>
@@ -6389,98 +6390,98 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">two-strain Suscetible-Infectious-Resistant model</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10907">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10907</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microencephaly</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025958</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">microcephaly</rdfs:label>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1829003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608716</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:742.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604804</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608393</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10907</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:251200</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604804</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C85874</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612703</oboInOwl:hasDbXref>
+        <obo:IAO_0000111 xml:lang="en">microcephaly disease</obo:IAO_0000111>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608393</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microencephaly</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microcephalus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604321</oboInOwl:hasDbXref>
-        <obo:IAO_0000111 xml:lang="en">microcephaly disease</obo:IAO_0000111>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204030002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D008831</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C85874</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:Q02</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1829003</oboInOwl:hasDbXref>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcephaly</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608716</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:156893009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025958</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612703</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204030002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:204031003</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:156893009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D008831</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12842">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-infectious polyneuritis (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious neuronitis (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12842</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:139393</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis NOS (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193173004</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of peripheral nervous system that causes body&apos;s immune system to attack part of the peripheral nervous system.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-infectious polyneuritis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193174005</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postinfectious polyneuritis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Infective Polyneuritis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D020275</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute inf. polyneuritis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:267707000</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12842</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26790</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:129131007</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis (disorder)</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Guillain-Barre syndrome</rdfs:label>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious neuronitis (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000111 xml:lang="en">Guillain-Barre syndrome</obo:IAO_0000111>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:40956001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193174005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193176007</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of peripheral nervous system that causes body&apos;s immune system to attack part of the peripheral nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre syndrome</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:129131007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postinfectious polyneuritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:357.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:267707000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:128085000</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="en">Guillain-Barre syndrome</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:155082001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018378</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute postinfectious polyneuropathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193173004</oboInOwl:hasDbXref>
+        <obo:IAO_0000111 xml:lang="en">Guillain-Barre syndrome</obo:IAO_0000111>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute infective polyneuritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Infective Polyneuritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute inf. polyneuritis</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12889">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193175006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0393799</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller Fisher syndrome</rdfs:label>
-        <rdfs:label xml:lang="en">Miller Fisher syndrome</rdfs:label>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller-Fisher variant of Guillain-Barre syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1767005</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:230548007</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12889</oboInOwl:id>
+        <rdfs:label xml:lang="en">Miller Fisher syndrome</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D019846</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12889</oboInOwl:id>
+        <obo:IAO_0000111 xml:lang="en">Miller Fisher syndrome</obo:IAO_0000111>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller Fisher syndrome</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:193175006</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:1767005</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Guillain-Barre syndrome that manifests as a descending paralysis. It usually affects the eye muscles first and presents with the triad of ophthalmoplegia, ataxia, and areflexia.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:230548007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G61.0</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_639">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalomyelitis characterized by inflammation located_in brain and located_in spinal cord that damages myelin. It usually occurs after viral infection, but also following vaccination, bacterial or parasitic infection.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">acute disseminated encephalomyelitis</obo:IAO_0000111>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Disseminated Encephalomyelitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D004673</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute Disseminated Encephalomyelitis</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000111 xml:lang="en">acute disseminated encephalomyelitis</obo:IAO_0000111>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:639</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:83942000</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalitis</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">acute disseminated encephalomyelitis</rdfs:label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C34578</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0014059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C34578</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis (disorder)</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute disseminated encephalomyelitis</rdfs:label>
+        <rdfs:label xml:lang="en">acute disseminated encephalomyelitis</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2015_03_01:83942000</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalomyelitis characterized by inflammation located_in brain and located_in spinal cord that damages myelin. It usually occurs after viral infection, but also following vaccination, bacterial or parasitic infection.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
         <obo:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:IDE_0000000024>
@@ -6552,22 +6553,22 @@ Each node has four multi-core processors and each processor has 16 compute cores
         <rdfs:label xml:lang="en">algorithm</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
-        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
         <obo:IAO_0000111>sexual activity</obo:IAO_0000111>
+        <rdfs:label xml:lang="en">sexual activity</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10255">
         <obo:IAO_0000111>Variola virus</obo:IAO_0000111>
         <rdfs:label xml:lang="en">Variola virus</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
+        <obo:IAO_0000111 xml:lang="en">Bacteria</obo:IAO_0000111>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
         <obo:IDE_0000000024 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:IDE_0000000024>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2">
-        <obo:IAO_0000111 xml:lang="en">Bacteria</obo:IAO_0000111>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
