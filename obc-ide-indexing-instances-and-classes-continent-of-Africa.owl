@@ -18,7 +18,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing-instances-and-classes-of-contintent-of-Africa.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv_ide_indexing_region_neutral_punned_instances_and_classes.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1/apollo_sv.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/major-world-cities-geography.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geo/dev/nation-and-dependency-geography.owl"/>
         <dc:description xml:lang="en">This file contain individuals and classes for infectious disease epidemiology modeling that are related to geographic regions in Africa and its associated geopolitical countries.</dc:description>
