@@ -34,35 +34,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000137 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000137"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
